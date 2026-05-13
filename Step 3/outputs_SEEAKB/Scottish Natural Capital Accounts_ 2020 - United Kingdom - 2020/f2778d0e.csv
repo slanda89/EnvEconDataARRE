@@ -1,0 +1,24 @@
+Table 10: Edinburgh had the greatest increase in the average value from properties within 500 metres of green and blue spaces
+"Average effect of green and blue space on property price by travel to work area, Scotland, 2009 to 2016"
+
+Travel to work area,"Average value
+(£, 2018 prices)","Average value
+of property price
+(%)","N
+validation set","Average distance
+to green spaces
+(m)","Average distance
+to blue spaces
+(m)"
+Glasgow,"3,057.00",1.93,5911,276.2,333.5
+Edinburgh,"6,800.40",2.93,2415,253.7,390.1
+Motherwell and Airdrie,"2,055.00",1.65,1907,289.8,473
+Falkirk and Stirling,"2,319.60",1.56,1648,284.4,280.7
+Livingston,"2,514.40",1.77,1174,285.4,350.2
+Kilmarnock and Irvine,"1,845.20",1.71,1086,331.2,333.3
+Ayr,"1,595.90",1.01,729,289.6,366.7
+Dunfermline and Kirkcaldy,"2,224.00",1.73,601,314.5,355
+Perth,"2,954.90",1.75,585,262,344.6
+Inverness,"2,482.40",1.36,409,309,228.4
+
+Source: ,Office for National Statistics

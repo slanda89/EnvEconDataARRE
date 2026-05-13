@@ -1,0 +1,24 @@
+Table 13: Percentage change in 2015 asset values by service because of methodological changes between 2019 and 2020 accounts
+"£ million (2018 prices), Scotland"
+
+Service,Value change,Percentage change,Explanation
+Provisioning,,,
+Agriculture,907,7%,Updated capital stocks data.
+Fish capture,51,-2%,"Switch to net profit per tonne from industry level resource rent. The switch to a bottom up valuation approach avoids disconnects between the coverage of fish capture from Scottish waters and the industry level data. For future development, the linkage between the valuation and flow may also allow integration of asset condition measures which enables sustainability to be considered in the valuation."
+Fossil fuels,"12,827",-8%,"Improved oil and gas price data, updated operating cost expenditure data, updated capital stocks data, additional cost of coal industry resource rent."
+Minerals,308,32%,Updated supply and use data and updated capital stocks data.
+Timber,971,24%,Improved projection of pattern of expected future flows. The inclusion of Forest Research long term timber forecasts allows for improved estimates of the service provided over the lifetime of the asset.
+Water abstraction,465,-14%,"Updated capital stocks data, updated supply and use data, switch to intermediate use from gross operating surplus when apportioning UK capital stocks data. Relative intermediate use is more likely to align with net capital stock and consumption of fixed capital data."
+Renewables,"20,457",-90%,"Switch to industry resource rent residual value from gross value added. Gross value added is likely to overestimate the service provided by natural capital as not all costs have been considered. In line with the principles of natural capital accounting and guidance from the UN System of Environmental–Economic Accounting, in the first instance, resource rent approaches should be used for valuing provisioning services."
+Regulating,,,
+Carbon sequestration,"4,892",-11%,Updated greenhouse gas inventory data.
+Air pollutant removal,200,10%,Updated damage cost estimates.
+Urban cooling,-,-,New service.
+Noise mitigation,-,-,New service.
+Cultural,,,
+Recreation,"17,060",-41%,Improved estimates of cost sharing between the number of adults per vehicle on a visit. Previous Scottish expenditure estimations likely overestimated average vehicle running cost per adult for outdoor recreation trips. This was because the cost calculated from respondent distance travelled data was not divided by the estimated number of adults on the visit.
+Recreation (house prices),-,-,New service.
+Aesthetic (house prices),-,-,New service.
+Total,"53,366",-18%,
+
+Source: ,Office for National Statistics

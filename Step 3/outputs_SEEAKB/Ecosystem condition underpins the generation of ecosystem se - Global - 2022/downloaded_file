@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">52</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:4A25E796-D4BE-573E-A5A5-2A05A815D1C2</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">One Ecosystem</journal-title>
+        <abbrev-journal-title xml:lang="en">OE</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-8194</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/oneeco.7.e81487</article-id>
+      <article-id pub-id-type="publisher-id">81487</article-id>
+      <article-id pub-id-type="manuscript">18892</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Ecosystem condition underpins the generation of ecosystem services: an accounting perspective</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>La Notte</surname>
+            <given-names>Alessandra</given-names>
+          </name>
+          <email xlink:type="simple">alessandra.la-notte@ec.europa.eu</email>
+          <uri content-type="orcid">https://orcid.org/0000-0001-6951-709X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Czúcz</surname>
+            <given-names>Bálint</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-6462-7633</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Vallecillo</surname>
+            <given-names>Sara</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-5105-6253</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Polce</surname>
+            <given-names>Chiara</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7065-8647</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Maes</surname>
+            <given-names>Joachim</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8272-1607</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">European Commission Joint Research Centre, Ispra, Italy</addr-line>
+        <institution>European Commission Joint Research Centre</institution>
+        <addr-line content-type="city">Ispra</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">European Commission, Brussels, Belgium</addr-line>
+        <institution>European Commission</institution>
+        <addr-line content-type="city">Brussels</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Alessandra La Notte (<email xlink:type="simple">alessandra.la-notte@ec.europa.eu</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Paula Rendon</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>08</day>
+        <month>06</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e81487</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/A612431B-401F-5552-B128-88F264366B17">A612431B-401F-5552-B128-88F264366B17</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/6629942">6629942</uri>
+      <history>
+        <date date-type="received">
+          <day>31</day>
+          <month>01</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>04</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Alessandra La Notte, Bálint Czúcz, Sara Vallecillo, Chiara Polce, Joachim Maes</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>There is a linkage between the condition of ecosystems and the services they provide. In the accounting framework set by the United Nations System of integrated Environmental Economic Accounting – Ecosystem Accounts (SEEA EA), two different sets of accounts assess and monitor ecosystem condition and ecosystem services, respectively. The former are reported as indicators in an asset account format, while the latter are reported as supply and use tables. Without a concrete linkage, the two sets of accounts run in parallel: only an ex-post correlation analysis could confirm (or not) a common path. On the other hand, a clear linkage could create a sequence that justifies and supports the statement that any change in ecosystem condition will affect services and, in turn, the benefits provided to economy and society. Concrete applications undertaken under the project “Integrated system for Natural Capital Accounts” demonstrate at which stage a direct connection can occur between ecosystem condition and ecosystem services accounting. The paper starts with a theoretical background meant to set the basic concepts underlying the transition from condition to services. Next, the accounting framework for condition accounts is briefly presented: the specific ecosystem services case studies concern flood control and crop pollination. In the discussion, a simple proposal is drafted to facilitate a possible procedure for those practitioners interested in having condition and ES accounts operationally linked.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>ecosystem condition</kwd>
+        <kwd>ecosystem services</kwd>
+        <kwd>natural capital accounts</kwd>
+        <kwd>ecosystem service potential</kwd>
+        <kwd>flood control</kwd>
+        <kwd>crop pollination</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="2"/>
+        <ref-count count="27"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>On the 27 March 2021, the System of Environmental Economic Accounting – Ecosystem Accounts (SEEA EA) was adopted by the United Nations Statistical Commission (<xref ref-type="bibr" rid="B7671801">UN 2021</xref>, <xref ref-type="bibr" rid="B7786273">Edens et al. 2022</xref>). Ecosystem accounts provide a structured approach to assessing the dependence and impacts of economic and human activity on the environment. To achieve this, the SEEA EA is composed of different modules. Extent and condition accounts can be compiled in physical terms only. Ecosystem service (ES) supply and use tables can be compiled in both physical and monetary terms. Ecosystem asset accounts are purely based on monetary values; however, this section of the SEEA EA is not yet adopted as a standard.</p>
+      <p>Ecosystem accounting aims to represent the biophysical environment in terms of ecosystem assets, which are distinct spatial areas and relatively homogeneous in terms of their type and condition (<xref ref-type="bibr" rid="B7671801">UN 2021</xref>: 1.27). Extent accounts report the total area of ecosystem assets belonging to each ecosystem type (ET), such as cropland, forests or lakes. Condition accounts report data on selected ecosystem characteristics of these assets and their distance from a reference condition. Extent and condition accounts both record the biophysical state of the ecosystem assets for specific timelines (e.g. opening and closing values), thus making possible comparisons over time. ES accounts, on the other hand, are not purely biophysical, but also monetary and they represent the flow of services that connects ecosystems to people. In the SEEA EA framework, ES accounts are structured as supply and use tables. The supply tables report how much of these flows is provided by ecosystem types, while the use tables allocate these flows to economic units, such as agriculture, manufacture or households. With ES supply and use tables, the ecological side interacts with the socio-economic side and thus “enters” into the economic accounts. Accordingly, ES supply and use is measured in both biophysical and monetary terms. Finally, the monetary value of ecosystem assets can be estimated in terms of the net present value of the ecosystem services supplied by the asset (<xref ref-type="bibr" rid="B7671801">UN 2021</xref>: 10.1).</p>
+      <p>The whole concept of ecosystem accounting relies on the recognition that healthy ecosystems and biodiversity are fundamental to supporting and sustaining our well-being, our communities and our economies (<xref ref-type="bibr" rid="B7671801">UN 2021</xref>:1.1). The dependency of societies on nature, however, has not been taken adequately into account in mainstream socio-economic decision-making – which sets the context and mandate for SEEA EA. Accordingly, one of the key purposes of SEEA EA is to provide a clear linkage between the extent and condition of ecosystems and the ES that they deliver. Although this fundamental linkage is underpinning the entire logic flow of the SEEA EA, it receives relatively little attention in the detailed description of the modules (<xref ref-type="bibr" rid="B7671801">UN 2021</xref>). This could be because capacity accounts, which are meant to link extent, condition and services, have still to be developed. It is, indeed, part of the SEEA EA research agenda (ref. <xref ref-type="bibr" rid="B7671801">UN 2021</xref>: p. 349). The identification and quantification of both ecosystem condition and services is a complex process, with a lot of technical considerations and expert decisions. In this paper, we explore how this fundamental link can be efficiently ensured through appropriate considerations during the technical set-up of SEEA ecosystem accounts. This will be illustrated using examples from the INCA (Integrated system for Natural Capital Accounting) project, testing whether and how this linkage can operationally work (<xref ref-type="bibr" rid="B7671789">Vysna et al. 2021</xref>).</p>
+      <p>The paper starts with a conceptual background meant to set the basic concepts underlying the transition from condition to services. Then, the accounting framework of the SEEA EA is presented, exploring the mechanisms that establish the connection between condition and ES accounts. Finally, some examples are shown to move from theory to practice and demonstrate the feasibility of the linkage between condition and service accounts. In the discussion, a simple proposal is drafted to facilitate a clear procedure for practitioners interested in having condition and ES accounts operationally linked consistently and based on ecology.</p>
+    </sec>
+    <sec sec-type="The theoretical background">
+      <title>The theoretical background</title>
+      <p>The SEEA EA framework shares similarities with several other frameworks for assessing the contributions of ecosystems to human society, such as the ES cascade framework. Introduced by <xref ref-type="bibr" rid="B7671863">Haines-Young and Potschin 2012</xref>and massively applied in a variety of applications (<xref ref-type="bibr" rid="B7671745">Haines-Young and Potschin-Young 2018</xref>, <xref ref-type="bibr" rid="B7671736">Heink and Jax 2019</xref>), the cascade model links natural systems (as ecological structures and processes generated by ecosystems) to elements of human well-being (as services and benefits eventually derived by humans). Typically, ecosystem assets in the SEEA EA framework are linked to the first steps of the cascade, i.e. biophysical structure and process, but the SEEA EA framework describes ecosystems as assets having a type, an extent and a condition.</p>
+      <p>The first two steps of the cascade model are in line with a holistic perspective that characterises ecosystems, based on the interdependency amongst composition, structure and functions that maintain the life-support system of the Planet. However, as we move down the cascade, the holistic perspective connected to ecosystems is gradually replaced by the reductionist view of individual ES flows. Similarly, there is also a gradient of complexity along the cascade. Complexity is highest in the first steps ("boxes") of the cascade framework (ecosystem structure &amp; function), which entail a complex and hierarchical vertical and horizontal organisation. The level of complexity gradually decreases towards the right side of the framework, which focuses on individual services and their associated benefits for humans (<xref ref-type="bibr" rid="B7670423">La Notte et al. 2017</xref>). In fact, the "function box" acts at ecosystem level and, thus, involves a higher degree of complexity compared to the "service box", which acts at the level of individual flows. Complex ecosystems with a high number of components and processes generate a smaller number of ES flows that, in turn, generate even simpler benefits when assessed from a human-centric perspective (Fig. <xref ref-type="fig" rid="F7666677">1</xref>). This change of complexity needs to be reflected in the outputs of any ecosystem assessment or accounting project that intends to create a representation of the studied system, for policy. For the purpose of the assessment, the transition from the holistic perspective to the countable list of items of interest takes place in the condition accounts. To understand this better, we need to consider the different types of “values” that characterise the cascade model.</p>
+      <p>The value framework connecting people with nature could be defined by their purpose -which can be intrinsic or instrumental - and by the worldview perspective - that can be ecocentric or anthropocentric (<xref ref-type="bibr" rid="B7671698">Turner 2001</xref>). Purpose and worldview have been combined by <xref ref-type="bibr" rid="B7670321">Keith et al. (2020)</xref> into a two-dimentional space:</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>the “ecocentric/intrinsic category” represents the on-going functioning of the ecosystem, it works at the ecological level without reference to humans;</p>
+        </list-item>
+        <list-item>
+          <p>the “ecocentric/instrumental category” refers to intra- and inter-ecosystem flows supporting the provision of ecosystem services. This category reflects dependencies amongst ecosystem types, but it does not represent a transaction to the economy and society;</p>
+        </list-item>
+        <list-item>
+          <p>the “anthropocentric/intrinsic category” includes actions for environmental protection meant for the collective good and future generations. This category embeds the attribution of human values to ecosystem services that likely flow to society;</p>
+        </list-item>
+        <list-item>
+          <p>the “anthropocentric/instrumental category” concerns the provision of ecosystem services flows to economy and society.</p>
+        </list-item>
+      </list></p>
+      <p>In summary, an ecocentric view characterises environmental conservation policies, while an anthropocentric view focuses on the needs of human beings. Intrinsic and instrumental perspectives are also covered by the criteria proposed by <xref ref-type="bibr" rid="B7670343">Czúcz et al. (2021b)</xref> to select the ecosystem characteristics and metrics underlying the condition indicators. While instrumental relevance relies on quantitative links between specific characteristics and ES, intrinsic relevance builds on an existing scientific understanding of ecosystem integrity and does not require any linkage with ES. In fact, the intrinsic relevance of an ecosystem characteristic needs to be based on a good understanding of the ecosystem and of what makes it function, supported by scientific arguments, but it does not need to be explicitly and quantitatively linked to ecosystem services (<xref ref-type="bibr" rid="B7670343">Czúcz et al. 2021b</xref>). Connected to the concept of ecosystem integrity, health and resilience, these arguments describe the overall ‘performance’ of an ecosystem in an integrative way (<xref ref-type="bibr" rid="B7671754">Jax 2010</xref>, <xref ref-type="bibr" rid="B7670321">Keith et al. 2020</xref>), i.e. an holistic concept denoting the ecosystem’s stability, capacity for self-regeneration and adaptation (<xref ref-type="bibr" rid="B7671781">Leopold 1989</xref>, <xref ref-type="bibr" rid="B7670321">Keith et al. 2020</xref>).</p>
+      <p>The two-dimensional space of values could overcome this “disconnection” between a perspective that considers the ecosystem “as a whole” from a perspective that considers ES “one-by-one”. There are, in fact, some ES (e.g. habitat and species maintenance) that are based on characteristics and measures that refer to the overall ecosystem functioning and performance, to which people attribute a value: these features remain intrinsic, but became anthropocentric because they matter to people.</p>
+      <p>The cascade model combined with this two-dimensional value space (Fig. <xref ref-type="fig" rid="F7666681">2</xref>) can be useful :</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>to understand how the ecocentric perspective can play a role in the delivery of ecosystem services;</p>
+        </list-item>
+        <list-item>
+          <p>to understand how all anthropocentric values (not only instrumental, but also intrinsic) should be considered as final services for human beings.</p>
+        </list-item>
+      </list></p>
+      <p>The latter supports the understanding of what can directly enter the socio-economic dimension; the former supports the understanding of what does not directly enter the socio-economic dimension, but still plays an important role for it. All this information can be recorded in the ecosystem condition accounts. In fact, by correctly interpreting the ecocentric-instrumental dimension, it is possible to find out where and how the linkage between ecosystem condition and ecosystem services takes place and becomes relevant (throughout ES) for human needs. Then, anthropocentric values can enter as final ecosystem services into economy as “instrumental” and in society as both “instrumental” and “intrinsic”.</p>
+      <p>In summary, the shift of focus between ecosystem condition and services takes place in many dimensions:</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>from the "holistic" (ecosystem condition) to the "one-by-one" (ecosystem services) perspective;</p>
+        </list-item>
+        <list-item>
+          <p>from high complexity (ecosystem as a whole) to a lower complexity (individual ecosystem services);</p>
+        </list-item>
+        <list-item>
+          <p>from the intrinsic (ecosystem) to the instrumental (services) perspective by considering an anthropocentric point of view.</p>
+        </list-item>
+      </list></p>
+    </sec>
+    <sec sec-type="The accounting framework">
+      <title>The accounting framework</title>
+      <p>In SEEA EA ecosystem condition is defined as the quality of an ecosystem measured in terms of its abiotic and biotic characteristics (<xref ref-type="bibr" rid="B7671817">UN 2014</xref>, <xref ref-type="bibr" rid="B7671809">UN 2019</xref>, <xref ref-type="bibr" rid="B7671801">UN 2021</xref>). Ecosystem condition can be measured, based on the biophysical properties that underpin services (<xref ref-type="bibr" rid="B7674733">Schröter et al. 2016</xref>) and underly the integrity of the whole ecosystem (<xref ref-type="bibr" rid="B7670321">Keith et al. 2020</xref>). The assessment of ecosystem condition is performed through quantitative indicators, based on a solid (or robust) scientific understanding of long term ‘average behaviour’ of an ecosystem. The selection and development of these metrics is implemented in four stages (<xref ref-type="bibr" rid="B7670343">Czúcz et al. 2021b</xref>, <xref ref-type="bibr" rid="B7670321">Keith et al. 2020</xref>):</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>in the first stage, the most relevant <bold>characteristics</bold> of the studied ecosystem types (ET) are identified and developed into ‘proto-indicators’ with (conceptual) proposals for data sources and methods/modelling – see <xref ref-type="bibr" rid="B7674724">Allain et al. 2018</xref>);</p>
+        </list-item>
+        <list-item>
+          <p>in the second stage, some of these proto-indicators (<italic>characteristics</italic>) are formalised into concrete, well-documented <bold>variables</bold>;</p>
+        </list-item>
+        <list-item>
+          <p>in the third stage, reference levels are determined for each <italic>variable</italic> and then the variables are rescaled into dimensionless <bold>indicators</bold> (sensu <xref ref-type="bibr" rid="B7670321">Keith et al. (2020)</xref>) with the help of these reference levels;</p>
+        </list-item>
+        <list-item>
+          <p>in the fourth stage, the information content of the <italic>indicators</italic> is further aggregated in various ways (spatial, temporal or thematic aggregation) to compute condition <bold>indices</bold>.</p>
+        </list-item>
+      </list></p>
+      <p>The selection of ecosystem condition characteristics and variables happens in the first two stages and this process largely determines the usefulness of the condition accounts. Ecosystem characteristics refer to major groups of system properties or components, encompassing expert perspectives taken to describe the state (or long term ‘average behaviour’) of an ecosystem. Variables, on the other hand, are concrete quantitative metrics with precise definitions and measurement instructions, representing the abstract characteristics as much as possible. SEEA EA (<xref ref-type="bibr" rid="B7671801">UN 2021</xref>: Annex 5.1) provides a set of criteria to support the identification of characteristics and indicators which balance the purpose of SEEA EA accounts, the underlying ecological reality and the practical considerations on data flows and availability. These criteria are explained and discussed further in detail by <xref ref-type="bibr" rid="B7670343">Czúcz et al. (2021b)</xref>. This list includes five conceptual criteria which support the identification of the most relevant characteristics for each ET and the selection/development of the most suitable variable for each characteristic is supported by five practical criteria. As already mentioned, one fundamental link between condition and services is established by the criterion of “<bold>instrumental relevance</bold>”, which requests to prioritise those characteristics which are tightly linked to ecosystem services. In other words, condition accounts should focus on the characteristics of the ecosystems that underpin the generation of ES (<xref ref-type="bibr" rid="B7670343">Czúcz et al. 2021b</xref>). Characteristics that are relevant for a high number of ES should be favoured over characteristics that are just loosely linked to many ES or which are closely linked, but just to a single ES.</p>
+      <p>There are several further criteria in the list, which are necessary for generating clear and unambiguous messages to the end users. “<bold>Framework conformity</bold>”, for example, ensures alignment between different SEEA EA accounts by excluding condition variables that would be best placed under ecosystem (extent or) services. In other words, this criterion requires that characteristics (and variables) concern the state of the ecosystem and not the related flows. Consistently with the SEEA EA accounting framework, this state can also include recurrent interactions within and between ecosystems, as well as recurrent interactions between ecosystems and human society at the timescales of an accounting period. Conversely, ecosystem characteristics, such as soil type and topography, which are highly stable in time, are less useful for measuring the condition of ecosystems. This is also closely related to the “<bold>directionality</bold>”, which establishes an important filter for prospective characteristics and variables. Eventually, the condition variables will need to have a simple normative interpretation to provide messages for policy (e.g. <xref ref-type="bibr" rid="B7671716">Heink and Kowarik (2010)</xref>), i.e. any change in their values needs to be seen either as an improvement or as a deterioration. Characteristics and variables that cannot offer a univocal “directional interpretation” (e.g. overly stable variables, extremely fluctuating variables or variables describing a complex technical aspect of an ecosystem without any normative meaning), are not appropriate for condition accounts. A clear and broadly accepted directionality is also a prerequisite for expert consensus on reference levels in stage 3.</p>
+      <p>The Ecosystem Condition Typology (ECT) (SEEA ECT, <xref ref-type="bibr" rid="B7670332">Czúcz et al. (2021a)</xref>) provides a harmonised reporting structure for SEEA EA ecosystem condition accounts (Table <xref ref-type="table" rid="T7666673">1</xref>). For each ecosystem type and ECT class, at least one variable should be selected in a transparent process (<xref ref-type="bibr" rid="B7670332">Czúcz et al. 2021a</xref>). The biotic ecosystem characteristics group includes properties that are typically associated with ecosystems and biodiversity and it is subdivided into three ECT classes according to composition, structure and function (<xref ref-type="bibr" rid="B7671872">Noss 1990</xref>). Compositional state characteristics comprise species data: their presence, abundance, diversity at a given location and time. Structural state considers properties of the whole ecosystem or of its main biotic compartments (aggregated as mass, density etc.). Functional state considers chemical and physical interactions between the ecosystem compartments in the form of summary statistics (such as frequency and intensity). The group of landscape-level characteristics can include metrics describing the integrity at landscape scale (i.e. the 'local' scale) through, for example, diversity, connectivity or fragmentation.</p>
+      <p>An analysis of the linkages between condition and services also requires a detailed analysis of the pathway underpinning the provision of ES. More concretely, ES flows are generated by the interaction between an ecological side, represented by the so-called “ES potential” and a socio-economic side, represented by the so-called “ES demand” (<xref ref-type="bibr" rid="B7670414">La Notte et al. 2019</xref>, <xref ref-type="bibr" rid="B7671851">Burkhard and Maes 2017</xref>; Fig. <xref ref-type="fig" rid="F7666685">3</xref>).</p>
+      <p>Ecosystem condition can only influence ES through the “ecological side” (= ES potential), so this is the place where condition accounts and ES supply and use table can be connected. Unfortunately, SEEA EA does not (yet) contain any component (account) that can directly address ecosystem potential, even though this could be also useful for direct policy use. Nevertheless, almost all spatial models assessing ES flow follow this “supply-demand structure”, i.e. they contain a primarily ecological (or bio-physical) component describing “potential” and a predominantly socio-economic component describing human “demand”, which are integrated in one of the last steps (<xref ref-type="bibr" rid="B7671842">Syrbe and Walz 2012</xref>, <xref ref-type="bibr" rid="B7671833">Vallecillo et al. 2019</xref>). The assessment of the ES potential relies on data that should be linked to ecosystem characteristics and more importantly to condition variables (Fig. <xref ref-type="fig" rid="F7666689">4</xref>). This creates an opportunity for a meaningful and strong linkage between the condition accounts and the ES supply and use tables (SUT).</p>
+      <p>Fig. <xref ref-type="fig" rid="F7666689">4</xref> illustrates and explains this linkage in detail. Assume that V1, V2 and V3 are biophysical variables describing the condition of ecosystems. In the condition accounts, these variables are further processed into indicators (I1, I2…) using reference levels (R1, R2….) and then possibly also aggregated into indices (A1). Some of these variables (e.g. V2) may also feed into the models used for the calculation of ES flows in the SUT. <bold>An effective process to select ecosystem condition variables maximises the interlinkages between the condition accounts and the ES SUT through their underlying models. Fig. <xref ref-type="fig" rid="F7666689">4</xref></bold> shows how to establish a direct connection between condition asset accounts and ES SUT. The linkage occurs more likely at the stage of ecosystem characteristic and eventually variable (i.e. when variables or input data are selected), rather than at the stage of condition indicators or aggregation. A careful selection of ecosystem condition variables ensure their relevance for ES (<xref ref-type="bibr" rid="B7670343">Czúcz et al. 2021b</xref>).</p>
+    </sec>
+    <sec sec-type="Examples of linkages between ecosystem condition and ecosystem services supply and use table">
+      <title>Examples of linkages between ecosystem condition and ecosystem services supply and use table</title>
+      <p>The first example of linkage between ecosystem condition and ES SUT concerns flood control (<xref ref-type="bibr" rid="B7670356">Vallecillo et al. 2020</xref>). The ES flood control is defined as the regulation of water flows by ecosystems that mitigates or prevents potential damage to economic assets (such as agricultural fields, industrial sites and infrastructure) and human settlements. The ecological component is represented by ecosystems (in particular, forests, heath and shrublands, grasslands, wetlands) that reduce run-off by retaining water in the soil and aquifers and eventually slow down the water flow. These actions prevent the run-off of surface water.</p>
+      <p>The “ES potential” is based on the calculation of the run-off curve number ('curve number', CN) and the integration of natural and semi-natural land cover in riparian zones. The CN, in turn, depends on the scoring for land cover classes, soil type, slope and imperviousness. In <xref ref-type="bibr" rid="B7671801">UN (2021)</xref> and <xref ref-type="bibr" rid="B7671825">Maes et al. (2020)</xref>, soil sealing or impervious surface is reported as an ecosystem condition indicator describing the reduction of soil natural capacity to infiltrate water. In <xref ref-type="bibr" rid="B7670356">Vallecillo et al. (2020)</xref>, the CN assigned to artificial areas is corrected by the level of imperviousness, calculated as a percentage of impervious area within each 100 m<sup>2</sup> pixel. Additionally, imperviousness is used to calculate the condition indicator and it is a key input in the biophysical modelling of flood control potential (Fig. <xref ref-type="fig" rid="F7666693">5</xref>).</p>
+      <p>There is a cause-and-effect relationship between condition and ES, as confirmed by the trend analysis described in <xref ref-type="bibr" rid="B7670356">Vallecillo et al. (2020)</xref>. In fact in Europe, between 2006 and 2012, about 30% of the decrease of ES potential is due to an increase in imperviousness; as a consequence, the ecosystem contribution to control floods by square kilometre of artificial areas has decreased the value of the service by 0.4%. The decrease in the ES potential is translated in a decrease of the ecosystem service flow, especially when this change takes place in areas of demand (as in the case of flood control in artificial areas).</p>
+      <p>The second example concerns crop pollination service, the potential of which is based on the suitability of the environment to support wild insect pollinators. A spatial EU-wide indicator for the pollination potential can be estimated by two complementary approaches (e.g. for an application across the EU, see 'here the reference to the INCA report or paper'):</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>an expert-based model (<xref ref-type="bibr" rid="B7670384">Zulian et al. 2013</xref>) assessing the capacity of the environment to provide food resources and nesting sites for solitary bees and</p>
+        </list-item>
+        <list-item>
+          <p>a species distribution model predicting bumblebee occurrence, based on species' sightings (<xref ref-type="bibr" rid="B7670367">Polce et al. 2013</xref>). For this approach, statistics or machine-learning techniques are used to characterise the ‘quality’ of the environment where species are recorded: i.e. the relationships between the environmental variables characterising the species’ sightings (specifically bumblebees in <xref ref-type="bibr" rid="B7670367">Polce et al. (2013)</xref>) are used to predict the environmental suitability across the area of interest.</p>
+        </list-item>
+      </list></p>
+      <p>Both models are based on land cover, climate data and on the distance to semi-natural areas and result in a score for each pixel (<xref ref-type="bibr" rid="B7670367">Polce et al. (2013)</xref>. The score resulting from the pixel-based average of the two models is used, in turn, to calculate the ES potential. The decline of this score generates a decline in the ES potential (Fig. <xref ref-type="fig" rid="F7666697">6</xref>), before it interacts with the ES demand, which is represented by the presence of pollinator-dependent crops. In <xref ref-type="bibr" rid="B7671801">UN (2021)</xref>, species richness remains a key condition indicator for almost all ET and the crop pollination assessment by <xref ref-type="bibr" rid="B7671825">Maes et al. (2020)</xref> highlighted the importance of suitable habitats for pollinators, to support agroecosystems (in particular, pollinator-dependent crops).</p>
+      <p><xref ref-type="bibr" rid="B7671825">Maes et al. (2020)</xref> showed, in fact, that a decrease in suitable habitat for wild pollinators generates an impact on agricultural yield: 51% of the pollinator-dependent crops in the EU have a pollinator deficit. This information is directly supporting restoration policies that are meant to reduce pressure on ecosystems and increase pollinators’ suitable habitats.</p>
+    </sec>
+    <sec sec-type="Discussion and conclusions">
+      <title>Discussion and conclusions</title>
+      <p>What we described in the previous section for flood control and crop pollination is applicable to all ES. The nine ES assessed and valued during the second phase of the KIP INCA project may be used as additional examples (ref. <ext-link ext-link-type="uri" xlink:href="https://ecosystem-accounts.jrc.ec.europa.eu/">https://ecosystem-accounts.jrc.ec.europa.eu/</ext-link>).</p>
+      <p>In fact, for each ecosystem service, it is possible to identify key variables that can also be in the list of the possible condition indicators (as listed in Table 5.7 of <xref ref-type="bibr" rid="B7671801">UN 2021</xref>). Table <xref ref-type="table" rid="T7666674">2</xref> reports for the nine ES of INCA the key input variable which drives the change in flows over time and the corresponding ecosystem condition variable.</p>
+      <p>If a set of ecosystem condition variables has to be established at continental, national or local level, it may be useful to flag the variables that are also critical input for ES modelling. In this case, a cause-and-effect relationship exists: when the variable changes in the condition account, it also changes in the ES SUT. This is the case when selected variables have the dual purpose of feeding condition and service accounts.</p>
+      <p>When ecosystem condition variables differ from critical input of ES modelling, then the two set of accounts (i.e. condition accounts and ES SUT) run in parallel without any connection to each other. This is the case when variables are selected independently and only an ex-post correlation analysis can measure whether the two assessments have a similar trend. Moreover, in this case, there would be no trackable linkage with the socio-economic component and eventually policy-making.</p>
+      <p>The best strategy would be to create as much as possible a cause-and-effect relationship that starts from ecosystems and continues towards services and economic units. However, this issue remains open to further applications and discussions.</p>
+      <p>A critical element that could facilitate the linkage between ecosystem condition and services accounts is the 'capacity account', which is not fully developed in the SEEA EA, but is high on the research agenda (<xref ref-type="bibr" rid="B7671801">UN 2021</xref>). In fact, ecosystem condition affects ES potential and ES potential is strictly related to the capacity of providing services. As we know from a number of ES accounts (<xref ref-type="bibr" rid="B7671833">Vallecillo et al. 2019</xref>), there is not a unique way to assess ES potential (i.e. the ecological supply). Thus, to consider the linkage between condition and services, it may be useful to develop capacity accounts and embed them in a coherent framework.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="B7674724">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Allain</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Plumecocq</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Leenhardt</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Spatial aggregation of indicators in sustainability assessments: Descriptive and normative claims</article-title>
+          <source>Land Use Policy</source>
+          <volume>76</volume>
+          <fpage>577</fpage>
+          <lpage>588</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.landusepol.2018.02.038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671851">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Burkhard</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>Mapping Ecosystem Services. Advanced Books</source>
+          <publisher-name>Pensoft Publishers</publisher-name>
+          <pub-id pub-id-type="doi">10.3897/ab.e12837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670332">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>Bálint</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>Heather</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driver</surname>
+              <given-names>Amanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jackson</surname>
+              <given-names>Bethanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>A common typology for ecosystem characteristics and ecosystem condition variables</article-title>
+          <source>One Ecosystem</source>
+          <volume>6</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.6.e58218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670343">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>Bálint</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>Heather</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driver</surname>
+              <given-names>Amanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jackson</surname>
+              <given-names>Bethanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kiss</surname>
+              <given-names>Márton</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>Carl</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>Selection criteria for ecosystem condition indicators</article-title>
+          <source>Ecological Indicators</source>
+          <volume>133</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2021.108376</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7786273">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Edens</surname>
+              <given-names>Bram</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>Carl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Siikamaki</surname>
+              <given-names>Juha</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schenau</surname>
+              <given-names>Sjoerd</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Javorsek</surname>
+              <given-names>Marko</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chow</surname>
+              <given-names>Julian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chan</surname>
+              <given-names>Jessica Ying</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Steurer</surname>
+              <given-names>Anton</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alfieri</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>Establishing the SEEA Ecosystem Accounting as a global standard</article-title>
+          <source>Ecosystem Services</source>
+          <volume>54</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2022.101413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671863">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Haines-Young</surname>
+              <given-names>Roy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Potschin</surname>
+              <given-names>Marion</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>The links between biodiversity, ecosystem services and human well-being</article-title>
+          <source>Ecosystem Ecology</source>
+          <fpage>110</fpage>
+          <lpage>139</lpage>
+          <pub-id pub-id-type="doi">10.1017/cbo9780511750458.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671745">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Haines-Young</surname>
+              <given-names>Roy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Potschin-Young</surname>
+              <given-names>Marion</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Revision of the Common International Classification for Ecosystem Services (CICES V5.1): A Policy Brief</article-title>
+          <source>One Ecosystem</source>
+          <volume>3</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.3.e27108</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671716">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Heink</surname>
+              <given-names>Ulrich</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kowarik</surname>
+              <given-names>Ingo</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>What criteria should be used to select biodiversity indicators?</article-title>
+          <source>Biodiversity and Conservation</source>
+          <volume>19</volume>
+          <issue>13</issue>
+          <fpage>3769</fpage>
+          <lpage>3797</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10531-010-9926-6</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671736">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Heink</surname>
+              <given-names>Ulrich</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jax</surname>
+              <given-names>Kurt</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Going Upstream — How the Purpose of a Conceptual Framework for Ecosystem Services Determines Its Structure</article-title>
+          <source>Ecological Economics</source>
+          <volume>156</volume>
+          <fpage>264</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2018.10.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671754">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jax</surname>
+              <given-names>Kurt</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Ecosystem functioning</article-title>
+          <source>Ecosystem Functioning</source>
+          <fpage>113</fpage>
+          <lpage>149</lpage>
+          <pub-id pub-id-type="doi">10.1017/cbo9780511781216.005</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670321">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>Heather</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>Bálint</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jackson</surname>
+              <given-names>Bethanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driver</surname>
+              <given-names>Amanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>A conceptual framework and practical structure for implementing ecosystem condition accounts</article-title>
+          <source>One Ecosystem</source>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.5.e58216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670423">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>D’Amato</surname>
+              <given-names>Dalia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mäkinen</surname>
+              <given-names>Hanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria Luisa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liquete</surname>
+              <given-names>Camino</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egoh</surname>
+              <given-names>Benis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geneletti</surname>
+              <given-names>Davide</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crossman</surname>
+              <given-names>Neville D.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Ecosystem services classification: A systems ecology perspective of the cascade framework</article-title>
+          <source>Ecological Indicators</source>
+          <volume>74</volume>
+          <fpage>392</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2016.11.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670414">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marques</surname>
+              <given-names>Alexandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Beyond the economic boundaries to account for ecosystem services</article-title>
+          <source>Ecosystem Services</source>
+          <volume>35</volume>
+          <fpage>116</fpage>
+          <lpage>129</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2018.12.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671781">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Leopold</surname>
+              <given-names>Aldo</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <source>
+            <italic>A Sand County almanac, and sketches here and there</italic>
+          </source>
+          <publisher-name>Oxford University Press</publisher-name>
+          <publisher-loc>USA</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B7671825">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>Marcus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Conde</surname>
+              <given-names>Sophie</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <source>Mapping and Assessment of Ecosystems and their Services: An EU ecosystem assessment</source>
+          <publisher-name>Publication office of the European Union</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <uri>https://publications.jrc.ec.europa.eu/repository/handle/JRC120383</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7671872">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Noss</surname>
+              <given-names>Reed F.</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <article-title>Indicators for Monitoring Biodiversity: A Hierarchical Approach</article-title>
+          <source>Conservation Biology</source>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>355</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1523-1739.1990.tb00309.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670367">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Polce</surname>
+              <given-names>Chiara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Termansen</surname>
+              <given-names>Mette</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aguirre-Gutiérrez</surname>
+              <given-names>Jesus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Boatman</surname>
+              <given-names>Nigel D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Budge</surname>
+              <given-names>Giles E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crowe</surname>
+              <given-names>Andrew</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garratt</surname>
+              <given-names>Michael P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pietravalle</surname>
+              <given-names>Stéphane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Potts</surname>
+              <given-names>Simon G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ramirez</surname>
+              <given-names>Jorge A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Somerwill</surname>
+              <given-names>Kate E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Biesmeijer</surname>
+              <given-names>Jacobus C.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Species Distribution Models for Crop Pollination: A Modelling Framework Applied to Great Britain</article-title>
+          <source>PLOS One</source>
+          <volume>8</volume>
+          <issue>10</issue>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0076308</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7674733">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schröter</surname>
+              <given-names>Matthias</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Albert</surname>
+              <given-names>Christian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marques</surname>
+              <given-names>Alexandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tobon</surname>
+              <given-names>Wolke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lavorel</surname>
+              <given-names>Sandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>Claire</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Klotz</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bonn</surname>
+              <given-names>Aletta</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>National Ecosystem Assessments in Europe: A Review</article-title>
+          <source>BioScience</source>
+          <volume>66</volume>
+          <issue>10</issue>
+          <fpage>813</fpage>
+          <lpage>828</lpage>
+          <pub-id pub-id-type="doi">10.1093/biosci/biw101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671842">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Syrbe</surname>
+              <given-names>Ralf-Uwe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walz</surname>
+              <given-names>Ulrich</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Spatial indicators for the assessment of ecosystem services: Providing, benefiting and connecting areas and landscape metrics</article-title>
+          <source>Ecological Indicators</source>
+          <volume>21</volume>
+          <fpage>80</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2012.02.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671698">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Turner</surname>
+              <given-names>R. Kerry</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>The Place of Economic Values in Environmental Valuation</article-title>
+          <source>Valuing Environmental Preferences</source>
+          <fpage>17</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="doi">10.1093/0199248915.003.0002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671817">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>UN</surname>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>System of Environmental Economic Accounting 2012— Experimental Ecosystem Accounting</source>
+          <publisher-name>UN publication</publisher-name>
+          <uri>https://seea.un.org/sites/seea.un.org/files/seea_eea_final_en_1.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7671809">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>UN</surname>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>Technical Recommendations in support of the System of Environmental-Economic Accounting 2012— Experimental Ecosystem Accounting</source>
+          <publisher-name>UN publication</publisher-name>
+          <uri>https://seea.un.org/sites/seea.un.org/files/documents/EEA/seriesm_97e.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7671801">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>UN</surname>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <source>System of Environmental-Economic Accounting— Ecosystem Accounting (SEEA EA). White cover publication, pre-edited text subject to official editing</source>
+          <publisher-name>UN Publication Office</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <uri>https://seea.un.org/ecosystem-accounting</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7671833">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrini</surname>
+              <given-names>Silvia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>How ecosystem services are changing: an accounting application at the EU level</article-title>
+          <source>Ecosystem Services</source>
+          <volume>40</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2019.101044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670356">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kakoulaki</surname>
+              <given-names>Georgia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Feyen</surname>
+              <given-names>Luc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dottori</surname>
+              <given-names>Francesco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Accounting for changes in flood control delivered by ecosystems at the EU level</article-title>
+          <source>Ecosystem Services</source>
+          <volume>44</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2020.101142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7671789">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vysna</surname>
+              <given-names>Veronika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petersen</surname>
+              <given-names>Jan Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aizpurua</surname>
+              <given-names>Nerea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ivits</surname>
+              <given-names>Eva</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>Anne</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <source>Accounting for ecosystems and their services in the European Union. Final report from phase II of the INCA project aiming to develop a pilot for an integrated system of ecosystem accounts for the EU</source>
+          <publisher-name>Publication Office of the European Union</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <isbn>978-92-76-17401-1</isbn>
+          <pub-id pub-id-type="doi">10.2785/197909</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7670384">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>Grazia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Linking Land Cover Data and Crop Yields for Mapping and Assessment of Pollination Services in Europe</article-title>
+          <source>Land</source>
+          <volume>2</volume>
+          <issue>3</issue>
+          <fpage>472</fpage>
+          <lpage>492</lpage>
+          <pub-id pub-id-type="doi">10.3390/land2030472</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F7666677" position="float" orientation="portrait">
+      <object-id content-type="arpha">852328D4-CB33-5325-902E-5DE5361A0180</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e81487.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The "telescopic cascade": an illustration of the four-step cascade model (<xref ref-type="bibr" rid="B7670423">La Notte et al. 2017</xref>), where the size of the boxes can be read as proportional to the complexity of the "entities" that they represent.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e81487-g001.png" position="float" id="oo_666785.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/666785</uri>
+      </graphic>
+    </fig>
+    <fig id="F7666681" position="float" orientation="portrait">
+      <object-id content-type="arpha">1669622B-7A0A-5B68-825B-276DC7E70B9E</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e81487.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The two-dimensional value framework combined with the telescopic cascade model.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e81487-g002.png" position="float" id="oo_666783.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/666783</uri>
+      </graphic>
+    </fig>
+    <fig id="F7666685" position="float" orientation="portrait">
+      <object-id content-type="arpha">53C3944D-8885-588B-BEEB-AA344A97485D</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e81487.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>The conceptual scheme underpinning the assessment of ecosystem services flows.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e81487-g003.png" position="float" id="oo_666784.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/666784</uri>
+      </graphic>
+    </fig>
+    <fig id="F7666689" position="float" orientation="portrait">
+      <object-id content-type="arpha">44CE5CA9-A9BA-5BE5-9D88-AA168F223058</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e81487.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>ES models reflect and concretise the relationships between the main components of the accounting framework (ecosystem condition variables, ES potential, ES demand, ES flow). A general ES model typically consists of two submodels covering "ES potential" and "ES demand", which then together determine "ES flow" (Fig. 3), which directly feeds into the SUTs. Condition accounts should (ideally) cover some of the input variables of the submodel for "ES potential" (not necessarily in the exact format/reslution demanded by the model). Making such links possible is an important research priority for ES model development, as well as ecological monitoring programmes.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e81487-g004.png" position="float" id="oo_638281.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/638281</uri>
+      </graphic>
+    </fig>
+    <fig id="F7666693" position="float" orientation="portrait">
+      <object-id content-type="arpha">E384BBBB-A3E6-50DA-B4FC-EB001B7DD199</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e81487.figure5</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Flood control: the linkage between the condition variable and the ecosystem service biophysical assessment.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e81487-g005.png" position="float" id="oo_638282.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/638282</uri>
+      </graphic>
+    </fig>
+    <fig id="F7666697" position="float" orientation="portrait">
+      <object-id content-type="arpha">EDADE23B-8D9F-59C8-98A7-EE7061FD252F</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e81487.figure6</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Crop pollination: the linkage between the condition variable and the ecosystem service biophysical assessment.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e81487-g006.png" position="float" id="oo_638283.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/638283</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T7666673" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>The SEEA ecosystem condition typology (<xref ref-type="bibr" rid="B7670332">Czúcz et al. 2021a</xref>) sets the reporting categories structuring the SEEA EA ecosystem condition accounts.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Groups</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Classes</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Examples</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>Abiotic ecosystem characteristics</bold>
+            </td>
+            <td rowspan="1" colspan="1">Physical state</td>
+            <td rowspan="1" colspan="1">Soil structure, impervious surface, water availability</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Chemical state</td>
+            <td rowspan="1" colspan="1">Soil nutrient concentration, air and water quality</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">
+              <bold>Biotic ecosystem characteristics</bold>
+            </td>
+            <td rowspan="1" colspan="1">Compositional state</td>
+            <td rowspan="1" colspan="1">Species richness, genetic diversity, presence of threatened species</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Structural state</td>
+            <td rowspan="1" colspan="1">Vegetation density, habitat structure, food chain and trophic levels</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Functional state</td>
+            <td rowspan="1" colspan="1">Productivity and decomposition processes</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Landscape level characteristics</bold>
+            </td>
+            <td rowspan="1" colspan="1">Landscape and seascape at coarse scale</td>
+            <td rowspan="1" colspan="1">Connectivity, fragmentation, ecosystem type mosaics</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T7666674" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Ecosystem services, key variables and ecosystem condition.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Ecosystem services (ref. INCA)</td>
+            <td rowspan="1" colspan="1">Key variables of biophysical assessment</td>
+            <td rowspan="1" colspan="1">To be flagged in condition accounts (ref. SEEA EA)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Crop provision</bold>
+            </td>
+            <td rowspan="1" colspan="1">Share of ecological inputs</td>
+            <td rowspan="1" colspan="1">% organic farming (structural state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Timber provision</bold>
+            </td>
+            <td rowspan="1" colspan="1">Annual increment of biomass</td>
+            <td rowspan="1" colspan="1">% tree cover (structural state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Crop pollination</bold>
+            </td>
+            <td rowspan="1" colspan="1">Wild pollinator occurrences</td>
+            <td rowspan="1" colspan="1"># species richness (compositional state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Soil retention</bold>
+            </td>
+            <td rowspan="1" colspan="1">Cropping management and conservation practices factors</td>
+            <td rowspan="1" colspan="1">% vegetation cover<break/>(structural state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Water purification</bold>
+            </td>
+            <td rowspan="1" colspan="1">Nitrogen inputs</td>
+            <td rowspan="1" colspan="1">ug/m<sup>3</sup> nitrogen concentration (chemical state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Flood control</bold>
+            </td>
+            <td rowspan="1" colspan="1">Imperviousness</td>
+            <td rowspan="1" colspan="1">% soil sealed per area (physical state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Carbon sequestration</bold>
+            </td>
+            <td rowspan="1" colspan="1">Carbon uptakes and emissions</td>
+            <td rowspan="1" colspan="1">% tree cover (structural state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Habitat and species maintenance</bold>
+            </td>
+            <td rowspan="1" colspan="1">Species hotspots</td>
+            <td rowspan="1" colspan="1"># presence of top predator species (functional state)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Nature-based recreation</bold>
+            </td>
+            <td rowspan="1" colspan="1">Urban green infrastructures</td>
+            <td rowspan="1" colspan="1">% urban green (structural state)</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

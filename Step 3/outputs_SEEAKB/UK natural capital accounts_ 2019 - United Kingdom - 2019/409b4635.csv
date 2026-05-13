@@ -1,0 +1,15 @@
+Table 6: Width of buffers and temperature differentials applied for urban blue and greenspace 
+
+
+,Width of buffer to apply (m) ,Temperature differential (degree Celsius) ,
+Asset ,,Green/blue infrastructure,Buffer
+Urban blue space,,,
+"Rivers, canals (greater than 25m wide)",30,-1.4,-0.8
+"Lakes, ponds, reservoirs (less than 700m2)",30,-0.1,-0.057
+Urban green space,,,
+"Woodland (greater than 200m2 less than 30,000m2)",0,-3.5,n/a
+"Woodland (greater than 30,000 m2)",100,-3.5,-0.52
+Open parks and grassland (greater than 200 m2),0,-0.95,n/a
+Contiguous gardens (greater than 200 m2) ,0,-0.95,n/a
+
+Source: ,Eftec and others (2018)

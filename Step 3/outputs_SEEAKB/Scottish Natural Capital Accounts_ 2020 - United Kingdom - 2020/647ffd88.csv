@@ -1,0 +1,21 @@
+Table 2: The greatest value comes from the number of avoided years of life lost
+"Health impacts avoided because of the removal of air pollution by vegetation, Scotland, 2017"
+
+Pollutant,Avoided impacts,Count,"Annual value (£ million, 2018 prices)"
+PM2.5,Respiratory hospital admissions,33,0.28
+PM2.5,Cardiovascular hospital admissions,29,0.25
+PM2.5,Life years lost,"1,481",64.61
+SO2,Respiratory hospital admissions,7,0.06
+NO2,Respiratory hospital admissions,8,0.04
+NO2,Cardiovascular hospital admissions,5,0.04
+NO2,Life years lost,67,2.93
+O3,Respiratory hospital admissions,408,3.45
+O3,Cardiovascular hospital admissions,68,0.58
+O3,Deaths,174,1.31
+All combined,Respiratory hospital admissions,456,3.83
+All combined,Cardiovascular hospital admissions,101,0.88
+All combined,Life years lost,"1,549",67.54
+All combined,Deaths,174,1.31
+All combined,Total,"2,280",73.56
+
+Source: ,Office for National Statistics and Centre for Ecology and Hydrology

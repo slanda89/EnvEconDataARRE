@@ -1,0 +1,16 @@
+"Table 8: Woodland annual physical flow by service, UK, 2010 to 2017"
+
+
+Type service,Provisioning,,Regulating,,,Cultural,
+Year,Timber,Woodfuel,Carbon Sequestration,Pollution removal,Noise reduction,Recreation,Recreation
+,Total fellings (000's m3 overbark standing),,Million tonnes,Thousand tonnes,Number buildings benefited 000s,Visits (millions),Time at habitat (million hours)
+2010,"10,363","1,544",19,274,,356,388
+2011,"11,345","1,544",19,273,,371,414
+2012,"11,263","1,666",17,277,,370,492
+2013,"11,983","1,972",18,278,,399,496
+2014,"12,405","2,277",18,277,,435,564
+2015,"11,255","2,400",18,273,,448,544
+2016,"11,455","2,339",18,271,,466,655
+2017,"11,564","2,622",18,269,167,475,718
+
+Source: ,Office for National Statistics – Woodland natural capital accounts

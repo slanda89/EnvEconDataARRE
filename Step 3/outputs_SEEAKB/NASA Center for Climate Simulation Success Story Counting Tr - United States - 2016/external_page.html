@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width" />
+<link rel="canonical" href="/news-events/nccs-highlights/counting-shrubs-trees-using-cloud-computing" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="/node/64" />
+<title>Counting Trees and Shrubs in the Sub-Sahara Using Cloud Computing—Part 1 | NASA Center for Climate Simulation</title>
+<style type="text/css" media="all">
+@import url("https://www.nccs.nasa.gov/modules/system/system.base.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/modules/system/system.menus.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/modules/system/system.messages.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/modules/system/system.theme.css?t0mq8c");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.nccs.nasa.gov/modules/comment/comment.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/modules/field/theme/field.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/modules/node/node.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/modules/search/search.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/modules/user/user.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/modules/views/css/views.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/modules/ckeditor/css/ckeditor.css?t0mq8c");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.nccs.nasa.gov/sites/all/modules/ctools/css/ctools.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/modules/panels/css/panels.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/modules/video/css/video.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/libraries/sidr/stylesheets/jquery.sidr.dark.css?t0mq8c");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/css/jquery-ui.min.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/css/font-awesome.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/css/media.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/css/bootstrap-3.3.7.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/css/style.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/css/nccs.css?t0mq8c");
+@import url("https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/css/media_nccs.css?t0mq8c");
+</style>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/modules/jquery_update/replace/jquery/1.9/jquery.js?v=1.9.1"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.4.1.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery && window.jQuery.migrateWarnings || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery-migrate/1/jquery-migrate.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/misc/jquery-extend-3.4.0.js?v=1.9.1"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/misc/drupal.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/modules/video/js/video.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/modules/responsive_menus/styles/sidr/js/responsive_menus_sidr.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/libraries/sidr/jquery.sidr.min.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/js/jquery-migrate-1.4.1.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/js/jquery-ui.min.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/js/custom.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/js/bootstrap-3.3.7.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/js/widgets.js?t0mq8c"></script>
+<script type="text/javascript" src="https://www.nccs.nasa.gov/sites/all/themes/flat_zymphonies_theme/js/nccs.js?t0mq8c"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"flat_zymphonies_theme","theme_token":"T6u9eP9ms9RKbJ-AReNdXbnYfIwChSW4zAjVPHyqEx0","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.js":1,"0":1,"\/\/code.jquery.com\/jquery-migrate-1.4.1.js":1,"1":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/video\/js\/video.js":1,"sites\/all\/modules\/responsive_menus\/styles\/sidr\/js\/responsive_menus_sidr.js":1,"sites\/all\/libraries\/sidr\/jquery.sidr.min.js":1,"sites\/all\/themes\/flat_zymphonies_theme\/js\/jquery-migrate-1.4.1.js":1,"sites\/all\/themes\/flat_zymphonies_theme\/js\/jquery-ui.min.js":1,"sites\/all\/themes\/flat_zymphonies_theme\/js\/custom.js":1,"sites\/all\/themes\/flat_zymphonies_theme\/js\/bootstrap-3.3.7.js":1,"sites\/all\/themes\/flat_zymphonies_theme\/js\/widgets.js":1,"sites\/all\/themes\/flat_zymphonies_theme\/js\/nccs.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/video\/css\/video.css":1,"sites\/all\/libraries\/sidr\/stylesheets\/jquery.sidr.dark.css":1,"sites\/all\/themes\/flat_zymphonies_theme\/css\/jquery-ui.min.css":1,"sites\/all\/themes\/flat_zymphonies_theme\/css\/font-awesome.css":1,"sites\/all\/themes\/flat_zymphonies_theme\/css\/media.css":1,"sites\/all\/themes\/flat_zymphonies_theme\/css\/bootstrap-3.3.7.css":1,"sites\/all\/themes\/flat_zymphonies_theme\/css\/style.css":1,"sites\/all\/themes\/flat_zymphonies_theme\/css\/nccs.css":1,"sites\/all\/themes\/flat_zymphonies_theme\/css\/media_nccs.css":1}},"responsive_menus":[{"selectors":["#main-menu"],"trigger_txt":"Menu","side":"right","speed":"200","media_size":"768","displace":"1","renaming":"1","onOpen":"","onClose":"","responsive_menus_style":"sidr"}],"urlIsAjaxTrusted":{"\/news-events\/nccs-highlights\/counting-shrubs-trees-using-cloud-computing":true}});
+//--><!]]>
+</script>
+<!--[if IE 8 ]>    <html class="ie8 ielt9"> <![endif]-->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131156505-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-131156505-1');
+</script>
+
+<!-- old GA -->
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-39746138-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-28010566-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105307626-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-105307626-1');
+</script>
+
+
+<!-- agency GA code -->
+<script language="javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA"></script>
+    
+      </head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-64 node-type-news-and-science-snaphsot">
+	<div id="skip-link">
+		<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+	</div>
+  	 <!-- /.region -->
+	
+<div class="header">
+  <div class="menu-wrap">  
+    <div class="logo-wrap clearfix">
+    <div class="full-wrap">
+        <div class="header-left">
+        <div id="logo">
+          <a href="/" title="Home"><img src="https://www.nccs.nasa.gov/sites/default/files/NCCS_Logo_0.png"/></a>
+        </div>
+        <h1 id="site-title">
+          <a href="/" title="Home">NASA Center for Climate Simulation</a>
+</h1><br><h5 class="nccs-tagline">High Performance Computing for Science </h5></div><div class="header-right"><img class="nasa-logo" src="/sites/default/files/pictures/nasa_logo.png"></div>
+          </div>
+<div class="nav-background">
+
+
+        <nav id="main-menu"  role="navigation">
+          <div class="full-wrap">
+          <div class="menu-navigation-container">
+            <ul class="menu"><li class="first leaf"><a href="/" title="">HOME</a></li>
+<li class="expanded"><a href="/nccs-users">USERS</a><ul class="menu"><li class="first leaf"><a href="/nccs-users/portals">Portals</a></li>
+<li class="collapsed"><a href="/nccs-users/new-users">Account Help</a></li>
+<li class="collapsed"><a href="/nccs-users/user-events">User Events</a></li>
+<li class="last collapsed"><a href="/nccs-users/instructional">Instructionals</a></li>
+</ul></li>
+<li class="expanded"><a href="/services">SERVICES</a><ul class="menu"><li class="first leaf"><a href="/services/high-performance-computing">High Performance Computing</a></li>
+<li class="leaf"><a href="/services/cloud-computing">Cloud Computing</a></li>
+<li class="leaf"><a href="/services/analytics">Analytics</a></li>
+<li class="leaf"><a href="/services/visualization">Visualization</a></li>
+<li class="collapsed"><a href="/services/data-sharing-and-tools">Data Sharing &amp; Tools</a></li>
+<li class="last leaf"><a href="/services/climate-data-services">Climate Data Services</a></li>
+</ul></li>
+<li class="expanded"><a href="/systems">SYSTEMS</a><ul class="menu"><li class="first leaf"><a href="/systems/motd">System Status</a></li>
+<li class="collapsed"><a href="/systems/discover">Discover</a></li>
+<li class="collapsed"><a href="/systems/ADAPT">ADAPT</a></li>
+<li class="leaf"><a href="/systems/storage-systems">Storage Systems</a></li>
+<li class="leaf"><a href="/systems/data-portal">DataPortal</a></li>
+<li class="leaf"><a href="/systems/hyperwall">Hyperwall</a></li>
+<li class="last leaf"><a href="/systems/remote-visualization">Remote Visualization</a></li>
+</ul></li>
+<li class="collapsed"><a href="/sci-tech" title="">SCIENCE &amp; TECHNOLOGY</a></li>
+<li class="expanded"><a href="/news-events">NEWS &amp; EVENTS</a><ul class="menu"><li class="first last leaf"><a href="/news-events/events-conferences">Events and Conferences</a></li>
+</ul></li>
+<li class="last expanded"><a href="/about-us">ABOUT US</a><ul class="menu"><li class="first last leaf"><a href="/about-us/emblem">NCCS Emblem</a></li>
+</ul></li>
+</ul>          </div>
+<form action="/news-events/nccs-highlights/counting-shrubs-trees-using-cloud-computing" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-RShZmWMVMoakm4EySrlTIA68cOCSb2gqnCF86Cip1Cw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>        </div>
+</nav> 
+</div>
+
+    </div>
+  </div>
+
+
+
+        <div class="landing-banner-picture">
+<div class="region region-landing-banner-picture">
+  <div id="block-block-29" class="block block-block">
+
+      
+  <div class="content">
+    <div class="picture-outer-block" style="background: url(/sites/default/files/goddard.png) no-repeat center;background-size: cover;background-position-y: -400px;">
+<div class="landing-overlay">
+<div class="picture-block">
+</div>
+</div>
+</div>
+  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+        </div>
+</div>
+
+
+
+
+
+
+
+<div class="region region-sub-menu">
+  <div id="block-block-53" class="block block-block">
+
+      
+  <div class="content">
+    <style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 290px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 290px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 290px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+<!-- +++++++++++++++++++++++++++++++++++++++ -->
+.subdropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.subdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.subdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;;
+  width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 100%;
+  margin-top: -50px;
+}
+
+.subdropdown-content .subdropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.subdropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+  position: relative;
+}
+
+.subdropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.subdropdown:hover .subdropdown-content {
+  display: inline;
+}
+
+
+/*--><!]]>*/
+</style><nav class="navbar sub-menu"><div class="container-fluid sub-menu-wrapper">
+    <div class="navbar-header">
+      
+<button type="button" class="navbar-toggle sub-menu-mobile" data-toggle="collapse" data-target="#myNavbar"> 
+<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+NEWS &amp; EVENTS (TAP TO EXPAND)
+</button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav"><li class="dropdown">
+    <a href="https://www.nccs.nasa.gov/news-events" class="dropbtn">NEWS &amp; EVENTS HOME</a>
+    <div class="dropdown-content">
+    </div>
+</li>
+
+<li>
+<a href="https://www.nccs.nasa.gov/news-events/nccs-highlights" class="dropbtn">NCCS HIGHLIGHTS</a>
+</li>
+
+
+<li class="dropdown">
+    <a href="https://www.nccs.nasa.gov/news-events/events-conferences" class="dropbtn">EVENTS &amp; CONFERENCES</a>
+    <div class="dropdown-content">
+    </div>
+</li>
+
+<li>
+<a href="https://www.nccs.nasa.gov/news-events/nccs-news" class="dropbtn">NCCS IN THE NEWS</a>
+</li>
+
+      </ul></div>
+  </div>
+</nav>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+
+
+
+
+<div id="container">
+  <div class="container-wrap">
+    <div class="content-sidebar-wrap">
+      <div id="content">
+
+          <!-- <div id="breadcrumbs"> -->
+<!--          </div>-->
+
+        <section id="post-content" role="main">
+<!-- <h1 class="page-title"> --><!--</h1> -->                    <div class="region region-content">
+  <div id="block-system-main" class="block block-system">
+
+      
+  <div class="content">
+                          <span property="dc:title" content="Counting Trees and Shrubs in the Sub-Sahara Using Cloud Computing—Part 1" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>  
+      
+    
+  <div class="content node-news-and-science-snaphsot">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded">July 21, 2016
+<h1><strong>Counting Trees and Shrubs in the Sub-Sahara Using Cloud Computing—Part 1</strong></h1>
+<br />
+ <br />
+At the 2014 Amazon Web Services (AWS) Public Sector Summit the Intel Corp. announced a cloud computing resource opportunity for AWS users including government agencies—bring us groundbreaking applications, and we will pay for AWS access and help to optimize the software. Sitting in the audience NASA High-End Computing Program Manager Tsengdar Lee decided to take on Intel’s Head in the Clouds Challenge. His mind soon turned to Compton Tucker, a NASA Goddard Space Flight Center (GSFC) Earth scientist who pioneered satellite monitoring of vegetation more than 30 years ago. “There were tons of satellite images, and he wanted to identify certain features,” Lee said. “That seemed like a ­­perfect cloud computing application.” He called Tucker about submitting a proposal and stressed, “Think big.”'
+<figure class="image" style="float:right;padding:15px;"><img alt="Map of the study region showing UTM zones" height="269" src="/sites/default/files/sub-sahara-utm-zones%20%281%29.jpg" width="646" /><figcaption><em>The Sub-Sahara region of Africa covers Universal Transverse Mercator (UTM) zones 28 through 38.<br />
+At nearly 10 million square kilometers the study area is larger than the continental United States.<br />
+Image by Katherine Melocik, GSFC.</em></figcaption></figure>Tucker and University of Minnesota colleague Paul Morin went massive. Joining Lee as principal investigators, along with the NASA Center for Climate Simulation (NCCS) and other partners, they proposed processing satellite images to count all the trees and shrubs within a coast-to-coast swath of Africa from the Sahara south to the savanna zones. “We want to perform a tree and shrub census and determine what the biological mass is,” Tucker said. This biomass estimate will reveal how much carbon is stored in the region’s vegetation and could be released as carbon dioxide if those plants burn or die and decompose due to natural or human causes. Moreover, it will establish a carbon baseline for later research. The science scope impressed Intel and AWS enough to offer resources. Then the real challenge began. “We had to scramble because logistically this is difficult,” Tucker said.<br /><br />
+At base is the project’s unusual scale. The Sub-Sahara stretches nearly 10 million square kilometers (km)—an area larger than the continental United States. Driving a similar distance as New York to San Francisco “imagine trying to uniquely name every tree that you see along the way,” said John David, senior programmer/analyst in GSFC’s Earth Sciences Division. “Now imagine trying to determine how many trees and shrubs have died or been cut down, how many are new, and when that happened over the entire record.”<br /><br />
+Getting an exact count starts with commercial satellite images acquired through the National Geospatial Agency. “We select all the images after the rainy season and before trees lose their leaves, from November to March,” Tucker said. The research team started with 260,000 satellite images, totaling 200 terabytes of data. With images coming from three different satellites over multiple years, Tucker said “we had to organize the data so that we don’t count it more than once.”<br /><br />
+That and other tasks fall to the NCCS private cloud—the Advanced Data Analytics Platform (ADAPT). To maximize efficiency the region gets divided into smaller and smaller pieces for parallel processing. At the top are the Sub-Sahara’s 11 Universal Transverse Mercator (UTM) zones containing just over 877,000 square km apiece. UTM by UTM the researchers use ADAPT to stack all available satellite images, put them into the same map projection, select the best images, cut out overlap, and color-calibrate and resample the images to a consistent 50-centimeter resolution. These steps reduce the number of satellite images to 100,000 across all UTM zones. The team deconstructs each UTM into 100- by 100-km tiles and then 25- by 25-km sub-tiles called mosaics that go to AWS for the biomass estimate calculations.
+<figure class="image" style="float:left;padding:15px;"><img alt="Photo of ADAPT" height="310" src="/sites/default/files/sub-sahara_adapt.jpg" width="400" /><figcaption><em>The NASA Center for Climate Simulation (NCCS) Advanced<br />
+Data Analytics Platform (ADAPT) processed 260,000 satellite<br />
+images to create mosaics for analysis on the commercial<br />
+Amazon Web Services cloud. Photo by Jarrett Cohen, GSFC. </em></figcaption></figure>For this demanding workload the NCCS is leveraging several innovations. They enhanced ADAPT with “fat” nodes having 256 gigabytes of random-access memory and 6 terabytes of flash memory, the latter nicely handling the myriad required input/output operations. NCCS and partner staff upgraded the network link to the AWS East facility from 1 to 10 gigabits per second. Making submissions to AWS is the data manager from Cycle Computing LLC. “It manages the links and creates multiple streams to efficiently use available network bandwidth,” said Hoot Thompson, NCCS advanced technology lead.<br /><br />
+Once at AWS East the sub-tile mosaics go onto as many as 5,000 processor cores. Team-optimized algorithms identify and count the number of trees and shrubs, measure crown area, and, from the shadows cast, determine tree height. These factors all combine into a biomass estimate for each mosaic. Additional algorithms re-assemble the sub-tile mosaics into one larger quilt-like mosaic per UTM zone. A test case with UTM zone 32—mostly the country of Niger—won the 2015 HPCwire Readers’ Choice Award for the Best HPC Collaboration Between Government and Industry. <br /><br />
+More recently the team processed the entire Sub-Sahara using panchromatic (i.e., black and white) imagery. For the AWS portion they took advantage of “spot instances” that are cheaper “if you are willing to take advantage of off-hour processing and your jobs can recover gracefully if bumped,” Thompson said. Processing 43 terabytes of data in 72 hours cost less than $2,000. With ADAPT in demand by other big customers, “what we processed over the weekend in AWS would have taken us months here in ADAPT given the available resources,” said Garrison Vaughan, NCCS systems engineer.<br />
+ <br />
+This summer the team will be re-processing the entire dataset while adding a layer of multispectral data. “The next one will have three times the accuracy with only about twice the overhead,” Tucker said. Stay tuned for news about this effort in Part 2.<br /><br /><em>Jarrett Cohen, NASA Goddard Space Flight Center</em>
+
+<table class="no-background-table" align="left" border="1" cellpadding="1" cellspacing="1" style="width:800px;"><tbody><tr><td style="width: 400px;">
+			<h3><strong>Contacts</strong></h3>
+			<strong>Compton Tucker</strong><br />
+			Senior Physical Scientist<br />
+			Earth Sciences Division<br />
+			NASA Goddard Space Flight Center<br /><a href="mailto:compton.j.tucker@nasa.gov">compton.j.tucker@nasa.gov</a><br />
+			301.614.6644 </td>
+			<td style="width: 400px;"><br /><strong>Hoot Thompson</strong><br />
+			Advanced Technology Lead<br />
+			NASA Center for Climate Simulation<br />
+			NASA Goddard Space Flight Center<br /><a href="mailto:john.h.thompson@nasa.gov">john.h.thompson@nasa.gov</a><br />
+			301.286.8567</td>
+		</tr><tr><td style="width: 400px;"><strong>John David</strong><br />
+			Senior Programmer/Analyst<br />
+			Earth Sciences Division<br />
+			NASA Goddard Space Flight Center<br /><a href="mailto:john.l.david@nasa.gov">john.l.david@nasa.gov</a><br />
+			301.614.5737</td>
+			<td style="width: 400px;"><strong>Garrison Vaughan</strong><br />
+			Systems Engineer<br />
+			NASA Center for Climate Simulation<br />
+			NASA Goddard Space Flight Center<br /><a href="mailto:garrison.r.vaughan@nasa.gov">garrison.r.vaughan@nasa.gov</a><br />
+			301.286.6283</td>
+		</tr><tr><td><h3>More Information</h3></td></tr><tr><td style="width: 400px;">
+			<a href="http://www.nccs.nasa.gov/services/adapt">Advanced Data Analytics Platform (ADAPT)</a></td>
+			<td style="width: 400px;">
+			<a href="http://www.theregister.co.uk/2015/12/09/nasa_amazon_supercomputing_trees_biomass_climate">This is How You Count All the Trees on Earth</a></td>
+		</tr></tbody></table></div></div></div>  </div>
+
+      <footer>
+          </footer>
+  
+    </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+        </section>
+      </div>
+
+
+        <!-- First sidebar -->
+                
+      </div>
+
+      <!-- Second sidebar -->
+        </div>
+</div>
+
+
+
+
+    
+
+
+    
+          
+
+
+
+
+
+
+
+    
+  <div id="home-bottom-block" class="footer_block bottom_widget">
+      </div>
+
+  <div class="parallax-block" id="home-block-three">
+      </div> 
+  
+
+<!-- Footer -->
+
+<div id="footer">
+
+   
+    <div id="footer-area" class="full-wrap clearfix">
+            <div class="column"><div class="region region-footer-first">
+  <div id="block-block-1" class="block block-block">
+
+      
+  <div class="content">
+    <div class="rteleft">
+<h2>NCCS CONTACTS</h2>
+
+<p class="p2"><strong>Curator</strong>: Rey Presno<br /><strong>NASA Official</strong>: Laura Carriere<br />
+High-Performance Computing Lead <br />
+GSFC Code 606.2 <br /><a href="https://www.nasa.gov/about/highlights/HP_Privacy.html">NASA Privacy Policy &amp; Important Notices </a><br /><a href="https://www.nasa.gov/general/accessibility/">NASA Accessibility Statement </a><br /><a href="https://science.gsfc.nasa.gov/sed/index.cfm?fuseAction=home.main&amp;&amp;navOrgCode=606">CISTO</a><br /></p>
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+</div>
+                  <div class="column two"><div class="region region-footer-second">
+  <div id="block-block-2" class="block block-block">
+
+      
+  <div class="content">
+    <div style="text-align:center;"><h2 class="rtecenter">ABOUT US</h2>
+
+<p class="rtecenter p2">The purpose of the NCCS is to enhance NASA capabilities in Earth Science, with an emphasis on weather and climate prediction, and to enable future scientific discoveries that will benefit humankind. </p>
+
+<hr style=" border:none; height: 2px; background-color:#72be44;" width="20%" /><p class="rtecenter"><img alt="" height="62" src="/sites/default/files/pictures/nasa-goddard-logo.png" width="146" /></p>
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+</div>
+                  <div class="column"><div class="region region-footer-third">
+  <div id="block-block-3" class="block block-block">
+
+      
+  <div class="content">
+    <div style="text-align: right;"><h2 class="rteright">CONTACT US</h2>
+
+<p class="rteright p2"><strong>NASA Center for Climate Simulation</strong><br />
+Building 28 Goddard Space Flight Center<br /><br />
+Greenbelt, Maryland 20771<br /><a href="mailto:support@nccs.nasa.gov" target_="">NCCS User Service Group</a> <br />
+(301) 286-9120</p>
+</div>  </div>
+  
+</div> <!-- /.block -->
+</div>
+ <!-- /.region -->
+</div>
+                </div>
+  
+  <div class="footer_credit">
+      
+    <div id="copyright" class="full-wrap clearfix">
+
+    <div class="copyright"><p class="p3">Copyright &copy; 2026 NASA Center for Climate Simulation. All Rights Reserved   | Designed by Colton Weinman<!--<a href="http://www.zymphonies.com"> Zymphonies</a>--></p></div> 
+    
+      <!-- Social Links -->        
+              <!--<span class="social-icons">-->
+         <!--<ul>-->
+      <!--<li><a class="fb" href="" target="_blank" rel="me"><i class="fa fa-facebook"></i></a></li>-->
+      <!--<li><a class="twitter" href="" target="_blank" rel="me"><i class="fa fa-twitter"></i></a></li>-->
+      <!--<li><a class="gplus" href="" target="_blank" rel="me"><i class="fa fa-google-plus"></i></a></li>-->
+      <!--<li><a class="linkedin" href="" target="_blank" rel="me"><i class="fa fa-linkedin"></i></a></li>-->
+      <!--<li><a class="pinterest" href="" target="_blank" rel="me"><i class="fa fa-pinterest"></i></a></li>-->
+      <!--<li><a class="youtube" href="" target="_blank" rel="me"><i class="fa fa-youtube"></i></a></li>-->
+      <!--<li><a class="rss" href="/rss.xml"><i class="fa fa-rss"></i></a></li>-->
+         <!--</ul>-->
+        <!--</span>-->
+            <!-- End Social Links -->
+
+    </div>
+
+  </div>
+
+</div>
+	 <!-- /.region -->
+</body>
+</html>

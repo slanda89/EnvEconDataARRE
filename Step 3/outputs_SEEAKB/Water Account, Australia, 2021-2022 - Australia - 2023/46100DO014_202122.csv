@@ -1,0 +1,222 @@
+"4610.0 Water Account, Australia, 2021-22",,,,,,,,,,,,,,
+Released at 11:30 am (Canberra time) 19 October 2023,,,,,,,,,,,,,,
+"Monetary Water Supply and Use, by Industry and Water Type, Australia and state/territory (Purchasers' Prices), $ Million, 2014-15 to 2021-22 (a)",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+Geography Description,Geography Code,Industry,ANZSIC Division Code,Supply/Use,Product,Unit, 2014-15 , 2015-16 , 2016-17 , 2017-18 , 2018-19 , 2019-20 , 2020-21 ,2021-22
+Australia,0,"Agriculture, forestry and fishing",A,Supply,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Supply,Distributed,$m, np , np , np , np , np , np , np , np 
+Australia,0,Manufacturing,C,Supply,Distributed,$m, np , np , np , np , np , np , np , np 
+Australia,0,"Electricity, gas and waste services",D,Supply,Distributed,$m,25.6865,28.1758,29.8355,30.5046,36.3854,29.9668,29.6451,30.4482
+Australia,0,"Water supply, sewerage and drainage services",D,Supply,Distributed,$m,"8,767.51","9,152.52","8,912.60","9,338.94","9,724.64","9,596.20","9,605.01","9,829.51"
+Australia,0,"    Total electricity, gas, water and waste services",D,Supply,Distributed,$m,"8,793.20","9,180.69","8,942.43","9,369.45","9,761.03","9,626.17","9,634.66","9,859.96"
+Australia,0,Other industries,E -S,Supply,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Supply,Distributed,$m,"8,843.38","9,237.47","9,003.03","9,432.29","9,833.01","9,697.49","9,705.62","9,928.66"
+Australia,0,Households,HH,Supply,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Supply,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Supply,Distributed,$m,10.8397,9.8085,11.4074, - ,1.037,1.037, - , - 
+Australia,0,Exports,Exports,Supply,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Supply,Distributed,$m,39.7959,50.5102,41.4815,41.4815,55.8025,57.7778,60.2469,61.2346
+Australia,0,Subsidies,Subsidies,Supply,Distributed,$m,-38,-37,-33,-36,-33,-35,-18,-18
+Australia,0,Total,Total,Supply,Distributed,$m,"8,856.02","9,260.79","9,022.92","9,437.77","9,856.85","9,721.30","9,747.87","9,971.90"
+Australia,0,"Agriculture, forestry and fishing",A,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Supply,Reuse,$m, np , np , np , np , np , np , np , np 
+Australia,0,Manufacturing,C,Supply,Reuse,$m, np , np , np , np , np , np , np , np 
+Australia,0,"Electricity, gas and waste services",D,Supply,Reuse,$m,1.2494,1.0417,1.2162,1.466,1.4699,1.4993,1.458,1.3541
+Australia,0,"Water supply, sewerage and drainage services",D,Supply,Reuse,$m,86.516,109.479,88.2286,89.066,101.757,109.99,119.594,116.814
+Australia,0,"    Total electricity, gas, water and waste services",D,Supply,Reuse,$m,87.7654,110.5207,89.4448,90.532,103.2269,111.4893,121.052,118.1681
+Australia,0,Other industries,E -S,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Supply,Reuse,$m,184.2921,195.229,183.5706,199.2442,220.0255,244.4079,255.3474,230.0158
+Australia,0,Households,HH,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Supply,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Supply,Reuse,$m,184.2921,195.229,183.5706,199.2442,220.0255,244.4079,255.3474,230.0158
+Australia,0,"Agriculture, forestry and fishing",A,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Manufacturing,C,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Electricity, gas and waste services",D,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Water supply, sewerage and drainage services",D,Supply,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,"    Total electricity, gas, water and waste services",D,Supply,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,Other industries,E -S,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Supply,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,Households,HH,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Supply,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Supply,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,"Agriculture, forestry and fishing",A,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Manufacturing,C,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Electricity, gas and waste services",D,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Water supply, sewerage and drainage services",D,Supply,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,"    Total electricity, gas, water and waste services",D,Supply,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,Other industries,E -S,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Supply,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,Households,HH,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Supply,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Supply,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,"Agriculture, forestry and fishing",A,Supply,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Supply,Total water supplied,$m,118.4551,119.0058,129.1443,141.3154,159.0989,172.3975,171.1543,151.9055
+Australia,0,Manufacturing,C,Supply,Total water supplied,$m,28.2521,22.4829,25.5823,30.2385,29.6838,31.8441,34.1026,28.6474
+Australia,0,"Electricity, gas and waste services",D,Supply,Total water supplied,$m,26.9359,29.2175,31.0517,31.9706,37.8553,31.4661,31.1031,31.8023
+Australia,0,"Water supply, sewerage and drainage services",D,Supply,Total water supplied,$m,"10,857.49","11,266.90","11,096.14","11,579.26","12,244.82","12,325.90","12,245.86","12,484.90"
+Australia,0,"    Total electricity, gas, water and waste services",D,Supply,Total water supplied,$m,"10,884.43","11,296.11","11,127.19","11,611.23","12,282.67","12,357.36","12,276.96","12,516.70"
+Australia,0,Other industries,E -S,Supply,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Supply,Total water supplied,$m,"11,031.14","11,437.60","11,281.91","11,782.79","12,471.46","12,561.61","12,482.22","12,697.25"
+Australia,0,Households,HH,Supply,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Supply,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Supply,Total water supplied,$m,10.8397,9.8085,11.4074, - ,1.037,1.037, - , - 
+Australia,0,Exports,Exports,Supply,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Supply,Total water supplied,$m,39.7959,50.5102,41.4815,41.4815,55.8025,57.7778,60.2469,61.2346
+Australia,0,Subsidies,Subsidies,Supply,Total water supplied,$m,-38,-37,-33,-36,-33,-35,-18,-18
+Australia,0,Total,Total,Supply,Total water supplied,$m,"11,043.77","11,460.92","11,301.80","11,788.27","12,495.30","12,585.42","12,524.47","12,740.49"
+Australia,0,"Agriculture, forestry and fishing",A,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Manufacturing,C,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Electricity, gas and waste services",D,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Water supply, sewerage and drainage services",D,Supply,Sewerage and wastewater services ,$m,"6,517.86","6,771.20","6,763.19","7,045.19","7,113.23","7,610.50","7,465.07","7,663.34"
+Australia,0,"    Total electricity, gas, water and waste services",D,Supply,Sewerage and wastewater services ,$m,"6,517.86","6,771.20","6,763.19","7,045.19","7,113.23","7,610.50","7,465.07","7,663.34"
+Australia,0,Other industries,E -S,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Supply,Sewerage and wastewater services ,$m,"6,517.86","6,771.20","6,763.19","7,045.19","7,113.23","7,610.50","7,465.07","7,663.34"
+Australia,0,Households,HH,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Supply,Sewerage and wastewater services ,$m,10.1613,9.1935,10.5956, - ,0.963,0.963, - , - 
+Australia,0,Exports,Exports,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Supply,Sewerage and wastewater services ,$m,38.2041,48.4898,42.5185,42.5185,57.1975,59.2222,61.7531,62.7654
+Australia,0,Subsidies,Subsidies,Supply,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Supply,Sewerage and wastewater services ,$m,"6,566.23","6,828.88","6,816.30","7,087.71","7,171.39","7,670.68","7,526.82","7,726.10"
+Australia,0,"Agriculture, forestry and fishing",A,Supply,Total revenue,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Supply,Total revenue,$m,118.4551,119.0058,129.1443,141.3154,159.0989,172.3975,171.1543,151.9055
+Australia,0,Manufacturing,C,Supply,Total revenue,$m,28.2521,22.4829,25.5823,30.2385,29.6838,31.8441,34.1026,28.6474
+Australia,0,"Electricity, gas and waste services",D,Supply,Total revenue,$m,26.9359,29.2175,31.0517,31.9706,37.8553,31.4661,31.1031,31.8023
+Australia,0,"Water supply, sewerage and drainage services",D,Supply,Total revenue,$m,"17,375.36","18,038.09","17,859.32","18,624.45","19,358.05","19,936.39","19,710.93","20,148.23"
+Australia,0,"    Total electricity, gas, water and waste services",D,Supply,Total revenue,$m,"17,402.29","18,067.31","17,890.37","18,656.42","19,395.90","19,967.86","19,742.03","20,180.04"
+Australia,0,Other industries,E -S,Supply,Total revenue,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Supply,Total revenue,$m,"17,549.00","18,208.80","18,045.10","18,827.98","19,584.69","20,172.10","19,947.29","20,360.59"
+Australia,0,Households,HH,Supply,Total revenue,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Supply,Total revenue,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Supply,Total revenue,$m,21.001,19.002,22.003, - ,2,2, - , - 
+Australia,0,Exports,Exports,Supply,Total revenue,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Supply,Total revenue,$m,78,99,84,84,113,117,122,124
+Australia,0,Subsidies,Subsidies,Supply,Total revenue,$m,-38,-37,-33,-36,-33,-35,-18,-18
+Australia,0,Total,Total,Supply,Total revenue,$m,"17,610.00","18,289.80","18,118.10","18,875.98","19,666.69","20,256.10","20,051.29","20,466.59"
+Australia,0,"Agriculture, forestry and fishing",A,Use,Distributed,$m,623.5443,634.3806,607.8096,587.9773,536.0283,507.5394,545.9794,685.5321
+Australia,0,Mining,B,Use,Distributed,$m,208.3684,205.6783,199.5349,216.0797,266.3181,281.8175,215.191,188.5799
+Australia,0,Manufacturing,C,Use,Distributed,$m,423.0316,511.5528,486.2656,435.4144,372.7627,357.9161,332.4467,358.2471
+Australia,0,"Electricity, gas and waste services",D,Use,Distributed,$m,166.9251,116.6042,193.2733,144.0352,138.5171,213.8399,259.5308,126.6802
+Australia,0,"Water supply, sewerage and drainage services",D,Use,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,"    Total electricity, gas, water and waste services",D,Use,Distributed,$m,166.9251,116.6042,193.2733,144.0352,138.5171,213.8399,259.5308,126.6802
+Australia,0,Other industries,E -S,Use,Distributed,$m,925.3959,"1,160.83","1,158.28","1,525.67","1,843.64","1,495.93","1,658.21","1,801.13"
+Australia,0,Total Industry,Total industry,Use,Distributed,$m,"2,347.27","2,629.04","2,645.16","2,909.17","3,157.26","2,857.05","3,011.36","3,160.17"
+Australia,0,Households,HH,Use,Distributed,$m,"5,892.91","6,039.33","5,856.52","6,070.39","6,223.14","6,381.99","6,154.54","6,088.12"
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Use,Distributed,$m,582.9761,556.9822,480.2668,415.1798,422.1492,433.1012,545.6079,695.9488
+Australia,0,Imports,Imports,Use,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Use,Distributed,$m,32.8649,35.4324,40.9756,43.0244,54.2927,49.1707,36.3659,27.6585
+Australia,0,Taxes,Taxes,Use,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Use,Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Use,Distributed,$m,"8,856.02","9,260.79","9,022.92","9,437.77","9,856.85","9,721.30","9,747.87","9,971.90"
+Australia,0,"Agriculture, forestry and fishing",A,Use,Reuse,$m,28.0403,35.8606,28.2754,30.7268,41.4896,42.4809,43.0838,49.5076
+Australia,0,Mining,B,Use,Reuse,$m,2.5922,3.3064,3.0569,2.0188,3.7578,3.7131,3.4419,1.1111
+Australia,0,Manufacturing,C,Use,Reuse,$m,18.1905,17.864,18.4139,19.2007,18.8744,20.3253,23.1075,22.7327
+Australia,0,"Electricity, gas and waste services",D,Use,Reuse,$m,3.2942,1.9964,5.0718,3.7227,5.2087,4.9529,6.5075,6.3554
+Australia,0,"Water supply, sewerage and drainage services",D,Use,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,"    Total electricity, gas, water and waste services",D,Use,Reuse,$m,3.2942,1.9964,5.0718,3.7227,5.2087,4.9529,6.5075,6.3554
+Australia,0,Other industries,E -S,Use,Reuse,$m,122.476,123.6676,121.3944,135.7116,140.7094,161.0908,166.3176,137.9424
+Australia,0,Total Industry,Total industry,Use,Reuse,$m,174.5933,182.695,176.2126,191.3807,210.0399,232.563,242.4582,217.6492
+Australia,0,Households,HH,Use,Reuse,$m,9.6988,12.534,7.358,7.8635,9.9857,11.8449,12.8892,12.3665
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Use,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Use,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Use,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Use,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Use,Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Use,Reuse,$m,184.2921,195.229,183.5706,199.2442,220.0255,244.4079,255.3474,230.0158
+Australia,0,"Agriculture, forestry and fishing",A,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Manufacturing,C,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Electricity, gas and waste services",D,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Water supply, sewerage and drainage services",D,Use,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,"    Total electricity, gas, water and waste services",D,Use,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,Other industries,E -S,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Use,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,Households,HH,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Use,Bulk Water - Distributed,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Use,Bulk Water - Distributed,$m,"1,993.39","1,989.43","2,090.37","2,145.29","2,411.98","2,613.74","2,514.36","2,533.55"
+Australia,0,"Agriculture, forestry and fishing",A,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Mining,B,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Manufacturing,C,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Electricity, gas and waste services",D,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,"Water supply, sewerage and drainage services",D,Use,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,"    Total electricity, gas, water and waste services",D,Use,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,Other industries,E -S,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total Industry,Total industry,Use,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,Households,HH,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Imports,Imports,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Taxes,Taxes,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Use,Bulk Water- Reuse,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Use,Bulk Water- Reuse,$m,10.075,15.476,4.939,5.964,6.44,5.969,6.9,5.023
+Australia,0,"Agriculture, forestry and fishing",A,Use,Total water supplied,$m,651.5846,670.2412,636.0851,618.7041,577.5179,550.0203,589.0632,735.0397
+Australia,0,Mining,B,Use,Total water supplied,$m,210.9606,208.9847,202.5918,218.0986,270.0759,285.5306,218.6329,189.6911
+Australia,0,Manufacturing,C,Use,Total water supplied,$m,441.2222,529.4168,504.6795,454.6152,391.6371,378.2414,355.5542,380.9798
+Australia,0,"Electricity, gas and waste services",D,Use,Total water supplied,$m,170.2193,118.6006,198.3452,147.7579,143.7259,218.7929,266.0383,133.0356
+Australia,0,"Water supply, sewerage and drainage services",D,Use,Total water supplied,$m,"2,003.47","2,004.90","2,095.31","2,151.25","2,418.42","2,619.71","2,521.26","2,538.57"
+Australia,0,"    Total electricity, gas, water and waste services",D,Use,Total water supplied,$m,"2,173.69","2,123.50","2,293.66","2,299.01","2,562.14","2,838.50","2,787.29","2,671.61"
+Australia,0,Other industries,E -S,Use,Total water supplied,$m,"1,047.87","1,284.50","1,279.67","1,661.38","1,984.35","1,657.02","1,824.53","1,939.08"
+Australia,0,Total Industry,Total industry,Use,Total water supplied,$m,"4,525.32","4,816.64","4,916.69","5,251.81","5,785.72","5,709.32","5,775.07","5,916.40"
+Australia,0,Households,HH,Use,Total water supplied,$m,"5,902.61","6,051.87","5,863.88","6,078.26","6,233.13","6,393.83","6,167.42","6,100.48"
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Use,Total water supplied,$m,582.9761,556.9822,480.2668,415.1798,422.1492,433.1012,545.6079,695.9488
+Australia,0,Imports,Imports,Use,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Use,Total water supplied,$m,32.8649,35.4324,40.9756,43.0244,54.2927,49.1707,36.3659,27.6585
+Australia,0,Taxes,Taxes,Use,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Use,Total water supplied,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Use,Total water supplied,$m,"11,043.77","11,460.92","11,301.80","11,788.27","12,495.30","12,585.42","12,524.47","12,740.49"
+Australia,0,"Agriculture, forestry and fishing",A,Use,Sewerage and wastewater services ,$m,1.734,1.6143,1.7783,1.677,1.5993,1.4672,1.7474,2.1748
+Australia,0,Mining,B,Use,Sewerage and wastewater services ,$m,26.3732,28.309,28.345,29.1581,30.3847,31.1431,29.6309,29.1982
+Australia,0,Manufacturing,C,Use,Sewerage and wastewater services ,$m,201.7005,197.2119,203.7766,209.3022,207.5834,204.6918,204.0003,211.6754
+Australia,0,"Electricity, gas and waste services",D,Use,Sewerage and wastewater services ,$m,23.7354,24.9106,32.9997,34.2433,34.3991,33.7373,33.2647,35.1199
+Australia,0,"Water supply, sewerage and drainage services",D,Use,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,"    Total electricity, gas, water and waste services",D,Use,Sewerage and wastewater services ,$m,23.7354,24.9106,32.9997,34.2433,34.3991,33.7373,33.2647,35.1199
+Australia,0,Other industries,E -S,Use,Sewerage and wastewater services ,$m,957.5313,986.8939,"1,011.90","1,044.17","1,067.21","1,066.25","1,081.16","1,142.52"
+Australia,0,Total Industry,Total industry,Use,Sewerage and wastewater services ,$m,"1,211.07","1,238.94","1,278.80","1,318.55","1,341.18","1,337.29","1,349.80","1,420.68"
+Australia,0,Households,HH,Use,Sewerage and wastewater services ,$m,"5,322.56","5,555.06","5,497.15","5,726.71","5,778.26","6,286.56","6,142.38","6,279.08"
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Use,Sewerage and wastewater services ,$m,1.4599,1.3072,1.3207,1.4647,0.2431, - , - , - 
+Australia,0,Imports,Imports,Use,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Use,Sewerage and wastewater services ,$m,31.1351,33.5676,39.0244,40.9756,51.7073,46.8293,34.6341,26.3415
+Australia,0,Taxes,Taxes,Use,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Use,Sewerage and wastewater services ,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Use,Sewerage and wastewater services ,$m,"6,566.23","6,828.88","6,816.30","7,087.71","7,171.39","7,670.68","7,526.82","7,726.10"
+Australia,0,"Agriculture, forestry and fishing",A,Use,Total expenditure,$m,653.3187,671.8555,637.8634,620.3811,579.1172,551.4875,590.8106,737.2145
+Australia,0,Mining,B,Use,Total expenditure,$m,237.3338,237.2938,230.9368,247.2566,300.4606,316.6737,248.2638,218.8893
+Australia,0,Manufacturing,C,Use,Total expenditure,$m,642.9226,726.6288,708.4561,663.9174,599.2205,582.9332,559.5544,592.6552
+Australia,0,"Electricity, gas and waste services",D,Use,Total expenditure,$m,193.9548,143.5112,231.3448,182.0013,178.125,252.5302,299.3029,168.1555
+Australia,0,"Water supply, sewerage and drainage services",D,Use,Total expenditure,$m,"2,003.47","2,004.90","2,095.31","2,151.25","2,418.42","2,619.71","2,521.26","2,538.57"
+Australia,0,"    Total electricity, gas, water and waste services",D,Use,Total expenditure,$m,"2,197.42","2,148.41","2,326.66","2,333.25","2,596.54","2,872.24","2,820.56","2,706.73"
+Australia,0,Other industries,E -S,Use,Total expenditure,$m,"2,005.40","2,271.39","2,291.57","2,705.55","3,051.56","2,723.27","2,905.69","3,081.59"
+Australia,0,Total Industry,Total industry,Use,Total expenditure,$m,"5,736.40","6,055.58","6,195.49","6,570.36","7,126.90","7,046.61","7,124.87","7,337.08"
+Australia,0,Households,HH,Use,Total expenditure,$m,"11,225.17","11,606.93","11,361.03","11,804.97","12,011.39","12,680.39","12,309.80","12,379.56"
+Australia,0,Social benefits paid in kind,Social benefits paid in kind,Use,Total expenditure,$m,584.436,558.2894,481.5876,416.6445,422.3923,433.1012,545.6079,695.9488
+Australia,0,Imports,Imports,Use,Total expenditure,$m, - , - , - , - , - , - , - , - 
+Australia,0,Exports,Exports,Use,Total expenditure,$m,64,69,80,84,106,96,71,54
+Australia,0,Taxes,Taxes,Use,Total expenditure,$m, - , - , - , - , - , - , - , - 
+Australia,0,Subsidies,Subsidies,Use,Total expenditure,$m, - , - , - , - , - , - , - , - 
+Australia,0,Total,Total,Use,Total expenditure,$m,"17,610.00","18,289.80","18,118.10","18,875.98","19,666.69","20,256.10","20,051.29","20,466.59"
+,,,,,,,,,,,,,,
+ - nil or rounded to zero (including null cells),,,,,,,,,,,,,,
+np not available for publication,,,,,,,,,,,,,,
+"(a) Current prices, i.e. the prices of the period to which the observation relates",,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+© Commonwealth of Australia 2023,,,,,,,,,,,,,,

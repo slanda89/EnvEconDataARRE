@@ -1,0 +1,42 @@
+Table 11: Slough and Heathrow reported the greatest increase in the average value of properties within 500 metres of green and blue space
+Average effect of green and blue space on property price by TTWA
+
+Travel-to-work area,"Average value
+(£)","Average value of 
+property price (%)",N validation set,"Avg. Distance to 
+Blue Spaces","Avg. Distance 
+green space"
+London,"4,045.0",1.0,"43,971.0",406.9,225.3
+Birmingham,"2,478.5",1.3,"14,529.0",342.3,267.3
+Manchester,"4,469.1",2.5,"14,161.0",282.2,219.4
+Slough and Heathrow,"7,097.1",1.8,"8,497.0",316.2,238
+Nottingham,"2,643.6",1.5,"7,775.0",407.9,255.3
+Leeds,"3,714.4",1.9,"7,401.0",428.1,242.8
+Bristol,"3,868.3",1.6,"7,047.0",345.9,206.7
+Sheffield,"1,943.7",1.2,"6,372.0",422.8,246.6
+Luton,"3,977.6",1.2,"6,220.0",495,245.5
+Liverpool,"3,999.1",2.5,"5,702.0",430.4,223.2
+Leicester,"2,205.9",1.2,"5,576.0",308.7,282.5
+Cardiff,"4,213.5",2.1,"4,916.0",289.8,258.5
+Newcastle,"4,550.4",2.5,"4,866.0",527.2,202.3
+Medway,"2,923.5",1.3,"4,858.0",576.6,282.7
+Guildford and Aldershot,"5,152.6",1.3,"4,772.0",305.1,242.6
+Portsmouth,"2,714.4",1.1,"4,482.0",350.5,281.8
+Norwich,"1,255.2",0.6,"4,351.0",411.7,291.4
+Warrington and Wigan,"2,584.1",1.7,"4,175.0",273.7,268.2
+Plymouth,862.3,0.4,"3,953.0",377.1,295.1
+Wolverhampton and Walsall,881.2,0.5,"3,763.0",365,286.3
+Chelmsford,"4,722.0",1.5,"3,649.0",286.4,293.9
+Milton Keynes,"3,107.2",1.3,"3,637.0",311,278
+Southampton,"3,440.2",1.3,"3,591.0",348.6,293.3
+Reading,"3,497.5",1.0,"3,579.0",371.4,282.5
+High Wycombe and Aylesbury,"3,720.0",1.1,"3,377.0",396.3,293.1
+Cambridge,"6,030.2",1.9,"2,986.0",320.6,243.6
+Ipswich,"3,082.4",1.4,"2,981.0",408.8,260.7
+Lincoln,"1,873.4",1.1,"2,924.0",357.2,318.2
+Derby,"2,164.4",1.2,"2,918.0",397.2,255.2
+Hull,"1,927.5",1.4,"2,832.0",370,289.6
+
+Source: ,Office for National Statistics
+Notes
+1,Estimates for the largest 30 TTWA in our validation sample.

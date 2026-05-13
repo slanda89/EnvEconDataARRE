@@ -1,0 +1,1050 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!--  head-tag.html -->
+<head>
+    <title>JRC Publications Repository</title>
+    <!-- <base href="//publications.jrc.ec.europa.eu/repository/" > -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="JRC">
+    <meta name="description" content="Access to Joint Research Centre's publications">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" >
+    <!-- <meta http-equiv="expires" content="300"> -->
+    <meta name="_csrf" content="IXDx7yHEgo2vanCG8xiAOpLtH64AV6HxndcghW4EgZKfEZFsGBOX30fxs7qCWROykDW0CaSOMpcyNcXcr7UUtF08sfaocqFb">
+    <meta name="_csrf_header" content="X-CSRF-TOKEN">
+    <link rel="icon" href="/repository/assets/images/favicon.ico" type="image/x-icon" >
+
+ 	<link href="/repository/assets/styles/repository.css" type="text/css" rel="stylesheet" >
+
+</head>
+<body>
+
+<!--  module-repository\src\main\webapp\jsp\template\header.html start -->
+
+<!--  global banner -->
+<script>
+function toggleGlobanDropdown(e) {
+	var n = document.querySelector('#globan-dropdown');
+	n.hidden = !n.hidden; 
+	var ch = document.querySelector('#globan-chevron'); 
+	(n.hidden ? ch.classList.replace('chevron-up', 'chevron-down') : ch.classList.replace('chevron-down', 'chevron-up'));
+	return false;
+}
+function toggleGlobanHighlight() {
+	var ch = document.querySelector('#globan-chevron');
+	ch.classList.toggle("globan-chevron-highlight");
+}
+</script>
+<div class="globan dark logo-flag" id="globan" style="z-index: 40;">
+    <div class="globan-center">
+        <div class="globan-content">
+            <span>An official website of the European Union</span>
+            <a  onclick="javascript: toggleGlobanDropdown(this);" 
+            	onmouseover="javascript: toggleGlobanHighlight();"
+            	onmouseout="javascript: toggleGlobanHighlight();">How do you know?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <div id="globan-chevron" class="chevron-down"></div>
+        </div>
+	</div>
+</div>
+
+<!--  global banner popup  -->
+<div id="globan-dropdown" class="globan-dropdown" hidden>
+	<p>All official European Union website addresses are in the <strong>europa.eu</strong> domain.</p>
+	<p><a href="//europa.eu/european-union/contact/institutions-bodies_en">See all EU institutions and bodies</a></p>
+</div>
+
+<header class="ecl-site-header-harmonised--group1 ecl-site-header-harmonised">
+
+	<!-- site header -->
+    <div class="ecl-site-header-harmonised__container ecl-container">
+        <div class="ecl-site-header-harmonised__top">
+            <a class="ec-link ecl-site-header-harmonised__logo-link" href="//ec.europa.eu" aria-label="European Commission"><img alt="European Commission logo" title="EUROPEAN COMMISSION &#10;DIRECTORATE-GENERAL &#10;Directorate JRC &#10;Unit T.4" class="ecl-site-header-harmonised__logo-image" src="/repository/assets/images/logo.en.svg" ></a>
+        </div>
+    </div>
+    
+    <!--  page header -->
+    <div class="ecl-site-header-harmonised__banner ec-blue">
+        <div class="ecl-container">
+        
+        	<!--  banner -->
+            <div class="site-name header-bar">JRC Publications Repository
+                <a class="ecl-icon-btn f-0 site-menu-toggler" href="." rel="nofollow">
+                    <svg focusable="false" class="ecl-icon ecl-icon--s" viewBox="0 0 24 24">
+                        <path d="M0 19.2h24v2.402H0zm0-8.4h24v2.4H0zm0-8.402h24v2.403H0zm0 0"></path>
+                    </svg>
+                    Menu
+                </a>
+            </div>
+
+			<!-- page menu (see bundle.js) -->
+            <nav class="nav-menu f-break ec-blue hidden" id="site-menu" aria-label="Site menu">
+                <div class="header-bar">
+                    <div class="ecl-menu__title">Menu</div>
+                    <a class="ecl-icon-btn f-0 site-menu-toggler" href="." rel="nofollow">
+                        <svg class="ecl-icon ecl-icon--s" viewBox="0 0 24 24"><path d="M15.242 16.588l-3.253-3.252-3.23 3.23-1.347-1.345 3.231-3.232-3.21-3.21L8.78 7.433l3.21 3.21 3.232-3.231 1.346 1.346-3.231 3.231 3.252 3.253-1.346 1.346zM12 1C5.925 1 1 5.925 1 12s4.925 11 11 11 11-4.925 11-11S18.075 1 12 1z"></path></svg>
+                        Close
+                    </a>
+                </div>
+                <a class="ec-link" href="/repository/home">Home</a>
+                <a class="ec-link" href="/repository/search">Search</a>
+                <a class="ec-link" href="https://joint-research-centre.ec.europa.eu/" target="_new">Joint Research Centre</a>
+                <a class="ec-link" href="/repository/help">Help</a>
+                <!-- <a class="ec-link" href="/repository/login">Reserved area</a>  -->
+                <!-- <a class="ec-link" href="/repository/auth">Check authorization</a> 
+                <a class="ec-link" href="/repository/auth2">Check authorization 2</a>  -->
+            </nav>
+        </div>
+    </div>
+    
+    <!-- breadcrumb -->
+    <div class="ecl-container">
+    	<nav class="nav-menu hidden" id="site-breadcrumb" aria-label="Site breadcrumb">
+	        <a class="ec-link" href="http://ec.europa.eu/" target="_new">European Commission</a>
+	        <span class="bcgt">&gt;</span>
+	        <a class="ec-link" href="https://joint-research-centre.ec.europa.eu/" target="_new">Joint Research Centre</a>
+	        <span class="bcgt">&gt;</span>
+	        <a class="ec-link" href="/repository" >JRC Publications Repository</a>
+	        <span class="bcgt">&gt;</span>
+	        <span class="ec-link path">Home</span>
+    </nav></div>
+
+</header>
+
+<!-- DEV/TEST overlay -->
+<div id="ipmEnv" class="ipmEnv"></div>
+
+<!--  header.html end -->
+
+
+
+
+<!--  home.jsp -->
+<section class="site-page-container f-grow f-wrap ecl-container">
+
+	<!-- banner -->
+    <div class="page-banner f-break">
+        <img alt="Website Banner" src="assets/images/banner.jpg" class="page-banner-backdrop" height="214" width="1500">
+        <div class="ec ec-block page-banner-panel f-break">
+            <div class="page-banner-text">
+                Access to Joint Research Centre's publications
+            </div>
+        </div>
+    </div>
+
+	<!--  search box -->
+    <div class="ec-block f-break">
+    	<div class="search-panel form">
+    		<div class="site-search-clone form-group search-size" id="form-facet-search" data-title="Search text" data-search="SEARCH_TEXT">
+    			<input class="search-input f-1" type="search"  data-search="SEARCH_TEXT" aria-label="SEARCH TEXT" 
+    				onFocus="javascript: fixSearchButton('focus');" 
+    				onBlur="javascript: fixSearchButton('blur');">
+   				<div id="vertical-bar" class="vertical-bar"></div>
+    			<button class="btn search-button" onMouseover="javascript: fixSearchButton('in');" 
+    				onMouseout="javascript: fixSearchButton('out');">
+    					<img src="assets/images/search.svg" height="15" width="15" alt="Search icon">
+					&nbsp;Search
+				</button>
+    			
+   			</div>
+		</div>
+    </div>
+    
+	<!-- list of publications -->
+    <div class="ec-block f-grow f-col">
+        <!--  document and page counters -->
+        <div class="ec-panel-counters">
+        	<!-- currently hidden -->
+	        <div class="page-counters">
+	        	<span class="ec-band-top ecl-title h4" id="search-total"></span><br>
+				<span id="search-report" class="h3" >Showing results 1 to 10</span>
+			</div>
+			<!-- visible -->
+			<div class="home-title">
+	        	<h1 class="bold h3" id="latest-pub">Latest publications</h1>
+	       	</div>
+       	</div>
+        <div class="ec-panel">
+            <div id="search-results">
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<!-- pager -->
+<div class="ec-panel">
+    <div class="h5 ec-band-top f-fixed f-wrap">
+        <ul class="pagination">
+        </ul>
+    </div>
+</div>
+
+<!-- footer.html (ECL 4.5.0 Standardised site footer) start -->
+<footer class="ec-block site-footer ec-blue padding-top-20" id="site-footer" >
+    <div class="site-identity f-base ecl-container f-wrap">
+        <div class="site-owner f-grow f-col padding-btm-20">
+            <div class="">
+                <a href="#" class="ec-title ec-link f-link">JRC Publications Repository</a>
+                <br>
+                <span class="ec-block ec-description-f">
+                	This site is managed by:<br> Joint Research Centre
+               	</span>
+               	<br>
+            	<a class="ec-link f-link " href="accessibility">Accessibility</a>
+            </div>
+        </div>
+        <div class="site-services f-grow f-col">
+            <div class="site-contact">
+                <div class="ec-title padding-btm-20">Contact us</div>
+                <div class="footer-list" >
+                	<a class="ec-link f-link icon-social" href="mailto:jrc-publications@ec.europa.eu">Contact JRC Publications Repository</a>
+               	</div>
+            </div>
+        </div>
+        <div class="site-navigation  f-grow f-col">
+            <div class="site-about">
+                <div class="ec-title padding-btm-20">About us</div>
+                <div class="footer-list">
+                	<a class="ec-link f-link" href="/repository/about">About page</a>
+               	</div>
+            </div>
+        </div>
+    </div>
+    <div class="site-corporate f-base ecl-container f-wrap padding-top-20">
+        <div class="corporate-owner f-grow f-col">
+            <div>
+                <a class="ec-link f-link ecl-site-footer-harmonised__logo-link" href="//ec.europa.eu" aria-label="European Commission"><img alt="European Commission logo" title="European Commission" class="ecl-site-footer-harmonised__logo-image" src="/repository/assets/images/logo-ec--en.10f5072b.svg"></a>
+            </div>
+        </div>
+        <div class="corporate-services f-grow f-col">
+            <div class="site-links"><div class="footer-list">
+                <a class="ec-link f-link" href="https://ec.europa.eu/info/about-european-commission/contact_en">Contact the European Commission</a>
+                <a class="ec-link f-link" href="https://europa.eu/european-union/contact/social-networks_en#n:+i:4+e:1+t:+s:">Follow the European Commission on social media</a>
+                <a class="ec-link f-link" href="https://ec.europa.eu/info/resources-partners_en">Resources for partners</a>
+            </div></div>
+        </div>
+        <div class="corporate-navigation f-grow f-col">
+            <div class="site-links">
+            	<div class="footer-list">
+	                <a class="ec-link f-link" href="https://ec.europa.eu/info/language-policy_en">Language policy</a>
+	                <a class="ec-link f-link" href="https://ec.europa.eu/info/cookies_en">Cookies</a>
+	                <a class="ec-link f-link" href="/repository/assets/JPR_privacy_statement.pdf">Privacy statement (Publications Repository)</a>
+	                <a class="ec-link f-link" href="https://ec.europa.eu/info/legal-notice_en">Legal notice</a>
+	                <a class="ec-link f-link" href="/repository/gsmap">Sitemap</a>
+            	</div>
+           	</div>
+        </div>
+    </div>
+</footer>
+<!-- footer.html end -->
+
+
+<!--  standard_scripts.html -->
+<script src="/repository/assets/libs/jquery-3.6.0.min.js" ></script>
+<script src="/repository/assets/libs/bundle.js" ></script>
+
+<!-- supports cookies consent and Europa Analytics -->
+<script defer="defer" src="https://webtools.europa.eu/load.js" ></script>
+
+<!-- cookies consent -->
+<!-- <script defer type="application/json"> -->
+<script type="application/json">
+    {"utility":"cck","url":"https://ec.europa.eu/info/cookies_en"}
+</script>
+
+<!-- Europa Analytics -->
+<script type="application/json">
+{
+  "utility": "analytics",
+  "siteID": "59b15b62-e452-43f2-a022-b4370c9a66a8",
+  "siteSection": "publications",
+  "sitePath": [
+    "publications.jrc.ec.europa.eu"
+  ],
+  "instance": "ec",
+  "dimensions": [{ "id": 3, "value": "DOCUMENT_NUMBER"}]
+}
+</script>
+
+<!-- 
+{
+	"utility": "analytics",
+	"siteID": "59b15b62-e452-43f2-a022-b4370c9a66a8",
+	"sitePath": ["publications.jrc.ec.europa.eu"],
+	"instance":"ec"
+}
+ -->
+<script>window._search={
+  "empty" : false,
+  "end" : 10,
+  "error" : false,
+  "exitCode" : "SUCCESS",
+  "filters" : {
+    "collection.science_area" : {
+      "empty" : false,
+      "entries" : {
+        "/SCIENCE_AREA/S001" : 5251,
+        "/SCIENCE_AREA/S002" : 2734,
+        "/SCIENCE_AREA/S003" : 5385,
+        "/SCIENCE_AREA/S004" : 13444,
+        "/SCIENCE_AREA/S005" : 7193,
+        "/SCIENCE_AREA/S006" : 3771,
+        "/SCIENCE_AREA/S007" : 7721,
+        "/SCIENCE_AREA/S008" : 6286,
+        "/SCIENCE_AREA/S009" : 8126,
+        "/SCIENCE_AREA/S010" : 3603,
+        "/SCIENCE_AREA/S011" : 1870,
+        "/SCIENCE_AREA/S012" : 6867
+      },
+      "keySet" : [ "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S002", "/SCIENCE_AREA/S003", "/SCIENCE_AREA/S004", "/SCIENCE_AREA/S005", "/SCIENCE_AREA/S006", "/SCIENCE_AREA/S007", "/SCIENCE_AREA/S008", "/SCIENCE_AREA/S009", "/SCIENCE_AREA/S010", "/SCIENCE_AREA/S011", "/SCIENCE_AREA/S012" ],
+      "name" : "collection.science_area"
+    },
+    "collection.year_range" : {
+      "empty" : false,
+      "entries" : {
+        "1980" : 489,
+        "1990" : 2117,
+        "2000" : 9831,
+        "2010" : 17660,
+        "2020" : 9258
+      },
+      "keySet" : [ "1980", "1990", "2000", "2010", "2020" ],
+      "name" : "collection.year_range"
+    },
+    "collection.year" : {
+      "empty" : false,
+      "entries" : {
+        "1984" : 3,
+        "1985" : 22,
+        "1986" : 61,
+        "1987" : 105,
+        "1988" : 146,
+        "1989" : 152,
+        "1990" : 137,
+        "1991" : 181,
+        "1992" : 107,
+        "1993" : 111,
+        "1994" : 94,
+        "1995" : 186,
+        "1996" : 251,
+        "1997" : 333,
+        "1998" : 364,
+        "1999" : 353,
+        "2000" : 464,
+        "2001" : 414,
+        "2002" : 519,
+        "2003" : 521
+      },
+      "keySet" : [ "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003" ],
+      "name" : "collection.year"
+    },
+    "collection.group" : {
+      "empty" : false,
+      "entries" : {
+        "/GROUP/G001" : 3750,
+        "/GROUP/G002" : 27782,
+        "/GROUP/G003" : 5685,
+        "/GROUP/G004" : 771,
+        "/GROUP/G005" : 1367
+      },
+      "keySet" : [ "/GROUP/G001", "/GROUP/G002", "/GROUP/G003", "/GROUP/G004", "/GROUP/G005" ],
+      "name" : "collection.group"
+    },
+    "collection.contributors" : {
+      "empty" : false,
+      "entries" : {
+        "ANKLAM Elke;;;" : 207,
+        "BALDINI Gianmarco;;;" : 199,
+        "BARUTH Bettina;;;" : 253,
+        "BERTOLDI Paolo;0000-0002-2797-7941;;" : 331,
+        "BRUCHERTSEIFER Frank;;;" : 316,
+        "COLINEAU Eric;;;" : 230,
+        "HAMBSCH Franz-Josef;;;" : 198,
+        "HULT Mikael;0000-0002-9248-6786;;" : 226,
+        "KONINGS Rudy;0000-0001-6113-2128;;" : 287,
+        "MONTANARELLA Luca;;;" : 283,
+        "MORGENSTERN Alfred;;;" : 370,
+        "OBERSTEDT Stephan;0000-0003-3457-7222;;" : 224,
+        "PANAGOS Panagiotis;0000-0003-1484-2738;;" : 246,
+        "PLOMPEN Arjan;0000-0001-9465-9639;;" : 335,
+        "REBIZANT Jean;;;" : 218,
+        "ROSSI Francois;;;" : 232,
+        "SALA Serenella;0000-0003-1919-9948;;" : 257,
+        "SCHILLEBEECKX Peter;;;" : 307,
+        "TORETI Andrea;0000-0002-1983-2523;;" : 217,
+        "WORTH Andrew;0000-0002-5303-0452;;" : 273
+      },
+      "keySet" : [ "ANKLAM Elke;;;", "BALDINI Gianmarco;;;", "BARUTH Bettina;;;", "BERTOLDI Paolo;0000-0002-2797-7941;;", "BRUCHERTSEIFER Frank;;;", "COLINEAU Eric;;;", "HAMBSCH Franz-Josef;;;", "HULT Mikael;0000-0002-9248-6786;;", "KONINGS Rudy;0000-0001-6113-2128;;", "MONTANARELLA Luca;;;", "MORGENSTERN Alfred;;;", "OBERSTEDT Stephan;0000-0003-3457-7222;;", "PANAGOS Panagiotis;0000-0003-1484-2738;;", "PLOMPEN Arjan;0000-0001-9465-9639;;", "REBIZANT Jean;;;", "ROSSI Francois;;;", "SALA Serenella;0000-0003-1919-9948;;", "SCHILLEBEECKX Peter;;;", "TORETI Andrea;0000-0002-1983-2523;;", "WORTH Andrew;0000-0002-5303-0452;;" ],
+      "name" : "collection.contributors"
+    }
+  },
+  "items" : [ {
+    "id" : "JRC145919",
+    "dc.publisher" : "European Commission",
+    "data.citation.145919.type" : "GENERIC",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "document.names" : "Policy for forest resilience against wildfires",
+    "dc.subtitle" : "Integration from preparedness to restoration",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC145919",
+    "document.278067.mimetype" : "application/pdf",
+    "dc.description.sponsorship" : "JRC.D.1 - Land and Climate",
+    "search.contributors" : [ "VIEIRA Diana", "0000-0003-2213-3798", "SANCHEZ GARCIA Carmen", "0000-0001-6753-243X", "CESCATTI Alessandro", "PICKERING Mark", "COLDITZ Rene", "BOURGOIN Clement", "0000-0003-4923-3035", "BEUCHLE Rene", "JONES Arwyn", "MAENHOUT Greet", "0000-0002-9335-0709" ],
+    "collection.science_area" : "/SCIENCE_AREA/S004",
+    "document.278067.checksumAlgorithm" : "MD5",
+    "collections" : [ "2026", "/SCIENCE_AREA/S004", "/GROUP/G001" ],
+    "document.278067.disk" : "JRC145919_278067",
+    "stream.document.278067" : "1",
+    "data.citation.145919.text" : "VIEIRA, D., SANCHEZ GARCIA, C., CESCATTI, A., PICKERING, M., COLDITZ, R. et al., Forest resilience against wildfires - Integration from preparedness to restoration, European Commission, Ispra, 2026, JRC145919.",
+    "document.278067.name" : "Policy for forest resilience against wildfires",
+    "id" : "JRC145919",
+    "collection.group" : "/GROUP/G001",
+    "data.bibtex" : "@techreport{JRC145919,\n\tnumber = {},\n\taddress = {Ispra (Italy)},\n\tissn = {},\n\tyear = {2026},\n\tauthor = {Vieira, D. and Sanchez Garcia, C. and Cescatti, A. and Pickering, M. and Colditz, R. and Bourgoin, C. and Beuchle, R. and Jones, A. and Maenhout, G.},\n\tisbn = {},\n\tpublisher = {European Commission},\n\tabstract = {Treat fire resilience as strategic investment for our long-term capacity to remain competitive, secure resources, and adapt to climate. Reduce institutional vulnerability and enhance the Union’s capacity to manage transboundary risks. Leverage EU monitoring infrastructure for harmonised assessment, strengthening anticipatory governance while reducing crisis-driven responses. Integrate fire management and risk assessment into spatial and environmental planning and infrastructure development, safeguarding energy systems, transport, water security, ecosystems and rural economies. Prioritize restoration of burned areas as opportunities for risk prevention and long-term climate adaptation. Invest in prevention and adaptation, stabilise supply chains, protect carbon sinks and biodiversity, and reinforce capacity to tackle climate risks.},\n\ttitle = {Forest resilience against wildfires},\n\ttype = {},\n\turl = {},\n\tdoi = {}\n}",
+    "document.278067.filename" : "JRC145919_01.pdf",
+    "extra.collection.science_area" : "Environment and climate change",
+    "dc.description.abstract" : "Treat fire resilience as strategic investment for our long-term capacity to remain competitive, secure resources, and adapt to climate.\nReduce institutional vulnerability and enhance the Union’s capacity to manage transboundary risks.\nLeverage EU monitoring infrastructure for harmonised assessment, strengthening anticipatory governance while reducing crisis-driven responses.\nIntegrate fire management and risk assessment into spatial and environmental planning and infrastructure development, safeguarding energy systems, transport, water security, ecosystems and rural economies.\nPrioritize restoration of burned areas as opportunities for risk prevention and long-term climate adaptation.\nInvest in prevention and adaptation, stabilise supply chains, protect carbon sinks and biodiversity, and reinforce capacity to tackle climate risks.",
+    "dc.contributor.author" : [ "VIEIRA Diana", "SANCHEZ GARCIA Carmen", "CESCATTI Alessandro", "PICKERING Mark", "COLDITZ Rene", "BOURGOIN Clement", "BEUCHLE Rene", "JONES Arwyn", "MAENHOUT Greet" ],
+    "dc.date.submitted" : "2026-02-17",
+    "dc.identifier.citation" : "VIEIRA, D., SANCHEZ GARCIA, C., CESCATTI, A., PICKERING, M., COLDITZ, R. et al., Forest resilience against wildfires - Integration from preparedness to restoration, European Commission, Ispra, 2026, JRC145919.",
+    "dc.date.accessioned" : "2026-03-19",
+    "dc.date.created" : "2026-03-12",
+    "document.278067.size" : 6186223,
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "VIEIRA Diana;0000-0003-2213-3798;;", "SANCHEZ GARCIA Carmen;0000-0001-6753-243X;;", "CESCATTI Alessandro;;;", "PICKERING Mark;;European Dynamics Italy S.A.;", "COLDITZ Rene;;;", "BOURGOIN Clement;0000-0003-4923-3035;;", "BEUCHLE Rene;;;", "JONES Arwyn;;;", "MAENHOUT Greet;0000-0002-9335-0709;;" ],
+    "item.handle" : 145919,
+    "item.updateTime" : "2026-03-19T09:32:20",
+    "dc.title" : "Forest resilience against wildfires",
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 145919,
+    "document.278067.cover" : "JRC145919_278067_cover.jpg",
+    "document.278067.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "dc.relation.ispartofseries" : "JRC145919",
+    "dc.type" : "Science for policy",
+    "data.id.citations" : [ "145919" ],
+    "document.278067.type" : "DOCUMENT",
+    "suggest.contributors" : [ "VIEIRA DIANA", "0000-0003-2213-3798", "SANCHEZ GARCIA CARMEN", "0000-0001-6753-243X", "CESCATTI ALESSANDRO", "PICKERING MARK", "COLDITZ RENE", "BOURGOIN CLEMENT", "0000-0003-4923-3035", "BEUCHLE RENE", "JONES ARWYN", "MAENHOUT GREET", "0000-0002-9335-0709" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Environment and climate change",
+    "extra.collection.group" : "Science for policy",
+    "document.278067.main" : "Y",
+    "document.mainCover" : "JRC145919_278067_cover.jpg",
+    "data.citation.145919.language" : "ENG",
+    "document.id" : [ "278067" ],
+    "dc.date.available" : "2026-03-26"
+  }, {
+    "id" : "JRC145203",
+    "dc.publisher" : "Publications Office of the European Union",
+    "document.278592.disk" : "JRC145203_278592",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "document.names" : "Recommendations on concept and methodology for the selection of substances for the Groundwater Watch List",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC145203",
+    "dc.description.sponsorship" : "JRC.D.2 - Ocean and Water",
+    "search.contributors" : [ "SANSEVERINO Isabella", "GOMEZ CORTES Livia", "MARINOV Dimitar", "LETTIERI Teresa" ],
+    "collection.science_area" : [ "/SCIENCE_AREA/S004", "/SCIENCE_AREA/S005" ],
+    "collections" : [ "2026", "/SCIENCE_AREA/S004", "/SCIENCE_AREA/S005", "/GROUP/G003" ],
+    "id" : "JRC145203",
+    "document.278592.main" : "Y",
+    "collection.group" : "/GROUP/G003",
+    "data.bibtex" : "@article{JRC145203,\n\tnumber = {KJ-01-26-039-EN-N },\n\taddress = {Luxembourg (Luxembourg)},\n\tissn = {1831-9424 },\n\tyear = {2026},\n\tauthor = {Sanseverino, I. and Gomez Cortes, L. and Marinov, D. and Lettieri, T.},\n\tisbn = {978-92-68-36342-3 },\n\tpublisher = {Publications Office of the European Union},\n\tabstract = {In October 2022, the Commission launched the proposal of review for the Water Framework Directive (WFD) and its daughter directives, the Groundwater Directive (GWD) and the Environmental Quality Standards Directive (EQSD). In the GWD, a Groundwater Watch List (GW WL) has been established to monitor pollutants of emerging concern, in view of assessing the need to set European (EU) standards. This report presents recommendations on a concept and methodology for the identification and selection of substances to be listed in the GW WL. The proposed methodology is aligned with the Surface Water Watch List (SW WL) under the WFD, integrating as much as possible the approach adopted under the voluntary GW WL. The report describes the overall process for selecting candidate substances for the GW WL, detailing the similarities and differences between the selection procedure proposed by the Joint Research Centre (JRC), and the methodology of the voluntary GW WL. It also describes the sources used to identify the potential candidates, the criteria followed for their identification, and rationale for selection. The applicability of the new methodology is demonstrated by two case-studies (shown in Annex I): the assessment of the existing Priority Substances (PS) and the evaluation of the substances included in the voluntary GW WL. An illustrative shortlist of candidate substances is shown, resulting from the integration of the two case studies.},\n\ttitle = {Recommendations on concept and methodology for the selection of substances for the Groundwater Watch List},\n\turl = {},\n\tdoi = {10.2760/5187077 }\n}",
+    "extra.collection.science_area" : [ "Environment and climate change", "Health and consumer protection" ],
+    "document.278592.type" : "DOCUMENT",
+    "dc.description.abstract" : "In October 2022, the Commission launched the proposal of review for the Water Framework Directive (WFD) and its daughter directives, the Groundwater Directive (GWD) and the Environmental Quality Standards Directive (EQSD). In the GWD, a Groundwater Watch List (GW WL) has been established to monitor pollutants of emerging concern, in view of assessing the need to set European (EU) standards. This report presents recommendations on a concept and methodology for the identification and selection of substances to be listed in the GW WL. The proposed methodology is aligned with the Surface Water Watch List (SW WL) under the WFD, integrating as much as possible the approach adopted under the voluntary GW WL. The report describes the overall process for selecting candidate substances for the GW WL, detailing the similarities and differences between the selection procedure proposed by the Joint Research Centre (JRC), and the methodology of the voluntary GW WL. It also describes the sources used to identify the potential candidates, the criteria followed for their identification, and rationale for selection. The applicability of the new methodology is demonstrated by two case-studies (shown in Annex I): the assessment of the existing Priority Substances (PS) and the evaluation of the substances included in the voluntary GW WL. An illustrative shortlist of candidate substances is shown, resulting from the integration of the two case studies.",
+    "dc.contributor.author" : [ "SANSEVERINO Isabella", "GOMEZ CORTES Livia", "MARINOV Dimitar", "LETTIERI Teresa" ],
+    "data.citation.28891.text" : "SANSEVERINO, I., GOMEZ CORTES, L., MARINOV, D. and LETTIERI, T., Recommendations on concept and methodology for the selection of substances for the Groundwater Watch List, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5187077, JRC145203.",
+    "dc.date.submitted" : "2025-12-15",
+    "dc.identifier.citation" : "SANSEVERINO, I., GOMEZ CORTES, L., MARINOV, D. and LETTIERI, T., Recommendations on concept and methodology for the selection of substances for the Groundwater Watch List, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5187077 (online), JRC145203.",
+    "dc.date.accessioned" : "2026-03-25",
+    "dc.date.created" : "2026-03-18",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "SANSEVERINO Isabella;;Piksel S.r.l.;", "GOMEZ CORTES Livia;;Piksel S.r.l.;", "MARINOV Dimitar;;Arhs Developments;", "LETTIERI Teresa;;;" ],
+    "dc.identifier.isbn" : "978-92-68-36342-3 (online)",
+    "dc.identifier.doi" : "10.2760/5187077 (online)",
+    "data.citation.145203.text" : "SANSEVERINO, I., GOMEZ CORTES, L., MARINOV, D. and LETTIERI, T., Recommendations on concept and methodology for the selection of substances for the Groundwater Watch List, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5187077 (online), JRC145203.",
+    "stream.document.278592" : "1",
+    "item.handle" : 145203,
+    "item.updateTime" : "2026-03-25T08:23:15",
+    "dc.title" : "Recommendations on concept and methodology for the selection of substances for the Groundwater Watch List",
+    "dc.identifier.issn" : "1831-9424 (online)",
+    "ids" : [ "1831-9424", "978-92-68-36342-3", "10.2760/5187077", "OP KJ-01-26-039-EN-N" ],
+    "document.278592.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 145203,
+    "dc.identifier.other" : [ "EUR 40617", "OP KJ-01-26-039-EN-N (online)" ],
+    "document.278592.checksumAlgorithm" : "MD5",
+    "data.citation.145203.type" : "GENERIC",
+    "dc.relation.ispartofseries" : "JRC145203",
+    "data.citation.28891.language" : "ENG",
+    "data.citation.28891.type" : "ONLINE",
+    "dc.type" : "Technical reports",
+    "document.278592.filename" : "JRC145203_01.pdf",
+    "data.id.citations" : [ "145203", "28891" ],
+    "document.278592.mimetype" : "application/pdf",
+    "document.278592.size" : 2606182,
+    "suggest.contributors" : [ "SANSEVERINO ISABELLA", "GOMEZ CORTES LIVIA", "MARINOV DIMITAR", "LETTIERI TERESA" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Environment and climate change",
+    "extra.collection.group" : "Technical reports",
+    "document.278592.cover" : "JRC145203_278592_cover.jpg",
+    "document.278592.name" : "Recommendations on concept and methodology for the selection of substances for the Groundwater Watch List",
+    "document.mainCover" : "JRC145203_278592_cover.jpg",
+    "data.citation.145203.language" : "ENG",
+    "document.id" : [ "278592" ],
+    "dc.date.available" : "2026-03-25"
+  }, {
+    "id" : "JRC140090",
+    "dc.publisher" : "ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD",
+    "data.citation.140090.type" : "GENERIC",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2025,
+    "dc.relation.ispartofseries" : "JRC140090",
+    "journal.title" : "JOURNAL OF ENVIRONMENTAL POLICY & PLANNING",
+    "dc.identifier.uri" : [ "https://www.tandfonline.com/doi/full/10.1080/1523908X.2025.2553014", "https://publications.jrc.ec.europa.eu/repository/handle/JRC140090" ],
+    "dc.description.sponsorship" : "JRC.B.3 - Territorial Development",
+    "search.contributors" : [ "KATSIKIS Nikos", "0000-0003-4694-8991", "SARACENO Pier", "STAMOS Iraklis", "0000-0002-8686-9190" ],
+    "collection.science_area" : [ "/SCIENCE_AREA/S002", "/SCIENCE_AREA/S006" ],
+    "data.citation.29491.type" : "ONLINE",
+    "dc.type" : "Scientific articles and academic literature",
+    "collections" : [ "2025", "/SCIENCE_AREA/S002", "/SCIENCE_AREA/S006", "/GROUP/G002" ],
+    "data.id.citations" : [ "140090", "29491" ],
+    "id" : "JRC140090",
+    "data.citation.140090.language" : "ENG",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC140090,\n\taddress = {},\n\tyear = {2025},\n\tauthor = {Katsikis, N. and Saraceno, P. and Stamos, I.},\n\tabstract = {This paper examines the question of localizing SDGs by linking them to the variegated spatialities urbanization processes. The guiding hypothesis is that the processes underlying SDGs are connected to dominant urbanization processes that characterize subnational regions, i.e. processes of concentrated, or extended urbanization, according to the Planetary Urbanization literature. It focuses on the relationship of a selection of 6 Sustainable Development Goals and 52 associated targets with the scales and landscapes produced through concentrated and extended urbanization processes, aiming to contribute to a systematic understanding on the degree to which they can be effectively monitored and achieved at subnational levels. As these processes are inherently multiscalar, and connect variegated landscapes across and within territories, the implementation of SDGs would need to acknowledge, contextualize, and transform this diversity of scales and landscapes. The paper develops a theoretical and conceptual apparatus for comprehending and assessing the relationship of SDGs with core urbanization processes that largely shape the production of space and its social and ecological inequalities, thus spatializing, and “urbanizing” them in order to question the capacity for localizing them.},\n\ttitle = {Spatializing the Sustainable Development Goals (SDGs): The role of urbanization in SDGs localization across spatial scales},\n\ttype = {},\n\turl = {https://www.tandfonline.com/doi/full/10.1080/1523908X.2025.2553014},\n\tvolume = {28},\n\tnumber = {2},\n\tjournal = {JOURNAL OF ENVIRONMENTAL POLICY & PLANNING},\n\tpages = {247-267},\n\tissn = {1522-7200 },\n\tpublisher = {ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD},\n\tdoi = {10.1080/1523908X.2025.2553014 }\n}",
+    "extra.collection.science_area" : [ "Economic and monetary Union", "Information society" ],
+    "dc.description.abstract" : "This paper examines the question of localizing SDGs by linking them to the variegated spatialities urbanization processes. The guiding hypothesis is that the processes underlying SDGs are connected to dominant urbanization processes that characterize subnational regions, i.e. processes of concentrated, or extended urbanization, according to the Planetary Urbanization literature. It focuses on the relationship of a selection of 6 Sustainable Development Goals and 52 associated targets with the scales and landscapes produced through concentrated and extended urbanization processes, aiming to contribute to a systematic understanding on the degree to which they can be effectively monitored and achieved at subnational levels. As these processes are inherently multiscalar, and connect variegated landscapes across and within territories, the implementation of SDGs would need to acknowledge, contextualize, and transform this diversity of scales and landscapes. The paper develops a theoretical and conceptual apparatus for comprehending and assessing the relationship of SDGs with core urbanization processes that largely shape the production of space and its social and ecological inequalities, thus spatializing, and “urbanizing” them in order to question the capacity for localizing them.",
+    "dc.contributor.author" : [ "KATSIKIS Nikos", "SARACENO Pier", "STAMOS Iraklis" ],
+    "suggest.contributors" : [ "KATSIKIS NIKOS", "0000-0003-4694-8991", "SARACENO PIER", "STAMOS IRAKLIS", "0000-0002-8686-9190" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Economic and monetary Union",
+    "dc.date.submitted" : "2024-11-13",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "KATSIKIS, N., SARACENO, P. and STAMOS, I., Spatializing the Sustainable Development Goals (SDGs): The role of urbanization in SDGs localization across spatial scales, JOURNAL OF ENVIRONMENTAL POLICY & PLANNING, 28, 2, 2025, p. 247-267, ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD, https://data.europa.eu/doi/10.1080/1523908X.2025.2553014 (online), JRC140090.",
+    "dc.date.accessioned" : "2026-03-25",
+    "dc.date.created" : "2026-03-23",
+    "data.citation.29491.language" : "ENG",
+    "data.citation.29491.text" : "KATSIKIS, N., SARACENO, P. and STAMOS, I., Spatializing the Sustainable Development Goals (SDGs): The role of urbanization in SDGs localization across spatial scales, JOURNAL OF ENVIRONMENTAL POLICY & PLANNING, 28, 2, 2025, p. 247-267, ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD, https://data.europa.eu/doi/10.1080/1523908X.2025.2553014, JRC140090.",
+    "dc.date.issued" : "2025",
+    "collection.contributors" : [ "KATSIKIS Nikos;0000-0003-4694-8991;Delft University of Technology;Technische Universiteit Delft", "SARACENO Pier;;;", "STAMOS Iraklis;0000-0002-8686-9190;;" ],
+    "dc.identifier.doi" : "10.1080/1523908X.2025.2553014 (online)",
+    "item.handle" : 140090,
+    "item.updateTime" : "2026-03-25T11:29:35",
+    "data.citation.140090.text" : "KATSIKIS, N., SARACENO, P. and STAMOS, I., Spatializing the Sustainable Development Goals (SDGs): The role of urbanization in SDGs localization across spatial scales, JOURNAL OF ENVIRONMENTAL POLICY & PLANNING, 28, 2, 2025, p. 247-267, ROUTLEDGE JOURNALS, TAYLOR & FRANCIS LTD, https://data.europa.eu/doi/10.1080/1523908X.2025.2553014 (online), JRC140090.",
+    "dc.title" : "Spatializing the Sustainable Development Goals (SDGs): The role of urbanization in SDGs localization across spatial scales",
+    "dc.identifier.issn" : "1522-7200 (online)",
+    "ids" : [ "1522-7200", "10.1080/1523908X.2025.2553014" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 140090,
+    "dc.date.available" : "2026-03-25"
+  }, {
+    "id" : "JRC145527",
+    "dc.publisher" : "MULTIDISCIPLINARY DIGITAL PUBLISHING INSTITUTE (MDPI)",
+    "data.citation.29437.text" : "GARCIA GORRIZ, E., MACIAS MOY, D., GONZALEZ FERNANDEZ, D., ARCANGELI, A., FERREIRA CORDEIRO, N. et al., Model Prediction of Macroplastic Distributions in European Marine Basins: Comparison with Beach and Floating Macroplastic Observations and Estimation of Model Accuracy, OCEANS, 7, 2, 2026, p. 26, MULTIDISCIPLINARY DIGITAL PUBLISHING INSTITUTE (MDPI), https://data.europa.eu/doi/10.3390/oceans7020026, JRC145527.",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC145527",
+    "journal.title" : "OCEANS",
+    "data.citation.29437.type" : "ONLINE",
+    "dc.identifier.uri" : [ "https://www.mdpi.com/2673-1924/7/2/26", "https://publications.jrc.ec.europa.eu/repository/handle/JRC145527" ],
+    "dc.description.sponsorship" : "JRC.D.2 - Ocean and Water",
+    "search.contributors" : [ "GARCIA GORRIZ Elisa", "MACIAS MOY Diego", "0000-0002-7772-255X", "GONZALEZ FERNANDEZ Daniel", "ARCANGELI Antonella", "FERREIRA CORDEIRO Nuno", "0000-0001-8239-4020", "DUTEIL Olaf", "0000-0002-5670-570X", "MILADINOVA-MARINOVA Svetla", "PARN Ove", "RUIZ-OREJÓN Luis Francisco", "0000-0001-8529-2927", "PASANISI Eugenia", "CROSTI Roberto", "DAVID Lea" ],
+    "collection.science_area" : "/SCIENCE_AREA/S004",
+    "dc.type" : "Scientific articles and academic literature",
+    "collections" : [ "2026", "/SCIENCE_AREA/S004", "/GROUP/G002" ],
+    "data.citation.145527.type" : "GENERIC",
+    "data.id.citations" : [ "145527", "29437" ],
+    "id" : "JRC145527",
+    "data.citation.145527.text" : "GARCIA GORRIZ, E., MACIAS MOY, D., GONZALEZ FERNANDEZ, D., ARCANGELI, A., FERREIRA CORDEIRO, N. et al., Model Prediction of Macroplastic Distributions in European Marine Basins: Comparison with Beach and Floating Macroplastic Observations and Estimation of Model Accuracy, OCEANS, 7, 2, 2026, p. 26, MULTIDISCIPLINARY DIGITAL PUBLISHING INSTITUTE (MDPI), https://data.europa.eu/doi/10.3390/oceans7020026 (online), JRC145527.",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC145527,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Garcia Gorriz, E. and Macias Moy, D. and Gonzalez Fernandez, D. and Arcangeli, A. and Ferreira Cordeiro, N. and Duteil, O. and Miladinova-Marinova, S. and Parn, O. and Ruiz-Orejón, L.F. and Pasanisi, E. and Crosti, R. and David, L.},\n\tabstract = {Accumulation of plastic litter in the marine environment is a pressing global concern. To study this issue, we use the Blue2 Modelling Framework (Blue2MF), an integrated modelling tool developed by the Joint Research Centre (JRC) of the European Commission. Our study uses the Lagrangian model LTRANS-Zlev (LTRANS) in the Blue2MF to simulate the trajectories, distribution, and accumulation of macroplastics in five European marine basins: the Baltic Sea, Black Sea, Mediterranean Sea, Atlantic Northwest European Shelf, and Atlantic Southwest European Shelf. By incorporating model-estimated macroplastic inputs from land and estimations of maritime (fishing) sources, we simulate distribution patterns of marine macroplastics between 2016 and 2018. Our study addresses the challenges involved in modelling the spatial distribution and abundances of macroplastics with the LTRANS model and the factors that may condition the estimation of the model accuracy when model results are compared/validated with marine litter observations available. We compare our model results with available observations, achieving a good agreement between predicted and observed macroplastic distributions and abundances and estimating the model accuracy for both beached and floating macroplastics. Our study provides a basis for future forecast runs to evaluate the impact of policy/management options on marine macroplastic pollution in European Seas.},\n\ttitle = {Model Prediction of Macroplastic Distributions in European Marine Basins: Comparison with Beach and Floating Macroplastic Observations and Estimation of Model Accuracy},\n\ttype = {},\n\turl = {https://www.mdpi.com/2673-1924/7/2/26},\n\tvolume = {7},\n\tnumber = {2},\n\tjournal = {OCEANS},\n\tpages = {26},\n\tissn = {2673-1924 },\n\tpublisher = {MULTIDISCIPLINARY DIGITAL PUBLISHING INSTITUTE (MDPI)},\n\tdoi = {10.3390/oceans7020026 }\n}",
+    "extra.collection.science_area" : "Environment and climate change",
+    "dc.description.abstract" : "Accumulation of plastic litter in the marine environment is a pressing global concern. To study this issue, we use the Blue2 Modelling Framework (Blue2MF), an integrated modelling tool developed by the Joint Research Centre (JRC) of the European Commission. Our study uses the Lagrangian model LTRANS-Zlev (LTRANS) in the Blue2MF to simulate the trajectories, distribution, and accumulation of macroplastics in five European marine basins: the Baltic Sea, Black Sea, Mediterranean Sea, Atlantic Northwest European Shelf, and Atlantic Southwest European Shelf. By incorporating model-estimated macroplastic inputs from land and estimations of maritime (fishing) sources, we simulate distribution patterns of marine macroplastics between 2016 and 2018. Our study addresses the challenges involved in modelling the spatial distribution and abundances of macroplastics with the LTRANS model and the factors that may condition the estimation of the model accuracy when model results are compared/validated with marine litter observations available. We compare our model results with available observations, achieving a good agreement between predicted and observed macroplastic distributions and abundances and estimating the model accuracy for both beached and floating macroplastics. Our study provides a basis for future forecast runs to evaluate the impact of policy/management options on marine macroplastic pollution in European Seas.",
+    "dc.contributor.author" : [ "GARCIA GORRIZ Elisa", "MACIAS MOY Diego", "GONZALEZ FERNANDEZ Daniel", "ARCANGELI Antonella", "FERREIRA CORDEIRO Nuno", "DUTEIL Olaf", "MILADINOVA-MARINOVA Svetla", "PARN Ove", "RUIZ-OREJÓN Luis Francisco", "PASANISI Eugenia", "CROSTI Roberto", "DAVID Lea" ],
+    "data.citation.145527.language" : "ENG",
+    "suggest.contributors" : [ "GARCIA GORRIZ ELISA", "MACIAS MOY DIEGO", "0000-0002-7772-255X", "GONZALEZ FERNANDEZ DANIEL", "ARCANGELI ANTONELLA", "FERREIRA CORDEIRO NUNO", "0000-0001-8239-4020", "DUTEIL OLAF", "0000-0002-5670-570X", "MILADINOVA-MARINOVA SVETLA", "PARN OVE", "RUIZ-OREJÓN LUIS FRANCISCO", "0000-0001-8529-2927", "PASANISI EUGENIA", "CROSTI ROBERTO", "DAVID LEA" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Environment and climate change",
+    "dc.date.submitted" : "2026-01-20",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "GARCIA GORRIZ, E., MACIAS MOY, D., GONZALEZ FERNANDEZ, D., ARCANGELI, A., FERREIRA CORDEIRO, N. et al., Model Prediction of Macroplastic Distributions in European Marine Basins: Comparison with Beach and Floating Macroplastic Observations and Estimation of Model Accuracy, OCEANS, 7, 2, 2026, p. 26, MULTIDISCIPLINARY DIGITAL PUBLISHING INSTITUTE (MDPI), https://data.europa.eu/doi/10.3390/oceans7020026 (online), JRC145527.",
+    "dc.date.accessioned" : "2026-03-25",
+    "dc.date.created" : "2026-03-12",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "GARCIA GORRIZ Elisa;;;", "MACIAS MOY Diego;0000-0002-7772-255X;;", "GONZALEZ FERNANDEZ Daniel;;University of Cadiz;", "ARCANGELI Antonella;;Institute for Environmental Protection and Research (ISPRA);Istituto Superiore per la Protezione e la Ricerca Ambientale (ISPRA)", "FERREIRA CORDEIRO Nuno;0000-0001-8239-4020;SEIDOR Italy;", "DUTEIL Olaf;0000-0002-5670-570X;Duteil Environmental Numerics;", "MILADINOVA-MARINOVA Svetla;;;", "PARN Ove;;Tallinn University of Technology (TalTech);Tallinna Tehnikaülikool (TalTech)", "RUIZ-OREJÓN Luis Francisco;0000-0001-8529-2927;;", "PASANISI Eugenia;;Sapienza University of Rome;Università degli Studi di Roma \"La Sapienza\"", "CROSTI Roberto;;Institute for Environmental Protection and Research (ISPRA);Istituto Superiore per la Protezione e la Ricerca Ambientale (ISPRA)", "DAVID Lea;;EcoOcéan Institut;" ],
+    "dc.identifier.doi" : "10.3390/oceans7020026 (online)",
+    "data.citation.29437.language" : "ENG",
+    "item.handle" : 145527,
+    "item.updateTime" : "2026-03-25T11:33:28",
+    "dc.title" : "Model Prediction of Macroplastic Distributions in European Marine Basins: Comparison with Beach and Floating Macroplastic Observations and Estimation of Model Accuracy",
+    "dc.identifier.issn" : "2673-1924 (online)",
+    "ids" : [ "2673-1924", "10.3390/oceans7020026" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 145527,
+    "dc.date.available" : "2026-03-25"
+  }, {
+    "id" : "JRC144562",
+    "dc.publisher" : "ELSEVIER GMBH",
+    "data.id.datasets" : [ "1465719" ],
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "dc.relation.ispartofseries" : "JRC144562",
+    "journal.title" : "INTERNATIONAL JOURNAL OF HYGIENE AND ENVIRONMENTAL HEALTH",
+    "data.citation.29452.type" : "ONLINE",
+    "dc.identifier.uri" : [ "https://www.sciencedirect.com/science/article/pii/S1438463926000441", "https://publications.jrc.ec.europa.eu/repository/handle/JRC144562" ],
+    "dc.description.sponsorship" : "JRC.F.3 - Systems Toxicology",
+    "search.contributors" : [ "CHINCHIO Eleonora", "0000-0002-8104-2063", "CASATI Silvia", "CLERBAUX Laure-Alix", "0000-0003-2707-482X", "BOPP Stephanie", "0000-0003-1082-8007" ],
+    "data.citation.144562.type" : "GENERIC",
+    "collection.science_area" : [ "/SCIENCE_AREA/S004", "/SCIENCE_AREA/S005" ],
+    "dc.type" : "Scientific articles and academic literature",
+    "collections" : [ "2026", "/SCIENCE_AREA/S004", "/SCIENCE_AREA/S005", "/GROUP/G002" ],
+    "data.citation.144562.language" : "ENG",
+    "data.id.citations" : [ "144562", "29452" ],
+    "id" : "JRC144562",
+    "collection.group" : "/GROUP/G002",
+    "data.bibtex" : "@article{JRC144562,\n\taddress = {},\n\tyear = {2026},\n\tauthor = {Chinchio, E. and Casati, S. and Clerbaux, L. and Bopp, S.},\n\tabstract = {Strengthening public health preparedness against emerging and existing threats requires integrating chemical and infectious disease research, consistent with One Health principles. This scoping review systematically maps epidemiological evidence linking chemical exposures to human infectious disease susceptibility or severity. We searched Web of Science and PubMed (1980–August 2023), ultimately synthesizing data from 94 primary analytical studies. Studies are heavily concentrated on metals (Arsenic, Cadmium, Lead) and PFAS (PFOA, PFOS), primarily in relation to respiratory infections across infants and children. The overall evidence trend suggests an increased risk associated with chemical exposure, although the body of evidence is fragmented across many specific chemical-outcome pairings. Key knowledge gaps include under-investigation of adolescents and the elderly, and a lack of consistent mechanistic understanding linking exposure to outcome. The high heterogeneity in study reporting underscores a need for standardized epidemiological methods. This review synthesizes current knowledge of chemical-outcome pairs, identifies gaps to guide research priorities, and discusses perspectives to leverage mechanistic-based frameworks to better inform effective regulatory actions against environmental immunotoxicants, especially for vulnerable populations.},\n\ttitle = {Impact of chemical exposures on human infectious diseases: a scoping review to identify gaps and priorities},\n\ttype = {},\n\turl = {https://www.sciencedirect.com/science/article/pii/S1438463926000441},\n\tvolume = {274},\n\tnumber = {},\n\tjournal = {INTERNATIONAL JOURNAL OF HYGIENE AND ENVIRONMENTAL HEALTH},\n\tpages = {114784},\n\tissn = {1618-131X },\n\tpublisher = {ELSEVIER GMBH},\n\tdoi = {10.1016/j.ijheh.2026.114784 }\n}",
+    "extra.collection.science_area" : [ "Environment and climate change", "Health and consumer protection" ],
+    "dataset.1465719.title" : "Impact of chemical exposures on human infectious diseases: a scoping review to identify gaps and priorities – Supplementary Data S1",
+    "dc.description.abstract" : "Strengthening public health preparedness against emerging and existing threats requires integrating chemical and infectious disease research, consistent with One Health principles.\nThis scoping review systematically maps epidemiological evidence linking chemical exposures to human infectious disease susceptibility or severity. We searched Web of Science and PubMed (1980–August 2023), ultimately synthesizing data from 94 primary analytical studies.\nStudies are heavily concentrated on metals (Arsenic, Cadmium, Lead) and PFAS (PFOA, PFOS), primarily in relation to respiratory infections across infants and children. The overall evidence trend suggests an increased risk associated with chemical exposure, although the body of evidence is fragmented across many specific chemical-outcome pairings. Key knowledge gaps include under-investigation of adolescents and the elderly, and a lack of consistent mechanistic understanding linking exposure to outcome. The high heterogeneity in study reporting underscores a need for standardized epidemiological methods.\nThis review synthesizes current knowledge of chemical-outcome pairs, identifies gaps to guide research priorities, and discusses perspectives to leverage mechanistic-based frameworks to better inform effective regulatory actions against environmental immunotoxicants, especially for vulnerable populations.",
+    "dc.contributor.author" : [ "CHINCHIO Eleonora", "CASATI Silvia", "CLERBAUX Laure-Alix", "BOPP Stephanie" ],
+    "dataset.1465719.id" : "408fa012-27d1-4d42-8d55-2651bac1bcd9",
+    "suggest.contributors" : [ "CHINCHIO ELEONORA", "0000-0002-8104-2063", "CASATI SILVIA", "CLERBAUX LAURE-ALIX", "0000-0003-2707-482X", "BOPP STEPHANIE", "0000-0003-1082-8007" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Environment and climate change",
+    "dc.date.submitted" : "2025-11-11",
+    "extra.collection.group" : "Scientific articles and academic literature",
+    "dc.identifier.citation" : "CHINCHIO, E., CASATI, S., CLERBAUX, L.-A. and BOPP, S., Impact of chemical exposures on human infectious diseases: a scoping review to identify gaps and priorities, INTERNATIONAL JOURNAL OF HYGIENE AND ENVIRONMENTAL HEALTH, 274, 2026, p. 114784, ELSEVIER GMBH, https://data.europa.eu/doi/10.1016/j.ijheh.2026.114784 (online), JRC144562.",
+    "dc.date.accessioned" : "2026-03-25",
+    "dataset.1465719.acronym" : "null",
+    "dc.date.created" : "2025-11-24",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "CHINCHIO Eleonora;0000-0002-8104-2063;;", "CASATI Silvia;;;", "CLERBAUX Laure-Alix;0000-0003-2707-482X;UCLouvain;Université Catholique de Louvain (UCL)", "BOPP Stephanie;0000-0003-1082-8007;;" ],
+    "dc.identifier.doi" : "10.1016/j.ijheh.2026.114784 (online)",
+    "data.citation.144562.text" : "CHINCHIO, E., CASATI, S., CLERBAUX, L.-A. and BOPP, S., Impact of chemical exposures on human infectious diseases: a scoping review to identify gaps and priorities, INTERNATIONAL JOURNAL OF HYGIENE AND ENVIRONMENTAL HEALTH, 274, 2026, p. 114784, ELSEVIER GMBH, https://data.europa.eu/doi/10.1016/j.ijheh.2026.114784 (online), JRC144562.",
+    "dataset.1465719.url" : "https://data.jrc.ec.europa.eu/dataset/408fa012-27d1-4d42-8d55-2651bac1bcd9",
+    "item.handle" : 144562,
+    "item.updateTime" : "2026-03-25T15:01:07",
+    "dc.title" : "Impact of chemical exposures on human infectious diseases: a scoping review to identify gaps and priorities",
+    "dc.identifier.issn" : "1618-131X (online)",
+    "ids" : [ "1618-131X", "10.1016/j.ijheh.2026.114784" ],
+    "data.citation.29452.text" : "CHINCHIO, E., CASATI, S., CLERBAUX, L.-A. and BOPP, S., Impact of chemical exposures on human infectious diseases: a scoping review to identify gaps and priorities, INTERNATIONAL JOURNAL OF HYGIENE AND ENVIRONMENTAL HEALTH, 274, 2026, p. 114784, ELSEVIER GMBH, https://data.europa.eu/doi/10.1016/j.ijheh.2026.114784, JRC144562.",
+    "data.citation.29452.language" : "ENG",
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 144562,
+    "dc.date.available" : "2026-03-25"
+  }, {
+    "id" : "JRC145688",
+    "dc.publisher" : "Publications Office of the European Union",
+    "document.278452.name" : "Co-Creation spaces for citizen empowerment",
+    "data.citation.29443.type" : "ONLINE",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "document.names" : "Co-Creation spaces for citizen empowerment",
+    "data.citation.145688.language" : "ENG",
+    "data.citation.29443.text" : "ROSA, P. and GUIMARAES PEREIRA, Â., Co-Creation spaces for citizen empowerment, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/8437993, JRC145688.",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC145688",
+    "dc.description.sponsorship" : "JRC.S.2 - Science for Democracy, Public Governance and Administration",
+    "search.contributors" : [ "ROSA Paulo", "GUIMARAES PEREIRA Ângela", "0000-0002-6196-0799" ],
+    "data.citation.145688.text" : "ROSA, P. and GUIMARAES PEREIRA, Â., Co-Creation spaces for citizen empowerment, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/8437993 (online), JRC145688.",
+    "document.278452.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "collection.science_area" : "/SCIENCE_AREA/S011",
+    "collections" : [ "2026", "/SCIENCE_AREA/S011", "/GROUP/G005" ],
+    "id" : "JRC145688",
+    "collection.group" : "/GROUP/G005",
+    "data.bibtex" : "@conference{JRC145688,\n\taddress = {Luxembourg (Luxembourg)},\n\tyear = {2026},\n\tauthor = {Rosa, P. and Guimaraes Pereira, Â.},\n\tisbn = {978-92-68-38237-0 },\n\tabstract = {The event \"Co-creation spaces for citizen empowerment\", held from 3rd to 5th November 2025 at the JRC Makerspace and Collaborative space, highlighted the importance of grassroots public spaces in fostering community engagement and social innovation. Key discussions focused on intergenerational collaboration, residence programmes, alternative learning environments, and community engagement. The event led to four policy recommendations for the European Commission to support projects developed in grassroots public spaces, recognise informal skills, promote collaboration, and evaluate impact.},\n\ttitle = {Co-Creation spaces for citizen empowerment},\n\turl = {},\n\tnumber = {KJ-01-26-125-EN-N },\n\teventtitle = {Co-creation spaces for citizen empowerment},\n\tissn = {},\n\torganization = {European Commission},\n\tpublisher = {Publications Office of the European Union},\n\tdoi = {10.2760/8437993 }\n}",
+    "extra.collection.science_area" : "JRC corporate",
+    "document.278452.disk" : "JRC145688_278452",
+    "dc.description.abstract" : "The event \"Co-creation spaces for citizen empowerment\", held from 3rd to 5th November 2025 at the JRC Makerspace and Collaborative space, highlighted the importance of grassroots public spaces in fostering community engagement and social innovation. Key discussions focused on intergenerational collaboration, residence programmes, alternative learning environments, and community engagement. The event led to four policy recommendations for the European Commission to support projects developed in grassroots public spaces, recognise informal skills, promote collaboration, and evaluate impact.",
+    "dc.contributor.author" : [ "ROSA Paulo", "GUIMARAES PEREIRA Ângela" ],
+    "document.278452.checksumAlgorithm" : "MD5",
+    "dc.date.submitted" : "2026-03-10",
+    "dc.identifier.citation" : "ROSA, P. and GUIMARAES PEREIRA, Â., Co-Creation spaces for citizen empowerment, Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/8437993 (online), JRC145688.",
+    "data.citation.145688.type" : "GENERIC",
+    "document.278452.mimetype" : "application/pdf",
+    "dc.date.accessioned" : "2026-03-24",
+    "dc.date.created" : "2026-03-18",
+    "document.278452.cover" : "JRC145688_278452_cover.jpg",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "ROSA Paulo;;;", "GUIMARAES PEREIRA Ângela;0000-0002-6196-0799;;" ],
+    "dc.identifier.isbn" : "978-92-68-38237-0 (online)",
+    "dc.identifier.doi" : "10.2760/8437993 (online)",
+    "data.citation.29443.language" : "ENG",
+    "item.handle" : 145688,
+    "item.updateTime" : "2026-03-24T12:28:06",
+    "dc.title" : "Co-Creation spaces for citizen empowerment",
+    "ids" : [ "978-92-68-38237-0", "10.2760/8437993", "OP KJ-01-26-125-EN-N" ],
+    "dc.language" : "ENG",
+    "document.278452.type" : "DOCUMENT",
+    "item.pubsy_id" : 145688,
+    "dc.identifier.other" : "OP KJ-01-26-125-EN-N (online)",
+    "document.278452.main" : "Y",
+    "dc.relation.ispartofseries" : "JRC145688",
+    "dc.type" : "Presentations and science dissemination",
+    "data.id.citations" : [ "145688", "29443" ],
+    "suggest.contributors" : [ "ROSA PAULO", "GUIMARAES PEREIRA ÂNGELA", "0000-0002-6196-0799" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "JRC corporate",
+    "extra.collection.group" : "Presentations and science dissemination",
+    "document.278452.filename" : "JRC145688_01.pdf",
+    "document.mainCover" : "JRC145688_278452_cover.jpg",
+    "document.278452.size" : 502190,
+    "stream.document.278452" : "1",
+    "document.id" : [ "278452" ],
+    "dc.date.available" : "2026-03-24"
+  }, {
+    "id" : "JRC145695",
+    "dc.publisher" : "Publications Office of the European Union",
+    "data.citation.28997.language" : "ENG",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "document.278489.name" : "JRC MARS Bulletin - Crop monitoring in Europe - March 2026 - Vol. 34 No 2",
+    "document.names" : "JRC MARS Bulletin - Crop monitoring in Europe - March 2026 - Vol. 34 No 2",
+    "dc.subtitle" : "​​​Crops exit from winter dormancy in favourable conditions​​",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC145695",
+    "dc.description.sponsorship" : "JRC.D.5 - Food Security",
+    "search.contributors" : [ "BEN AOUN Wassim", "0009-0007-7866-5124", "BIAVETTI Irene", "BUSSAY Attila", "0009-0007-2430-389X", "CERRANI Iacopo", "CLAVERIE Martin", "0000-0001-9479-3205", "DE PALMA Pierluca", "FUMAGALLI Davide", "HENIN Riccardo", "0000-0003-1569-9021", "LUQUE REYES Jose", "0009-0004-7152-7472", "MOREL Julien", "0000-0003-3209-5668", "NIEMEYER Stefan", "0000-0002-5676-0266", "NISINI Luigi", "PANARELLO Lorenzo", "0009-0002-1157-8038", "ROSSI Mattia", "0000-0003-4760-1607", "SEGUINI Lorenzo", "0000-0003-0118-1328", "TARNAVSKY Elena", "0000-0003-3403-0411", "THIEMIG Vera", "0000-0002-4234-3752", "TODOROFF Pierre", "0000-0002-7229-6571", "ZUCCHINI Antonio", "THIEMIG Vera", "0000-0002-4234-3752", "BEN AOUN Wassim", "0009-0007-7866-5124", "NIEMEYER Stefan", "0000-0002-5676-0266" ],
+    "collection.science_area" : [ "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S004" ],
+    "collections" : [ "2026", "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S004", "/GROUP/G001" ],
+    "data.citation.145695.language" : "ENG",
+    "id" : "JRC145695",
+    "collection.group" : "/GROUP/G001",
+    "data.bibtex" : "@techreport{JRC145695,\n\tnumber = {KJ-01-26-012-EN-N },\n\taddress = {Luxembourg (Luxembourg)},\n\tissn = {2443-8278 },\n\tyear = {2026},\n\tauthor = {Ben Aoun, W. and Biavetti, I. and Bussay, A. and Cerrani, I. and Claverie, M. and De Palma, P. and Fumagalli, D. and Henin, R. and Luque Reyes, J. and Morel, J. and Niemeyer, S. and Nisini, L. and Panarello, L. and Rossi, M. and Seguini, L. and Tarnavsky, E. and Thiemig, V. and Todoroff, P. and Zucchini, A. and Thiemig, V. and Ben Aoun, W. and Niemeyer, S.},\n\tisbn = {},\n\tpublisher = {Publications Office of the European Union},\n\tabstract = {Winter crops across Europe are gradually restarting their vegetative growth under favourable conditions, supported by adequate soil moisture and mild late-winter temperatures in many regions. However, excessive rainfall in south-western Europe and parts of eastern Europe in February caused temporary waterlogging and local flooding, though impacts on arable crops remain limited so far. Emerging precipitation deficits in north-eastern Europe require monitoring, as crop water demand will be increasing soon.   Winter hardening was generally sufficient, but severe frost episodes in February, particularly in areas with limited snow cover, may have caused local damage in parts of Poland, Ukraine and the Baltic states.   This edition of the bulletin also presents the first quantitative crop yield forecasts for the 2025/2026 cropping season, mostly based on historical trends.},\n\ttitle = {JRC MARS Bulletin - Crop monitoring in Europe - March 2026 - Vol. 34 No 2},\n\ttype = {},\n\turl = {},\n\tdoi = {10.2760/2271917 }\n}",
+    "extra.collection.science_area" : [ "Agriculture and food security", "Environment and climate change" ],
+    "document.278489.disk" : "JRC145695_278489",
+    "dc.description.abstract" : "Winter crops across Europe are gradually restarting their vegetative growth under favourable conditions, supported by adequate soil moisture and mild late-winter temperatures in many regions. However, excessive rainfall in south-western Europe and parts of eastern Europe in February caused temporary waterlogging and local flooding, though impacts on arable crops remain limited so far. Emerging precipitation deficits in north-eastern Europe require monitoring, as crop water demand will be increasing soon. \n\nWinter hardening was generally sufficient, but severe frost episodes in February, particularly in areas with limited snow cover, may have caused local damage in parts of Poland, Ukraine and the Baltic states. \n\nThis edition of the bulletin also presents the first quantitative crop yield forecasts for the 2025/2026 cropping season, mostly based on historical trends.",
+    "dc.contributor.author" : [ "BEN AOUN Wassim", "BIAVETTI Irene", "BUSSAY Attila", "CERRANI Iacopo", "CLAVERIE Martin", "DE PALMA Pierluca", "FUMAGALLI Davide", "HENIN Riccardo", "LUQUE REYES Jose", "MOREL Julien", "NIEMEYER Stefan", "NISINI Luigi", "PANARELLO Lorenzo", "ROSSI Mattia", "SEGUINI Lorenzo", "TARNAVSKY Elena", "THIEMIG Vera", "TODOROFF Pierre", "ZUCCHINI Antonio" ],
+    "dc.date.submitted" : "2026-01-30",
+    "dc.identifier.citation" : "BEN AOUN, W., BIAVETTI, I., BUSSAY, A., CERRANI, I., CLAVERIE, M. et al., JRC MARS Bulletin - Crop monitoring in Europe - March 2026 - Vol. 34 No 2 - ​​​Crops exit from winter dormancy in favourable conditions​​, THIEMIG, V., BEN AOUN, W. and NIEMEYER, S. (editors), Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/2271917 (online), JRC145695.",
+    "dc.date.accessioned" : "2026-03-23",
+    "dc.date.created" : "2026-03-23",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "BEN AOUN Wassim;0009-0007-7866-5124;;", "BIAVETTI Irene;;;", "BUSSAY Attila;0009-0007-2430-389X;Arcadia SIT S.r.l.;", "CERRANI Iacopo;;Fincons SpA;", "CLAVERIE Martin;0000-0001-9479-3205;;", "DE PALMA Pierluca;;Fincons Group;", "FUMAGALLI Davide;;Fincons SpA;", "HENIN Riccardo;0000-0003-1569-9021;;", "LUQUE REYES Jose;0009-0004-7152-7472;;", "MOREL Julien;0000-0003-3209-5668;;", "NIEMEYER Stefan;0000-0002-5676-0266;;", "NISINI Luigi;;Fincons SpA;", "PANARELLO Lorenzo;0009-0002-1157-8038;Arcadia SIT srl;", "ROSSI Mattia;0000-0003-4760-1607;;", "SEGUINI Lorenzo;0000-0003-0118-1328;Engineering Ingegneria Informatica S.p.A.;", "TARNAVSKY Elena;0000-0003-3403-0411;;", "THIEMIG Vera;0000-0002-4234-3752;;", "TODOROFF Pierre;0000-0002-7229-6571;;", "ZUCCHINI Antonio;;Fincons Group;", "THIEMIG Vera;0000-0002-4234-3752;;", "BEN AOUN Wassim;0009-0007-7866-5124;;", "NIEMEYER Stefan;0000-0002-5676-0266;;" ],
+    "dc.identifier.doi" : "10.2760/2271917 (online)",
+    "document.278489.size" : 15112099,
+    "item.handle" : 145695,
+    "item.updateTime" : "2026-03-23T14:38:07",
+    "data.citation.145695.text" : "BEN AOUN, W., BIAVETTI, I., BUSSAY, A., CERRANI, I., CLAVERIE, M. et al., JRC MARS Bulletin - Crop monitoring in Europe - March 2026 - Vol. 34 No 2 - ​​​Crops exit from winter dormancy in favourable conditions​​, THIEMIG, V., BEN AOUN, W. and NIEMEYER, S. (editors), Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/2271917 (online), JRC145695.",
+    "dc.title" : "JRC MARS Bulletin - Crop monitoring in Europe - March 2026 - Vol. 34 No 2",
+    "dc.identifier.issn" : "2443-8278 (online)",
+    "ids" : [ "2443-8278", "10.2760/2271917", "OP KJ-01-26-012-EN-N" ],
+    "dc.language" : "ENG",
+    "document.278489.filename" : "JRC145695_01.pdf",
+    "item.pubsy_id" : 145695,
+    "dc.identifier.other" : "OP KJ-01-26-012-EN-N (online)",
+    "document.278489.checksumAlgorithm" : "MD5",
+    "data.citation.145695.type" : "GENERIC",
+    "dc.relation.ispartofseries" : "JRC145695",
+    "stream.document.278489" : "1",
+    "dc.type" : "Science for policy",
+    "data.id.citations" : [ "145695", "28997" ],
+    "document.278489.cover" : "JRC145695_278489_cover.jpg",
+    "document.278489.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "document.278489.type" : "DOCUMENT",
+    "dc.contributor.editor" : [ "THIEMIG Vera", "BEN AOUN Wassim", "NIEMEYER Stefan" ],
+    "suggest.contributors" : [ "BEN AOUN WASSIM", "0009-0007-7866-5124", "BIAVETTI IRENE", "BUSSAY ATTILA", "0009-0007-2430-389X", "CERRANI IACOPO", "CLAVERIE MARTIN", "0000-0001-9479-3205", "DE PALMA PIERLUCA", "FUMAGALLI DAVIDE", "HENIN RICCARDO", "0000-0003-1569-9021", "LUQUE REYES JOSE", "0009-0004-7152-7472", "MOREL JULIEN", "0000-0003-3209-5668", "NIEMEYER STEFAN", "0000-0002-5676-0266", "NISINI LUIGI", "PANARELLO LORENZO", "0009-0002-1157-8038", "ROSSI MATTIA", "0000-0003-4760-1607", "SEGUINI LORENZO", "0000-0003-0118-1328", "TARNAVSKY ELENA", "0000-0003-3403-0411", "THIEMIG VERA", "0000-0002-4234-3752", "TODOROFF PIERRE", "0000-0002-7229-6571", "ZUCCHINI ANTONIO", "THIEMIG VERA", "0000-0002-4234-3752", "BEN AOUN WASSIM", "0009-0007-7866-5124", "NIEMEYER STEFAN", "0000-0002-5676-0266" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Agriculture and food security",
+    "extra.collection.group" : "Science for policy",
+    "data.citation.28997.type" : "ONLINE",
+    "document.mainCover" : "JRC145695_278489_cover.jpg",
+    "document.278489.mimetype" : "application/pdf",
+    "document.id" : [ "278489" ],
+    "data.citation.28997.text" : "BEN AOUN, W., BIAVETTI, I., BUSSAY, A., CERRANI, I., CLAVERIE, M. et al., JRC MARS Bulletin - Crop monitoring in Europe - March 2026 - Vol. 34 No 2 - ​​​Crops exit from winter dormancy in favourable conditions​​, THIEMIG, V., BEN AOUN, W. and NIEMEYER, S. (editors), Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/2271917, JRC145695.",
+    "dc.date.available" : "2026-03-23",
+    "document.278489.main" : "Y"
+  }, {
+    "id" : "JRC145627",
+    "dc.publisher" : "Publications Office of the European Union",
+    "data.citation.145627.text" : "NIEHAVES, B. and KLASSEN, G., GovTech practices by EU Public Administrations - Influencing factors and recommendations to foster cross-border, interoperable public services in Europe, MANZONI, M. (editor), Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5278978 (online),10.2760/4205711 (print), JRC145627.",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "document.names" : "GovTech practices by EU Public Administrations - Influencing factors and recommendations to foster cross-border, interoperable public services in Europe",
+    "dc.subtitle" : "Influencing factors and recommendations to foster cross-border, interoperable public services in Europe",
+    "data.citation.145627.type" : "GENERIC",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC145627",
+    "dc.description.sponsorship" : "JRC.T.1 - Digital Economy and Society",
+    "search.contributors" : [ "NIEHAVES Björn", "KLASSEN Gerhard", "MANZONI Marina" ],
+    "data.citation.29142.text" : "NIEHAVES, B. and KLASSEN, G., GovTech practices by EU Public Administrations - Influencing factors and recommendations to foster cross-border, interoperable public services in Europe, MANZONI, M. (editor), Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5278978, JRC145627.",
+    "collection.science_area" : [ "/SCIENCE_AREA/S006", "/SCIENCE_AREA/S007" ],
+    "collections" : [ "2026", "/SCIENCE_AREA/S006", "/SCIENCE_AREA/S007", "/GROUP/G005" ],
+    "data.citation.145627.language" : "ENG",
+    "id" : "JRC145627",
+    "collection.group" : "/GROUP/G005",
+    "data.bibtex" : "@techreport{JRC145627,\n\tnumber = {KJ-01-26-066-EN-N ,KJ-01-26-066-EN-C },\n\taddress = {Luxembourg (Luxembourg)},\n\tissn = {},\n\tyear = {2026},\n\tauthor = {Niehaves, B. and Klassen, G. and Manzoni, M.},\n\tisbn = {978-92-68-37481-8 ,978-92-68-37482-5 },\n\tpublisher = {Publications Office of the European Union},\n\tabstract = {While public procurement accounts for over 14% of the EU GDP, cross-border GovTech procurement remains a limited practice rather than an established norm in the European Union, accounting for less than three percent of all public tenders. This study provides the first systematic, data-driven analysis on public administrations as procurers (the buyer side) of the GovTech ecosystem, identifying the institutional, strategic, and governance factors that shape public administrations’ readiness to procure innovative digital solutions across borders.  Based on more than 1.6 million procurement records from Tenders Electronic Daily and complemented by interviews with practitioners from public administrations across Europe and expert from the area, the results show that innovation-oriented strategies, professional procurement structures, and flexible procedures significantly, increase the likelihood of cross-border engagement by public administrations that combine these internal capabilities with external openness, transparency and market awareness form the most dynamic segment of Europe’s emerging GovTech market.   The policy implications and recommendations described in this study extend beyond the GovTech area and procurement itself. They underline the importance of policy coherence and regulatory coordination at all levels (EU, national and regional/local level), strategic behaviour and administrative capability, market knowledge and institutional trust as necessary preconditions for an integrated European GovTech market.},\n\ttitle = {GovTech practices by EU Public Administrations},\n\ttype = {Policy Development},\n\turl = {},\n\tdoi = {10.2760/5278978 ,10.2760/4205711 }\n}",
+    "extra.collection.science_area" : [ "Information society", "Innovation and growth" ],
+    "dc.description.abstract" : "While public procurement accounts for over 14% of the EU GDP, cross-border GovTech procurement remains a limited practice rather than an established norm in the European Union, accounting for less than three percent of all public tenders. This study provides the first systematic, data-driven analysis on public administrations as procurers (the buyer side) of the GovTech ecosystem, identifying the institutional, strategic, and governance factors that shape public administrations’ readiness to procure innovative digital solutions across borders.\n\nBased on more than 1.6 million procurement records from Tenders Electronic Daily and complemented by interviews with practitioners from public administrations across Europe and expert from the area, the results show that innovation-oriented strategies, professional procurement structures, and flexible procedures significantly, increase the likelihood of cross-border engagement by public administrations that combine these internal capabilities with external openness, transparency and market awareness form the most dynamic segment of Europe’s emerging GovTech market. \n\nThe policy implications and recommendations described in this study extend beyond the GovTech area and procurement itself. They underline the importance of policy coherence and regulatory coordination at all levels (EU, national and regional/local level), strategic behaviour and administrative capability, market knowledge and institutional trust as necessary preconditions for an integrated European GovTech market.",
+    "dc.contributor.author" : [ "NIEHAVES Björn", "KLASSEN Gerhard" ],
+    "document.278294.filename" : "JRC145627_01.pdf",
+    "dc.date.submitted" : "2026-01-28",
+    "dc.identifier.citation" : "NIEHAVES, B. and KLASSEN, G., GovTech practices by EU Public Administrations - Influencing factors and recommendations to foster cross-border, interoperable public services in Europe, MANZONI, M. (editor), Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/5278978 (online),10.2760/4205711 (print), JRC145627.",
+    "dc.date.accessioned" : "2026-03-19",
+    "dc.date.created" : "2026-02-19",
+    "data.citation.29142.language" : "ENG",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "NIEHAVES Björn;;University of Bremen;", "KLASSEN Gerhard;;University of Bremen;", "MANZONI Marina;;;" ],
+    "dc.identifier.isbn" : [ "978-92-68-37481-8 (online)", "978-92-68-37482-5 (print)" ],
+    "dc.identifier.doi" : [ "10.2760/5278978 (online)", "10.2760/4205711 (print)" ],
+    "item.handle" : 145627,
+    "item.updateTime" : "2026-03-19T14:46:17",
+    "dc.title" : "GovTech practices by EU Public Administrations",
+    "ids" : [ "978-92-68-37481-8", "978-92-68-37482-5", "10.2760/5278978", "10.2760/4205711", "OP KJ-01-26-066-EN-N", "OP KJ-01-26-066-EN-C" ],
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 145627,
+    "dc.identifier.other" : [ "OP KJ-01-26-066-EN-N (online)", "OP KJ-01-26-066-EN-C (print)" ],
+    "data.citation.29141.language" : "ENG",
+    "document.278294.name" : "GovTech practices by EU Public Administrations - Influencing factors and recommendations to foster cross-border, interoperable public services in Europe",
+    "document.278294.size" : 5452638,
+    "data.citation.29141.type" : "PRINTED",
+    "stream.document.278294" : "1",
+    "dc.relation.ispartofseries" : "JRC145627",
+    "document.278294.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "dc.type" : "Presentations and science dissemination",
+    "document.278294.checksumAlgorithm" : "MD5",
+    "data.id.citations" : [ "145627", "29142", "29141" ],
+    "document.278294.disk" : "JRC145627_278294",
+    "document.278294.mimetype" : "application/pdf",
+    "dc.contributor.editor" : "MANZONI Marina",
+    "suggest.contributors" : [ "NIEHAVES BJÖRN", "KLASSEN GERHARD", "MANZONI MARINA" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Information society",
+    "extra.collection.group" : "Presentations and science dissemination",
+    "data.citation.29142.type" : "ONLINE",
+    "document.278294.cover" : "JRC145627_278294_cover.jpg",
+    "document.278294.type" : "DOCUMENT",
+    "document.278294.main" : "Y",
+    "document.mainCover" : "JRC145627_278294_cover.jpg",
+    "data.citation.29141.text" : "NIEHAVES, B. and KLASSEN, G., GovTech practices by EU Public Administrations - Influencing factors and recommendations to foster cross-border, interoperable public services in Europe, MANZONI, M. (editor), Publications Office of the European Union, Luxembourg, 2026, https://data.europa.eu/doi/10.2760/4205711, JRC145627.",
+    "document.id" : [ "278294" ],
+    "dc.date.available" : "2026-03-19"
+  }, {
+    "id" : "JRC142929",
+    "dc.publisher" : "European Commission",
+    "document.278367.disk" : "JRC142929_278367",
+    "document.278367.mimetype" : "application/pdf",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "document.names" : "Is the EU Deforestation Regulation affecting the price of the regulated commodities?",
+    "document.278367.filename" : "JRC142929_01.pdf",
+    "dc.subtitle" : "JRC Working Papers on  Economic Analysis of Policies in Africa 2026/01",
+    "document.278367.name" : "Is the EU Deforestation Regulation affecting the price of the regulated commodities?",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC142929",
+    "dc.description.sponsorship" : "JRC.D.4 - Economics of Food Systems",
+    "search.contributors" : [ "ROGNA Marco", "0000-0003-2995-3625", "TILLIE Pascal", "0000-0002-0920-7492" ],
+    "collection.science_area" : [ "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S004" ],
+    "collections" : [ "2026", "/SCIENCE_AREA/S001", "/SCIENCE_AREA/S004", "/GROUP/G001" ],
+    "id" : "JRC142929",
+    "collection.group" : "/GROUP/G001",
+    "data.bibtex" : "@misc{JRC142929,\n\tnumber = {},\n\taddress = {Seville (Spain)},\n\tissn = {},\n\tyear = {2026},\n\tauthor = {Rogna, M. and Tillie, P.},\n\tisbn = {},\n\tpublisher = {European Commission},\n\tabstract = {Adopted in June 2023, the European Union Regulation on Deforestation-free products (EUDR) aims at reducing global deforestation by creating a traceability system that should prevent products that have caused deforestation to be placed on, or exported from, the European market. The price increase of several commodities covered by the EUDR in the last few years has raised the concern that this could have been caused by the same regulation, due to increased production or compliance costs or market operator behaviour, even before the effective application of the EUDR. The present study tries to assess this hypothesis using descriptive statistics and data visualization. Several elements seem to indicate a distinctive pattern in the price increase of the commodities covered by the EUDR after 2023, but an imbalance between demand and supply for many of such commodities strongly undermines the argument of a causal effect of the regulation. Indeed, considering this imbalance, it appears that the observed price spikes for some EUDR-regulated commodities may have coincided with the entrance into force of the EUDR by chance, rather than being a direct consequence of the regulation.},\n\ttitle = {Is the EU Deforestation Regulation affecting the price of the regulated commodities?},\n\ttype = {},\n\turl = {},\n\tdoi = {}\n}",
+    "extra.collection.science_area" : [ "Agriculture and food security", "Environment and climate change" ],
+    "dc.description.abstract" : "Adopted in June 2023, the European Union Regulation on Deforestation-free products (EUDR) aims at reducing global deforestation by creating a traceability system that should prevent products that have caused deforestation to be placed on, or exported from, the European market. The price increase of several commodities covered by the EUDR in the last few years has raised the concern that this could have been caused by the same regulation, due to increased production or compliance costs or market operator behaviour, even before the effective application of the EUDR. The present study tries to assess this hypothesis using descriptive statistics and data visualization. Several elements seem to indicate a distinctive pattern in the price increase of the commodities covered by the EUDR after 2023, but an imbalance between demand and supply for many of such commodities strongly undermines the argument of a causal effect of the regulation. Indeed, considering this imbalance, it appears that the observed price spikes for some EUDR-regulated commodities may have coincided with the entrance into force of the EUDR by chance, rather than being a direct consequence of the regulation.",
+    "dc.contributor.author" : [ "ROGNA Marco", "TILLIE Pascal" ],
+    "document.278367.main" : "Y",
+    "dc.date.submitted" : "2025-06-23",
+    "dc.identifier.citation" : "ROGNA, M. and TILLIE, P., Is the EU Deforestation Regulation affecting the price of the regulated commodities? - JRC Working Papers on  Economic Analysis of Policies in Africa 2026/01, European Commission, Seville, 2026, JRC142929.",
+    "dc.date.accessioned" : "2026-03-19",
+    "dc.date.created" : "2026-03-16",
+    "document.278367.type" : "DOCUMENT",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "ROGNA Marco;0000-0003-2995-3625;;", "TILLIE Pascal;0000-0002-0920-7492;;" ],
+    "item.handle" : 142929,
+    "item.updateTime" : "2026-03-19T17:34:49",
+    "document.278367.checksumAlgorithm" : "MD5",
+    "dc.title" : "Is the EU Deforestation Regulation affecting the price of the regulated commodities?",
+    "dc.language" : "ENG",
+    "item.pubsy_id" : 142929,
+    "document.278367.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "dc.relation.ispartofseries" : "JRC142929",
+    "stream.document.278367" : "1",
+    "dc.type" : "Science for policy",
+    "data.id.citations" : [ "142929" ],
+    "data.citation.142929.language" : "ENG",
+    "document.278367.size" : 1553259,
+    "suggest.contributors" : [ "ROGNA MARCO", "0000-0003-2995-3625", "TILLIE PASCAL", "0000-0002-0920-7492" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Agriculture and food security",
+    "extra.collection.group" : "Science for policy",
+    "data.citation.142929.text" : "ROGNA, M. and TILLIE, P., Is the EU Deforestation Regulation affecting the price of the regulated commodities? - JRC Working Papers on  Economic Analysis of Policies in Africa 2026/01, European Commission, Seville, 2026, JRC142929.",
+    "document.278367.cover" : "JRC142929_278367_cover.jpg",
+    "document.mainCover" : "JRC142929_278367_cover.jpg",
+    "data.citation.142929.type" : "GENERIC",
+    "document.id" : [ "278367" ],
+    "dc.date.available" : "2026-03-19"
+  }, {
+    "id" : "JRC146328",
+    "dc.publisher" : "European Commission",
+    "dc.format.medium" : "Online",
+    "collection.year" : 2026,
+    "document.names" : "Spain's Child Support Fails the Poor: Actionable Policy Reforms",
+    "dc.identifier.uri" : "https://publications.jrc.ec.europa.eu/repository/handle/JRC146328",
+    "dc.description.sponsorship" : "JRC.B.2 - Fiscal Policy Analysis",
+    "search.contributors" : [ "CRUCES Hugo", "0000-0002-9066-1712", "BORNUKOVA Kateryna", "0000-0001-9534-0953", "HERNANDEZ Adrian", "0009-0002-0624-5570", "PICOS Fidel", "0000-0003-2996-8296" ],
+    "collection.science_area" : "/SCIENCE_AREA/S002",
+    "collections" : [ "2026", "/SCIENCE_AREA/S002", "/GROUP/G001" ],
+    "document.278347.checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+    "id" : "JRC146328",
+    "collection.group" : "/GROUP/G001",
+    "stream.document.278347" : "1",
+    "data.bibtex" : "@techreport{JRC146328,\n\tnumber = {},\n\taddress = {Seville (Spain)},\n\tissn = {},\n\tyear = {2026},\n\tauthor = {Cruces, H. and Bornukova, K. and Hernandez, A. and Picos, F.},\n\tisbn = {},\n\tpublisher = {European Commission},\n\tabstract = {Spain’s child at-risk-of-poverty rate stands around 29%, among the highest in the EU, and substantially higher than the overall population rate of 19%. The existing cash child support system in Spain fails to reach poor families: it is centered on a non-refundable child tax credit (“mínimo por descendientes”) that provides higher support per child to higher-income households, leaving as many as 60% of children in poverty without this tax relief. Making the child tax credit refundable or implementing a Universal Child Benefit would fill the gaps of the current system, outperforming the status quo in terms of poverty reduction at the same budgetary cost. More ambitiously, reducing Spain’s child poverty to the EU average would cost about 1.3% of GDP yearly, still well below existing estimates of the costs associated with childhood disadvantage (4-5% GDP).},\n\ttitle = {Spain's Child Support Fails the Poor: Actionable Policy Reforms},\n\ttype = {},\n\turl = {},\n\tdoi = {}\n}",
+    "extra.collection.science_area" : "Economic and monetary Union",
+    "dc.description.abstract" : "Spain’s child at-risk-of-poverty rate stands around 29%, among the highest in the EU, and substantially higher than the overall population rate of 19%. The existing cash child support system in Spain fails to reach poor families: it is centered on a non-refundable child tax credit (“mínimo por descendientes”) that provides higher support per child to higher-income households, leaving as many as 60% of children in poverty without this tax relief. Making the child tax credit refundable or implementing a Universal Child Benefit would fill the gaps of the current system, outperforming the status quo in terms of poverty reduction at the same budgetary cost. More ambitiously, reducing Spain’s child poverty to the EU average would cost about 1.3% of GDP yearly, still well below existing estimates of the costs associated with childhood disadvantage (4-5% GDP).",
+    "dc.contributor.author" : [ "CRUCES Hugo", "BORNUKOVA Kateryna", "HERNANDEZ Adrian", "PICOS Fidel" ],
+    "dc.date.submitted" : "2026-03-16",
+    "dc.identifier.citation" : "CRUCES, H., BORNUKOVA, K., HERNANDEZ, A. and PICOS, F., Spain`s Child Support Fails the Poor: Actionable Policy Reforms, European Commission, Seville, 2026, JRC146328.",
+    "dc.date.accessioned" : "2026-03-19",
+    "dc.date.created" : "2026-03-19",
+    "dc.date.issued" : "2026",
+    "collection.contributors" : [ "CRUCES Hugo;0000-0002-9066-1712;;", "BORNUKOVA Kateryna;0000-0001-9534-0953;;", "HERNANDEZ Adrian;0009-0002-0624-5570;SEIDOR Analytics;", "PICOS Fidel;0000-0003-2996-8296;;" ],
+    "data.citation.146328.text" : "CRUCES, H., BORNUKOVA, K., HERNANDEZ, A. and PICOS, F., Spain`s Child Support Fails the Poor: Actionable Policy Reforms, European Commission, Seville, 2026, JRC146328.",
+    "document.278347.size" : 311676,
+    "item.handle" : 146328,
+    "item.updateTime" : "2026-03-19T12:31:09",
+    "document.278347.checksumAlgorithm" : "MD5",
+    "dc.title" : "Spain's Child Support Fails the Poor: Actionable Policy Reforms",
+    "document.278347.filename" : "JRC146328_01.pdf",
+    "dc.language" : "ENG",
+    "data.citation.146328.type" : "GENERIC",
+    "item.pubsy_id" : 146328,
+    "document.278347.mimetype" : "application/pdf",
+    "document.278347.name" : "Spain's Child Support Fails the Poor: Actionable Policy Reforms",
+    "dc.relation.ispartofseries" : "JRC146328",
+    "document.278347.disk" : "JRC146328_278347",
+    "dc.type" : "Science for policy",
+    "data.id.citations" : [ "146328" ],
+    "data.citation.146328.language" : "ENG",
+    "suggest.contributors" : [ "CRUCES HUGO", "0000-0002-9066-1712", "BORNUKOVA KATERYNA", "0000-0001-9534-0953", "HERNANDEZ ADRIAN", "0009-0002-0624-5570", "PICOS FIDEL", "0000-0003-2996-8296" ],
+    "collection.year_range" : 2020,
+    "item.appears" : "Economic and monetary Union",
+    "extra.collection.group" : "Science for policy",
+    "document.278347.cover" : "JRC146328_278347_cover.jpg",
+    "document.mainCover" : "JRC146328_278347_cover.jpg",
+    "document.278347.main" : "Y",
+    "document.id" : [ "278347" ],
+    "dc.date.available" : "2026-03-19",
+    "document.278347.type" : "DOCUMENT"
+  } ],
+  "params" : {
+    "criteria" : { },
+    "order" : "desc",
+    "page" : 1,
+    "pageSize" : 10,
+    "query" : "*",
+    "sort" : "dc.date.available"
+  },
+  "start" : 1,
+  "totalItems" : 39355,
+  "valid" : true
+};</script>
+<script>window._dictionaries=[ {
+  "code" : "CONTRIBUTOR",
+  "codes" : "/CONTRIBUTOR",
+  "label" : "Author",
+  "type" : "CONTRIBUTOR"
+}, {
+  "code" : "G001",
+  "codes" : "/GROUP/G001",
+  "label" : "Science for policy",
+  "type" : "GROUP"
+}, {
+  "code" : "G002",
+  "codes" : "/GROUP/G002",
+  "label" : "Scientific articles and academic literature",
+  "type" : "GROUP"
+}, {
+  "code" : "G003",
+  "codes" : "/GROUP/G003",
+  "label" : "Technical reports",
+  "type" : "GROUP"
+}, {
+  "code" : "G004",
+  "codes" : "/GROUP/G004",
+  "label" : "Scientific methods, data and information",
+  "type" : "GROUP"
+}, {
+  "code" : "G005",
+  "codes" : "/GROUP/G005",
+  "label" : "Presentations and science dissemination",
+  "type" : "GROUP"
+}, {
+  "code" : "GROUP",
+  "codes" : "/GROUP",
+  "label" : "Publication group",
+  "type" : "GROUP"
+}, {
+  "code" : "S001",
+  "codes" : "/SCIENCE_AREA/S001",
+  "label" : "Agriculture and food security",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S002",
+  "codes" : "/SCIENCE_AREA/S002",
+  "label" : "Economic and monetary Union",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S003",
+  "codes" : "/SCIENCE_AREA/S003",
+  "label" : "Energy and transport",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S004",
+  "codes" : "/SCIENCE_AREA/S004",
+  "label" : "Environment and climate change",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S005",
+  "codes" : "/SCIENCE_AREA/S005",
+  "label" : "Health and consumer protection",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S006",
+  "codes" : "/SCIENCE_AREA/S006",
+  "label" : "Information society",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S007",
+  "codes" : "/SCIENCE_AREA/S007",
+  "label" : "Innovation and growth",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S008",
+  "codes" : "/SCIENCE_AREA/S008",
+  "label" : "Nuclear safety and security",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S009",
+  "codes" : "/SCIENCE_AREA/S009",
+  "label" : "Safety and security",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S010",
+  "codes" : "/SCIENCE_AREA/S010",
+  "label" : "Standards",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S011",
+  "codes" : "/SCIENCE_AREA/S011",
+  "label" : "JRC corporate",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "S012",
+  "codes" : "/SCIENCE_AREA/S012",
+  "label" : "JRC historical",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "SCIENCE_AREA",
+  "codes" : "/SCIENCE_AREA",
+  "label" : "Science area",
+  "type" : "SCIENCE_AREA"
+}, {
+  "code" : "YEAR",
+  "codes" : "/YEAR",
+  "label" : "Publication year",
+  "type" : "YEAR"
+} ];</script>
+<script defer src="/repository/assets/scripts/shared.js"></script>
+<script defer src="/repository/assets/scripts/pager.js"></script>
+<script defer src="/repository/assets/scripts/home.js"></script>
+
+</body>
+</html>

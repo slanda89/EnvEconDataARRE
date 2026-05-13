@@ -1,0 +1,24 @@
+Table 11:  The average effect of green and blue spaces as a proportion of the property price is relatively similar across most deciles
+"Average effect of green and blue space by Scottish Index of Multiple Deprivation (SIMD), Scotland, 2009 to 2016"
+
+SIMD decile,"Average value
+(£, 2018 prices)","Average value
+of property price
+(%)","N
+validation set","Average distance
+to green spaces
+(m)","Average distance
+to blue spaces
+(m)"
+1,"1,754.17",2.11,1196,219.3,384.7
+2,"1,783.76",1.82,1455,225.2,384.6
+3,"2,052.84",1.97,1742,239.8,363.6
+4,"1,732.10",1.5,1864,250.4,350.2
+5,"2,411.15",1.93,1916,263.1,329.7
+6,"2,704.41",1.87,1902,272.6,347.1
+7,"3,348.21",1.98,2033,284.3,311.6
+8,"3,650.59",1.92,2256,334.3,330
+9,"4,596.57",2.08,2392,335.9,340.4
+10,"7,103.64",2.46,2163,308.2,331.6
+
+Source: ,Office for National Statistics

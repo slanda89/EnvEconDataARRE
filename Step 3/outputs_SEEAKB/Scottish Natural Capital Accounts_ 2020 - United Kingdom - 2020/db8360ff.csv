@@ -1,0 +1,23 @@
+Table 14: Potential methodological changes in future accounts
+
+
+Service,Potential future changes
+Provisioning,
+Agriculture,The price basis is likely to switch to either land rent or farm business income estimates. Either would reduce the total value of agriculture.
+Fish capture,Net profit per tonne estimates cannot be used to estimate future income as effort per tonne captured is fixed. We hope to start by moving towards estimating income and cost separately which may have a minor impact on the overall value. Longer term we hope to estimate asset values using bioeconomic modelling of expected future fish production.
+Fossil fuels,No planned change.
+Minerals,No planned change.
+Timber,No planned change.
+Water abstraction,Long term we hope to net off the costs of any water restrictions to society from overall industry income.
+Renewables,The Resource Rent approach is not appropriate for this service long term. We aim to use data on subsidies and levilised costs of operation to estimate the overall income for the renewables providers. The direction of the change is uncertain.
+Regulating,
+Carbon sequestration,Currently no changes are planned but if sequestration moved from a gross to a net sequestration basis the value would fall.
+Air pollutant removal,We hope to update the models and data to provide more accurate and timely values. Direction of the change would be uncertain but it is unlikely to be large.
+Urban cooling,"Longer term it is desirable to use remote sensing temperature data to ground truth our estimates of cooling. If we can move from a relatively simple model to a more precise site specific prediction, we may also switch to a less conservative valuation price."
+Noise mitigation,We hope to use other data to provide yearly estimates of noise production. This would allow us to see expected changes between years but should not impact on the scale of the service.
+Cultural,
+Recreation,There are unlikely to be any significant methodology changes in the basic travel cost work. However we do hope to start including tourism spend estimates in excess of short day trips. This may significantly increase the value of recreation.
+Recreation (house prices),"The original data source for advertised house prices is no longer readily available. We will therefore move to actual recorded sale prices. In addition, we need to make more direct estimates of urban and rural house numbers but also include the value of recreation outside of formal parks. The overall impacts of these changes is unknown but could be significant."
+Aesthetic (house prices),"See Recreation (house prices). However, in addition we would need to change the basis on which a, ""view"" is identified which again will have an uncertain impact on value."
+
+Source: ,Office for National Statistics

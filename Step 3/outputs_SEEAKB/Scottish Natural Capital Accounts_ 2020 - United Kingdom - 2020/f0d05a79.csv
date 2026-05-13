@@ -1,0 +1,23 @@
+"Table 8: In 2016, the total stock value of living within 500 metres of green and blue space was estimated to be £6.1 billion"
+"Value of cultural services capitalised into property prices, 2018 prices, Scotland, 2010 to 2016"
+
+Year,"Average value
+(£)","95% CI 
+lower bound","95% CI
+upper bound","Average value
+(%)","Stock value
+(£ billion)","Aesthetic value
+(£ billion)","Recreational value
+(£ billion)","N properties
+(million)"
+2010,"4,679","4,199","5,159",2.41,11.61,1.26,10.35,2.48
+2011,"3,500","3,169","3,830",1.92,8.73,1.07,7.66,2.49
+2012,"4,187","3,828","4,546",2.3,10.5,0.99,9.51,2.51
+2013,"3,769","3,454","4,083",2.24,9.5,0.9,8.6,2.52
+2014,"3,217","2,960","3,475",1.97,8.15,0.86,7.3,2.53
+2015,"2,629","2,418","2,840",1.9,6.7,0.62,6.09,2.55
+2016,"2,393","2,182","2,605",1.77,6.14,0.54,5.6,2.57
+
+Source: ,Office for National Statistics
+Notes
+1,The year of 2009 was excluded for Scotland as the sample size was too small.

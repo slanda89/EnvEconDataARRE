@@ -1,0 +1,2466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">52</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:4A25E796-D4BE-573E-A5A5-2A05A815D1C2</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">One Ecosystem</journal-title>
+        <abbrev-journal-title xml:lang="en">OE</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-8194</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/oneeco.8.e108030</article-id>
+      <article-id pub-id-type="publisher-id">108030</article-id>
+      <article-id pub-id-type="manuscript">22429</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Compiling preliminary SEEA Ecosystem Accounts for the OSPAR regional sea: experimental findings and lessons learned</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Alarcon Blazquez</surname>
+            <given-names>Maria G</given-names>
+          </name>
+          <email xlink:type="simple">maria.alarcon@unsw.edu.au</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7793-2899</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>van der Veeren</surname>
+            <given-names>Rob</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0009-0008-5240-8792</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing - review and editing</role>
+          <role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role>
+          <role content-type="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Gacutan</surname>
+            <given-names>Jordan</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-3285-9982</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing - review and editing</role>
+          <role content-type="http://credit.niso.org/contributor-roles/visualization/">Visualization</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>James</surname>
+            <given-names>Philip A. S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/writing-review-editing/">Writing - review and editing</role>
+          <role content-type="http://credit.niso.org/contributor-roles/supervision/">Supervision</role>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Global Ocean Accounts Partnership, Sustainable Development Reform Hub, University of New South Wales, Sydney, Australia</addr-line>
+        <institution>Global Ocean Accounts Partnership, Sustainable Development Reform Hub, University of New South Wales</institution>
+        <addr-line content-type="city">Sydney</addr-line>
+        <country>Australia</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Ministry of Infrastructure and Water Management, Rijkswaterstaat, Utrecht, Netherlands</addr-line>
+        <institution>Ministry of Infrastructure and Water Management, Rijkswaterstaat</institution>
+        <addr-line content-type="city">Utrecht</addr-line>
+        <country>Netherlands</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Maria G Alarcon Blazquez (<email xlink:type="simple">maria.alarcon@unsw.edu.au</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Joachim Maes</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>07</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e108030</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/4BF303AB-A616-5AC0-93DD-86B288C20014">4BF303AB-A616-5AC0-93DD-86B288C20014</uri>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>06</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>07</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Maria G Alarcon Blazquez, Rob van der Veeren, Jordan Gacutan, Philip A. S. James</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>Ecosystem Accounting provides a framework to measure and value relationships amongst ecosystems, society and the economy. The accounts measure ecosystem extent, condition and services, providing the means to identify and internalise ecological degradation, as well as understanding the risks and dependencies of economic activities on the environment and tracking progress towards sustainable development. The OSPAR Convention, which concerns the protection of the Marine Environment for the North-East Atlantic, has committed to accounting for natural capital and ecosystem services, where the UN System of Environmental Economic Accounting – Ecosystem Accounting (SEEA EA) provides an international accounting standard for guidance in compiling accounts. Here, we describe the first attempt in compiling accounts aligned with SEEA EA at a Regional Sea scale. We: (i) identified existing open access data, (ii) produced accounts for selected ecosystems and valued their services and asset value and (iii) identified challenges and lessons learned. For ecosystem services, we measured fish provisioning, carbon sequestration and outdoor recreation from coastal and marine environments across OSPAR contracting parties. The exercise identified lack of fitting data at regional level, spatially-explicit linkages and harmonisation need to be overcome to further expand accounts. This work represents an initial step to progress on ecosystem accounting and demonstrates that even with limited data and incomplete time-series, accounts can start being compiled to identify data gaps and prioritising next steps.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>System of Environmental Economic Accounting</kwd>
+        <kwd>Ecosystem accounting</kwd>
+        <kwd>Regional Seas assessment</kwd>
+        <kwd>North-East Atlantic</kwd>
+        <kwd>marine environment</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="4"/>
+        <ref-count count="51"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The last century has seen the widespread loss and degradation of ocean ecosystems, driven in part by undervaluing their importance to society and the economy within decision-making. Globally, ocean ecosystems are amongst the most productive systems, providing goods and services that underpin the health, well-being and livelihoods of millions of people (<xref ref-type="bibr" rid="B9860483">IPBES 2019</xref>). Valuing their contribution, however, has been difficult to measure, where many services and benefits arise from the existence of ecosystems and their support of economic and human activities is not reliant on direct extraction or use (e.g. climate regulation, coastal protection, fish nurseries etc.) (<xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>). The failure to account for such contributions has led to the prioritisation of economic values to the detriment of ocean ecosystems.</p>
+      <p>In response, holistic and integrated measures towards sustainable ocean development have been embedded within strategic plans and policy instruments at international (European Commission’s Sustainable Blue Economy Agenda*<xref ref-type="fn" rid="FN9859571">1</xref>, High Level Panel for a Sustainable Ocean Economy*<xref ref-type="fn" rid="FN9859572">2</xref>), regional (North-East Atlantic Environment Strategy*<xref ref-type="fn" rid="FN9859573">3</xref>,The Baltic Sea Action Plan*<xref ref-type="fn" rid="FN9859574">4</xref>) and national (e.g. Fiji Ocean policy*<xref ref-type="fn" rid="FN9859575">5</xref>, Portugal National Ocean Strategy*<xref ref-type="fn" rid="FN9859576">6</xref>) levels. These plans and policies support integrated assessments of the ocean environment framed through the concepts of ‘natural capital’ and ‘ecosystem services’ (<xref ref-type="bibr" rid="B9860589">Ruijs et al. 2018</xref>). Natural capital can be defined as the ecosystems and natural resources that supply the ecosystem goods and services that benefit society and the economy (<xref ref-type="bibr" rid="B9860690">European Environment Agency 2019</xref>). The measurement and monetary valuation of ecosystem services supports the conservation of ocean ecosystems by recognising that the majority of ecosystem services are difficult or impossible to replace (<xref ref-type="bibr" rid="B9860682">European Commission 2020</xref>, <xref ref-type="bibr" rid="B9860798">Maes et al. 2020</xref>). Measuring ecosystem services in a coherent and transparent manner, however, requires standardisation, which could be, in part, achieved through definitions and classifications contained within statistical accounting frameworks.</p>
+      <p>Countries have long maintained ‘national accounts’ to measure aspects of the economy (e.g. Gross Domestic Product, GDP), where most countries follow the internationally agreed UN standard System of National Accounts (SNA). The SNA, however, has long been criticised for poorly accounting for natural capital, where its depletion usually leads to a short-term increase in measures of economic growth, such as GDP (<xref ref-type="bibr" rid="B9860772">Helm 2015</xref>). The need to go ‘Beyond GDP’ has led to the development of the UN System of Environmental Economic Accounting (SEEA), as a complementary standard with concepts and definitions aligned to the SNA, to better recognise nature’s contributions to economic output and to advance sustainability within decision-making (<xref ref-type="bibr" rid="B9860642">Dasgupta 2021</xref>). The SEEA provides guidance towards accounts that contain regular and objective data (<xref ref-type="bibr" rid="B9860690">European Environment Agency 2019</xref>) that is coherent and internationally comparable in line with the UN Fundamental Principles of Official Statistics.*<xref ref-type="fn" rid="FN9859577">7</xref></p>
+      <p>The SEEA is composed of the Central Framework (SEEA CF) and Ecosystem Accounting (SEEA EA, henceforth ‘Ecosystem Accounts’). The SEEA CF concerns accounting for thematic stocks and flows (e.g. energy, water and economy-wide material flow accounts), while the Ecosystem Accounts extend accounting into the spatial domain, to measure ecosystems and related flows to society and the economy. Ecosystem Accounts consider the extent and condition of ecosystems by type (e.g. seagrass, saltmarsh) and how condition may impact the ecosystem services provided (<xref ref-type="bibr" rid="B9860388">Edens and Hein 2013</xref>). Global, regional and national initiatives*<xref ref-type="fn" rid="FN9859578">8</xref> have driven the uptake of the SEEA and is now being implemented in more than 90 countries. To date, 41 countries have compiled Ecosystem Accounts (<xref ref-type="bibr" rid="B9861870">UNSD 2023</xref>). However, most Ecosystem Accounts focus on the terrestrial environment and significant challenges remain to produce accounts for marine and coastal areas (<xref ref-type="bibr" rid="B9859537">Buonocore et al. 2020</xref>, <xref ref-type="bibr" rid="B9860561">Manea et al. 2019</xref>, <xref ref-type="bibr" rid="B9860598">Townsend et al. 2018</xref>).</p>
+      <p>Countries have developed thematic accounts concerning the measurement of the ocean economy (e.g. Portugal*<xref ref-type="fn" rid="FN9859579">9</xref>) and specific ecosystem services (e.g. United Kingdom, UK) (<xref ref-type="bibr" rid="B9861804">Office for National Statistics 2021</xref>, <xref ref-type="bibr" rid="B9861852">Thornton et al. 2019</xref>), although few have compiled ocean ecosystem accounts (e.g. Australia, Canada (see <xref ref-type="bibr" rid="B9859559">Comte et al. (2022)</xref>, <xref ref-type="bibr" rid="B9860412">Gacutan et al. (2022)</xref>). The definitions, classifications and boundaries concerning ocean ecosystems drive the need for ocean-specific guidance (<xref ref-type="bibr" rid="B9860431">Geange et al. 2019</xref>, <xref ref-type="bibr" rid="B9860561">Manea et al. 2019</xref>, <xref ref-type="bibr" rid="B9860598">Townsend et al. 2018</xref>). There are ongoing efforts to address these gaps, with coordination supported by the Global Ocean Account Partnership (GOAP),*<xref ref-type="fn" rid="FN9859580">10</xref> which has developed a technical guidance on Ocean Accounting and which provides specific guidance for both the SNA and SEEA to the ocean domain.</p>
+      <p>While accounting aligned with the SEEA is performed predominantly at the national scale or sub-national level, the transboundary nature of multiple resources and human pressures and impacts on the ocean necessitates a regional approach to management. Regional Seas Conventions, such as OSPAR, assist in coordinating the actions of Contracting Parties to address challenges, such as habitat loss and degradation, invasive species and poor water quality (<xref ref-type="bibr" rid="B9860798">Maes et al. 2020</xref>, <xref ref-type="bibr" rid="B9861913">Veretennikov 2019</xref>). Within OSPAR, environmental status is tracked by indicators reported within the so-called Quality Status Report (QSR) (<xref ref-type="bibr" rid="B9861836">OSPAR 2000</xref>, <xref ref-type="bibr" rid="B9861820">OSPAR 2010b</xref>), which also identifies the priority actions to achieve OSPAR and the Contracting Parties vision of a healthy, biologically diverse and sustainably-used sea.*<xref ref-type="fn" rid="FN9859581">11</xref> The compilation of Ecosystem Accounts at a regional seas scale could assist in tracking environmental status and producing indicators (e.g. land use or extent change, climate-related indicators, changes on ecosystem services - both physical and monetary -, asset value changes or indicators concerning the flows of benefits and costs).</p>
+      <p>The compilation of a preliminary and experimental set of Ecosystem Accounts for the OSPAR area was performed to identify the data available for accounting and the gaps and limitations that require further efforts and coordination to address. This paper describes the process to compile Ecosystem Accounts for the OSPAR area, presenting the first version of the accounts for the whole OSPAR region and first attempt of marine ecosystem accounts for a regional sea. We provide an overview of: (i) the methods used to compile the Ecosystem Accounts, (ii) preliminary results*<xref ref-type="fn" rid="FN9859582">12</xref> and (iii) a discussion of limitations, lessons learned and recommendations for improvement. The work provides a blueprint and foundation for other regional seas to begin compiling Ecosystem Accounts.</p>
+    </sec>
+    <sec sec-type="Study area: OSPAR and the North-East Atlantic Ocean">
+      <title>Study area: OSPAR and the North-East Atlantic Ocean</title>
+      <p>The Convention for the Protection of the Marine Environment of the North-East Atlantic (OSPAR) was ratified in March 1998, superseding the previous Oslo (1972) and Paris (1974) conventions. The convention contains 15 Contracting Parties*<xref ref-type="fn" rid="FN9859588">13</xref> and the European Union. The convention builds on earlier efforts to prevent marine pollution from dumping or discharges from ships and aircraft and land-based sources of marine pollution. This paper focuses on the OSPAR Maritime area, *<xref ref-type="fn" rid="FN9859589">14</xref> which includes both Territorial Waters and Exclusive Economic Zone (EEZ) of Contracting Parties within the North-East Atlantic region (Fig. <xref ref-type="fig" rid="F9861955">1</xref>).*<xref ref-type="fn" rid="FN9859590">15</xref> The OSPAR area further extends into areas beyond national jurisdiction and encompasses extensive areas in the Wider Atlantic (OSPAR Region V) and Arctic Waters (OSPAR Region I). In total, the Regional Sea covers over 13.5 million km<sup>2</sup>, divided into five regions.*<xref ref-type="fn" rid="FN9859591">16</xref> Annex I of the OSPAR Convention concerns pollution of land-based sources and, thus, this study includes Internal Waters*<xref ref-type="fn" rid="FN9859592">17</xref> (i.e. coastal areas) within the accounting activity of the OSPAR Maritime area.</p>
+      <p>OSPAR’s strategic objectives are described in the North-East Atlantic Environmental Strategy (NEAES),*<xref ref-type="fn" rid="FN9859593">18</xref> with the state and trends described within the QSR. The NEAES aligns with other regional European Commission policies, primarily the Marine Strategy Framework Directive (MSFD)*<xref ref-type="fn" rid="FN9859594">19</xref>, which provides descriptors for the ‘Good Environmental Status’ of coastal and marine ecosystems.*<xref ref-type="fn" rid="FN9859595">20</xref> The latest iteration, NEAES 2030 (<xref ref-type="bibr" rid="B9861828">OSPAR 2021</xref>) contains a suite of operational objectives, one of which commits OSPAR to:</p>
+      <p>“<italic>By 2025, start accounting for ecosystem services and natural capital by making maximum use of existing frameworks to recognise, assess and consistently account for human activities and their consequences in the implementation of ecosystem-based management.</italic>”</p>
+    </sec>
+    <sec sec-type="Overview of SEEA Ecosystem Accounts standard">
+      <title>Overview of SEEA Ecosystem Accounts standard</title>
+      <p>The Ecosystem Accounts are composed of several linked accounts that contain values in either physical (e.g. tonnes) or monetary terms (Fig. <xref ref-type="fig" rid="F9861967">2</xref>). The accounts measure either stocks (ecosystem extent, condition and asset accounts) or flows (ecosystem services) amongst ecosystems, society and the economy (i.e. users – industry, government and households).</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p><bold>Ecosystem extent</bold> accounts measure the area per ecosystem type within an accounting area. The Convention on Biological Diversity (<xref ref-type="bibr" rid="B9860626">CBD 2003</xref>) defines ecosystems as a “<italic>dynamic complex of plant, animal and micro-organism communities and their non-living environment interacting as a functional unit”.</italic></p>
+        </list-item>
+        <list-item>
+          <p>The <bold>ecosystems types</bold> represented within the SEEA Ecosystem Accounts are classified in terms of distinct biophysical environment, where the standard endorses the use of the IUCN Global Ecosystem Typology (<xref ref-type="bibr" rid="B9860509">Keith et al. 2020</xref>). The hierarchical typology classifies environments into 108 ecosystems, based on functional groups, such as tropical forests, seagrass meadows and annual croplands.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Ecosystem condition</bold> accounts record the condition of ecosystem assets in terms of selected characteristics at specific points in time. Over time, they record the changes to their state and provide valuable information on the health of ecosystems.</p>
+        </list-item>
+        <list-item>
+          <p>Ecosystems <italic>supply</italic> a range of <bold>ecosystem services</bold> that reflect the different characteristics and processes of the ecosystem, depending on its ecosystem type, extent and condition and on their location and patterns of <italic>use</italic> by economic units (including households, businesses and governments) (<xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>). Ecosystem services flows are both measured in physical and monetary terms.</p>
+        </list-item>
+        <list-item>
+          <p>The <bold>ecosystem asset</bold> account records the monetary value of the opening and closing stocks of all ecosystem assets within the accounting area, showing additions (enhancement) and reductions (degradation) in stocks when accounts are recorded over time (<xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>).</p>
+        </list-item>
+      </list></p>
+      <p>Within Fig. <xref ref-type="fig" rid="F9861967">2</xref>, accounts are numbered to demonstrate the flow of data, where later accounts are dependent on the compilation of the preceding account. For instance, an estimation of the supply of ecosystem services is dependent on ecosystem extent and condition.</p>
+    </sec>
+    <sec sec-type="Compilation and assessment of available ecosystems and services data at the OSPAR level">
+      <title>Compilation and assessment of available ecosystems and services data at the OSPAR level</title>
+      <p>Ecosystem Accounts information presented in this paper was collected for the OSPAR Maritime area,*<xref ref-type="fn" rid="FN9859600">21</xref> which includes internal and territorial waters of OSPAR Contracting Parties and adjacent high seas. The compilation of ecosystem extent accounts, service (supply and use) and asset accounts for the OSPAR area accounts was produced by applying guidance from the Ecosystem Accounts standard (<xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>) and the GOAP technical guidance (<xref ref-type="bibr" rid="B9860756">GOAP 2020</xref>).</p>
+      <p>The methodology for the account compilation was determined through an assessment of existing Ecosystem Accounts, informal consultations with technical experts and through the OSPAR Intersessional Correspondence group on Economic and Social Analyses (ICG ESA). The Ecosystem Accounts of this study were recorded by:</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>Conducting a literature review of existing marine ecosystem accounts and inventory of relevant open-source data;</p>
+        </list-item>
+        <list-item>
+          <p>Defining Ecosystem Accounting components, including identification and selection of ecosystems and their services based on data availability;</p>
+        </list-item>
+        <list-item>
+          <p>Assessing and compiling available data on ecosystems and services at the OSPAR level and assessing feasibility of accounts;</p>
+        </list-item>
+        <list-item>
+          <p>Compilation of ecosystem extent accounts, service (supply and use) and asset accounts for the OSPAR area.</p>
+        </list-item>
+      </list></p>
+      <p>Experiences on ecosystem accounts were drawn from several countries, reviewed in <xref ref-type="bibr" rid="B9860534">Lange et al. (2022)</xref> and <xref ref-type="bibr" rid="B9860412">Gacutan et al. (2022)</xref>.*<xref ref-type="fn" rid="FN9859601">22</xref> A workshop on ‘Marine Natural Capital Accounts’ was hosted by OSPAR,*<xref ref-type="fn" rid="FN9859604">23</xref> consisting of more than 60 participants from across the world, with expertise in economics, official statistics, environmental science and policy. The workshop consisted of interactive sessions exploring data availability and gaps, challenges and policy applications of accounting (see Suppl. material <xref ref-type="supplementary-material" rid="S9864102">3</xref>).</p>
+      <p>A literature review was conducted and data inventory compiled (see Table 5 Suppl. material <xref ref-type="supplementary-material" rid="S9864101">2</xref>). Data availability and evidence gaps were determined through the OSPAR Data &amp; Information Management System (ODIMS) database, which contains extensive time-series of periodic monitoring of the chemical and ecological status of the North-East Atlantic Ocean*<xref ref-type="fn" rid="FN9859605">24</xref> and other publicly available datasets. The full list of data sources used in the analyses are provided in Suppl. material <xref ref-type="supplementary-material" rid="S9864101">2</xref> (Table 5). In assessing the inventory of data, a preliminary accounting snapshot of the OSPAR region was produced, containing data published between 2008 and 2019.</p>
+      <p>The inventory identified ecosystem extent and their services as feasible for account compilation, based on the literature review findings. However, key data gaps between linking ecosystems to their condition spatially prevented the compilation of ecosystem condition accounts.</p>
+      <p>The Ecosystem Accounts provides a “Reference List” of ecosystems services, structured into three broad categories: provisioning, regulating and maintenance and cultural services (<xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>). In this study, relevant ecosystem services were selected, based on OSPAR priorities and data availability (Table 1), including: (i) provision of wild aquatic animals and animals or products from aquaculture due to the importance of this economic activity in the area, (ii) climate regulation through carbon sequestration and capture since OSPAR Commission is looking for ways to reduce the negative effects of climate change and (iii) outdoor recreation due to its social importance in the area. As leading OSPAR countries in recording Ecosystem Accounts, guidance on technical considerations were drawn from The Netherlands (<xref ref-type="bibr" rid="B9860650">de Jongh et al. 2021</xref>, <xref ref-type="bibr" rid="B9861844">Schenau et al. 2019</xref>) and UK (<xref ref-type="bibr" rid="B9860453">Grilli et al. 2022</xref>, <xref ref-type="bibr" rid="B9861804">Office for National Statistics 2021</xref>, <xref ref-type="bibr" rid="B9861852">Thornton et al. 2019</xref>) to estimate the different accounts.</p>
+      <sec sec-type="Ecosystem type and extent account">
+        <title>Ecosystem type and extent account</title>
+        <p>The accounting treatment of marine and coastal assets is different to land-based environmental assets. Marine ecosystems are not concentrated near a single surface (e.g. land or water interface), but extend throughout the water column and seabed, which serve as natural boundaries for ecosystem types. Depicting ecosystem types vertically as three-dimensional, however, poses numerous challenges to accounting and, therefore, this study used a two-dimensional (2-D) approach to characterise the seabed in the study area.</p>
+        <p>The Ecosystem Accounts endorse the use of the IUCN Global Ecosystem Typology (GET), although existing datasets for the OSPAR area were not aligned with GET classifications. This paper employs surface-based delineation which aligned with the methods of marine accounts for the UK (<xref ref-type="bibr" rid="B9861852">Thornton et al. 2019</xref>). The study uses the European Nature Information System (EUNIS),*<xref ref-type="fn" rid="FN9859613">25</xref> which is a hierarchical classification that defines habitats from broad scales to species-specific scales. The seafloor types considered were infralittoral (A3) and circalittoral rock (A4), sublittoral sediments (A5) and deep-sea sedimentary habitats (A6).</p>
+        <p>Data for ecosystem extent were sourced from EUSeaMap (2019),*<xref ref-type="fn" rid="FN9859614">26</xref> which is hosted and maintained by the European Marine Observation and Data Network (EMODnet). The EUSeaMap 2019 covers most EUNIS Marine Habitats (A3 – A6), although it lacks littoral biotic habitats (A1) and sediments (A2). Estimated extent for key intertidal ecosystems and coastal estuaries (A2) were extracted from extent accounts produced by the European Environment Agency.*<xref ref-type="fn" rid="FN9859615">27</xref> The intersection between EUSeaMap and the OSPAR area was extracted using regional boundaries within ODIMS, to extract the extent of EUNIS habitats. Spatial analyses and manipulation were performed using ArcMap (v.10.4, ESRI).</p>
+      </sec>
+      <sec sec-type="Ecosystem condition account">
+        <title>Ecosystem condition account</title>
+        <p>A condition account for the OSPAR area would provide several metrics of the state and functioning of specific ecosystem types. An ideal starting point is from existing indicators produced by OSPAR for measuring the ecosystem status or pressures. Some of these relevant indicators compiled by OSPAR are also aligned with the GOAP technical guidance and consistent with the Ecosystem Accounts framework (<xref ref-type="bibr" rid="B9861812">OSPAR 2010a</xref>, <xref ref-type="bibr" rid="B9861820">OSPAR 2010b</xref>) (see Suppl. material <xref ref-type="supplementary-material" rid="S9864099">1</xref>). Amongst these metrics are acidity, eutrophication, species diversity, sea surface temperature, coral condition, seagrass cover, fish stocks state or grade of minerals (<xref ref-type="bibr" rid="B9860756">GOAP 2020</xref>).</p>
+        <p>Several of these indicators have already been estimated and compiled by OSPAR in the various Quality Status Reports (<xref ref-type="bibr" rid="B9861820">OSPAR 2010b</xref>). However, the indicators are currently reported as aggregates at the OSPAR level (i.e. entire North-East Atlantic) and its regions (see Fig. <xref ref-type="fig" rid="F9861955">1</xref>), preventing them from being disaggregated spatially, to enable attribution to specific ecosystems types (such as those assessed in the ecosystem extent account).</p>
+      </sec>
+      <sec sec-type="Ecosystem services physical supply and use accounts">
+        <title>Ecosystem services physical supply and use accounts</title>
+        <p>Ecosystem services measured in physical terms (i.e. physical flow accounts) record the supply of ecosystem services and the beneficiaries or users (economic units including households, businesses and governments) of those services per ecosystem.</p>
+        <p>The ‘use’ of ecosystem services identifies the first direct ‘users’; industries, government and households, which further relates to their ‘dependency’ on ecosystem services (Table 4).*<xref ref-type="fn" rid="FN9859616">28</xref> The first direct users were identified following the main users and beneficiaries included in the initial logic chains*<xref ref-type="fn" rid="FN9859617">29</xref> for selected ecosystem services provided by SEEA EA.</p>
+        <p>The government is considered as a direct user and beneficiary of carbon sequestration because the service benefits society as a whole (<xref ref-type="bibr" rid="B9860788">Horlings et al. 2020b</xref>). For OSPAR, ‘government’ refers to the collective of OSPAR Contracting Parties, as they all benefit from this non-exclusive service. For outdoor public recreation, values were drawn from the KIP INCA*<xref ref-type="fn" rid="FN9859618">30</xref> project for EU Members States that were also OSPAR Contracting Parties. The project used potential visits to coastal recreational areas per year (daily use) as a proxy for the possibility for citizens to enjoy nature within daily activities (<xref ref-type="bibr" rid="B9861886">Vallecillo Rodriguez et al. 2018</xref>) and is recorded under ‘households’.*<xref ref-type="fn" rid="FN9859619">31</xref></p>
+        <p>The marine natural capital accounts published by the Netherlands and UK are used as the main guidance since they are the accounts available when the research was conducted within the North-East Atlantic zone (<xref ref-type="bibr" rid="B9860650">de Jongh et al. 2021</xref>, <xref ref-type="bibr" rid="B9861804">Office for National Statistics 2021</xref>, <xref ref-type="bibr" rid="B9861844">Schenau et al. 2019</xref>, <xref ref-type="bibr" rid="B9861897">Statistics Netherlands and WUR 2021</xref>, <xref ref-type="bibr" rid="B9861852">Thornton et al. 2019</xref>). Further details on methodology and data to estimate each ecosystem service in physical terms are provided in Suppl. material <xref ref-type="supplementary-material" rid="S9864101">2</xref>. The main challenges faced during data compilation and accounting include the following (with further exploration in Suppl. material <xref ref-type="supplementary-material" rid="S9864101">2</xref>):</p>
+        <p><list list-type="order">
+          <list-item>
+            <p>Fish provisioning was calculated, based on landings reported through the UN Food and Agricultural Organization (FAO), which may not report all species of commercially-caught fish provisioned by the ecosystems. Further, landing could not be spatially assigned to specific ecosystems;</p>
+          </list-item>
+          <list-item>
+            <p>Estimates for carbon sequestration omitted seagrass, which are important carbon sinks (<xref ref-type="bibr" rid="B9859516">Bedulli et al. 2020</xref>). Consequently, carbon sequestration included in this report is underestimated within the region;</p>
+          </list-item>
+          <list-item>
+            <p>Estimates of outdoor recreation were based on the results of the KIP-INCA project, which used potential visits to coastal recreational areas per year (daily use) to account for this service. As the values could not be applied to the entire OSPAR area, they serve as a preliminary estimate of the service for the North-East Atlantic.</p>
+          </list-item>
+        </list></p>
+      </sec>
+      <sec sec-type="Ecosystem services monetary supply and use accounts">
+        <title>Ecosystem services monetary supply and use accounts</title>
+        <p>In the context of ecosystem accounting, the valuation of ecosystem services in monetary terms is commonly performed by multiplying the values measured within the physical accounts with the ‘exchange’ value of individual ecosystem service prices (<xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>). For the present accounts, valuations were based on benefit transfer (Table <xref ref-type="table" rid="T9861990">1</xref>), which is defined by <xref ref-type="bibr" rid="B9860580">Richardson et al. (2015)</xref> as “<italic>the transfer of original ecosystem service value estimates from an existing ‘study site’ or multiple study sites to an unstudied ‘policy site’ with similar characteristics that is being evaluated which is the extrapolation and adaptation of benefits from one study location to another one</italic>”. While primary valuation for each context is ideal and provides a more reliable range of estimates, studies at the regional sea scale are often unfeasible due to time and resource constraints (<xref ref-type="bibr" rid="B9859528">Brander 2013</xref>).</p>
+        <p>Benefit transfer of resource rent unit*<xref ref-type="fn" rid="FN9859674">32</xref> from the UK marine natural capital accounts was applied to the provisioning service of wild aquatic animals estimated within this study; and the results from resource rent study in the Norwegian Aquaculture Industry were applied to the provisioning service of animals or products from aquaculture. For carbon sequestration, the efficient carbon price from the low reduction scenario calculated by <xref ref-type="bibr" rid="B9860780">Horlings et al. (2020a)</xref> was used. Finally, for outdoor recreation, the monetary accounts from the INCA project were used (only including the values for OSPAR Contracting Parties).</p>
+      </sec>
+      <sec sec-type="Ecosystem asset account">
+        <title>Ecosystem asset account</title>
+        <p>The value of an ecosystem asset can be determined by calculating the net present value (NPV) of the expected future flows of income associated with the different ecosystem services (<xref ref-type="bibr" rid="B9861844">Schenau et al. 2019</xref>, <xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>). The utilisation of an NPV approach suggests that the value of an ecosystem asset is tied to its ability to provide ecosystem services, as well as how this ability is projected to evolve over time.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Results">
+      <title>Results</title>
+      <sec sec-type="Ecosystem type and extent account">
+        <title>Ecosystem type and extent account</title>
+        <p>The preliminary Extent accounts covered more than 9.2 million km<sup>2</sup> and approximately 68% of the OSPAR area (Table <xref ref-type="table" rid="T9861991">2</xref>). Of the area with data coverage, deep-sea sedimentary habitats were the most extensive ecosystem, at 46% of the accounting area. In contrast, infra- and circalittoral rocky habitats only accounted for 0.006% (5281 km<sup>2</sup>) of the OSPAR area.*<xref ref-type="fn" rid="FN9859744">35</xref> As seabed data were from data sources aggregated across multiple years, extent accounts for multiple years (and thus changes) could not be compiled.</p>
+      </sec>
+      <sec sec-type="Ecosystem services accounts">
+        <title>Ecosystem services accounts</title>
+        <p>Ecosystem Service accounts were compiled for the period 2008 to 2019 (Table <xref ref-type="table" rid="T9861993">3</xref>). For physical values, fish provisioning was estimated between 2012 and 2019, while data for provisioning from aquaculture were estimated between 2012 and 2015. Estimated flows for carbon sequestration and capture were only available for 2019, while outdoor recreation could only be estimated for 2012.</p>
+        <p>The accounts revealed that fish provisioning fluctuated between 8.1 and 9.3 Mt, peaking in 2018 (9.32 Mt), while lowest in 2019 at ~ 8.1 Mt. The monetary value estimated for fish provisioning, however, ranged between €1.7 billion and €2.8 billion, with no clear relationship between physical and monetary values. Provisioning services to aquaculture were stable between 2012 and 2015 in physical terms, ranging between 2.12 and 2.15 Mt, although monetary value increased from €1.3 to €3.7 billion in the same period.</p>
+        <p>Marine carbon sequestration and capture was valued at €1.6 million in 2019, calculated using coastal saltmarshes from littoral habitats (A2) and sublittoral sand and mud (A5). Crucial habitats could not be included so these estimates omit significant carbon sinks within shelf seas, thus representing a gross underestimation for the value of carbon sequestration of the OSPAR area (see Suppl. material <xref ref-type="supplementary-material" rid="S9864101">2</xref>). Outdoor recreation services were estimated for coastal areas and was estimated at €253 million in 2012 for OSPAR Contracting Parties that were EU Member States (EU-28), excluding Finland due to lack of data (Table <xref ref-type="table" rid="T9861995">4</xref>).</p>
+      </sec>
+      <sec sec-type="Ecosystem asset account">
+        <title>Ecosystem asset account</title>
+        <p>The monetary value of each ecosystem asset was estimated by calculating the NPV using initial estimates of ecosystem services from this study (see Suppl. material <xref ref-type="supplementary-material" rid="S9864101">2</xref>). The total asset value for the OSPAR region was €125.75 billion, of which more than 40% comes from carbon sequestration and outdoor recreation. The asset value estimated for carbon sequestration was €48.15 billion and for outdoor recreation €7.56 billion. As both carbon sequestration and outdoor recreation services were underestimated, monetary estimates for the assets are also underestimated.*<xref ref-type="fn" rid="FN9859745">41</xref></p>
+      </sec>
+    </sec>
+    <sec sec-type="Discussion">
+      <title>Discussion</title>
+      <p>This paper presented the initial Ecosystem Accounts for the OSPAR region, compiling accounts of ecosystem extent, the supply and use of their services and a preliminary assessment of their asset value, aligned with the SEEA EA standard. As far as we are aware, this work represents the first compilation of Ecosystem Accounts for a Regional Sea. The accounts were compiled from available data, providing a ‘snapshot’ of stocks (extent, asset value), while measurement of ecosystem service flows varied in the accounting years presented. The approach to account for the different ecosystem services are experimental (in that they are not defined in any international standard), yet it establishes the groundwork and foundation for future Ecosystem Accounting practices. The following discussion will explore each of the Ecosystem Accounts compiled, limitations and future research needs. The discussion concludes with recommendations to facilitate the compilation of OSPAR accounts into the future.</p>
+      <sec sec-type="Extent accounting for the OSPAR area">
+        <title>Extent accounting for the OSPAR area</title>
+        <p>The OSPAR region has abundant and centralised data, relative to other Regional Seas. The study used the EUSeaMap 2019, which harmonised multiple datasets across various years to produce a seabed classification that covered approximately 68% of the OSPAR area. The seabed map used the EUNIS classification, aggregated to six broad ecosystem types, which was previously used to produce the national accounts for the United Kingdom, within the OSPAR area (see <xref ref-type="bibr" rid="B9860453">Grilli et al. (2022)</xref>, <xref ref-type="bibr" rid="B9861852">Thornton et al. (2019)</xref>). The EUNIS employed classification system, however, aligns more with abiotic seabed classifications, rather than the ecosystem types, differing from international ecosystem classifications, such as the IUCN Global Ecosystem Typology framework (<xref ref-type="bibr" rid="B9860509">Keith et al. 2020</xref>). Further, the EUSeaMap 2019 does not cover the land-sea interface, which omitted coastal and intertidal habitats (i.e. A1 and A2), which required additional data sourced through the European Environmental Agency Ecosystem Accounts. Future accounts should consider using datasets aligned with international ecosystem classifications and enable analyses of changes to extent over time (<xref ref-type="bibr" rid="B9860598">Townsend et al. 2018</xref>).</p>
+      </sec>
+      <sec sec-type="Ecosystem Service measurement and evaluation">
+        <title>Ecosystem Service measurement and evaluation</title>
+        <p>While there is a large amount of literature on specific ecosystem services within the OSPAR region, few employ a regional approach and are compatible with SEEA Ecosystem Accounting (i.e. linked to specific ecosystems). The initial estimation of ecosystem services provided for the North-East Atlantic was determined through logic chains, where ecosystem services were linked to specific EUNIS classifications, drawing from existing logic chains from the UK marine accounts (<xref ref-type="bibr" rid="B9861852">Thornton et al. 2019</xref>). The use of these logic chains are aligned with the SEEA Ecosystem Accounting standard (<xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>) and have previously been used to compile accounts for the Netherlands (<xref ref-type="bibr" rid="B9861897">Statistics Netherlands and WUR 2021</xref>). These logic chains were used to compile ecosystem service estimates for wild-catch fisheries, aquaculture, carbon sequestration and outdoor recreation, in physical and monetary terms. Greater specificity at the regional level, in linking towards specific economic sectors, requires further collection of coherent and standardised data within the OSPAR region.</p>
+        <p>The study also performed a preliminary valuation of ecosystem services in monetary terms, recognising that the methods for valuation of specific services are controversial and most useful when analysing changes over time, rather than absolute values (<xref ref-type="bibr" rid="B9860377">Droste and Bartkowski 2017</xref>). Estimated changes to stocks and flows in monetary terms could highlight the importance of non-use and non-market ecosystem services (see <xref ref-type="bibr" rid="B9859559">Comte et al. (2022)</xref>), to quantify the benefits of sustainable ecosystem management in decision-making (<xref ref-type="bibr" rid="B9860464">Hein et al. 2020</xref>).</p>
+        <p>Due to data limitations, several estimates relied on benefit transfer and <xref ref-type="bibr" rid="B9860441">Grammatikopoulou et al. (2023)</xref> explore uses-cases of the technique to develop accounts when capacity or resources are limited. In general, benefit transfer is used because it combines ease of use and minimal data needs (<xref ref-type="bibr" rid="B9861804">Office for National Statistics 2021</xref>, <xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>), where its use is expected to increase with resource constraints for accounting activities (<xref ref-type="bibr" rid="B9864064">Johnston et al. 2015</xref>). While a primary valuation study is preferred when feasible (<xref ref-type="bibr" rid="B9864064">Johnston et al. 2015</xref>), benefit transfer provides a means to compile preliminary ecosystem accounts, for iteration as data become available (<xref ref-type="bibr" rid="B9859528">Brander 2013</xref>).</p>
+        <sec sec-type="Fish provisioning">
+          <title>Fish provisioning</title>
+          <p>In this study, benefit transfer of resource rent unit was implemented to value the provision of fish and aquaculture products. Further research, however, is needed to identify the valuation techniques that better relate physical and monetary values as resource rent may produce low or negative monetary estimates of the flows from ecosystem services to the national economy (<xref ref-type="bibr" rid="B9860571">Obst et al. 2015</xref>). The study identified a disconnection between benefit transfer of resource rent and unit of fish provisioning in this work. Lower fish provisioning in 2016 was valued higher (8.33 Mt landed, valued at at 2,846 mill. €), while higher fish provisioning in 2015 had lower monetary value (9.15 Mt landed, valued at 1,728 mill. €), which contrasted with the results from other years (Table 3). We would expect, then, more fish provisioned or used would be translated in less amount of the service in monetary terms. A challenge with the valuation method is separating the value of human and produced capital with the ecosystem service of food provisioning, as resource rent is linked to fuel prices. Changes to fuel price has implications for the valuation of the ecosystem service, which does not reflect the state and trend of the underlying quality or health of the ecosystem.</p>
+        </sec>
+        <sec sec-type="Carbon sequestration">
+          <title>Carbon sequestration</title>
+          <p>Estimates of carbon sequestration in physical and monetary terms revealed preliminary estimates for the OSPAR area. The service was valued in 2019 to be more than half of the value of fish provisioning in 2018, indicating the significance of the service. Carbon price was used to value the service, where <xref ref-type="bibr" rid="B9860780">Horlings et al. (2020a)</xref> discussed the advantages and disadvantages between the use of the social cost of carbon and carbon price of policy targets. The use of carbon price may be beneficial in providing advantages, including lower uncertainty and greater viability (see <xref ref-type="bibr" rid="B9860780">Horlings et al. (2020a)</xref>). Further studies are needed to identify the impact of the valuation methods, noting the importance of relative change against absolute values, as the former provides key information on the state of natural capital and ecosystem assets.</p>
+        </sec>
+        <sec sec-type="Outdoor recreation">
+          <title>Outdoor recreation</title>
+          <p>Measuring outdoor recreation services was a challenge due to data harmonisation, rather than data limitations, as reporting practices for recreation- and tourism-related activities varied significantly amongst OSPAR countries. The estimates within this study were low, relative to other ecosystem service assessments (<xref ref-type="bibr" rid="B9861921">Vysna et al. 2021</xref>), which could be linked to the omission of countries and the weak distinction between coastal and marine recreation and the use of “Potential visits”. The dataset used contained only EU members, which omitted Norway, Iceland and Switzerland OSPAR Contracting Parties (<xref ref-type="bibr" rid="B9861886">Vallecillo Rodriguez et al. 2018</xref>). Further, the SEEA Ecosystem Accounting makes a distinction between “capacity” and “actual visits” as an indicator for use, which contrasts with "Potential visits” used within the study (<xref ref-type="bibr" rid="B9861886">Vallecillo Rodriguez et al. 2018</xref>, <xref ref-type="bibr" rid="B9860609">Vallecillo et al. 2019</xref>).</p>
+        </sec>
+      </sec>
+      <sec sec-type="Recommendations and future work">
+        <title>Recommendations and future work</title>
+        <p>The process of developing Ecosystem Accounts for the North-East Atlantic has produced several illustrative lessons in accounting for Regional Seas. The main challenges faced during the Ecosystem Accounting process suggests that future accounting and data activities should: (i) align with international ecosystem and ecosystem services classifications; and (ii) condition data and indicators should be spatially disaggregated to ecosystems (c.f. aggregated across ecosystems). To better align OSPAR reporting with Ecosystem Accounting and enable compilation of a condition account, data collection and reporting could shift from a region-based to an ecosystem-based approach. As a Regional Sea, the OSPAR could assist in the standardisation and harmonisation of data collection and reporting methods for monitoring on ecosystem condition, enabling Ecosystem Accounting, while meeting the other objectives of the OSPAR mandate. This could be performed through OSPAR’s ODIMS data platform, which contains relevant data for accounting.</p>
+        <p>Further, the EUNIS classification was recently revised to disaggregate marine habitats into benthic (i.e. ecosystems) and pelagic components, with datasets updated in January 2023.*<xref ref-type="fn" rid="FN9860328">42</xref> Future accounting activities could utilise the updated EUNIS to extend analyses to ecosystem services from specific biotic ecosystem types (e.g. kelp forests, oyster reefs) (<xref ref-type="bibr" rid="B9859548">Chen et al. 2020</xref>, <xref ref-type="bibr" rid="B9864073">Chen et al. 2022</xref>, <xref ref-type="bibr" rid="B9864082">Vondolia et al. 2019</xref>). Increasing resolution and ecosystem mapping from remote sensing provides an opportunity to determine extent changes over time (e.g. <xref ref-type="bibr" rid="B9860492">Murray et al. (2022)</xref>). The accounts could also explore the assets and services contained within the water column (i.e. vertical stratification) to understand flows across three-dimensions to improve decision-making concerning dynamic stocks, such as fisheries (<xref ref-type="bibr" rid="B9864091">Findlay et al. 2022</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Conclusions">
+      <title>Conclusions</title>
+      <p>This study presented the initial Ecosystem Accounts for the OSPAR region, advancing trans-boundary Ecosystem Accounting at the Regional Seas level. Specifically, the accounts provide an understanding of the state and trend of the marine environment, contributing to OSPAR's mission of monitoring the health and conservation of marine habitats. The compilation of accounts for ecosystem extent, services and asset value, aligned with the SEEA EA standard, provides a ‘snapshot’ of stocks and flows and suggests processes to compile accounts as a foundation for future ecosystem accounting practices. While the accounting approach for specific ecosystem services remains experimental, implementation through initiation estimates highlighted the need for further efforts in data collection, harmonisation and refinement of classifications to improve the accuracy and spatial scope of future accounts. The findings underscore the importance of considering relative monetary values rather than absolute numbers, as they provide key insights into the state of ecosystems and impacts to the supply of services.</p>
+      <p>Several recommendations have been identified to enhance the future compilation of OSPAR Ecosystem Accounts. Firstly, a shift towards ecosystem type-based data collection would enable more direct links between condition indicators and specific ecosystem types, improving the accuracy of the accounts. The harmonisation of data amongst OSPAR Contracting Parties is crucial, requiring the development of common methodologies and tools to facilitate data sharing and standardisation. The ODIMS platform presents an opportunity for OSPAR to streamline the collection and collation of diverse data sources. Additionally, systematic and coherent data collection and recording practices should be established to enable the periodic production of accounts, facilitating the comparison and tracking of changes in ecosystems and their services over time. These recommendations, when implemented, will further enhance the relevance and usefulness of Ecosystem Accounts in providing information for policy decisions and promoting sustainable ecosystem management in the OSPAR region and beyond.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This research was supported by the Ministry of Infrastructure and Water Management of the Netherlands (Rijkswaterstaat). We would like to thank all experts who shared knowledge and experiences on Ecosystem Accounting and the participants of the OSPAR Special Session on Marine Natural Capital Accounting. Their comments and discussions contributed to the quality of this work.</p>
+    </ack>
+    <sec sec-type="Conflicts of interest">
+      <title>Conflicts of interest</title>
+      <p>No conflict of interest to declare</p>
+      <p>Disclaimer: This article is (co-)authored by any of the Editors-in-Chief, Managing Editors or their deputies in this journal.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B9859516">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bedulli</surname>
+              <given-names>Camila</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lavery</surname>
+              <given-names>Paul S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harvey</surname>
+              <given-names>Matt</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duarte</surname>
+              <given-names>Carlos M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Serrano</surname>
+              <given-names>Oscar</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Contribution of seagrass blue carbon toward carbon neutral policies in a touristic and environmentally-friendly island</article-title>
+          <source>Frontiers in Marine Science</source>
+          <volume>7</volume>
+          <pub-id pub-id-type="doi">10.3389/fmars.2020.00001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9859528">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Brander</surname>
+              <given-names>Luke</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Guidance manual on value transfer methods for ecosystem services</article-title>
+          <source>Unpublished</source>
+          <pub-id pub-id-type="doi">10.13140/2.1.4203.8569</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9859537">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Buonocore</surname>
+              <given-names>Elvira</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Donnarumma</surname>
+              <given-names>Luigia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Appolloni</surname>
+              <given-names>Luca</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miccio</surname>
+              <given-names>Antonino</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Russo</surname>
+              <given-names>Giovanni F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Franzese</surname>
+              <given-names>Pier Paolo</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Marine natural capital and ecosystem services: An environmental accounting model</article-title>
+          <source>Ecological Modelling</source>
+          <volume>424</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecolmodel.2020.109029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860626">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>CBD</surname>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Report of the Global Environment Facility to the seventh meeting of the conference of the parties to the Convention on Biological Diversity</article-title>
+          <uri>https://www.thegef.org/sites/default/files/documents/cop-07-09-en.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9859548">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>Wenting</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van Assche</surname>
+              <given-names>Kristof Albert M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hynes</surname>
+              <given-names>Stephen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bekkby</surname>
+              <given-names>Trine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Christie</surname>
+              <given-names>Hartvig C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gundersen</surname>
+              <given-names>Hege</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Ecosystem accounting's potential to support coastal and marine governance</article-title>
+          <source>Marine Policy</source>
+          <volume>112</volume>
+          <pub-id pub-id-type="doi">10.1016/j.marpol.2019.103758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9864073">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>Wenting</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barton</surname>
+              <given-names>David N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sander</surname>
+              <given-names>Gunnar</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>Coastal-marine ecosystem accounting to support integrated coastal zone management</article-title>
+          <source>Human-Nature Interactions</source>
+          <fpage>361</fpage>
+          <lpage>373</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-3-031-01980-7_28</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9859559">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Comte</surname>
+              <given-names>Adrien</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sylvie Campagne</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lange</surname>
+              <given-names>Sabine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bruzón</surname>
+              <given-names>Adrián García</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos-Martín</surname>
+              <given-names>Fernando</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Levrel</surname>
+              <given-names>Harold</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>Ecosystem accounting: Past scientific developments and future challenges</article-title>
+          <source>Ecosystem Services</source>
+          <volume>58</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2022.101486</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860642">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dasgupta</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>The economics of biodiversity: The Dasgupta Review. Abridged Version.</article-title>
+          <publisher-name>(London: HM Treasury)</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B9860650">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>de Jongh</surname>
+              <given-names>Linda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Jong</surname>
+              <given-names>Rixt</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schenau</surname>
+              <given-names>Sjoerd</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Berkel</surname>
+              <given-names>Jocelyn</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bogaart</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driessen</surname>
+              <given-names>Corine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Horlings</surname>
+              <given-names>Edwin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lof</surname>
+              <given-names>Marjolein</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mosterd</surname>
+              <given-names>Redbad</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>Natural capital accounts Netherlands 2013-2018. CBS publication in collaboration with Wageningen University &amp; Research (WUR)</article-title>
+          <uri>https://www.cbs.nl/nl-nl/longread/aanvullende-statistische-diensten/2021/natuurlijk-kapitaalrekeningen-nederland-2013-2018?onepage=true</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860377">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Droste</surname>
+              <given-names>Nils</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bartkowski</surname>
+              <given-names>Bartosz</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Ecosystem service valuation for national accounting: A reply to Obst, Hein and Edens (2016)</article-title>
+          <source>Environmental and Resource Economics</source>
+          <volume>71</volume>
+          <issue>1</issue>
+          <fpage>205</fpage>
+          <lpage>215</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10640-017-0146-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860388">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Edens</surname>
+              <given-names>Bram</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Towards a consistent approach for ecosystem accounting</article-title>
+          <source>Ecological Economics</source>
+          <volume>90</volume>
+          <fpage>41</fpage>
+          <lpage>52</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2013.03.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860682">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Commission</surname>
+              <given-names>European</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Reinforcing Europe’s resilience: halting biodiversity loss and building a healthy and sustainable food system.</article-title>
+          <uri>https://ec.europa.eu/commission/presscorner/detail/en/ip_20_884</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860690">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Agency</surname>
+              <given-names>European Environment</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Natural capital accounting in support of policymaking in Europe</article-title>
+          <uri>https://www.eea.europa.eu/publications/natural-capital-accounting-in-support</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9864091">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Findlay</surname>
+              <given-names>Ken</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>Erika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonçalves Loureiro</surname>
+              <given-names>Tainã</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gacutan</surname>
+              <given-names>Jordan</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>Exploring basic spatial units for the ocean: identifying challenges and potential solutions</article-title>
+          <uri>https://seea.un.org/sites/seea.un.org/files/lg28_1_s2_1_findlay.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860698">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Flatebø Selle</surname>
+              <given-names>Simon</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>Resource Rent in the Norwegian Aquaculture Industry A bottom-up approach</source>
+          <publisher-name>Norwegian School of Economics</publisher-name>
+          <uri>https://openaccess.nhh.no/nhh-xmlui/bitstream/handle/11250/2643984/masterthesis.pdf?sequence=1</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860412">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gacutan</surname>
+              <given-names>Jordan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pınarbaşı</surname>
+              <given-names>Kemal</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Agbaglah</surname>
+              <given-names>Messan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bradley</surname>
+              <given-names>Crystal</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Galparsoro</surname>
+              <given-names>Ibon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Murillas</surname>
+              <given-names>Arantza</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Adewumi</surname>
+              <given-names>Ibukun</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Praphotjanaporn</surname>
+              <given-names>Teerapong</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bordt</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Findlay</surname>
+              <given-names>Kenneth</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lantz</surname>
+              <given-names>Coulson</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Milligan</surname>
+              <given-names>Ben M.</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>The emerging intersection between marine spatial planning and ocean accounting: A global review and case studies</article-title>
+          <source>Marine Policy</source>
+          <volume>140</volume>
+          <pub-id pub-id-type="doi">10.1016/j.marpol.2022.105055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860431">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Geange</surname>
+              <given-names>Shane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Townsend</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Clark</surname>
+              <given-names>Dana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ellis</surname>
+              <given-names>Joanne I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lohrer</surname>
+              <given-names>Andrew M.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Communicating the value of marine conservation using an ecosystem service matrix approach</article-title>
+          <source>Ecosystem Services</source>
+          <volume>35</volume>
+          <fpage>150</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2018.12.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860756">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>GOAP</surname>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Technical Guidance on Ocean Accounting- Version 0.9, pre-release consultation draft.</article-title>
+          <uri>https://www.oceanaccounts.org/technical-guidance-on-ocean-accounting-2/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860441">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grammatikopoulou</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Badura</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnston</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barton</surname>
+              <given-names>D. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schaafsma</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2023</year>
+          <article-title>Value transfer in ecosystem accounting applications</article-title>
+          <source>Journal of Environmental Management</source>
+          <volume>326</volume>
+          <pub-id pub-id-type="doi">10.1016/j.jenvman.2022.116784</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860453">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grilli</surname>
+              <given-names>Gaetano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luisetti</surname>
+              <given-names>Tiziana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thornton</surname>
+              <given-names>Ann</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Donovan</surname>
+              <given-names>Deanna</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>Developing ecosystem accounts for the marine and coastal environment: Limitations, opportunities and lessons learned from the United Kingdom experience.</article-title>
+          <source>Journal of Ocean and Coastal Economics</source>
+          <volume>8</volume>
+          <issue>2</issue>
+          <pub-id pub-id-type="doi">10.15351/2373-8456.1145</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860764">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Haines-Young</surname>
+              <given-names>Roy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Potschin</surname>
+              <given-names>Marion</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Common International Classification of Ecosystem Services (CICES) V5.1 Guidance on the Application of the Revised Structure.</article-title>
+          <uri>www.cices.eu</uri>
+          <pub-id pub-id-type="doi">10.2760/619793</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860464">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bagstad</surname>
+              <given-names>Kenneth J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>Carl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edens</surname>
+              <given-names>Bram</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schenau</surname>
+              <given-names>Sjoerd</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Castillo</surname>
+              <given-names>Gem</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Soulard</surname>
+              <given-names>Francois</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brown</surname>
+              <given-names>Claire</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driver</surname>
+              <given-names>Amanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bordt</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Steurer</surname>
+              <given-names>Anton</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harris</surname>
+              <given-names>Rocky</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caparrós</surname>
+              <given-names>Alejandro</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Progress in natural capital accounting for ecosystems</article-title>
+          <source>Science</source>
+          <volume>367</volume>
+          <issue>6477</issue>
+          <fpage>514</fpage>
+          <lpage>515</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.aaz8901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860772">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Helm</surname>
+              <given-names>Dieter</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <source>Natural capital: valuing our planet</source>
+          <publisher-name>Yale University Press</publisher-name>
+          <publisher-loc>New Haven and London</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B9860780">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Horlings</surname>
+              <given-names>Edwin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jongh</surname>
+              <given-names>Linda De</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Polder</surname>
+              <given-names>Michael</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Experimental monetary valuation of ecosystem services and assets in the Netherlands: Technical background report.</article-title>
+          <publisher-name>Statistics Netherlands</publisher-name>
+          <uri>https://www.cbs.nl/en-gb/background/2020/04/monetary-valuation-of-ecosystem-services-for-the-netherlands</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860788">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Horlings</surname>
+              <given-names>Edwin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schenau</surname>
+              <given-names>Sjoerd</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lof</surname>
+              <given-names>Marjolein</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Jongh</surname>
+              <given-names>Linda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Polder</surname>
+              <given-names>Michael</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Monetary valuation of ecosystem services for the Netherlands. Final Report</article-title>
+          <uri>https://www.cbs.nl/en-gb/background/2020/04/monetary-valuation-of-ecosystem-services-for-the-netherlands</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860483">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>IPBES</surname>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Global assessment report on biodiversity and ecosystem services of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services</article-title>
+          <source>Zenodo</source>
+          <pub-id pub-id-type="doi">10.5281/zenodo.3831673</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9864064">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Johnston</surname>
+              <given-names>Robert J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rosenberger</surname>
+              <given-names>Randall S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolfe</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brouwer</surname>
+              <given-names>Roy</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Benefit transfer: The present state and future prospects</article-title>
+          <source>Benefit Transfer of Environmental and Resource Values</source>
+          <fpage>553</fpage>
+          <lpage>574</lpage>
+          <pub-id pub-id-type="doi">10.1007/978-94-017-9930-0_24</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860509">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>David A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrer-Paris</surname>
+              <given-names>Jose R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kingsford</surname>
+              <given-names>Richard T.</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>IUCN Global Ecosystem Typology 2.0: descriptive profiles for biomes and ecosystem functional groups</article-title>
+          <source>Gland, Switzerland: IUCN.</source>
+          <pub-id pub-id-type="doi">10.2305/iucn.ch.2020.13.en</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860534">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lange</surname>
+              <given-names>Sabine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Campagne</surname>
+              <given-names>Carole Sylvie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Comte</surname>
+              <given-names>Adrien</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos-Martín</surname>
+              <given-names>Fernando</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burkhard</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>Progress on ecosystem accounting in Europe</article-title>
+          <source>Ecosystem Services</source>
+          <volume>57</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2022.101473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860798">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Condé</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barredo</surname>
+              <given-names>J. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>M. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abdul Malak</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Trombetti</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vigiak</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Addamo</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grizzetti</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Somma</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hagyo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vogt</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Polce</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marin</surname>
+              <given-names>A. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ivits</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mauri</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rega</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ceccherini</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pisoni</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ceglar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Palma</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cerrani</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meroni</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Caudullo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lugato</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vogt</surname>
+              <given-names>J. V.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Spinoni</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cammalleri</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bastrup-Birk</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>San Miguel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>San Román</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kristensen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Christiansen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zal</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Roo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>A. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pistocchi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Del Barrio Alvarellos</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tsiamis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gervasini</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Deriu</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Abad Viñas</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vizzarri</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Camia</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robert</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kakoulaki</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garcia Bendito</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Panagos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ballabio</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scarpa</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Montanarella</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Orgiazzi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernandez Ugalde</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos-Martín</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Mapping and assessment of ecosystems and their services: An EU ecosystem assessment</article-title>
+          <publisher-name>EUR 30161 EN, Publications Office of the European Union</publisher-name>
+          <comment>Ispra, ISBN 978-92-76-17833- 0, doi: 10.2760/757183, JRC120383</comment>
+        </element-citation>
+      </ref>
+      <ref id="B9860561">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Manea</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Di Carlo</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Depellegrin</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Agardy</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gissi</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Multidimensional assessment of supporting ecosystem services for marine spatial planning of the Adriatic Sea</article-title>
+          <source>Ecological Indicators</source>
+          <volume>101</volume>
+          <fpage>821</fpage>
+          <lpage>837</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2018.12.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860492">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Murray</surname>
+              <given-names>Nicholas J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Worthington</surname>
+              <given-names>Thomas A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bunting</surname>
+              <given-names>Pete</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Duce</surname>
+              <given-names>Stephanie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hagger</surname>
+              <given-names>Valerie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lovelock</surname>
+              <given-names>Catherine E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lucas</surname>
+              <given-names>Richard</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saunders</surname>
+              <given-names>Megan I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sheaves</surname>
+              <given-names>Marcus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Spalding</surname>
+              <given-names>Mark</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Waltham</surname>
+              <given-names>Nathan J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lyons</surname>
+              <given-names>Mitchell B.</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <article-title>High-resolution mapping of losses and gains of Earth’s tidal wetlands</article-title>
+          <source>Science</source>
+          <volume>376</volume>
+          <issue>6594</issue>
+          <fpage>744</fpage>
+          <lpage>749</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.abm9583</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860571">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>Carl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edens</surname>
+              <given-names>Bram</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>National accounting and the valuation of ecosystem assets and their services</article-title>
+          <source>Environmental and Resource Economics</source>
+          <volume>64</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10640-015-9921-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9861804">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Statistics</surname>
+              <given-names>Office for National</given-names>
+            </name>
+          </person-group>
+          <article-title>Marine accounts, natural capital, UK</article-title>
+          <uri>https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/marineaccountsnaturalcapitaluk/2021</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9861836">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OSPAR</surname>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Quality Status Report 2000</article-title>
+          <uri>https://oap.ospar.org/en/ospar-assessments/quality-status-reports/quality-status-report-2000/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9861812">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OSPAR</surname>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>The OSPAR system of Ecological Quality Objectives for the North Sea, a contribution to OSPAR’s Quality Status Report 2010</article-title>
+          <uri>https://qsr2010.ospar.org/media/assessments/EcoQO/EcoQO_P01-16_complete.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9861820">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OSPAR</surname>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>The Quality Status Report 2010</article-title>
+          <uri>https://qsr2010.ospar.org/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9861828">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OSPAR</surname>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>Strategy of the OSPAR Commission for the Protection of the North-East Atlantic 2030: Vol. OSPAR 21/1</article-title>
+          <uri>https://www.ospar.org/documents?v=46337</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9860580">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Richardson</surname>
+              <given-names>Leslie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Loomis</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kroeger</surname>
+              <given-names>Timm</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Casey</surname>
+              <given-names>Frank</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>The role of benefit transfer in ecosystem service valuation</article-title>
+          <source>Ecological Economics</source>
+          <volume>115</volume>
+          <fpage>51</fpage>
+          <lpage>58</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2014.02.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9860589">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ruijs</surname>
+              <given-names>Arjan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vardon</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bass</surname>
+              <given-names>Steve</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ahlroth</surname>
+              <given-names>Sofia</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Natural capital accounting for better policy</article-title>
+          <source>Ambio</source>
+          <volume>48</volume>
+          <issue>7</issue>
+          <fpage>714</fpage>
+          <lpage>725</lpage>
+          <pub-id pub-id-type="doi">10.1007/s13280-018-1107-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9861844">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schenau</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rietveld</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>D</surname>
+              <given-names>Bosch</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Natural capital accounts for the North Sea: The physical SEEA EEA accounts- Final report</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B9861897">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>WUR</surname>
+              <given-names>Statistics Netherlands and</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>Natural Capital Accounting in the Netherlands – Technical report. Statistics Netherlands (CBS) and Wageningen University and Research (WUR)</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B9861852">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Thornton</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Luisetti</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grilli</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Donovan</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Phillips</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hawker</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Initial natural capital accounts for the UK marine and coastal environment. Final report</article-title>
+          <comment>Report prepared for the Department for Environment Food and Rural Affairs</comment>
+        </element-citation>
+      </ref>
+      <ref id="B9860598">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Townsend</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davies</surname>
+              <given-names>Kate</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hanley</surname>
+              <given-names>Nicholas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hewitt</surname>
+              <given-names>Judi E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lundquist</surname>
+              <given-names>Carolyn J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lohrer</surname>
+              <given-names>Andrew M.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The challenge of implementing the marine ecosystem service concept</article-title>
+          <source>Frontiers in Marine Science</source>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.3389/fmars.2018.00359</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9861862">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>al.</surname>
+              <given-names>United Nations et</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>System of Environmental-Economic Accounting— Ecosystem Accounting (SEEA EA). White cover publication, pre-edited text subject to official editing</article-title>
+          <uri>https://seea.un.org/ecosystem-accounting</uri>
+        </element-citation>
+      </ref>
+      <ref id="B9861870">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>UNSD</surname>
+            </name>
+          </person-group>
+          <year>2023</year>
+          <article-title>Global Assessment of Environmental-Economic Accounting and Supporting Statistics 2022</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B9861886">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vallecillo Rodriguez</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Polce</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alexandris</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrini</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Ecosystem services accounting: Part I - Outdoor recreation and crop pollination</article-title>
+          <comment>EUR 29024 EN, Publications Office of the European Union, Luxembourg, ISBN 978-92-79-77333-4, doi: 10.2760/619793, JRC110321</comment>
+        </element-citation>
+      </ref>
+      <ref id="B9860609">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrini</surname>
+              <given-names>Silvia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>How ecosystem services are changing: an accounting application at the EU level</article-title>
+          <source>Ecosystem Services</source>
+          <volume>40</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2019.101044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9861913">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Veretennikov</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Report on possibilities of application of Ecosystem Services and Natural Capital approaches in OSPAR activities.</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B9864082">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vondolia</surname>
+              <given-names>Godwin K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Chen</surname>
+              <given-names>Wenting</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Armstrong</surname>
+              <given-names>Claire W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Norling</surname>
+              <given-names>Magnus D.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Bioeconomic modelling of coastal cod and kelp forest interactions: Co-benefits of habitat services, fisheries and carbon sinks</article-title>
+          <source>Environmental and Resource Economics</source>
+          <volume>75</volume>
+          <issue>1</issue>
+          <fpage>25</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10640-019-00387-y</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9861921">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vysna</surname>
+              <given-names>V. .</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petersen</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aizpurua</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ivits</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>Accounting for ecosystems and their services in the European Union (INCA). Final report from phase II of the INCA project aiming to develop a pilot for an integrated system of ecosystem accounts for the EU</article-title>
+          <publisher-name>Statistical report. Publications office of the European Union, Luxembourg</publisher-name>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="FN9859571">
+        <label>*1</label>
+        <p>European Commission (2021) Making the transition from ‘Blue Growth’ to a ‘Sustainable Blue Economy’(COM/2021/240 final)</p>
+      </fn>
+      <fn id="FN9859572">
+        <label>*2</label>
+        <p>The High Level Panel for a Sustainable Ocean Economy (Ocean Panel): <ext-link ext-link-type="uri" xlink:href="https://oceanpanel.org/">https://oceanpanel.org/</ext-link></p>
+      </fn>
+      <fn id="FN9859573">
+        <label>*3</label>
+        <p>North-East Atlantic Environment Strategy 2030: <ext-link ext-link-type="uri" xlink:href="https://www.ospar.org/convention/strategy">https://www.ospar.org/convention/strategy</ext-link></p>
+      </fn>
+      <fn id="FN9859574">
+        <label>*4</label>
+        <p>The Baltic Sea Action Plan <ext-link ext-link-type="uri" xlink:href="https://helcom.fi/wp-content/uploads/2021/10/Baltic-Sea-Action-Plan-2021-update.pdf">https://helcom.fi/wp-content/uploads/2021/10/Baltic-Sea-Action-Plan-2021-update.pdf</ext-link></p>
+      </fn>
+      <fn id="FN9859575">
+        <label>*5</label>
+        <p>Republic of Fiji National Ocean Policy 2020-2030: <ext-link ext-link-type="uri" xlink:href="https://fijiclimatechangeportal.gov.fj/ppss/republic-of-fiji-national-ocean-policy-2020-2030/">https://fijiclimatechangeportal.gov.fj/ppss/republic-of-fiji-national-ocean-policy-2020-2030/</ext-link></p>
+      </fn>
+      <fn id="FN9859576">
+        <label>*6</label>
+        <p>Direção-Geral de Política do Mar, National Strategy for the Sea 2021-2030: <ext-link ext-link-type="uri" xlink:href="https://www.dgpm.mm.gov.pt/agenda-2030-en">https://www.dgpm.mm.gov.pt/agenda-2030-en</ext-link></p>
+      </fn>
+      <fn id="FN9859577">
+        <label>*7</label>
+        <p>UNSD (2014) Fundamental Principles of Official Statistics (A/RES/68/261)</p>
+      </fn>
+      <fn id="FN9859578">
+        <label>*8</label>
+        <p><ext-link ext-link-type="uri" xlink:href="https://seea.un.org/home/Natural-Capital-Accounting-Project">https://seea.un.org/home/Natural-Capital-Accounting-Project</ext-link> ; <ext-link ext-link-type="uri" xlink:href="https://www.wavespartnership.org/">https://www.wavespartnership.org/</ext-link> ; <ext-link ext-link-type="uri" xlink:href="https://maiaportal.eu/">https://maiaportal.eu/</ext-link></p>
+      </fn>
+      <fn id="FN9859579">
+        <label>*9</label>
+        <p>Virtual Expert Forum on SEEA Experimental Ecosystem Accounting 2020. Session 4: Thematic accounts and indicators (9-10 November). Group 3: Accounting for oceans, Portugal presentation.</p>
+      </fn>
+      <fn id="FN9859580">
+        <label>*10</label>
+        <p>Global Ocean Accounts Partnership (GOAP): <ext-link ext-link-type="uri" xlink:href="https://www.oceanaccounts.org">https://www.oceanaccounts.org</ext-link></p>
+      </fn>
+      <fn id="FN9859581">
+        <label>*11</label>
+        <p>OSPAR Commission, North-East Atlantic Environment Strategy: <ext-link ext-link-type="uri" xlink:href="https://www.ospar.org/convention/strategy">https://www.ospar.org/convention/strategy</ext-link></p>
+      </fn>
+      <fn id="FN9859582">
+        <label>*12</label>
+        <p>The Ecosystem Accounts compiled are not OSPAR final ecosystem accounts, they are first estimates showing what can be done to move forward at the OSPAR level in ecosystem accounting terms.</p>
+      </fn>
+      <fn id="FN9859588">
+        <label>*13</label>
+        <p>Contracting parties include Belgium, Denmark, Finland, France, Germany, Iceland, Ireland, the Netherlands, Norway, Portugal, Spain, Sweden, the United Kingdom, Luxembourg and Switzerland.</p>
+      </fn>
+      <fn id="FN9859589">
+        <label>*14</label>
+        <p>As defined by the OSPAR Convention: <ext-link ext-link-type="uri" xlink:href="https://www.ospar.org/site/assets/files/1169/ospar_convention.pdf">https://www.ospar.org/site/assets/files/1169/ospar_convention.pdf</ext-link></p>
+      </fn>
+      <fn id="FN9859590">
+        <label>*15</label>
+        <p>As defined by the UN Convention on the Law of the Sea (UNCLOS), Section 2.</p>
+      </fn>
+      <fn id="FN9859591">
+        <label>*16</label>
+        <p>OSPAR regions - Region I: Arctic Waters; Region II: Greater North Sea; Region III: Celtic Seas; Region IV: The Bay of Biscay and Iberian Coast; and Region V: Wider Atlantic.</p>
+      </fn>
+      <fn id="FN9859592">
+        <label>*17</label>
+        <p>As defined by the UN Convention on the Law of the Sea (UNCLOS), Section 2, Art. 8.</p>
+      </fn>
+      <fn id="FN9859593">
+        <label>*18</label>
+        <p>OSPAR Commission, North-East Atlantic Environment Strategy 2030: <ext-link ext-link-type="uri" xlink:href="https://www.ospar.org/convention/strategy">https://www.ospar.org/convention/strategy</ext-link></p>
+      </fn>
+      <fn id="FN9859594">
+        <label>*19</label>
+        <p>Marine Strategy Framework Directive <ext-link ext-link-type="uri" xlink:href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32008L0056">https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32008L0056</ext-link></p>
+      </fn>
+      <fn id="FN9859595">
+        <label>*20</label>
+        <p>Strategy of the OSPAR Commission for the Protection of the Marine Environment of the North-East Atlantic 2010–2020 (OSPAR Agreement 2010-3) Preamble.</p>
+      </fn>
+      <fn id="FN9859600">
+        <label>*21</label>
+        <p>As defined by the OSPAR Convention: <ext-link ext-link-type="uri" xlink:href="https://www.ospar.org/site/assets/files/1169/ospar_convention.pdf">https://www.ospar.org/site/assets/files/1169/ospar_convention.pdf</ext-link></p>
+      </fn>
+      <fn id="FN9859601">
+        <label>*22</label>
+        <p>Lange et al. (2022) reviewed ecosystem accounts in Finland, France, The Netherlands, United Kingdom, Norway and Spain, while Gacutan et al. (2022) provide detailed descriptions of ecosystem accounts in Australia, Canada and South Africa.</p>
+      </fn>
+      <fn id="FN9859604">
+        <label>*23</label>
+        <p>OSPAR Special Session on Marine Natural Capital Accounting: <ext-link ext-link-type="uri" xlink:href="https://www.ospar.org/news/ospar-special-session-on-marine-natural-capital-accounting">https://www.ospar.org/news/ospar-special-session-on-marine-natural-capital-accounting</ext-link></p>
+      </fn>
+      <fn id="FN9859605">
+        <label>*24</label>
+        <p>OSPAR Data &amp; Information Management System: <ext-link ext-link-type="uri" xlink:href="https://odims.ospar.org">https://odims.ospar.org</ext-link></p>
+      </fn>
+      <fn id="FN9859613">
+        <label>*25</label>
+        <p>EUNIS habitat classification: <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1">https://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1</ext-link></p>
+      </fn>
+      <fn id="FN9859614">
+        <label>*26</label>
+        <p>EMODnet Seabed Habitats - EUSeaMap broad-scale maps: <ext-link ext-link-type="uri" xlink:href="https://www.emodnet-seabedhabitats.eu/about/euseamap-broad-scale-maps/">https://www.emodnet-seabedhabitats.eu/about/euseamap-broad-scale-maps/</ext-link></p>
+      </fn>
+      <fn id="FN9859615">
+        <label>*27</label>
+        <p>European Environment Agency, Ecosystem Extent Accounts: <ext-link ext-link-type="uri" xlink:href="https://www.eea.europa.eu/data-and-maps/data/data-viewers/ecosystem-extent-accounts">https://www.eea.europa.eu/data-and-maps/data/data-viewers/ecosystem-extent-accounts</ext-link></p>
+      </fn>
+      <fn id="FN9859616">
+        <label>*28</label>
+        <p>This aligns with the concepts, definitions and boundaries used within national accounting by most countries.</p>
+      </fn>
+      <fn id="FN9859617">
+        <label>*29</label>
+        <p>The concept of a logic chain involves a step-by-step sequence, whereby an ecosystem asset provides an ecosystem service to an economic unit that utilises the service as an input for either production or consumption activities. The outcome of this process results in a benefit that can be measured either in terms of System of National Accounts (SNA) or non-SNA benefits. Logic chains can be visually represented through a graphic or table format (see United Nations (2021)).</p>
+      </fn>
+      <fn id="FN9859618">
+        <label>*30</label>
+        <p>Knowledge Innovation Project on an Integrated system of Natural Capital and ecosystem services Accounting (KIP INCA) project provided an integrated system of ecosystem accounts for the European Union. Report on the first phase:</p>
+        <p>
+          <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/environment/nature/capital_accounting/pdf/KIP_INCA_final_report_phase-1.pdf">https://ec.europa.eu/environment/nature/capital_accounting/pdf/KIP_INCA_final_report_phase-1.pdf</ext-link>
+        </p>
+      </fn>
+      <fn id="FN9859619">
+        <label>*31</label>
+        <p>The method assesses areas for daily recreation where people live. In these places, out-of-reach citizens involve a drop in daily usage. This approach represents only a small fraction of the total potential users, some of whom may travel a considerable distance to come to enjoy such services.</p>
+      </fn>
+      <fn id="FN9859674">
+        <label>*32</label>
+        <p>Resource rent provides a gross measure of the return on the environmental asset, isolating the surplus value added to the marketed output from the environmental asset after considering other operational costs and normal returns.</p>
+      </fn>
+      <fn id="FN9862025">
+        <label>*33</label>
+        <p>Henceforth referred to the service as “<italic>fish provisioning</italic>” in the text.</p>
+      </fn>
+      <fn id="FN9862026">
+        <label>*34</label>
+        <p>Henceforth referred to as “<italic>provisioning from aquaculture</italic>” in the text.</p>
+      </fn>
+      <fn id="FN9859744">
+        <label>*35</label>
+        <p>OSPAR area as covered in the OSPAR regions boundaries map for 2017 used from ODIMS (see Table 5 of Suppl. material <xref ref-type="supplementary-material" rid="S9864101">2</xref>).</p>
+      </fn>
+      <fn id="FN9862045">
+        <label>*36</label>
+        <p>Relevant values within European Environmental Agency Ecosystem Accounts were saltmarsh, coastal estuaries and lagoons and saline intertidal habitats.</p>
+      </fn>
+      <fn id="FN9862565">
+        <label>*37</label>
+        <p>Estimates of provisioning services from aquaculture were extremely high compared to the unit resource rent of marine fish capture due to the benefit transfer values used. Therefore, the Provisioning of Aquaculture was excluded from Ecosystem Service use and Ecosystem Asset accounts.</p>
+      </fn>
+      <fn id="FN9862519">
+        <label>*38</label>
+        <p>Outdoor recreation also relies on coastal habitats (EUNIS B1 – 3), adjacent to the littoral zone.</p>
+      </fn>
+      <fn id="FN9862566">
+        <label>*39</label>
+        <p>Due to lack of data, estimates are from different years.</p>
+      </fn>
+      <fn id="FN9862567">
+        <label>*40</label>
+        <p>values rounded to the nearest million</p>
+      </fn>
+      <fn id="FN9859745">
+        <label>*41</label>
+        <p>The asset value presented here depends on the limited list of ecosystem services included in this study. If a larger list of ecosystem services had been included, the value would have been higher.</p>
+      </fn>
+      <fn id="FN9860328">
+        <label>*42</label>
+        <p>EUNIS marine habitat classification 2021: <ext-link ext-link-type="uri" xlink:href="http://www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1">www.eea.europa.eu/data-and-maps/data/eunis-habitat-classification-1</ext-link> (accessed 17/04/2023).</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="F9861955" position="float" orientation="portrait">
+      <object-id content-type="arpha">669486FE-7E45-558D-859C-24D010C0676C</object-id>
+      
+      <label>Figure 1.</label>
+      <caption>
+        <p>A map of the OSPAR Maritime Area, denoting sub-regions I to V, as defined by the OSPAR convention. Ecosystem Accounting was performed by seafloor type (A3 – A6), according to EUNIS classifications. A map of ecosystem types, further disaggregated, is provided in Suppl. material <xref ref-type="supplementary-material" rid="S9864099">1</xref>.</p>
+      </caption>
+      <graphic xlink:href="oneeco-08-e108030-g001.png" position="float" id="oo_857456.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/857456</uri>
+      </graphic>
+    </fig>
+    <fig id="F9861967" position="float" orientation="portrait">
+      <object-id content-type="arpha">5B3DBC8A-37CB-5CB4-960E-299D048A644C</object-id>
+      
+      <label>Figure 2.</label>
+      <caption>
+        <p>The Ecosystem Accounts framework followed. The figure illustrates the set of accounts forming the accounting system, in which the accounts are strongly interconnected and provide a comprehensive and consistent view of the ecosystems. Note that Ecosystem Condition accounts were not compiled.</p>
+      </caption>
+      <graphic xlink:href="oneeco-08-e108030-g002.png" position="float" id="oo_857457.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/857457</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T9861990" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Ecosystem services assessed within this study and their relevance to Ecosystem Accounts (<xref ref-type="bibr" rid="B9860756">GOAP 2020</xref>, <xref ref-type="bibr" rid="B9861862">United Nations et al. 2021</xref>). Methods and sources used to calculate the monetary accounts are also included. Definitions drawn from CICES (<xref ref-type="bibr" rid="B9860764">Haines-Young and Potschin 2017</xref>).</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Ecosystem Service type</td>
+            <td rowspan="1" colspan="1">Ecosystem Service</td>
+            <td rowspan="1" colspan="1">Relevance</td>
+            <td rowspan="1" colspan="1">Valuation method</td>
+            <td rowspan="1" colspan="1">Source</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">Provisioning services</td>
+            <td rowspan="1" colspan="1">Provision of wild aquatic animals for nutrition, materials, or energy*<xref ref-type="fn" rid="FN9862025">33</xref></td>
+            <td rowspan="2" colspan="1">Fish and other aquatic products including from coastal aquaculture and capture fisheries and marine fisheries</td>
+            <td rowspan="1" colspan="1">Benefit transfer of resource rent unit</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B9861804">Office for National Statistics (2021)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Provision of animals or products from aquaculture*<xref ref-type="fn" rid="FN9862026">34</xref> for nutrition, materials or energy</td>
+            <td rowspan="1" colspan="1">Benefit transfer of resource rent unit</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B9860698">Flatebø Selle (2019)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Regulating services</td>
+            <td rowspan="1" colspan="1">Climate regulation (henceforth ‘carbon sequestration and capture’)</td>
+            <td rowspan="1" colspan="1">Measuring the carbon sequestered and stored by ecosystems (e.g. mangroves, seagrasses)</td>
+            <td rowspan="1" colspan="1">Benefit transfer of efficient Carbon price from the low reduction scenario</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B9860788">Horlings et al. (2020b)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cultural services</td>
+            <td rowspan="1" colspan="1">Outdoor recreation</td>
+            <td rowspan="1" colspan="1">Tourism or local recreation-related services in coastal and marine ecosystems</td>
+            <td rowspan="1" colspan="1">Monetary values extracted from project-level accounts</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B9861886">Vallecillo Rodriguez et al. (2018)</xref>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T9861991" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Marine ecosystem extent accounts for the OSPAR area by EUNIS classification. Data were sourced from manipulation of the EUSeaMap (2019) and European Environmental Agency Ecosystem Accounts (2018). Disaggregation to lower EUNIS levels is provided in Suppl. material <xref ref-type="supplementary-material" rid="S9864099">1</xref>.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Ecosystem type (EUNIS Level 2)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Extent area (km<sup>2</sup>)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Data source</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">A2: Littoral sedimentary habitats*<xref ref-type="fn" rid="FN9862045">36</xref></td>
+            <td rowspan="1" colspan="1">14,989</td>
+            <td rowspan="1" colspan="1">European Environmental Agency Ecosystem Accounts (2018)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">A3: Infralittoral rock and other hard substrata</td>
+            <td rowspan="1" colspan="1">2,430</td>
+            <td rowspan="4" colspan="1">EUSeaMap (2019)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">A4: Circalittoral rock and other hard substrata</td>
+            <td rowspan="1" colspan="1">2,851</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">A5: Sublittoral sediment</td>
+            <td rowspan="1" colspan="1">6,785</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">A6: Deep-sea bed</td>
+            <td rowspan="1" colspan="1">4,200,113</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total Area</td>
+            <td rowspan="1" colspan="1">9,237,542</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T9861993" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Marine Ecosystem Service supply account for the OSPAR area in physical and monetary values, between 2012 and 2019. Empty cells denote unavailable data.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>Value</bold>
+            </td>
+            <td rowspan="2" colspan="1">
+              <bold>Ecosystem Service</bold>
+            </td>
+            <td rowspan="2" colspan="1">
+              <bold>EUNIS Habitat</bold>
+            </td>
+            <td rowspan="2" colspan="1">
+              <bold>Unit</bold>
+            </td>
+            <td rowspan="1" colspan="8">
+              <bold>Accounting year</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>2012</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2014</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2015</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2016</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2017</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2018</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2019</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1">Physical</td>
+            <td rowspan="1" colspan="1">Fish provisioning</td>
+            <td rowspan="1" colspan="1">A2, A3, A4, A5, A6</td>
+            <td rowspan="1" colspan="1">Mt</td>
+            <td rowspan="1" colspan="1">8.11</td>
+            <td rowspan="1" colspan="1">8.46</td>
+            <td rowspan="1" colspan="1">8.66</td>
+            <td rowspan="1" colspan="1">9.15</td>
+            <td rowspan="1" colspan="1">8.33</td>
+            <td rowspan="1" colspan="1">9.34</td>
+            <td rowspan="1" colspan="1">9.32</td>
+            <td rowspan="1" colspan="1">8.14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Provisioning from aquaculture*<xref ref-type="fn" rid="FN9862565">37</xref></td>
+            <td rowspan="1" colspan="1">A2, A3</td>
+            <td rowspan="1" colspan="1">Mt</td>
+            <td rowspan="1" colspan="1">2.07</td>
+            <td rowspan="1" colspan="1">1.96</td>
+            <td rowspan="1" colspan="1">2.12</td>
+            <td rowspan="1" colspan="1">2.16</td>
+            <td rowspan="1" colspan="1">2.11</td>
+            <td rowspan="1" colspan="1">2.15</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Carbon sequestration and capture</td>
+            <td rowspan="1" colspan="1">A2, A5, A6</td>
+            <td rowspan="1" colspan="1">Mt CO<sub>2</sub> equivalent</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">40.31</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Outdoor Recreation*<xref ref-type="fn" rid="FN9862519">38</xref></td>
+            <td rowspan="1" colspan="1">A2 (in addition to adjacent coastal areas)</td>
+            <td rowspan="1" colspan="1">no. visits</td>
+            <td rowspan="1" colspan="1">200,778</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="4" colspan="1">Monetary</td>
+            <td rowspan="1" colspan="1">Fish provisioning</td>
+            <td rowspan="1" colspan="1">A2, A3, A4, A5, A6</td>
+            <td rowspan="1" colspan="1">mill. €</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">1,728</td>
+            <td rowspan="1" colspan="1">2,846</td>
+            <td rowspan="1" colspan="1">2,641</td>
+            <td rowspan="1" colspan="1">2,165</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Provisioning from aquaculture</td>
+            <td rowspan="1" colspan="1">A2, A3</td>
+            <td rowspan="1" colspan="1">mill. €</td>
+            <td rowspan="1" colspan="1">-149</td>
+            <td rowspan="1" colspan="1">1,416</td>
+            <td rowspan="1" colspan="1">1,392</td>
+            <td rowspan="1" colspan="1">1,248</td>
+            <td rowspan="1" colspan="1">4,215</td>
+            <td rowspan="1" colspan="1">3,684</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Carbon sequestration and capture</td>
+            <td rowspan="1" colspan="1">A2, A5, A6</td>
+            <td rowspan="1" colspan="1">mill. €</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">1,612</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Outdoor Recreation*<xref ref-type="fn" rid="FN9862519">38</xref></td>
+            <td rowspan="1" colspan="1">A2 (in addition to adjacent coastal areas)</td>
+            <td rowspan="1" colspan="1">mill. €</td>
+            <td rowspan="1" colspan="1">253</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T9861995" position="float" orientation="portrait">
+      <label>Table 4.</label>
+      <caption>
+        <p>Marine Ecosystem Service use accounts for the OSPAR area in physical and monetary values. Empty cells denote unavailable data.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>Values</bold>
+            </td>
+            <td rowspan="2" colspan="1">
+              <bold>Ecosystem Services</bold>
+            </td>
+            <td rowspan="2" colspan="1">
+              <bold>Units (year*<xref ref-type="fn" rid="FN9862566">39</xref>)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Industry</bold>
+            </td>
+            <td rowspan="2" colspan="1">
+              <bold>Households</bold>
+            </td>
+            <td rowspan="2" colspan="1">
+              <bold>Government</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Agriculture, forestry, fisheries</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Physical</td>
+            <td rowspan="1" colspan="1">Fish provisioning</td>
+            <td rowspan="1" colspan="1">Mt fish landings (2019)</td>
+            <td rowspan="1" colspan="1">8.14</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Carbon sequestration</td>
+            <td rowspan="1" colspan="1">Mt CO<sub>2</sub> equivalent captured (2019)</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">40.31</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Outdoor recreation</td>
+            <td rowspan="1" colspan="1">No. visits<break/>(2012)</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">200,778</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="3" colspan="1">Monetary</td>
+            <td rowspan="1" colspan="1">Fish provision</td>
+            <td rowspan="1" colspan="1">mill. € (2018)*<xref ref-type="fn" rid="FN9862567">40</xref></td>
+            <td rowspan="1" colspan="1">2,165</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Carbon sequestration</td>
+            <td rowspan="1" colspan="1">mill. € (2019)*<xref ref-type="fn" rid="FN9862567">40</xref></td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">1,612</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Outdoor recreation</td>
+            <td rowspan="1" colspan="1">mill. € (2012)*<xref ref-type="fn" rid="FN9862567">40</xref></td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">253</td>
+            <td rowspan="1" colspan="1">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S9864099" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">22D3F9D3-4206-5999-BCEF-C51A449A7B3D</object-id>
+      <object-id content-type="doi">10.3897/oneeco.8.e108030.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Ecosystem accounts additional information</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Word</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>Further disaggregation of ecosystem extent and information on condition indicators.</p>
+        <p>SM1.1. OSPAR habitats.</p>
+        <p>Table SM1.1.a: The extent of OSPAR marine habitats (EUNIS classification 2, 3, and 4).</p>
+        <p>Figure SM1.1.b: OSPAR seabed habitat map disaggregated, based on EUSeaMap 2019 (EUNIS classification).</p>
+        <p>SM1.2. OSPAR quality status and pressure indicators</p>
+      </statement>
+      <p>File: oo_857935.docx</p>
+      <media xlink:href="oneeco-08-e108030-s001.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/857935</uri>
+      </media>
+      <attrib specific-use="authors">Maria Granada Alarcon Blazquez</attrib>
+    </supplementary-material>
+    <supplementary-material id="S9864101" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">D449806B-49DB-5924-AD20-E47B831AFCB3</object-id>
+      <object-id content-type="doi">10.3897/oneeco.8.e108030.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Methodology and data used to estimate ecosystem accounts</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Word</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>- Methodology and data used to estimate ecosystem services in physical terms;</p>
+        <p>- Calculating the net present value (NPV) of the future flows of income associated with the different ecosystem services;</p>
+        <p>- Data and sources used in this study.</p>
+      </statement>
+      <p>File: oo_857938.docx</p>
+      <media xlink:href="oneeco-08-e108030-s002.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/857938</uri>
+      </media>
+      <attrib specific-use="authors">Maria Granada Alarcon Blazquez</attrib>
+    </supplementary-material>
+    <supplementary-material id="S9864102" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">5402997C-7FEA-5580-97FE-18AF02C0BC30</object-id>
+      <object-id content-type="doi">10.3897/oneeco.8.e108030.suppl3</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>Overview of information on the state, policy relevance and gaps of the OSPAR contracting parties natural capital accounts.</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Word</p>
+      </statement>
+      <p>File: oo_857947.docx</p>
+      <media xlink:href="oneeco-08-e108030-s003.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/857947</uri>
+      </media>
+      <attrib specific-use="authors">Maria Granada Alarcon Blazquez</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

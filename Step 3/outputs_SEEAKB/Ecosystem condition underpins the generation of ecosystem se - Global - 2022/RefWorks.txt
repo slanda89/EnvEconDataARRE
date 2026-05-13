@@ -1,0 +1,15 @@
+RT Journal Article
+T1 Ecosystem condition underpins the generation of ecosystem services: an accounting perspective
+JF One Ecosystem
+JO OE
+FD Pensoft Publishers
+DO 10.3897/oneeco.7.e81487
+VO 7
+A1 La Notte, Alessandra 
+A1 Czúcz, Bálint 
+A1 Vallecillo, Sara 
+A1 Polce, Chiara 
+A1 Maes, Joachim 
+YR 2022
+UL https://doi.org/10.3897/oneeco.7.e81487
+AB There is a linkage between the condition of ecosystems and the services they provide. In the accounting framework set by the United Nations System of integrated Environmental Economic Accounting – Ecosystem Accounts (SEEA EA), two different sets of accounts assess and monitor ecosystem condition and ecosystem services, respectively. The former are reported as indicators in an asset account format, while the latter are reported as supply and use tables. Without a concrete linkage, the two sets of accounts run in parallel: only an ex-post correlation analysis could confirm (or not) a common path. On the other hand, a clear linkage could create a sequence that justifies and supports the statement that any change in ecosystem condition will affect services and, in turn, the benefits provided to economy and society. Concrete applications undertaken under the project “Integrated system for Natural Capital Accounts” demonstrate at which stage a direct connection can occur between ecosystem condition and ecosystem services accounting. The paper starts with a theoretical background meant to set the basic concepts underlying the transition from condition to services. Next, the accounting framework for condition accounts is briefly presented: the specific ecosystem services case studies concern flood control and crop pollination. In the discussion, a simple proposal is drafted to facilitate a possible procedure for those practitioners interested in having condition and ES accounts operationally linked.

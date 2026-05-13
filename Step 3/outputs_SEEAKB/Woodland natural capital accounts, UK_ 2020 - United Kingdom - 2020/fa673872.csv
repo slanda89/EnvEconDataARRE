@@ -1,0 +1,21 @@
+"Table 7: The total area of woodland fires in both datasets appear to correlate with woodland fires increasing in size, England and UK, between 2010 to 2011 and 2019 to 2020"
+
+
+,FC Woodland Fires England,,EFFIS recorded Fires UK,
+Year," Number",Area hectares,Number,Area hectares
+2010 to 11,"7,986","1,276",0,0
+2011 to 12,"8,917","8,675",44,"17,197"
+2012 to 13,"2,454",423,0,0
+2013 to 14,"5,058","1,508",16,"5,445"
+2014 to 15,"3,138",881,1,85
+2015 to 16,"5,067","1,410",4,"2,127"
+2016 to 17,"4,186",804,9,"1,197"
+2017 to 18,,,19,"5,126"
+2018 to 19,,,79,"18,031"
+2019 to 20,,,137,"29,396"
+
+Source: ,Forestry Commission analysis of Fire and Rescue Service Incident Recording System; National Forest Inventory; and European Forest Fire 
+Notes
+1,Number of woodland fires and area in hectares for England from Forestry Commission. 
+2,Number of woodland fires and area in hectares for UK fires from EFFIS. 
+3,EFFIS data are for calendar years.

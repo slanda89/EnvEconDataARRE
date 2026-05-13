@@ -1,0 +1,169 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/">
+    <channel rdf:about="http://feeds.nature.com/ncomms/rss/current">
+        <title>Nature Communications</title>
+        <description>&lt;p&gt;&lt;em&gt;Nature Communications&lt;/em&gt;&amp;nbsp;is an open access, multidisciplinary journal dedicated to publishing high-quality research in all areas of the biological, health, physical, chemical and Earth sciences. Papers published by the journal aim to represent important advances of significance to specialists within each field.&lt;/p&gt;
+
+&lt;p&gt;We are committed to providing an efficient service for both authors and readers. Our&amp;nbsp;team of independent editors make rapid and fair publication decisions. Prompt dissemination of accepted papers to a&amp;nbsp;wide readership and beyond is achieved through a programme of continuous online publication.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;
+</description>
+        <link>http://feeds.nature.com/ncomms/rss/current</link>
+        <admin:generatorAgent rdf:resource="https://www.nature.com/"/>
+        <admin:errorReportsTo rdf:resource="mailto:feedback@nature.com"/>
+        <dc:publisher>Nature Publishing Group</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:rights>© 2026 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</dc:rights>
+        <prism:publicationName>Nature Communications</prism:publicationName>
+        
+        
+        <prism:copyright>© 2026 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</prism:copyright>
+        <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+        <image rdf:resource="https://www.nature.com/uploads/product/ncomms/rss.png"/>
+        <items>
+            <rdf:Seq>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-71093-9"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-70886-2"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-71035-5"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-70896-0"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-70940-z"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-70764-x"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-71052-4"/>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41467-026-71043-5"/>
+                
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="https://www.nature.com/uploads/product/ncomms/rss.png">
+        <title>Nature Communications</title>
+        <url>https://www.nature.com/uploads/product/ncomms/rss.png</url>
+        <link>http://feeds.nature.com/ncomms/rss/current</link>
+    </image>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-71093-9">
+            <title><![CDATA[Small-molecule degraders for oncogenic KRAS<sup>G12C</sup> and pan-KRAS mutations]]></title>
+            <link>https://www.nature.com/articles/s41467-026-71093-9</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-71093-9">doi:10.1038/s41467-026-71093-9</a></p>This work develops DJX-A-KM, a small-molecule KRASG12C degrader that recruits E3 ligase FBXO28 via dual covalent binding, inducing potent degradation. This strategy can possibly be extended to pan-KRAS degraders against a broader spectrum of KRAS mutations.]]></content:encoded>
+            <dc:title><![CDATA[Small-molecule degraders for oncogenic KRAS<sup>G12C</sup> and pan-KRAS mutations]]></dc:title>
+            <dc:creator>Jianxiong Deng</dc:creator><dc:creator>Shujun Shen</dc:creator><dc:creator>Lei Huang</dc:creator><dc:creator>Fang Xu</dc:creator><dc:creator>Weizhen Huang</dc:creator><dc:creator>Chaoming Huang</dc:creator><dc:creator>Zhang Zhang</dc:creator><dc:creator>Tongzheng Liu</dc:creator><dc:creator>Yi Tan</dc:creator><dc:creator>Zhengqiu Li</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-71093-9</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-71093-9</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-71093-9</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-71093-9</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-70886-2">
+            <title><![CDATA[Meta-analysis reveals widespread negative associations between species richness and ecological uniqueness]]></title>
+            <link>https://www.nature.com/articles/s41467-026-70886-2</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-70886-2">doi:10.1038/s41467-026-70886-2</a></p>A fundamental question in ecology is whether species-rich communities tend to exhibit high ecological uniqueness. This study suggests that a negative association between species richness and ecological uniqueness is widespread across diverse taxa groups, and that the drivers of this relationship vary depending on whether species presence or abundance is considered.]]></content:encoded>
+            <dc:title><![CDATA[Meta-analysis reveals widespread negative associations between species richness and ecological uniqueness]]></dc:title>
+            <dc:creator>Yue Chen</dc:creator><dc:creator>Janne Soininen</dc:creator><dc:creator>Jonathan A. Myers</dc:creator><dc:creator>Zikun Mao</dc:creator><dc:creator>Jinghua Yu</dc:creator><dc:creator>Xugao Wang</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-70886-2</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-70886-2</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-70886-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-70886-2</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-71035-5">
+            <title><![CDATA[Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops]]></title>
+            <link>https://www.nature.com/articles/s41467-026-71035-5</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-71035-5">doi:10.1038/s41467-026-71035-5</a></p>Available genomic prediction models lack scalability and interpretability. The authors introduce a deep learning framework that incorporates GWAS derived SNP weights into a hybrid CNN Transformer architecture, improving prediction accuracy and interpretability in soybean, maize, rice, and wheat.]]></content:encoded>
+            <dc:title><![CDATA[Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops]]></dc:title>
+            <dc:creator>Jing Li</dc:creator><dc:creator>Linfeng Yu</dc:creator><dc:creator>Mengfan Li</dc:creator><dc:creator>Rui Han</dc:creator><dc:creator>Yecheng Li</dc:creator><dc:creator>Abdulwahab Saliu Shaibu</dc:creator><dc:creator>Kwadwo Gyapong Agyenim-Boateng</dc:creator><dc:creator>Zhaoyi Hao</dc:creator><dc:creator>Yitian Liu</dc:creator><dc:creator>Bin Li</dc:creator><dc:creator>Shengrui Zhang</dc:creator><dc:creator>Liang Li</dc:creator><dc:creator>Lijuan Qiu</dc:creator><dc:creator>Junming Sun</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-71035-5</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-71035-5</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-71035-5</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-71035-5</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-70896-0">
+            <title><![CDATA[Extending the mean-field microkinetics for an accurate and efficient modeling of complex heterogeneous catalyst surfaces]]></title>
+            <link>https://www.nature.com/articles/s41467-026-70896-0</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-70896-0">doi:10.1038/s41467-026-70896-0</a></p>The study presents a fast model that predicts catalyst nanoparticle performance while accounting for surface crowding and diffusion between facets. It matches detailed simulations at far lower cost, enabling rapid catalyst screening]]></content:encoded>
+            <dc:title><![CDATA[Extending the mean-field microkinetics for an accurate and efficient modeling of complex heterogeneous catalyst surfaces]]></dc:title>
+            <dc:creator>Yaqing Wang</dc:creator><dc:creator>Tonghao Shen</dc:creator><dc:creator>Yuqi Yang</dc:creator><dc:creator>Xin Xu</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-70896-0</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-70896-0</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-70896-0</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-70896-0</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-70940-z">
+            <title><![CDATA[Frequent floods in the Yangtze River basin linked to a shifted Indian Ocean wave regime]]></title>
+            <link>https://www.nature.com/articles/s41467-026-70940-z</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-70940-z">doi:10.1038/s41467-026-70940-z</a></p>Enhanced quasi-biennial variability of East Asian Summer Monsoon rainfall over the Yangtze River Basin, along with more frequent floods in recent decades, is linked to intensified and faster baroclinic wave activity in the tropical Indian Ocean.]]></content:encoded>
+            <dc:title><![CDATA[Frequent floods in the Yangtze River basin linked to a shifted Indian Ocean wave regime]]></dc:title>
+            <dc:creator>Panini Dasgupta</dc:creator><dc:creator>SungHyun Nam</dc:creator><dc:creator>Michael J. McPhaden</dc:creator><dc:creator>Dong-Jin Kang</dc:creator><dc:creator>J. S. Saranya</dc:creator><dc:creator>M. K. Roxy</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-70940-z</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-70940-z</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-70940-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-70940-z</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-70764-x">
+            <title><![CDATA[Ceramide disrupts TM9SF2-PGK1 axis to redirect PD-L1 trafficking and enhance antitumor immunity]]></title>
+            <link>https://www.nature.com/articles/s41467-026-70764-x</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-70764-x">doi:10.1038/s41467-026-70764-x</a></p>The PD-1/PD-L1 pathway is central to immunotherapy, but PD-L1 recycling limits durable responses. This study identifies TM9SF2 as a key regulator of PD-L1 trafficking and shows that disrupting its PGK1-dependent complex depletes PD-L1 and enhances antitumor immunity.]]></content:encoded>
+            <dc:title><![CDATA[Ceramide disrupts TM9SF2-PGK1 axis to redirect PD-L1 trafficking and enhance antitumor immunity]]></dc:title>
+            <dc:creator>Yi Zheng</dc:creator><dc:creator>Fan Yang</dc:creator><dc:creator>Mengmeng Wang</dc:creator><dc:creator>Zhiying Wang</dc:creator><dc:creator>Xindan Zhang</dc:creator><dc:creator>Chenxin Huo</dc:creator><dc:creator>Yapeng Zhang</dc:creator><dc:creator>Aiqing Nie</dc:creator><dc:creator>Wenshuo Lyu</dc:creator><dc:creator>Anran Dong</dc:creator><dc:creator>Man Li</dc:creator><dc:creator>Zhiyong Du</dc:creator><dc:creator>Shenghao Zhou</dc:creator><dc:creator>Luning Song</dc:creator><dc:creator>Wenpeng Jiang</dc:creator><dc:creator>Bowen Gu</dc:creator><dc:creator>Wei Zhao</dc:creator><dc:creator>Ting Dong</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-70764-x</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-70764-x</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-70764-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-70764-x</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-71052-4">
+            <title><![CDATA[Bleb-based extravasation uses conserved morphodynamics but divergent calcium control]]></title>
+            <link>https://www.nature.com/articles/s41467-026-71052-4</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-71052-4">doi:10.1038/s41467-026-71052-4</a></p>In birds, primordial germ cells exit blood vessels during development using bleb-driven movements similar to metastatic cancer cells. Comparison with cancer cells shows that this shared physical mechanism is controlled by distinct calcium signaling pathways across cell types.]]></content:encoded>
+            <dc:title><![CDATA[Bleb-based extravasation uses conserved morphodynamics but divergent calcium control]]></dc:title>
+            <dc:creator>Mizuki Morita</dc:creator><dc:creator>Manami Morimoto</dc:creator><dc:creator>Junichi Ikenouchi</dc:creator><dc:creator>Bertrand Pain</dc:creator><dc:creator>Yuji Atsuta</dc:creator><dc:creator>Yoshiki Hayashi</dc:creator><dc:creator>Takayuki Teramoto</dc:creator><dc:creator>Daisuke Saito</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-71052-4</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-71052-4</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-71052-4</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-71052-4</prism:url>
+        </item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41467-026-71043-5">
+            <title><![CDATA[Formation of S- and Z-twist supramolecular micro-ropes by peptide stereoisomers]]></title>
+            <link>https://www.nature.com/articles/s41467-026-71043-5</link>
+            <content:encoded>
+                <![CDATA[<p>Nature Communications, Published online: 26 March 2026; <a href="https://www.nature.com/articles/s41467-026-71043-5">doi:10.1038/s41467-026-71043-5</a></p>The reconstruction and control of supramolecular ropes using minimalist building units remains a fundamental challenge. Here the authors demonstrate self-assembly of cyclo-tryptophan-proline dipeptide stereoisomers into crystalline supramolecular triple-helical structures with tunable S- or Z- twists governed by the configuration of tryptophan residues.]]></content:encoded>
+            <dc:title><![CDATA[Formation of S- and Z-twist supramolecular micro-ropes by peptide stereoisomers]]></dc:title>
+            <dc:creator>Hui Yuan</dc:creator><dc:creator>Zhongyuan Yang</dc:creator><dc:creator>Chengqian Yuan</dc:creator><dc:creator>Sudha Shankar</dc:creator><dc:creator>Aviad Levin</dc:creator><dc:creator>Tiancheng Lv</dc:creator><dc:creator>Zihan Wang</dc:creator><dc:creator>Wei Sun</dc:creator><dc:creator>Jadon Sitton</dc:creator><dc:creator>Pierre-Andre Cazade</dc:creator><dc:creator>Yoav Dan</dc:creator><dc:creator>Yiming Tang</dc:creator><dc:creator>Lihi Adler-Abramovich</dc:creator><dc:creator>Yi Cao</dc:creator><dc:creator>Sigal Rencus-Lazar</dc:creator><dc:creator>Damien Thompson</dc:creator><dc:creator>Dmitry Kurouski</dc:creator><dc:creator>Tuomas P. J. Knowles</dc:creator><dc:creator>Linda J. W. Shimon</dc:creator><dc:creator>Guanghong Wei</dc:creator><dc:creator>Bin Xue</dc:creator><dc:creator>Rusen Yang</dc:creator><dc:creator>Ehud Gazit</dc:creator>
+            <dc:identifier>doi:10.1038/s41467-026-71043-5</dc:identifier>
+            <dc:source>Nature Communications, Published online: 2026-03-26; | doi:10.1038/s41467-026-71043-5</dc:source>
+            <dc:date>2026-03-26</dc:date>
+            <prism:publicationName>Nature Communications</prism:publicationName>
+            <prism:doi>10.1038/s41467-026-71043-5</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41467-026-71043-5</prism:url>
+        </item>
+    
+</rdf:RDF>

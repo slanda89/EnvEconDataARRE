@@ -1,0 +1,249 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://publications.europa.eu/ontology/cdm#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.1="http://www.w3.org/2004/02/skos/core#"
+    xmlns:j.2="http://publications.europa.eu/ontology/annotation#"
+    xmlns:j.3="http://publications.europa.eu/ontology/cdm/cmr#" > 
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/2a7051eb-2084-11ee-94cb-01aa75ed71a1">
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-12T09:17:18.513+02:00</j.3:creationDate>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-12T09:17:18.513+02:00</j.3:lastModificationDate>
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/genpub/PUB_KJNA31529ENN">
+    <j.0:manifestation_issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1831-9424</j.0:manifestation_issn>
+    <j.0:manifestation_identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUB_KJNA31529ENN</j.0:manifestation_identifier>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#manifestation-publication-general"/>
+    <j.0:manifestation_manifests_expression rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792.ENG"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#manifestation-issue"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#manifestation"/>
+    <j.0:manifestation_type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pdf</j.0:manifestation_type>
+    <j.0:manifestation_number_catalogue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KJ-NA-31-529-EN-N</j.0:manifestation_number_catalogue>
+    <j.0:manifestation_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.2760/741116</j.0:manifestation_doi>
+    <j.0:manifestation_isbn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-92-68-04016-4</j.0:manifestation_isbn>
+    <j.0:manifestation_date_publication rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2023</j.0:manifestation_date_publication>
+    <j.0:manifestation_has_thumbnail rdf:resource="http://publications.europa.eu/resource/genpub/PUB_KJNA31529ENN.1.2"/>
+    <j.0:manifestation_published_by_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/PUBL"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Chrysoulakis%2C%20Nektarios"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5463">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/resource-type/STU">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/resource-type"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource-type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/target-audience/SPE">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/target-audience"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#target_audience"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/4809">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/2a7051eb-2084-11ee-94cb-01aa75ed71a1.0001.01/DOC_2">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/genpub/PUB_KJNA31529ENN.1.2"/>
+    <j.0:item_belongs_to_manifestation rdf:resource="http://publications.europa.eu/resource/cellar/2a7051eb-2084-11ee-94cb-01aa75ed71a1.0001.01"/>
+    <j.0:item_identifier>DOC_2</j.0:item_identifier>
+    <j.3:manifestationMimeType>image/jpeg</j.3:manifestationMimeType>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#item"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Grammatikopoulou%2C%20Ioanna"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Parastatidis%2C%20David"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Marando%2C%20Federica"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/genpub/2023.2792.ENG">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#expression"/>
+    <j.0:expression_belongs_to_work rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.0:expression_uses_language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <j.0:expression_title xml:lang="en">Urban ecosystem accounts following the SEEA EA standard : a pilot application in Europe : report on an Integrated System for Natural Capital Accounting in the EU (INCA).</j.0:expression_title>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <j.0:expression_abstract rdf:parseType="Literal">
+      <div xml:lang="en">
+        <description>National and local authorities are promoting the restoration (re-greening) of urban areas to mitigate societal challenges such as urban heat island effect, poor air quality or biodiversity loss. Urban re-greening is among the implementation actions supporting targets of the European Green Deal, EU Biodiversity Strategy 2030, its proposal for a Nature Restoration Law, and the proposal for an amendment of the Regulation on Environmental Accounts. However, to monitor progress towards policy targets and an overall enhancement of urban ecosystems, policy makers require regular, consistent and comparable data. The implementation of Ecosystem Accounting (SEEA EA) on urban ecosystems could help , services and derived benefits. Despite SEEA EA became a statistical standard, it has been only tested in pilot ecosystem accounting exercises, of which very few are urban ecosystem accounts. This report presents a pilot SEEA EA urban ecosystem account for EU-27 and EFTA Member States in 2018. It discusses challenges for the development of urban ecosystem accounts and potential solutions. The outputs illustrate where re-greening efforts should be applied and discusses feasibility and potential issues of targets. The report also presents key insights to operationalise SEEA EA for urban ecosystem accounts. It provides an instructive guiding example to national and local authorities starting to draft their own urban ecosystem accounts.</description>
+      </div>
+    </j.0:expression_abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2391">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Heris%2C%20Mehdi%20P"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2896">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/2a7051eb-2084-11ee-94cb-01aa75ed71a1.0001.01">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/genpub/PUB_KJNA31529ENN"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-12T09:17:18.513+02:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-12T09:17:18.513+02:00</j.3:creationDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2470">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/664">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Vallecillo%2C%20Sara"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Zulian%2C%20Grazia"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/5585">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/4709">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/resource-type/PUB_GEN">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/resource-type"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#resource-type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/genpub/2023.2792">
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/5463"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#publication_general"/>
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Heris%2C%20Mehdi%20P"/>
+    <j.0:work_authored_by_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/5585"/>
+    <j.0:work_has_resource-type rdf:resource="http://publications.europa.eu/resource/authority/resource-type/PUB_GEN"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/861"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/4809"/>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Marando%2C%20Federica"/>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Zulian%2C%20Grazia"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/2869"/>
+    <j.0:work_date_document rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-11</j.0:work_date_document>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Parastatidis%2C%20David"/>
+    <j.0:work_date_creation_legacy rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-07-12</j.0:work_date_creation_legacy>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#work"/>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Zurbar%C3%A1n-Nucci%2C%20Mayra"/>
+    <j.0:work_created_by_agent rdf:resource="http://publications.europa.eu/resource/authority/corporate-body/JRC"/>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Chrysoulakis%2C%20Nektarios"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/2896"/>
+    <j.0:publication_general_is_about_concept_op_theme rdf:resource="http://publications.europa.eu/resource/authority/pub-theme/L01"/>
+    <j.0:work_id_document rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genpub:2023.2792</j.0:work_id_document>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Vallecillo%2C%20Sara"/>
+    <j.0:work_has_resource-type rdf:resource="http://publications.europa.eu/resource/authority/resource-type/STU"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/2391"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/4709"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/664"/>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Cortinovis%2C%20Chiara"/>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Grammatikopoulou%2C%20Ioanna"/>
+    <j.0:work_contributed_to_by_agent rdf:resource="http://publications.europa.eu/resource/agent/Bab%C3%AD%20Almenar%2C%20Javier"/>
+    <j.0:publication_general_has_target_audience rdf:resource="http://publications.europa.eu/resource/authority/target-audience/SPE"/>
+    <j.0:work_is_about_concept_eurovoc rdf:resource="http://eurovoc.europa.eu/2470"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/pub-theme/L01">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/pub-theme"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_op_theme"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/2a7051eb-2084-11ee-94cb-01aa75ed71a1.0001.01/DOC_1">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/genpub/PUB_KJNA31529ENN.1.1"/>
+    <j.0:item_belongs_to_manifestation rdf:resource="http://publications.europa.eu/resource/cellar/2a7051eb-2084-11ee-94cb-01aa75ed71a1.0001.01"/>
+    <j.0:item_identifier>DOC_1</j.0:item_identifier>
+    <j.3:manifestationMimeType>application/pdf</j.3:manifestationMimeType>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#item"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Zurbar%C3%A1n-Nucci%2C%20Mayra"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/2869">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/PUBL">
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/cellar/2a7051eb-2084-11ee-94cb-01aa75ed71a1.0001">
+    <owl:sameAs rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792.ENG"/>
+    <j.3:lastModificationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-12T09:17:18.513+02:00</j.3:lastModificationDate>
+    <j.3:creationDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-12T09:17:18.513+02:00</j.3:creationDate>
+    <j.3:lang rdf:datatype="http://www.w3.org/2001/XMLSchema#language">en</j.3:lang>
+    <j.3:lang rdf:datatype="http://www.w3.org/2001/XMLSchema#language">eng</j.3:lang>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eurovoc.europa.eu/861">
+    <j.1:inScheme rdf:resource="http://eurovoc.europa.eu"/>
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#concept_eurovoc"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/corporate-body/JRC">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#institution"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/corporate-body"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Bab%C3%AD%20Almenar%2C%20Javier"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/language/ENG">
+    <rdf:type rdf:resource="http://publications.europa.eu/ontology/cdm#language"/>
+    <j.1:inScheme rdf:resource="http://publications.europa.eu/resource/authority/language"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <j.2:build_info rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reception-ID: PO-20230712-3760; environment: PROD; CERES: 4.20.1; IMMC2CDM: 3.2.2; rules: ; builddate: 2023-07-12T09:12:17.433;</j.2:build_info>
+    <owl:annotatedProperty rdf:resource="http://publications.europa.eu/ontology/cdm#work_contributed_to_by_agent"/>
+    <owl:annotatedTarget rdf:resource="http://publications.europa.eu/resource/agent/Cortinovis%2C%20Chiara"/>
+    <owl:annotatedSource rdf:resource="http://publications.europa.eu/resource/genpub/2023.2792"/>
+    <j.2:order rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</j.2:order>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Axiom"/>
+  </rdf:Description>
+</rdf:RDF>

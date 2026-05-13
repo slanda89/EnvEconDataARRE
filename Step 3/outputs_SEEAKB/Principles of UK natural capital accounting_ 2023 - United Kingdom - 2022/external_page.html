@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Principles of UK natural capital accounting: 2023 - Office for National Statistics</title>
+        <meta charset="utf-8" />
+        <meta content="width=device-width,initial-scale=1.0,user-scalable=1" name="viewport">
+        <meta name="theme-color" content="#58595B">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#58595B">
+
+        <meta name="description" content="The challenges and principles we have developed to transform the United Nation&#x27;s guidance on environmental accounting into the UK&#x27;s natural capital accounts.">
+
+        
+        <link rel="stylesheet" type="text/css" href="//cdn.ons.gov.uk/sixteens/418c927/css/main.css">
+		
+
+        <script>
+    // extractValue extracts the value from an undecodeable json cookie string
+    function extractValue(key, extractionString) {
+        const extractionRegex = new RegExp(`'${key}':(.*?)[,}]`)
+        const match = extractionString.match(extractionRegex)
+        if (match) {
+            return match[1]
+        }
+        
+        return null
+    }
+
+    // getUsageCookieValue reads the ons_cookie_policy to determine the user's usage preference. 
+    // When no policy is found, the user is opted out by default.
+    function getUsageCookieValue() {
+        // ons_cookie_policy handler
+        var policyCookie = document.cookie.match('(?:^|; )ons_cookie_policy=({.*?})');
+        if (policyCookie) {
+            console.debug('ons_cookie_policy found');
+
+            var usageValue = extractValue("usage", policyCookie[1]);
+            console.debug('usage is', usageValue);
+
+            // this needs to be the inverse - if usage is true the returned value is false and vice versa
+            // user is stating whether they are opting out of usage cookie
+            return (usageValue == "true") ? false : true
+        }
+        console.debug('no cookie found - opting out');
+        return true
+    }
+
+    // unescape html entities
+    function htmlUnescape(str){
+        return str
+                .replace(/&#x3D;/g, "=");
+    }
+
+    
+    var dataLayer = [{
+        contentTitle: htmlUnescape("Principles of UK natural capital accounting: 2023"),
+        analyticsOptOut: getUsageCookieValue(),
+        "gtm.whitelist": ["google","hjtc","lcl"],
+        "gtm.blacklist": ["customScripts","sp","adm","awct","k","d","j"]
+    }];
+
+    
+    dataLayer[0]["releaseDate"] = "2023/06/01";
+    
+
+    
+
+    
+    
+
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+
+</script>
+
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MBCBVQS');</script>
+        <!-- End Google Tag Manager -->
+
+        
+
+		
+		
+
+	</head>
+	<body class="static_methodology">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js' : 'js');</script>
+    <form action="/cookies/accept-all" method="GET" id="global-cookie-message"
+      class="cookies-banner cookies-banner--hidden js-cookies-banner-form clearfix"
+      aria-label="cookie banner">
+    <div class="cookies-banner__wrapper wrapper js-cookies-banner-inform">
+        <div>
+            <div class="cookies-banner__message adjust-font-size--18">
+                <h3 class="cookies-banner__heading">Cookies on ons.gov.uk</h3>
+                <p class="cookies-banner__body">Cookies are small files stored on your device when you visit a website. We use some essential cookies to make this website work.</p>
+                <p class="cookies-banner__body">We would like to set <a href="/cookies">additional cookies</a> to remember your settings and understand how you use the site. This helps us to improve our services.</p>
+            </div>
+            <div class="cookies-banner__buttons">
+                <div class="nojs--hide cookies-banner__button cookies-banner__button--accept">
+                    <button class="btn btn--full-width btn--primary btn--focus margin-right--2 font-weight-700 font-size--17 text-wrap js-accept-cookies" data-gtm-accept-cookies="true" type="submit" data-action="accept" tabindex="0">
+                        Accept additional cookies
+                    </button>
+                </div>
+                <div class="nojs--hide cookies-banner__button cookies-banner__button--reject">
+                    <button class="btn btn--full-width btn--primary btn--focus margin-right--2 font-weight-700 font-size--17 text-wrap js-reject-cookies" data-gtm-accept-cookies="false" type="submit" data-action="reject" tabindex="0">
+                        Reject additional cookies
+                    </button>
+                </div>
+                <div class="cookies-banner__button">
+                    <a href="/cookies">Manage settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden js-cookies-banner-confirmation" tabindex="-1">
+        <div class="cookies-banner__wrapper wrapper">
+            <div class="col">
+                <div class="cookies-banner__message adjust-font-size--18">
+                    <p class="cookies-banner__confirmation-message">
+                        <span class="hidden ons-js-accepted-text">You have accepted all additional cookies.</span>
+                        <span class="hidden ons-js-rejected-text">You have rejected all additional cookies.</span>
+                        <span>You can <a href="/cookies">change your cookie preferences</a> at any time.</span>
+                        <button type="button" class="cookies-banner__button--hide js-hide-cookies-banner">Hide</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBCBVQS"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+        
+        
+		
+
+		
+
+		
+		 			
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<header >
+	
+    <a class="skiplink" href="#main" tabindex="0">
+        Skip to main content
+    </a>
+	
+  
+  
+
+	
+	
+	<div id="pagePath" class="hide">/economy/environmentalaccounts/methodologies/principlesofuknaturalcapitalaccounting2023</div>
+	
+		<div class="wrapper">
+			<div class="header col-wrap">
+				<div class="col col--lg-one-third col--md-one-third">
+					<a href="/">
+						<!--[if lte IE 8]>
+							<img class="logo" src="https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.png" alt="Office for National Statistics logo - Homepage">
+						<![endif]-->
+						<img class="logo" src="https://cdn.ons.gov.uk/assets/images/ons-logo/v2/ons-logo.svg" alt="Office for National Statistics logo - Homepage">
+					</a>
+				</div>
+				
+                <div class="col col--lg-two-thirds col--md-two-thirds hide--sm print--hide language--js__container">
+                    
+                    <div class="language">
+                        
+                            <span>English (EN) | </span>
+                            <a href="
+
+
+
+    //cy.ons.gov.uk/economy/environmentalaccounts/methodologies/principlesofuknaturalcapitalaccounting2023
+" class="language__link" lang="cy">Cymraeg (CY)</a>
+                        
+                    </div>
+                </div>
+				<div class="secondary-nav col col--lg-two-thirds col--md-two-thirds print--hide">
+					<ul class="secondary-nav__list js-nav-clone__list">
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/releasecalendar">Release calendar</a>
+                        </li>
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/methodology">Methodology</a>
+                        </li>
+                        <li class="secondary-nav__item">
+                            <a class="secondary-nav__link  js-nav-clone__link" href="/news">Media</a>
+                        </li>
+						<li class="secondary-nav__item">
+							<a class="secondary-nav__link  js-nav-clone__link" href="/aboutus">About</a>
+						</li>
+						<li class="secondary-nav__item">
+							<a class="secondary-nav__link js-nav-clone__link" rel="noopener noreferrer" href="https://blog.ons.gov.uk/">Blog</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	
+
+	
+	
+	<div class="primary-nav print--hide">
+		<nav aria-label="Header links">
+			
+			<ul class="nav--controls">
+				<li class="nav--controls__item">
+					<a href="#nav-primary" id="menu-toggle" aria-controls="nav-primary" aria-expanded="false" class="nav--controls__menu">
+						<span class="nav--controls__text">Menu</span>
+					</a>
+				</li>
+				<li class="nav--controls__item ">
+					<a href="#nav-search" id="search-toggle" aria-controls="nav-search" aria-expanded="false" class="nav--controls__search" aria-label="Search">
+						<span class="nav--controls__text">Search</span>
+					</a>
+				</li>
+			</ul>
+			
+			<ul class="wrapper nav-main--hidden primary-nav__list" id="nav-primary" aria-expanded="false">
+				<li class="primary-nav__item  js-nav hide--sm old-ie--display-block"><a class="primary-nav__link col col--md-7 col--lg-9" href="/">Home</a></li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/businessindustryandtrade" aria-expanded="false" aria-label="Business, industry and trade sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Business, industry and trade
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/business" >Business</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/changestobusiness" >Changes to business</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/constructionindustry" >Construction industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/itandinternetindustry" >IT and internet industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/internationaltrade" >International trade</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/manufacturingandproductionindustry" >Manufacturing and production industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/retailindustry" >Retail industry</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/businessindustryandtrade/tourismindustry" >Tourism industry</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable primary-nav__item--active">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/economy" aria-expanded="false" aria-label="Economy sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Economy
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/economicoutputandproductivity" >Economic output and productivity</a>
+						</li>
+						
+						<li class="primary-nav__child-item primary-nav__child-item--active js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/environmentalaccounts" >Environmental accounts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/governmentpublicsectorandtaxes" >Government, public sector and taxes</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/grossdomesticproductgdp" >Gross Domestic Product (GDP)</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/grossvalueaddedgva" >Gross Value Added (GVA)</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/inflationandpriceindices" >Inflation and price indices</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/investmentspensionsandtrusts" >Investments, pensions and trusts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/nationalaccounts" >National accounts</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/economy/regionalaccounts" >Regional accounts</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/employmentandlabourmarket" aria-expanded="false" aria-label="Employment and labour market sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							Employment and labour market
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/employmentandlabourmarket/peopleinwork" >People in work</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/employmentandlabourmarket/peoplenotinwork" >People not in work</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<li class="primary-nav__item js-nav js-expandable ">
+					<a class="primary-nav__link col col--md-8 col--lg-10" href="/peoplepopulationandcommunity" aria-expanded="false" aria-label="People, population and community sub menu">
+						<span aria-hidden="true" class="expansion-indicator"></span>
+						<span class="submenu-title">
+							People, population and community
+						</span>
+					</a>
+					<ul class="primary-nav__child-list col col--md-16 col--lg-20 js-expandable__content js-nav-hidden jsEnhance" aria-expanded="false" aria-label="submenu">
+						
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/armedforcescommunity" >Armed forces community</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/birthsdeathsandmarriages" >Births, deaths and marriages</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/crimeandjustice" >Crime and justice</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/culturalidentity" >Cultural identity</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/educationandchildcare" >Education and childcare</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/elections" >Elections</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/healthandsocialcare" >Health and social care</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/householdcharacteristics" >Household characteristics</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/housing" >Housing</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/leisureandtourism" >Leisure and tourism</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/wellbeing" >Measuring progress, well-being and beyond GDP</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/personalandhouseholdfinances" >Personal and household finances</a>
+						</li>
+						
+						<li class="primary-nav__child-item  js-expandable__child">
+							<a class="primary-nav__child-link" tabindex="-1" href="/peoplepopulationandcommunity/populationandmigration" >Population and migration</a>
+						</li>
+						
+					</ul>
+				</li>
+				
+				
+				
+				
+				
+				
+				
+				<li class="primary-nav__item  js-nav">
+					<a class="primary-nav__link  col col--md-8 col--lg-10" href="/surveys">
+						Taking part in a survey?
+					</a>
+				</li>
+				<li class="hide--md primary-nav__language">
+					
+						<span>English (EN) | </span>
+						<a href="
+
+
+
+    //cy.ons.gov.uk/economy/environmentalaccounts/methodologies/principlesofuknaturalcapitalaccounting2023
+" class="language__link">Cymraeg (CY)</a>
+					
+				</li>
+			</ul>
+		</nav>
+	</div>
+	
+	
+		<div class="search nav-search--hidden print--hide" id="searchBar" role="search">
+			<div class="wrapper">
+				<form class="col-wrap search__form" action="/search">
+					<label class="search__label col col--md-23 col--lg-24" for="nav-search">Search for a keyword(s) or time series ID</label>
+					<input type="search" autocomplete="off" class="search__input col col--md-21 col--lg-32" id="nav-search" name="q" value="">
+					<button type="submit" class="search__button col--md-3 col--lg-3" id="nav-search-submit" aria-label="Search">
+						<span class="visuallyhidden">Search</span>
+						<span class="icon icon-search--light"></span>
+					</button>
+				</form>
+			</div>
+		</div>
+	
+	<div class="promo__background--plum-gradient">
+    <div class="wrapper">
+        <div class="banner--half-padding">
+            <p class="margin-top--0 margin-bottom--0 padding-bottom--0 padding-top--0 flex flex-wrap-wrap banner--vertical-center">
+                <a class="flex" href="/census"><img src="https://cdn.ons.gov.uk/assets/images/census-logo/logo-census-2021-white-landscape.svg" title="Census 2021" alt="" class="header__svg-logo margin-right--1" xmlns="http://www.w3.org/2000/svg" focusable="false" width="167" height="32" viewBox="0 0 242 44" aria-labelledby="census-logo-banner" />
+                <a class="margin-top--0 text--white font-size--18 underline-link" href="/census">Data and analysis from Census 2021</a>
+            </p>
+        </div>
+    </div>
+</div>
+	
+</header>
+
+
+
+
+	
+    
+        <div class="page-neutral-intro background--gallery">
+  <div class="wrapper">
+    <div class="col-wrap">
+      <div class="col">
+        <nav aria-label="Breadcrumbs">
+          <div class="breadcrumb print--hide">
+            <ol class="breadcrumb__list">
+              
+                <li class="breadcrumb__item">
+                  <a
+                    class="breadcrumb__link"
+                    href="/"
+                  >Home</a>
+                </li>
+              
+                <li class="breadcrumb__item">
+                  <a
+                    class="breadcrumb__link"
+                    href="/economy"
+                  >Economy</a>
+                </li>
+              
+                <li class="breadcrumb__item">
+                  <a
+                    class="breadcrumb__link"
+                    href="/economy/environmentalaccounts"
+                  >Environmental accounts</a>
+                </li>
+              
+
+              <li class="breadcrumb__item">
+                
+                  Principles of UK natural capital accounting: 2023
+                
+              </li>
+            </ol>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+		
+<main id="main" role="main" tabindex="-1">
+
+
+    <div class="page-neutral-intro background--gallery">
+	<div class="wrapper">
+		<div class="col-wrap">
+			<div class="col">
+				
+				<div class="col col--md-47 col--lg-48">
+                    
+                        <h1 class="page-intro__title ">
+    Principles of UK natural capital accounting: 2023
+</h1>
+
+
+    
+        <p class="page-intro__content">The challenges and principles we have developed to transform the United Nation&#x27;s guidance on environmental accounting into the UK&#x27;s natural capital accounts.</p>
+    
+
+                    
+				</div>
+				
+			</div> 
+		</div> 
+	</div> 
+    
+
+
+
+    
+	
+	
+		
+			
+
+
+
+	
+
+
+		
+	
+
+    
+    <div class="meta-wrap">
+        <div class="wrapper">
+            <div class="col-wrap">
+
+                
+                
+                    <p class="col col--md-12 col--lg-15 meta__item">
+                        <span>Contact: </span><br/><a
+                            href="mailto:natural.capital.team@ons.gov.uk">Adam Dutton</a>
+                    </p>
+                
+                
+                
+                    <p class="col col--md-12 col--lg-15 meta__item">
+                        <span>Last revised: </span><br/>1 June 2023<br/>
+                    </p>
+                
+
+                
+
+            </div>
+        </div>
+    </div>
+
+
+</div> 
+
+
+<div class="page-content">
+	
+    <div class="wrapper">
+        
+        <div class="col-wrap border-bottom--iron-md">
+            
+            <div class="col col--md-31 col--lg-41 margin-left-md--1">
+	<div class="table-of-contents print--avoid-break">
+		<h2 class="table-of-contents__title">Table of contents</h2>
+		<ol id="toc" class="table-of-contents__list">
+			
+			<li class="table-of-contents__item">
+				<a href="#introduction" class="js-scroll">Introduction</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#defining-the-accounts" class="js-scroll">Defining the accounts</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#drivers-of-ecosystem-services-production" class="js-scroll">Drivers of ecosystem services production</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#condition" class="js-scroll">Condition</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#physical-accounts" class="js-scroll">Physical accounts</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#valuing-flows-of-services" class="js-scroll">Valuing flows of services</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#list-of-principles" class="js-scroll">List of principles</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#related-links" class="js-scroll">Related links</a>
+			</li>
+			
+			<li class="table-of-contents__item">
+				<a href="#cite-this-methodology" class="js-scroll">Cite this methodology</a>
+			</li>
+			
+			
+			
+		</ol>
+	</div>
+</div>
+            
+            
+            	
+
+<div class="col col--md-15 col--lg-16 margin-bottom-sm--2 margin-top-md--7 margin-bottom-md--2 margin-left-lg--2 padding-bottom-sm--2 padding-left-sm--1 padding-bottom-md--1 border-top--iron-sm border-right--iron-sm border-bottom--iron-sm border-left--iron-sm border-top--iron-md border-right--iron-md border-bottom--iron-md border-left--iron-md js-print-pdf print--hide">
+    <p class="text-right--md padding-top-md--0 padding-bottom-md--0 height--5 margin-bottom-md--0 print--hide nojs--hide js--show">
+        <a href="" class="link-complex nojs--hide js--show js-print-page">
+            Print this <span class="lowercase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Methodology
+
+
+
+
+</span>
+        </a>
+        <span class="icon icon-print--dark"></span>
+    </p>
+    <p class="text-right--md padding-top-md--0 padding-bottom-md--0 height--5 margin-top-md--1 print--hide">
+        <a href="/economy/environmentalaccounts/methodologies/principlesofuknaturalcapitalaccounting2023/pdf" class="link-complex js-pdf-dl-link" aria-label="Download Principles of UK natural capital accounting: 2023 as PDF">
+            Download as PDF
+        </a>
+        <span class="icon icon-download--dark"></span>
+    </p>
+</div>
+            
+        </div>
+
+		
+		<div class="hide--md margin-top-sm--1">
+
+
+</div>
+
+        
+        <article class="col col--md-36 col--lg-39 page-content__main-content padding-bottom">
+            
+                <div id="introduction" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">1.</span> Introduction</h2>
+                        </header>
+                        <p>Our natural capital accounts (NCA) are based on the statistical framework of the United Nations’ (UN) System of Environmental Economic-Accounting – Ecosystem Accounting (SEEA-EA). While those guidelines are thorough, application requires countries to interpret and develop practical methodologies to apply them to their specific national context.</p><p>Since the Office for National Statistics (ONS) began producing the UK’s accounts, we have also produced detailed methodology papers. We are now updating the principles we have developed to adapt UN guidance for use in this country. These updates include:</p>
+<ul>
+  <li>replacing, refining, and revising the previous 2014 and 2017 editions of these principles</li>
+  <li>offering general guidance on natural capital accounting issues, clarifying definitions and distinctions</li>
+  <li>identifying issues that remain unresolved and where further research is needed</li>
+</ul><p>This is intended as background information for people wanting to understand the concepts and methodology underlying the UK NCA. It also provides a guide for practitioners generally working on compiling natural capital accounts. As a bridging document between the international guidance and our domestic implementation, it should be used in conjunction with SEEA-EA guidance and UK NCA methodology papers. </p><p>For a comprehensive guide to ecosystem accounting, we suggest the <a href="https://seea.un.org/sites/seea.un.org/files/documents/EA/seea_ea_white_cover_final.pdf">UN SEEA-EA (PDF, 6MB)</a>. Our current methods are best summarised in our most recent annual <a href="https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/uknaturalcapitalaccounts/2022">UK natural capital accounts bulletins</a>. Progress in implementing our <a href="https://www.ons.gov.uk/releases/uknaturalcapitalroadmap2022">UK NCA roadmap article</a> was reviewed in 2022, outlining the development priorities for the accounts.</p><p>We detail a set of “principles” for ease of reference, outlining broad definitions and the temporal and spatial scope of the accounts. We then work through definitions, principles, and outstanding issues.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="defining-the-accounts" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">2.</span> Defining the accounts</h2>
+                        </header>
+                        <h3>Purpose of the natural capital accounts (NCA)</h3><p>Gross domestic product (GDP) tells us only part of our economic story. It hides or excludes goods and services provided by natural capital, and it focuses only on flows of income and output, not the stocks of capital, including natural capital, that underpin them. The development of UK natural capital accounts was committed to in the 2011 Environment White Paper and by the Natural Capital Committee as a foundational activity necessary for natural capital to be mainstreamed into decision-making. The development of national NCA sends a strong signal to businesses and local decision-makers of the importance of monitoring and valuing natural assets. More specifically, a well-developed national set of NCAs can: </p>
+<ul>
+  <li>monitor losses and gains in our natural capital over time</li>
+  <li>identify priority areas for investment and inform resourcing and management decisions</li>
+  <li>highlight links with economic activity and pressures on natural capital</li>
+  <li>support applications at sub-national levels</li>
+  <li>support the development of macroeconomic environmental economic policy work</li>
+</ul><p>In the most recent roadmap, we pay particular attention to the possibilities of affecting macroeconomic decision-making, with particular reference to the HM Treasury-commissioned <a href="https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review">Dasgupta Review of the Economics of Biodiversity (2021)</a>.</p><h3>National NCA</h3><p>From a national accounting perspective, NCAs are a series of interconnected accounts that provide a structured set of information relating to the stocks of natural capital and flows of services supplied by them. They form part of the environmental satellite accounts. The UK’s NCAs are comprised of:</p>
+<ul>
+  <li>extent accounts, measuring the area of each habitat</li>
+  <li>condition accounts, tracking the ecological health of those habitats</li>
+  <li>physical accounts, presenting the annual service flow</li>
+  <li>monetary accounts, assigning a monetary valuation to selected services on an annual basis and recording an overall valuation of the natural asset’s ability to generate future flows of services</li>
+</ul><p>The extent and condition accounts have, to date, been grouped for periodic reporting. Meanwhile, the physical and monetary accounts are presented annually following the National Accounts’ Blue Book as the UK NCA. From 2024 onwards, all four core UK-wide accounts will be produced annually. </p><p>In these accounts, the assets or stocks are the natural habitats or resources that support natural processes, which generate goods or services for our economy and society. For example, a hectare of living woodland is an asset, but timber taken from it is a flow of goods. These goods or services may then be further processed in some way before final use or consumption, just as timber is cut and treated before being used to make a guitar. This further processing in the economy can be followed through our <a href="https://www.ons.gov.uk/economy/environmentalaccounts/articles/developingsupplyandusetablesforuknaturalcapitalaccounts/2023">Supply and use tables article</a>.</p><p>Our accounts are capable of alignment with the System of National Accounts (SNA) to facilitate comparison and potential integration with accounting data for the wider economy. However, there are certain areas where the conceptual framework can support other perspectives, such as cost benefit analysis. In such cases, strict alignment with the SNA will not be appropriate.</p><h3>The wider statistical context</h3><p>There has been strong international momentum to develop NCA. The United Nations (UN) <a href="https://seea.un.org/content/homepage">System of Environmental-Economic Accounting (SEEA)</a> is the main source of technical guidance. The World Bank's <a href="https://www.worldbank.org/en/programs/global-program-on-sustainability">Global Program on Sustainability</a> and the European Union through the UN Statistics Division (UNSD) NCAVES project are supporting the implementation of NCAs in a range of partner countries.</p><p>According to the <a href="https://seea.un.org/sites/seea.un.org/files/global_assessment_2022_background_doc_v4_clean_1.pdf">Global Assessment of Environmental-Economic Accounting and Supporting Statistics 2022 (PDF, 770KB)</a>, 41 countries reported implementation of at least some of the ecosystem accounting framework in 2020. After the UN Statistical Commission adopted the SEEA Ecosystem Accounting (SEEA-EA) manual in March 2021 as an international statistical standard, more countries are starting to produce accounts. The proposed 2025 updates to the SNA include numerous papers which may lead to changes to advice on their compilation, and so require the inclusion of aspects of the NCAs.</p><p>The SEEA central framework sets out a range of other environmental accounts that are also relevant to NCA, such as energy and water use accounts, as well as atmospheric emissions and effluent accounts. We already produce many of these within our <a href="https://www.ons.gov.uk/economy/environmentalaccounts">Environmental accounts publications</a>. An important distinction between environmental accounts and NCA is that the former focus on the pressures generated by economic activity, whereas the latter focus on the services provided by ecosystems.</p><p>For many natural resources, such as oil and gas, these are simply two sides of the same coin. The supply of services from natural capital equals the use of such services by economic activities. However, for emissions and other residuals, a strong distinction is made between the pressures on the environment from economic activity (such as emissions of pollutants recorded in the air emissions accounts) and the services supplied by natural capital (such as the amounts of pollutants absorbed by vegetation recorded in the ecosystem accounts). </p><p>There are important linkages between the NCAs and other types of environmental accounts, especially for flows of atmospheric emissions, effluent, and waste back to the environment, and spending on the environment. For example, agriculture is supported by nature in producing food, but modern agriculture also causes water pollution and air pollution, which is captured in environmental accounts.</p><p>Our <a href="https://www.ons.gov.uk/economy/environmentalaccounts#:~:text=Environmental%20taxes%20provided%205.3%25%20of,the%20lowest%20share%20since%201997.">UK environmental accounts</a> (including the NCAs) are seen as a satellite to the main national accounts within the framework of the <a href="http://unstats.un.org/unsd/nationalaccount/sna.asp">UN SNA</a>. This means that the concepts and methodologies used in the NCAs should align with those used in the main part of the SNA. It also leads to some overlap between the use of natural resources by the economy recorded in the NCAs, and the supply of certain economic goods and services recorded in the main SNA. These goods and services are described in the SEEA-EA as "SNA benefits". They are largely "produced ecosystem" services, such as fish.</p><p>These overlaps may increase, following the SNA review in 2025. Several <a href="https://unstats.un.org/unsd/nationalaccount/SNAUpdate/WSTT.asp">Wellbeing and sustainability papers</a> have been submitted by the UN which, if accepted, would adapt guidance to better reflect the impact of the environment on the economy within the SNA.</p><h3>Ecosystems and abiotic assets</h3><p>In terms of surface area, the accounts mainly relate to what are termed ecosystems, such as woodland and wetlands. Ecosystems comprise several components, such as water, soil, and biodiversity, which combine to provide a range of benefits, such as wild fish and flood protection. The contribution of ecosystems to these benefits is known as an ecosystem service. Since it is the ecosystem as a whole that provides such services, the accounting system treats the ecosystem as the asset, rather than its constituent parts. </p><p>Natural assets also include non-living or abiotic resources, such as oil and gas and groundwater, as well as renewable energy sources, such as wind power. For this reason, we refer to “natural capital accounts” rather than the slightly narrower scope of “ecosystem accounts”. This diverges from the SEEA-EA, which keeps abiotic resources within the central framework:</p><p>“… a distinction has been made between an approach to the measurement of environmental assets that is based on the measurement of individual natural resources, cultivated biological resources, and land, and one based on to the measurement of ecosystems. These are seen as complementary approaches in the SEEA central framework.” </p><p>Our NCAs add the natural resources from the central framework to the ecosystem accounts. Our view is that this provides a more comprehensive account of the UK’s natural assets. We only include land as far as the shadow price of ecosystems is reflected in land prices. We continue to leave cultivated biological services out of the NCAs, since they sit at a level above the basic ecosystem service of feed production. We discuss cultivated biological assets further in <a href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/principlesofuknaturalcapitalaccounting2023#physical-accounts">Section 5: Physical accounts</a>. </p><p>This leads to two principles. </p><p>Principle D1: both biotic and abiotic natural assets are included in the UK natural capital accounts. </p><p>Principle D2: cultivated biological resources should be excluded from the UK natural capital accounts.</p><h3>UK accounts spatial coverage</h3><p>The UK NCAs cover those environmental assets that lie within the territory of the UK (excluding overseas territories and crown dependencies). In terms of surface area, this can be taken as the land area of the UK, together with the UK’s Exclusive Economic Zone (EEZ), the sea area over which it has special rights regarding the exploration and use of marine resources. The EEZ includes parts of the North Sea, Irish Sea, and North Atlantic Ocean. The spaces above (the “air space” or “atmosphere”) and below (relating to subsoil assets) the UK’s surface area are also included within this framework.</p><h3>Subnational accounts</h3><p>As well as the UK-wide accounts, we have now produced NCAs for Scotland, Wales, and England. Since our methods continue to change, we look to maximise comparability between accounts released for a similar time period, while allowing for improvements.</p><p>Principle D3: The national level accounts have consistent methodology and approach with spatially-disaggregated accounts. Any sub-national account uses the same methods as the most recent UK natural capital accounts regardless of developments between publications.</p><p>In practice, it may not be possible either to produce reliable sub-national estimates by systematically disaggregating the national level accounts, or to scale up subnational accounts to the national level. For instance, the structure of Welsh agriculture is very different to that of England, with much less land able to support arable farming. If we take the UK-wide estimate of agricultural income and apportion it by land area, the value for Wales would be a significant overestimate. </p><p>Therefore, the approach taken in developing the devolved accounts has been to use the best available data and methods for estimating values at that scale. This may mean that the UK accounts estimate is not equal to the sum of values for devolved national accounts for all services. </p><p>Principle D4: Where there is an option to adapt figures for a nation or region of the UK to ensure adding them to all other regions or nations would equal the UK figure or use the best available evidence for that region or nation, the “best available” evidence is preferred. Any such variations will be signposted. </p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="drivers-of-ecosystem-services-production" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">3.</span> Drivers of ecosystem services production</h2>
+                        </header>
+                        <p>The main objective of the natural capital accounts (NCA) is to enable us to monitor changes in the stock of our natural capital in terms of its capacity to continue to deliver ecosystem services. This capacity to deliver services can be influenced by three main characteristics: </p>
+<ul>
+  <li>quantity</li>
+  <li>quality</li>
+  <li>spatial configuration</li>
+</ul><p>Quantity can be assessed by means of the measurement of the extent of each habitat. Measures of spatial configuration, such as fragmentation and ecosystem connectivity, are challenging to compile and are expected to be the subject of further research. So, this section focuses on measures of habitat quality, as far as it relates to the provision of services</p><h3>Extent</h3><p>The UK's natural capital asset values are assigned to eight broad habitats, which form the basic typology taken from the <a href="http://uknea.unep-wcmc.org/Resources/tabid/82/Default.aspx">2011 UK National Ecosystem Assessment (UKNEA)</a>:</p>
+<ul>
+  <li>woodland</li>
+  <li>enclosed farmland</li>
+  <li>semi-natural grassland</li>
+  <li>freshwater, wetlands, floodplain</li>
+  <li>mountain, moorland, and heath</li>
+  <li>coastal margins</li>
+  <li>urban</li>
+  <li>marine</li>
+</ul><p>The use of terms such as ecosystem, habitat and land-use type are often used for subtly different purposes, but also interchangeably, when describing the ecological features of an area. The UKNEA uses the term “broad habitat”, and the eight “broad habitats” include some definitions which others would consider land-uses, such as “enclosed farmland”. An ecosystem can be defined as a matrix of different habitats and land uses with no strict objective boundary. For instance, the territory of rodents might end at the sea’s edge, but the territory of the seabirds they interact with does not, nor does the range of fish the seabirds prey on end at the seabird’s territorial limit. An ecosystem’s spatial limits are defined by what we are studying.</p><p>Switching between terms depending on whether we are referring to “enclosed farmland” or “freshwater habitats” is more confusing than using an umbrella term, despite its imprecision. Therefore, the UK NCAs use the term “habitats” as an abbreviation of the UKNEA’s ”broad habitats”. </p><p>Habitats within our accounts are identified using habitat and land use maps. The services provided differ most prominently by habitat. For accounting purposes, the assets are described in terms of two dimensions – size (extent) and state (condition) of habitats.</p><p>However, a wide range of other characteristics relevant to the provision and use of ecosystem services could be included within the accounting structure. These characteristics may include: </p>
+<ul>
+  <li>altitude</li>
+  <li>land use type</li>
+  <li>protected status</li>
+  <li>management practices</li>
+  <li>proximity to centres of population</li>
+</ul><p>More detailed datasets of landcover and habitat are available, but our capacity to assign ecosystem services to them is limited by data. Additionally, at the national scale, changes between these broad typologies are more readily understandable in simple tables or Sankey diagrams (for more information, see our <a href="https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/habitatextentandconditionnaturalcapitaluk/2022#extent">Habitat extent and condition bulletin</a>); more detailed splits would become difficult to interpret. More detailed datasets of landcover and habitat are available, but our capacity to assign ecosystem services to them is limited by data.</p><p>The <a href="https://unstats.un.org/unsd/statcom/52nd-session/documents/BG-3f-SEEA-EA_Final_draft-E.pdf">System of Environmental-Economic Accounting – Ecosystem Accounting (SEEA-EA) (PDF, 5.3MB)</a> guidance calls for the habitat types used by <a href="https://portals.iucn.org/library/node/49250">the International Union for Conservation of Nature (IUCN) Global Ecosystem Typology (GET)</a> levels one to three, being the first three levels of precision. For instance, level one breaks the world into terrestrial, freshwater, and saltwater areas; level two includes biomes such as "rivers and streams"; level three includes "large lowland rivers". A "large lowland river" is a member of the "rivers and streams" level two group and "freshwater" level one group. While the IUCN typology enables international comparability, it includes some groups not present in the UK, with some groups too large and others too detailed for UK purposes.</p><p>The best available UK-wide land use data remain the UK Centre for Ecology and Hydrology (UKCEH) land cover maps. This 21 habitat typology is readily converted into the eight broad habitats (see our <a href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/habitatextentandconditionmethodologynaturalcapitaluk2022#extent-of-habitats-in-the-uk">Habitat extent and condition methodology</a>) but is not directly aligned with the IUCN GET. Working in IUCN level three, or the 21 types within the UKCEH system, present some opportunities to relate services more precisely to different habitat and better understand those relationships.</p><p>In the near term, we expect data and methodological limitations, as well as clarity, to mean that we will continue to use broad habitats alone. However, the need for international comparability and the potential for greater analytical accuracy supports our long-term aim to also produce results using the IUCN GET. </p><p>Principle E1: We use the broad habitat typology used by the UK National Ecosystem Assessment.</p><h3>Delineation between different habitat types</h3><p>There are two purposes for identifying habitat types. </p><p>The first is to assign the values from ecosystem services to a defined natural asset. The second is to explore in detail the ecosystem services arising from habitat types in cross-cutting habitat accounts.</p><p>To apportion service values to different ecosystems, the asset base definitions must be strictly mutually exclusive so that they add up to the UK figure. On the other hand, cross cutting ecosystem accounts examine the benefits of an individual ecosystem. </p><p>In these terms, setting a strict boundary to the urban ecosystem would mean, for instance, cutting out any farmland, woodland or grassland within urban landscapes. However, the interactions between urban areas and their green and blue spaces are particularly interesting in a cross-cutting account.</p><p>Equally, the woodland accounts should include woodland within urban landscapes, particularly because it is woodland in and around urban areas which are most valuable for health and recreation benefits.</p><p>The results of habitat-based cross-cutting accounts, if added together, would produce double-counting. Our approach parallels the way that the gross value added (GVA) associated with an individual business – given upstream and downstream multipliers – would lead to double counting if added together, but in the national accounts mutually exclusive GVA by industry figures can be estimated. Both approaches provide different lenses on the economy. </p><p>Our decision is influenced by the point at which one habitat ends and another begins not being self-evident. </p><p>The delineation between the marine ecosystem and coastal margins can be particularly challenging. The <a href="https://randd.defra.gov.uk/ProjectDetails?ProjectID=20240&FromSearch=Y&Publisher=1&SearchText=ME5116&SortString=ProjectCode&SortOrder=Asc&Paging=10">JNCC Marine Natural Capital Accounts study</a> argued that the unique features of the coastal land cover types means that all such habitats, including those below the mean high-water mark, which might otherwise have been classified as part of the marine ecosystem, should be recorded as coastal margins. The reason for this is that many of the services that such habitats provide are strongly terrestrial (for example, grazing sheep and wildfowling, in the case of salt marshes). For some purposes, such as recreation, it makes little sense to distinguish between coastal and marine habitats, since a walk along a cliff path encompasses the sea beside it.</p><p>Principle E2: Asset-based definitions of habitats are entirely mutually exclusive, while cross-cutting accounts can contain transitional areas associated with the primary ecosystem.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="condition" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">4.</span> Condition</h2>
+                        </header>
+                        <p>There is a wide range of possible condition indicators that can be used to measure habitat quality. These are detailed in our most recent <a href="https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/habitatextentandconditionnaturalcapitaluk/2022">UK habitat extent and condition bulletin</a>. The challenging principle we face regards the reference condition.</p><p>A baseline or ”reference condition” provides a context against which changes can be assessed. Guidance suggests that the aim here is to find data on a conceptual ideal condition state, but in practice it can be very difficult to identify such a state. Government targets are explicitly not recommended by the System of Environmental Economic-Accounting – Ecosystem Accounting (SEEA-EA).</p><p>It is more practical to measure quality, either by reference to a target condition (such as optimum carbon content for agricultural soils), or the condition of the habitat at the start the reporting period (which may cover several years). These approaches will miss unmeasured historic losses but are often the only data we have. We currently use the start of the reporting period if we can present a target condition at all. However, a government target may be more ambitious than the figures from the start of the data series.</p><p>More work is needed to identify those areas where reference condition indicators could be used and to ensure that the indicators used are consistent as far as possible across habitats. </p><p>Currently, the UK accounts are bound by practicality and further work is required to determine how to incorporate limits and thresholds into the accounts.</p><p>Principle C1: We use the most ambitious and technically robust reference condition available, including government targets, while mindful of potentially impractical references, such as the condition immediately following the Pleistocene.</p><p>The primary purpose of the condition account in the UK national capital accounts (NCA) is to help understand changes in the production of ecosystem services and consequent asset values. There are already many alternative assessments of the overall health of the natural environment at a range of scales. Often, we do not fully understand the functional relationship between environmental condition metrics and their capacity for the ecosystem to provide services. These measures are often chosen for other purposes, and we lack sufficient data to calculate the relationships statistically. This presents a significant challenge, but the driving force of this account is to avoid being another set of environmental health metrics and instead serve the wider accounts. </p><p>Principle C2: Development of the condition accounts will focus on their ability to improve our understanding of the physical and monetary accounts. </p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="physical-accounts" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">5.</span> Physical accounts</h2>
+                        </header>
+                        <h3>The accounting definition of a service</h3><p>In accounting terms, a service is a flow between a supplier of the service and the recipient of the service. The flow of ecosystem services – which may not be a movement in any physical sense – represents a “transaction” between two economic entities, with the ecosystem being the supplier and one or more economic actors being the recipient. </p><h3>Classification of ecosystem services</h3><p>The System of Environmental Economic-Accounting – Ecosystem Accounting (SEEA-EA) sets out a reference list of services that can conceivably be included within the natural capital accounts (NCA). It is based on the well-established four-part split into provisioning, intermediate, regulating, and cultural services.</p><p>The UK NCAs have also made use of the European Environment Agency's <a href="https://cices.eu/">Common International Classification of Ecosystem Services (CICES) system</a>. Our naming and ecosystem service definitions have relied on what can be empirically measured. Comprehensive and clear classification systems can require systems to be split into more individual services than can be observed reliably at a national scale.</p><h3>Time series discontinuities</h3><p>The data on which the accounts rely can change in method or even be discontinued. The principles in this section review the ways in which we will adapt production to deal with discontinuities in time series caused by discontinuities in data production.</p><p>Principle P1: Where there is a method change for a dataset, efforts should be made to smooth transitions and adjust older figures to match newer datasets.</p><p>Principle P2: Where there are gaps in a time series caused by a data feed loss, we will interpolate or index match if possible. The preferred approach would be to index using an aligned data source, which has data for missing years between known years. The next best would be a simple trajectory between known years. If a data source stops production indefinitely, we would use an indexing method by preference or use the most recent known data in all subsequent years. </p><h3>Agricultural biomass</h3><p>The separation of the services provided by the farmland habitat from other economic inputs to agricultural production is challenging, because of the degree to which the activity of farming manages and interacts with those services. With very intensive arable farming, natural inputs may be limited to the provision of a medium for growing, with nutrients, light, and water provided by the farmer. At the other extreme, livestock may be allowed to roam freely over semi-natural grassland with very limited human intervention.</p><p>The intent is to draw the line between the farmland habitat and the economy at the point at which vegetable biomass is extracted. Therefore, livestock is not included as an ecosystem service within the UK NCAs. This follows principle D4 of excluding cultivated biological assets.</p><p>However, the resource rent approach (see our <a href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsmethodologyguide2022#resource-rent-definition-and-assumptions">UK NCA methodology guide</a> for a definition) using national accounts data to value agricultural biomass makes it impossible to separate out the value of livestock. Our future development of this service will overcome this problem. The physical and monetary measurements need to be better linked to enable us to observe many of the important environmental influences (including intermediate ecosystem services) of food production, notably pollination.</p><h3>Waste disposal and remediation</h3><p>The accumulation of pollutants in the natural environment can provide benefits to society. For instance, water habitats can dispose of biological nutrients, but such accumulation can also lead to condition loss, in this case, eutrophication and the functional death of that water habitat. We can deal with that by estimating the cost of that damage and netting it off from the benefit as a cost of production in the same way that we net the cost of the fuel in the fishing boat from the value of fisheries.</p><p>P3: Where feasible, if provision of a service leads to damage to (degradation of) the natural asset providing that service, the cost of that damage will be subtracted from the value of the benefit like a cost of production. </p><h3>Climate change gas flux</h3><p>Climate change-related gasses are removed and emitted by the natural environment. Photosynthesis removes carbon dioxide from the atmosphere, while plant respiration puts some back. As such, at any scale of measurement it is, to some degree, the net flux which we are measuring. Over longer periods, a forest may grow and then be harvested, with a proportion of the carbon stored then released back into the atmosphere. </p><p>SEEA-EA guidelines state:</p><p>“Changes in the carbon stock will reflect the removal of carbon from the atmosphere and the loss of carbon from these stocks for all reasons, including, for example: </p>
+<ul>
+  <li>timber harvest</li>
+  <li>reforestation activity</li>
+  <li>conversion of peatlands to agricultural production</li>
+  <li>natural decomposition of organic material</li>
+  <li>the effects of wild-fires</li>
+</ul><p>With the net position reflecting levels of sequestration, SEEA-EA suggests that there are functionally two services – sequestration and storage – which can each be valued separately. International discussions on how to value and account for these separate services continue, but the UK NCA report a service called “sequestration”, which reflects both storage and removal as a single service.</p><p>A second way in which we diverge from SEEA-EA is where the net flux of emissions leads to more emissions being released than removed. SEEA-EA states:</p><p>“An appropriate metric is the net ecosystem carbon balance. Where net carbon sequestration is zero or negative, the level of service supplied by an ecosystem will be zero.”</p><p>We consider this decision to be arbitrary and have published negative figures. This divergence from the SEEA is open to continued discussion. Our reasoning for maintaining our current position is that we believe our current approach to carbon accounting aligns with the <a href="https://www.gov.uk/government/publications/final-report-the-economics-of-biodiversity-the-dasgupta-review">Dasgupta Review</a> recommendations to create inclusive wealth accounts where damage to the environment is netted off from gross domestic product. As experimental work extends national accounting concepts beyond the market-driven production boundary, it is likely that negative asset values will occur. Environmental damage might well exceed the net value of some market activities and, given that those businesses do not incur those costs, the activity would continue. In that respect, the assets that underpin that activity might effectively be considered a non-monetary liability.</p><p>Under that framework, the costs would be assigned to the industries causing the damage, essentially stating that the accounts would not suggest emissions from peatland are “nature’s fault”. However, the asset remains the natural habitat, which has been damaged so severely that it has become a net liability. </p><p>That also leads to the final point that the accounts aim to estimate the delivery of a service mapped to the condition of a habitat. Therefore, we draw a function which relates the loss of condition to the loss of production of that service, but if condition loss fails to destroy the habitat at the point at which it begins to produce a disservice, the guidance suggests we stop measuring. This decision to stop measuring a relationship as it passes through the axis may appear arbitrary to many observers and be hard to understand. </p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="valuing-flows-of-services" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">6.</span> Valuing flows of services</h2>
+                        </header>
+                        <p><a href="https://www.gov.uk/guidance/enabling-a-natural-capital-approach-enca">Enabling a Natural Capital Approach (ENCA)</a>, or System of Environmental Economic-Accounting – Ecosystem Accounting (SEEA-EA) chapter nine, provide a comprehensive list of methods for valuation of ecosystem services. The UK natural capital accounts (NCA) methods papers provide a comprehensive list of methods currently in use. Here, we only consider a subsection of those valuation techniques.</p><h3>Exchange value</h3><p>The SEEA guidance emphasizes the use of exchange values – values related to the exchange of a service between a supplier and user – when choosing prices for ecosystem services. Exchange values are not consistently equivalent to economic welfare values used in cost benefit analysis. In some circumstances, economists are less interested in what someone has paid than in the most they would pay. Benefits arise when we get something for less than we would have paid and, when we pay that price, economic theory suggests that we are ambivalent between trading and not trading. </p><p>Travel cost is measured differently for cost benefit analysis than in exchange values. Cost benefit analysis estimates how many people would have been willing to travel further and spend more than they did. In the NCAs, someone who pays nothing to enter a park they live next door to records a value of zero – but in cost benefit terms we would estimate how far that person would have been willing to travel and the cost to do so – with the difference being the benefit to the person. There will often be a range of prices available, as with the travel cost method, and in all cases the value closest to an exchange value should be chosen.</p><p>Principle M1: To ensure consistency with the national accounts and enable consistent comparison and aggregation within the UK natural capital accounts, our approach is to identify the closest approximation to an exchange value available.</p><p>Traded prices will depend upon the market structure and institutional setting. For example, a carbon price based on a carbon market including a relatively small proportion of a nation’s industry with very high emission allowances will produce prices which could be much lower than the average cost of decarbonization across the economy. As such, an actual market value may not always be the best available exchange value. </p><p>Principle M2: The natural capital accounts should clearly state where valuation estimates are conceptually likely to be over or underestimates of the exchange value and, where possible, indicate the scale of uncertainty.</p><h3>Key transparency principles for valuation</h3><p>Given the variety of valuation techniques available, we need specific principles governing how we report on their use to support interpretation. </p><p>Principle M3: The rationale for using a particular technique or estimate should be clearly explained within each account.</p><p>Principle M4: Valuation methods should be transparent, intuitive, and replicable based on repeated (for example, annual) data. </p><p>Principle M5: Where possible, calculated values should be broken down into their “price” and “quantity” elements.</p><h3>Produced services and the resource rent approach</h3><p>The resource rent approach, using national accounting figures, is a relatively simple method for rapidly estimating values for several provisioning ecosystem services (see our <a href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsmethodologyguide2022">UK NCA methodology guide</a>).</p><p>However, the level of industry aggregation in the national accounts and the lack of a transparent data link between the physical production and value can be a significant drawback.</p><p>For instance, the fishing industry resource rent value based on national accounts is unable to differentiate between fish caught within the national Exclusive Economic Zone (EEZ) and outside of it. Agricultural resource rent values using national accounts aggregates cannot remove livestock or non-farm business income. In addition, it is impossible to estimate the degree to which pollination is affecting the resource rent value.</p><p>These issues affect single product industries, such as oil and gas, less than product differentiated industries. So, while we do not avoid national accounts data as a principle, we have a strategy to move towards bottom-up estimates valuing the physical account directly where it provides a significant improvement. This will often mean recreating a resource rent approach using microeconomic data aggregated to the national level.</p><p>Principle M6: We will develop valuation approaches using the highest data resolution of good or service production available and appropriate to the level of variation in that good or service.</p><p>When calculating the resource rent for an industry, we will take the net capital stock from the previous accounting period (end of last year or beginning of this year) for the purposes of calculating the opportunity cost. We assume that capital stock would have been sold off and invested in bonds. The return on shifting investment is effectively set at the beginning of the accounting period at prices associated with the beginning of this period. Therefore, to make this comparable with the gross and net operating surplus, we must adjust the bond return for inflation so that the resource rent can be accurately calculated.</p><h3>Valuation of health benefits</h3><p>A health benefit is strictly an outcome, rather than an output measure. However, because we don’t have market prices for regulating and cultural services, the services can be valued by reference to health benefits. Gym membership can be valued directly at the membership value. A key issue is clarity about the counterfactual: what would society be willing to pay, or to incur costs, for the same benefit in the absence of the service?</p><h3>Carbon sequestration and storage</h3><p>As noted in <a href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/principlesofuknaturalcapitalaccounting2023#physical-accounts">Section 5: Physical accounts</a>, the data on carbon sequestration in the UK cannot disentangle gross from net flux of emissions. In the UK, the price for carbon is set at the marginal abatement cost. Therefore, it is estimated to be the lowest available cost of preventing a tonne of carbon being emitted. The period over which the carbon is assumed to be removed is infinite. For that reason, it makes equal sense to estimate the cost of an emission from nature at the same price. That allows us to multiply the net emissions by the same price, rather than using one for removals and another for emissions. </p><h3>Recreation</h3><p>Where tourism and recreation firms facilitate interactions between households and ecosystems (for example, canoe hire firms), SEEA states that the flow of cultural ecosystem services are recorded as used by households, rather than firms. However, a supplementary row in the supply and use table can be recorded showing the use of the ecosystem by the relevant business, and the value of any ecosystem services that may be a part of monetary payments to businesses are recorded as supplementary items in the supply and use table.</p><p>Cultural services involve an interaction between people and ecosystems. Quantifying the contribution of the ecosystem can only be done by proxy, such as through the number, type, and length of time of interactions and visits.</p><p>Principle M7: The time spent on outdoor recreation can be included in the physical account as a measure of the service provided, but not the opportunity cost of that time as an added value. A value for the time spent on site should not be included as part of the value of recreation, only the costs of accessing the recreation.</p><h3>Non-use values</h3><p>Non-use values represent an important element of the “total economic value” of the environment. These include wanting nature to be there for the benefit of other people during our lives (altruistic value), for future generations (bequest value), and for the sake of nature itself independent of our use of it (existence value). </p><p>Non-use values do not sit easily within a NCA framework, because although they refer to a benefit and beneficiary, they do not refer to any direct or indirect use of or interaction with the environment. Hence, it is challenging to identify a transaction between a habitat and a user (and therefore, a unit price and a future flow of services), and how values change with quantities. It is also difficult to attribute a non-use value to a particular habitat asset or to a particular service.</p><p>Non-use values are on the international SEEA-EA research agenda. Given their potential importance, SEEA-EA (Table 6.3) provisionally frames flows related to non-use values as “ecosystem and species appreciation” which “concerns the wellbeing that people derive from the existence and preservation of the environment for current and future generations, irrespective of any direct or indirect use.” </p><p>This appreciation may be indirectly or partially proxied by levels of donations or bequests to environmental charities (netting out any individual use benefits) or, to a lesser extent, through environmental volunteering. </p><p>Another route is to consider non-use value elements for habitat conservation within the new Environmental Land Management payments in England or broader public restoration spend estimates. To the extent that these payments are for ecosystem services or other environmental benefits, they are already valued in the main accounts. For now, while an area where more consideration and discussion is required, it has not been identified as a priority for development.</p><p>Stated preference methods, based on contingent valuation or choice experiments that imitate a hypothetical market, are typically employed to derive non-use values. In principle, they could inform exchange values through construction of a demand function. However, they represent a value which is as far from an exchange value as we can estimate. As such, under principle M1, we avoid their use unless there is no other method available. </p><h3>Asset valuation</h3><p>A full description of the theory around asset valuation and net present value (NVA) can be found in the SEEA-EA, UK Green Book and our NCA methodology. In this section, we cover some of the principles we have used to bridge those different guidance documents. </p><h4>Asset lifespan</h4><p>The accounting asset life is the time over which the services from a natural resource or habitat are expected to be supplied.</p><p>For non-renewable assets, the asset lives can be determined as the time it takes for the projected cumulative production to equal the estimated level of reserves. For oil and gas resources, such an estimate could include unproven reserves that are expected to be proven in the future. For woodlands, we can take the age structure and extent of woodlands to accurately project timber production for 30 years and with significant accuracy for 50 years. Therefore, we use projections of lifespans and production where possible.</p><p>Principle A1: Projections for the lifespan and production over that lifespan of the production of a good or service from an asset will be used where they are available, reproducible, and reliable.</p><p>Often, we do not have a reliable basis on which to project lifespans or production, so use 25 years as a default for non-renewable resources, following the World Bank's <a href="https://documents1.worldbank.org/curated/en/630181468339656734/pdf/588470PUB0Weal101public10BOX353816B.pdf">The Changing Wealth of Nations report (PDF, 2.4MB)</a>.</p><p>Principle A2: For non-renewable resources, the asset life should be assumed to be 25 years as a default.</p><p>Unlike non-renewable assets, habitat assets can supply flows of services indefinitely, if managed sustainably (SEEA-EA 10.72). </p><p>A report commissioned by the Office for National Statistics (ONS), <a href="https://www.ons.gov.uk/file?uri=/economy/environmentalaccounts/methodologies/naturalcapital/discountingforenvironmentalaccounts1.pdf">Discounting for environmental accounts November 2016 (PDF, 453KB)</a>, identifies two respects in which the choice of asset life is linked to the choice and concept of discount rate. Firstly, the longer the time horizon, the stronger the argument against using market rates that are geared to the relatively short-term (10 to 20 years). Secondly, despite the effects of discounting, restricting time horizons to 50 years undervalues the potentially reproducible flows of services. Discounting using current Green Book rates at constant prices over 50 years would give 75.6% of the NPV based on infinite flows, whereas a 100-year period would capture 92.2% of the NPV value based on infinite flows.</p><p>By continuing to use the HM Treasury's (HMT) <a href="https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020">Green Book guidance</a> social discount rate (SDR), both of these considerations reinforce the case for a long asset life where the actual asset life cannot be projected. While the Green Book guidance recommended discounting future flows over an asset's entire life, retaining a fixed but longer time horizon that captures most of the theoretical value in perpetuity is preferred for practical purposes and to aid transparency</p><p>Principle A3: We adopt a 100-year asset life to better reflect the longevity of renewable natural assets.</p><h4>An expected ecosystem service flow path</h4><p>The SEEA-EA largely leaves the decision on how a service might change in the future to the compilers, whilst noting that consistency of assumptions between different services and habitat types is important. </p><p>For forestry, we have age classes and extents which enable long term projection. Oil and gas production is predicted by a reputable authority. Principle A1 states that we will project the service flow path where possible, but for most services there is not yet a reliable way to predict long term production.</p><p>Principle A4: The default is to assume consistent production based on recent years over the appropriate asset lifetime, using a five-year average or trend.</p><p>Principle A5: Projected changes to flows must be clearly evidenced and justified. </p><p>In some cases, a rising population will increase the size of the benefit (for instance, recreation). However, that rising population might also degrade the condition or extent of the asset providing the service. That interaction complicates projection on this basis but should not rule it out. </p><p>Principle A6: Population growth projections can be accounted for in determining future service, but consideration must be made of consequent impacts on extent or condition of assets.</p><h4>Projecting price</h4><p>Unit values may also be likely to change over time, for example, because of a positive income elasticity of demand for recreational values or use of non-traded carbon prices, but projections would need to be justified.</p><p>If the population gets richer, they may also value the environmental services more highly. For example, recreational values are likely to increase with people’s income over time: </p>
+<ul>
+  <li>Defra’s air quality damage cost valuations are periodically uprated to reflect income growth</li>
+  <li>the Department for Energy Security and Net Zero (DESNZ), formerly the Department for Business, Energy and Industrial Strategy (BEIS), non-traded carbon price values are projected to rise rapidly over coming decades</li>
+  <li>agricultural commodity prices are typically projected to rise in real terms over time.</li>
+</ul><p>However, making such projections will require judgement on a case-by-case basis, and is an area of ongoing consideration.</p><p>Principle A7: Projections of unit values should be in real terms (that is, excluding general inflation) where the discount rate is in real terms. </p><p>Principle A8: It is advisable to project increasing unit values where there is reasonable supporting evidence that is specific to the service being projected. </p><p>Principle A9: In the absence of evidence to support changing real prices, prices should be projected forward based on at least a five-year average or trend.</p><p>Internal consistency of assumptions is important. It is possible that a declining future quantity would give rise to increasing future unit values that reflect the growing scarcity (for example, for some cultural services, or for a phasing out of peat extraction).</p><h4>An appropriate discount rate</h4><p>SEEA-EA (10.77) recommends use of a SDR with two qualifications:</p>
+<ul>
+  <li>a market rate should be applied to services which have private users and observed market prices (for example, long term government bond rates)</li>
+  <li>The SDR should be applied to all valuation of services that are received by people or society in general and should be a constant rate reflecting consistent time preference across generations; the rate should be “specified in government guidelines” and “be in active use in government decision making”</li>
+</ul><p>Regarding the second point, the UK accounts to date have applied a declining SDR, as given in HMT's <a href="https://www.gov.uk/government/publications/the-green-book-appraisal-and-evaluation-in-central-governent/the-green-book-2020">Green Book</a> (3.5% up to 30 years; 3.0% for 31 to 75 years) to all projected flows. The Green Book rate is well established and widely used in government decision-making. Its declining rate is a function of increasing uncertainty around other parameters in the formula, particularly economic growth, rather than a declining rate of time preference over time.</p><p>Adopting a market rate for provisioning services would add another variable to asset valuation, as market rates have moved around to reflect shifts in UK monetary policy and macroeconomic conditions. Such volatility adds a layer of valuation complexity to asset accounting without any gains in robustness.</p><p>For local recreational and amenity benefits captured in hedonic property price analysis, capitalised values are directly estimated. These imply their own private discount rates and a market-based relationship between annual rental value and capitalised values. </p><p>Principle A10: We use the standard UK Green Book social discount rate.</p><h4>Asset valuation for past years</h4><p>Most natural capital asset values reflect the present value of the stream of benefits we expect in the future. If we wish to create a time series of asset values, then we need to estimate asset values five years ago on the same basis as today. We could take the actual benefits received in the last five years and use them to create a more accurate asset value for five years ago. </p><p>However, any calculations in subsequent years will not be able to benefit from such hindsight. An asset value for 10 years ago will involve using more real data than one a year ago and be effectively using a different method to the asset value this year. Therefore, comparability across the time series is lost. </p><p>Principle A11: Each net present value calculation for any given previous year should be based upon the expectations and knowledge present at that time, rather than taking into account circumstances and knowledge arising since then. </p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="list-of-principles" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">7.</span> List of principles</h2>
+                        </header>
+                        <h3>Definition principles</h3><p>D1: Both biotic and abiotic natural assets are included in the UK natural capital accounts. </p><p>D2: Cultivated biological resources should be excluded from the UK natural capital accounts.</p><p>D3: The national level accounts have consistent methodology and approach with spatially-disaggregated accounts. Any sub-national account uses the same methods as the most recent UK natural capital accounts regardless of developments between publications.</p><p>D4: Where there is an option to adapt figures for a nation or region of the UK to ensure adding them to all other regions or nations would equal the UK figure or use the best available evidence for that region or nation, the “best available” evidence is preferred. Any such variations will be signposted. </p><h3>Extent principles</h3><p>E1: We use the broad habitat typology used by the UK National Ecosystem Assessment.</p><h3>Condition principles</h3><p>C1: We use the most ambitious and technically robust reference condition available, including government targets, while mindful of potentially impractical references, such as the condition immediately following the Pleistocene.</p><p>C2: Development of the condition accounts will focus on their ability to improve our understanding of the physical and monetary accounts. </p><h3>Physical principles</h3><p>P1: Where there is a method change for a dataset, efforts should be made to smooth transitions and adjust older figures to match newer datasets.</p><p>P2: Where there are gaps in a time series driven by a data feed loss, we will interpolate or index match if possible. The preferred approach would be to index using an aligned data source which has data for missing years between known years. The next best would be a simple trajectory between known years. If a data source stops production indefinitely, we would use an indexing method by preference or use the most recent known data in all subsequent years. </p><p>P3: Where feasible, if provision of a service leads to damage to (degradation of) the natural asset providing that service, the cost of that damage will be subtracted from the value of the benefit, like a cost of production. </p><h3>Monetary principles</h3><p>M1: To ensure consistency with the national accounts and enable consistent comparison and aggregation within the UK natural capital accounts, our approach is to identify the closest approximation to an exchange value available.</p><p>M2: The natural capital accounts should clearly state where valuation estimates are conceptually likely to be over or underestimates of the exchange value and, where possible, indicate the scale of uncertainty.</p><p>M3: The rationale for using a particular technique or estimate should be clearly explained within each account. </p><p>M4: Valuation methods should be transparent, intuitive, and replicable based on repeated (for example, annual) data. </p><p>M5: Where possible, calculated values should be broken down into their “price” and “quantity” elements.</p><p>M6: We will develop valuation approaches using the highest data resolution of good or service production available and appropriate to the level of variation in that good or service. </p><p>M7: The time spent on outdoor recreation can be included in the physical account as a measure of the service provided, but not the opportunity cost of that time as an added value. A value for the time spent on site should not be included as part of the value of recreation – only the costs of accessing the recreation.</p><h3>Asset principles</h3><p>A1: Projections for the lifespan and production over that lifespan of the production of a good or service from an asset will be used where they are available, reproducible, and reliable.</p><p>A2: For non-renewable resources, the asset life should be assumed to be 25 years as a default. </p><p>A3: We adopt a 100-year asset life to better reflect the longevity of renewable natural assets.</p><p>A4: The default is to assume consistent production based on recent years over the appropriate asset lifetime, using a five-year average or trend.</p><p>A5: Projected changes to flows must be clearly evidenced and justified. </p><p>A6: Population growth projections can be taken into account in determining future service, but consideration must be made of consequent impacts on extent or condition of assets.</p><p>A7: Projections of unit values should be in real terms (that is, excluding general inflation) where the discount rate is in real terms. </p><p>A8: It is advisable to project increasing unit values where there is reasonable supporting evidence that is specific to the service being projected. </p><p>A9: In the absence of evidence to support changing real prices, prices should be projected forward based on at least a five-year average or trend.</p><p>A10: We use the standard UK Green Book social discount rate.</p><p>A11: Each net present value calculation for any given previous year should be based upon the expectations and knowledge present at that time, rather than taking into account circumstances and knowledge arising since then.</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="related-links" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">8.</span> Related links</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p><a href="https://www.ons.gov.uk/economy/environmentalaccounts/datasets/uknaturalcapitalaccounts2020">UK natural capital accounts: 2022</a> <br>Dataset | Released 10 November 2022 <br>Estimates of the financial and societal value of natural resources to people in the UK.</p><p><a href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/uknaturalcapitalaccountsmethodologyguide2022">UK natural capital accounts methodology guide: 2022</a> <br>Methodology | Released 10 November 2022 <br>How the natural capital ecosystem service accounts are measured and developed, including the specific methods used to value individual components of natural capital and physical and monetary data sources.</p><p><a href="https://www.ons.gov.uk/economy/environmentalaccounts/articles/naturalcapitalaccountsroadmap/2022">UK natural capital roadmap: 2022</a> <br>Article | Released 31 August 2022 <br>This article assesses achievements since the publication of the natural capital roadmap, outlines various challenges, and sets out priorities for the next phase. </p>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+                <div id="cite-this-methodology" class="section__content--markdown">
+                    <section>
+                        <header>
+                            <h2><span class="section__content-number">9.</span> Cite this methodology</h2>
+                        </header>
+                        <p><div class="markdown-box-container
+
+
+">
+    <p>Office for National Statistics (ONS), released 10 November 2022, ONS website, methodology, <a href="https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/principlesofuknaturalcapitalaccounting2023">Principles of UK natural capital accounting: 2023</a> </p>
+</div>
+</p>
+                        <a class="print--hide js-scroll" href="#toc">Back to table of contents</a>
+                    </section>
+                </div>
+            
+            <!-- Accordion -->
+            
+             <!-- Margin at bottom of article if no Accordion present -->
+                <div class="margin-bottom--4">
+                </div>
+            
+        </article>
+        
+        <div class="col col--md-11 col--lg-20 margin-top-md--3">
+            
+    
+    
+        
+    
+    
+    
+        
+
+
+<div class="tiles__item tiles__item--nav-type flush-col">
+	<h3 class="tiles__title-h3 tiles__title-h3--nav">
+		Contact details for this <span class="lowercase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Methodology
+
+
+
+
+</span>
+	</h3>
+	<div class="tiles__content--nav">
+		<address>
+			Adam Dutton<br/>
+			<a href="mailto:natural.capital.team@ons.gov.uk">natural.capital.team@ons.gov.uk</a><br/>
+			Telephone: +44 1633 580051
+		</address>
+	</div>
+</div>
+    
+	
+	
+
+	
+	
+	
+	
+    
+    
+
+        </div>
+    </div> 
+
+</div>
+
+</main>
+
+
+	<footer class="print--hide">
+	<h2 class="visuallyhidden">Footer links</h2>
+	<div class="footer">
+		<div class="wrapper">
+			<nav aria-label="Footer links">
+                <div class="footer-nav col-wrap">
+                    
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">Help</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/help/accessibility">Accessibility</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/cookies">Cookies</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/help/privacynotice">Privacy</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/help/termsandconditions">Terms and conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">About ONS</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/whatwedo">What we do</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://careers.ons.gov.uk">Careers</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/contactus">Contact us</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/news">News</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="/aboutus/transparencyandgovernance/freedomofinformationfoi">Freedom of Information</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="col col--lg-one-third col--md-one-third">
+                        <h3 class="footer-nav__heading">Connect with us</h3>
+                        <ul class="footer-nav__list">
+                            <li class="footer-nav__item">
+                                <a href="https://twitter.com/ONS" target="_blank">X</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.instagram.com/officefornationalstatistics" target="_blank">Instagram</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.facebook.com/ONS" target="_blank">Facebook</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.linkedin.com/company/office-for-national-statistics" target="_blank">LinkedIn</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://consultations.ons.gov.uk/" target="_blank">Consultations</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://www.statsusernetwork.ons.gov.uk/" target="_blank">Discussion forums</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a href="https://public.govdelivery.com/accounts/UKONS/subscribers/new" target="_blank">Email alerts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+			</nav>
+		</div>
+		<div class="wrapper">
+			<div class="footer-license">
+				<img class="footer-license__img" alt="OGL" width="60" src="https://cdn.ons.gov.uk/assets/images/logo-ogl-footer.svg">
+				<p class="footer-license__text margin-left-sm--0">
+					All content is available under the <a href="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated
+				</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+    
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="//cdn.ons.gov.uk/sixteens/418c927/js/main.js"></script>
+        <script src="/js/app.js"></script>
+
+        
+        
+
+	<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9e22c22b9e85060e',t:'MTc3NDQ5MjQ4OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

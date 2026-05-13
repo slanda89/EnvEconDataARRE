@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">52</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:4A25E796-D4BE-573E-A5A5-2A05A815D1C2</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">One Ecosystem</journal-title>
+        <abbrev-journal-title xml:lang="en">OE</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-8194</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/oneeco.2.e20834</article-id>
+      <article-id pub-id-type="publisher-id">20834</article-id>
+      <article-id pub-id-type="manuscript">7706</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="scientific_subject">
+          <subject>Habitats</subject>
+          <subject> Ecosystems &amp; Natural Spaces</subject>
+          <subject>Macro-economy</subject>
+        </subj-group>
+        <subj-group subj-group-type="geographical_area">
+          <subject>Europe</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The role of enabling actors in ecosystem service accounting</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>La Notte</surname>
+            <given-names>Alessandra</given-names>
+          </name>
+          <email xlink:type="simple">alelanotte@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0001-6951-709X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Marques</surname>
+            <given-names>Alexandra</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">European Commission- Joint Research Centre, Directorate for Sustainable Resources, Land Resources Unit, Ispra, Italy</addr-line>
+        <institution>European Commission- Joint Research Centre, Directorate for Sustainable Resources, Land Resources Unit</institution>
+        <addr-line content-type="city">Ispra</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">European Commission- Joint Research Centre, Directorate for Competences, Modelling, Indicators and Impact Evaluation Unit, Ispra, Italy</addr-line>
+        <institution>European Commission- Joint Research Centre, Directorate for Competences, Modelling, Indicators and Impact Evaluation Unit</institution>
+        <addr-line content-type="city">Ispra</addr-line>
+        <country>Italy</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Alessandra La Notte (<email xlink:type="simple">alelanotte@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Matthias Schröter</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>12</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>2</volume>
+      <elocation-id>e20834</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/37560168-F961-503C-B2E4-B9751083E0D3">37560168-F961-503C-B2E4-B9751083E0D3</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/1139943">1139943</uri>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>09</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>12</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Alessandra La Notte, Alexandra Marques</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>When accounting for ecosystem services, it is important to distinguish between the flow of services and the flow of benefits (which can be part of economic accounts or not) generated by those services. To disentangle services and benefits, particular attention has to be paid in allocating each category of flows in the use table to those institutional sectors that generate the need for the services and have the power to modify them - the enabling actors - and to final beneficiaries. The general concept of use, without specifying whether services or benefits are referred to, could in fact lead to misinterpretations. This paper discusses the issue of the allocation of ecosystem services and the role of enabling actors through a practical example of water purification accounts in the Netherlands. In particular, the role of the agricultural sector as an enabling actor is disentangled from the cleaned water as benefit and from water supply companies as beneficiaries. The proper allocation of the flow of the service can in fact facilitate the establishment of a causal relationship between the actions of economic actors and ecological consequences and <italic>vice versa</italic>.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>System of Environmental-Economic Accounting - Experimental Ecosystem Accounts (SEEA-EEA)</kwd>
+        <kwd>ecosystem services</kwd>
+        <kwd>enabling actors</kwd>
+        <kwd>Water purification</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="0"/>
+        <ref-count count="22"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The importance of ecosystems, their services and sustainable use for long-term human well-being is being increasingly recognised (<xref ref-type="bibr" rid="B3707600">MA 2005</xref>, <xref ref-type="bibr" rid="B3754936">TEEB 2010</xref>). Consequently, a proper quantification of the contribution and reliance of human activities on ecosystem services is being pursued. Several international initiatives are contributing to this effort, for example: the work led by the United Nations Statistical Division which coordinates the System of integrated Environmental and Economic Accounts-Experimental Ecosystem Accounts (SEEA-EEA) (<xref ref-type="bibr" rid="B3754790">United Nations et al. 2014a</xref>), the work developed by World Bank with the Wealth Accounting and the Valuation of Ecosystem Services (WAVES) initiative (<xref ref-type="bibr" rid="B3711560">WAVES 2014</xref>) or the Integrated system for Natural Capital Accounting (INCA) project supported by the European Commission (<xref ref-type="bibr" rid="B3754945">European Commission 2016</xref>). After the adoption of the SEEA - Central Framework (SEEA-CF) as the first international standard for environmental-economic accounting (<xref ref-type="bibr" rid="B3754756">United Nations et al. 2014b</xref>), the SEEA-EEA approach has been endorsed as a reference structure for ecosystem services accounting, with calls for its testing, application and further development at the global scale.</p>
+      <p>The SEEA-EEA defines ecosystem services as the contribution of ecosystems to benefits used in economic or other human activity and records them in Supply and Use tables (SUTs). The SUTs are a powerful tool in environmental accounting because they enable the establishment of linkages and dependencies between environmental and economic flows. In ecosystem services accounting, the Supply table records the amount of ecosystem services supplied by the different ecosystem types*<xref ref-type="fn" rid="FN3709761">1</xref> and the Use table records how much the different economic sectors and households use ecosystem services; this is commonly referred to as ecosystem services demand (see <xref ref-type="bibr" rid="B3917164">Wolff et al. 2015</xref> for a discussion on the different concepts of ecosystem services demand).</p>
+      <p>Testing the SEEA-EEA is fundamental to reveal its limitations and challenges and to foster its improvement towards its adoption as an official statistical standard. One of the areas of high priority for testing and further development is how to account for degradation in ecosystem accounting, even more so since degradation is left out from the SEEA-CF (<xref ref-type="bibr" rid="B3916984">Bartelmus 2013</xref>). The SEEA-EEA Technical Recommendations (<xref ref-type="bibr" rid="B3754810">United Nations Environmental Program et al. 2017</xref>) identify two approaches to assess degradation: (i) in physical terms through changes in ecosystem condition*<xref ref-type="fn" rid="FN3711608">2</xref>; and (ii) in monetary terms through changes in the net present value of the actual use of ecosystems. Several challenges for quantification still remain; for example how to determine the appropriate reference condition to compare changes in ecosystem condition and how to determine future flows of ecosystem services (for the computation of the Net Present Value, NPV). The allocation of the degradation to the proper economic unit has also been identified as a challenging aspect for several reasons including distance and time (the impacts might occur in a different place from the one where the economic unit is located and in a different accounting period) and, as degradation will likely affect the supply of different ecosystem services, the attribution of overall impacts is very complex (<xref ref-type="bibr" rid="B3754810">United Nations Environmental Program et al. 2017</xref>, <xref ref-type="bibr" rid="B3916994">Hein et al. 2016</xref>). The notion of ecosystem capacity has been discussed in several studies as an essential metric to monitor the sustainable use of ecosystems and their services (for example <xref ref-type="bibr" rid="B3917039">Bagstad et al. 2014</xref>, <xref ref-type="bibr" rid="B3917029">Schröter et al. 2014</xref>, <xref ref-type="bibr" rid="B3917051">Villamagna et al. 2013</xref>). <xref ref-type="bibr" rid="B3916994">Hein et al. 2016</xref> discuss the need to include the concepts of ecosystem capacity, capability and potential supply in the SEEA-EEA framework to define ecosystem assets and highlight their importance for monitoring ecosystem degradation beyond changes in NPV. Recently, a test case for implementation of the SEEA-EEA at the European scale also highlighted some challenges associated with the issues of sustainable use and degradation in ecosystem accounting (<xref ref-type="bibr" rid="B3754634">La Notte et al. 2017a</xref>). First, the study discusses that considering only the actual flow*<xref ref-type="fn" rid="FN3710386">3</xref> of ecosystem services is unlikely to be sufficient to analyse the sustainable use of ecosystem services; if the actual flow is higher than the natural regeneration or absorption rates, this will lead to over-exploitation and potentially degradation of ecosystems and their capacity to provide services. As a solution to tackle this issue, the study suggests to add information on the sustainable or potential flow of ecosystem services in the Supply table, keeping the actual flow recorded in the Use table. This would ensure that the official Supply = Use identity is preserved. Second, it emphasises the need for complimentarity and consistency between the SEEA-EEA, the SEEA-CF and the System of National Accounts, so that no room is left for ambiguities when accounting for ecosystem services. Finally, the authors highlight the fact that the separation between the benefits received from ecosystems (e.g. clean water, timber) and the actual ecosystem service (water purification, biomass growth) creates the need to differentiate between those benefiting from the outcome of the service (beneficiaries) and those whose activities create the need for the service and have the power to modify the service flow (enabling actors*<xref ref-type="fn" rid="FN3916058">4</xref>).</p>
+      <p>Sometimes beneficiaries and enabling actors overlap, but in other cases, there are clear differences that have to be considered in accounting terms. For example, when a factory releases a pollutant into a stream, it is enabling the generation of the water purification service, but the factory does not directly benefit from the cleaned water eventually generated; instead water companies and households will be the direct beneficiaries of cleaned water (<xref ref-type="bibr" rid="B3754634">La Notte et al. 2017a</xref>). The separation between enabling actors and beneficiaries does indeed generate an important modification in the Use Table because it determines where to allocate the service flow: this is going to be a remarkable change compared to the current frame. In order to contribute to this new stream of applied research, in this paper two accounting frameworks are compared: the one currently proposed by SEEA-EEA and an enlarged SEEA-EEA version that addresses the use of complementary information concerning the sustainable flow of ecosystem services and the allocation to enabling actors. The role of enabling actors is explored by using an ecosystem service accounting application already available for all European countries (<xref ref-type="bibr" rid="B3706690">La Notte et al. 2017b</xref>). After initially presenting the accounting tables with and without the allocation to enabling actors, the methods by which different accounting frameworks lead to different analyses and thus conclusions will be analysed.</p>
+    </sec>
+    <sec sec-type="Water Purification Accounts">
+      <title>Water Purification Accounts</title>
+      <p>The application reported here concerns a regulating ecosystem service characterised by being a sink-related service*<xref ref-type="fn" rid="FN3916033">5</xref>: water purification. In-stream nitrogen (N) retention is used as proxy for the actual flow of water purification. Excessive N loading is a leading cause of water pollution which makes N a useful indicator for water quality (<xref ref-type="bibr" rid="B3706623">Rockström et al. 2009</xref>). N retention is defined as the process of temporary or permanent removal of nitrogen taking place in the river. This includes the processes of denitrification, burial in sediments, immobilisation and transformation or simply transport. To calculate the amount of N, the GREEN model (Geospatial Regression Equation for European Nutrient losses) was used (<xref ref-type="bibr" rid="B3917223">Bouraoui and Grizzetti 2014</xref>). GREEN contains a spatial description of N sources and physical characteristics influencing N retention. N sources are classified as diffuse sources and point sources. Diffuse sources include mainly mineral fertilisers, manure applications and crop fixation, while point sources consist of industrial and wastewater treatment discharges. For this reason, diffuse source is considered as representing the ‘agriculture’ sector and point sources representing ‘other industries and households’. The amount of N that is retained and removed by rivers and lakes is then converted into a Constructed Wetland Equivalent Area (CWEA) expressed in hectares. A replacement cost approach is used to estimate the monetary value of the physical units produced by the CWEA. The full description of the biophysical assessment and monetary valuation of this ecosystem service is described in detail in previous publications (<xref ref-type="bibr" rid="B3706690">La Notte et al. 2017b</xref>, <xref ref-type="bibr" rid="B3916069">La Notte et al. 2012</xref>).</p>
+      <p>Here the focus is on the accounting tables and their interpretation. Specifically, it is important to show how Supply and Use tables would look when applying the accounts as currently reported in SEEA-EEA (<xref ref-type="bibr" rid="B3754790">United Nations et al. 2014a</xref>) and when applying additional complementary accounts as proposed in <xref ref-type="bibr" rid="B3754634">La Notte et al. (2017a)</xref> with a specific emphasis on enabling actors. In <xref ref-type="bibr" rid="B3706690">La Notte et al. (2017b)</xref>, when considering the difference between sustainable and actual flow, one of the countries with the most critical situation was the Netherlands and therefore this country is used as the case study throughout the paper.</p>
+      <sec sec-type="Water purification accounts according to SEEA-EEA - allocation to final beneficiaries">
+        <title>Water purification accounts according to SEEA-EEA - allocation to final beneficiaries</title>
+        <p>According to the SEEA-EEA, SUTs record actual flows. In the Use table, actual flow is attributed to water supply companies that are the beneficiaries of the clean freshwater generated through water purification (Fig. <xref ref-type="fig" rid="F3706663">1</xref>). As in the SEEA-EEA Technical Recommendations (<xref ref-type="bibr" rid="B3754810">United Nations Environmental Program et al. 2017</xref>), the grey cells are marked wherever no data is going to be entered: ecosystem types provide services but they neither provide [section D] nor use [section H] products; economic units cannot provide ecosystem services [section A] but they can use them [section E]. On the other hand, inter-ecosystem flows of services might occur [section F]. The accounting of inter-ecosystem flows strongly depends on the methodology applied to assess the service flow. In the specific case of water purification, the biophysical model used does not allow the reporting of any contribution to other ecosystem types. Sections C and D represent the System of National Accounts (SNA) Supply and Use tables that are completed according to the standard conventions (<xref ref-type="bibr" rid="B3754800">European Commission et al. 2009</xref>). No data were filled in this case since no standard SNA products are of relevance for water purification. The accounts for water purification, in fact, should not be confused with the accounts for water as reported in the SEEA-CF. The tables reported in Fig. <xref ref-type="fig" rid="F3706663">1</xref> show that, over 20 years, the monetary value of the water purification service decreased. This negative trend indicates that, at the end of the analysed period, the service had less value than at the beginning of the period analysed, suggesting that according to standard economic theory, the water purification service had become less scarce. The main driver of the change in the biophysical model are N emissions; the outcome of the model is then translated into monetary terms by using a replacement cost technique. As N emissions decreased from 1985 to 2005, the monetary value of the water purification actual flow also decreased.</p>
+      </sec>
+      <sec sec-type="Water purification accounts according to the enlarged SEEA-EEA - allocation to enabling actors">
+        <title>Water purification accounts according to the enlarged SEEA-EEA - allocation to enabling actors</title>
+        <p>Fig. <xref ref-type="fig" rid="F3706687">2</xref> shows how Supply and Use tables are extended according to the enlarged SEEA-EEA. First, services are separated from benefits. This implies separating services from benefits in both the Supply table (ref. the SEEA-CF section concerning non-produced goods [Section D]*<xref ref-type="fn" rid="FN3916116">6</xref>, i.e. those resources generated by nature and not produced through an economic process) and the Use table (ref. the SNA benefits [Section I]*<xref ref-type="fn" rid="FN3916117">7</xref>) and the non-SNA benefits (currently included neither in the SNA nor in the SEEA-CF [Section K]).</p>
+        <p>The residual section was also included, this being part of the SEEA-CF [Section E and Section N]. The reader should bear in mind that N emissions reported here are the same input variables used in the biophysical model adopted to assess the water purification service: there is an accounting linkage that inherently connects the N emission account to the water purification account. It is indeed through this linkage that the causal relationship between N emissions and the value of water purification is established: the more N emitted, the more N removal which is assessed by the biophysical model and thus valued as water purification (and <italic>vice versa</italic>).</p>
+        <p>The environmental asset more closely related to water purification is inland water bodies. Data related to actual flow of water [section D] and gross total abstraction [section I] are withdrawn from Eurostat datasets. The reason to look at water resources is justified by the non-SNA benefit generated by water purification, i.e. clean water [section K]. It should in fact be calculated as the fraction of N cleaned freshwater abstracted by water supply companies. At the moment, this indicator is not available: what matters in the frame is to show where to allocate the number in terms of “what” (i.e. the indicator of clean water related to the outcome of the biophysical model [N removed] and the water abstracted by water supply companies) and to “whom” (the beneficiary: water supply companies). To have residuals in the frame greatly helps in seeing the linkage with the service flow. The N input reported in the tables is the same input variable that runs into the model and should be consistent with Eurostat datasets. The frame is fully consistent. First, it is possible to link higher/lower N input [section E] to a changing level, as measured in the monetary value of water purification flow [section B], to detect which part of N is retained in soil (that is not part of the water purification service) and which part flows into the inland waters [section N]. Second, by reporting the sustainable flow [section B] and actual flow [section G], it is possble to assess whether the current management is sustainable [section H, which is obtained by the difference between section B and section G]. A negative sign shows that degradation is occurring and also its order of magnitude. The case of the Netherlands is very critical when checking the difference between the very low sustainable flow and the excessive actual flow. In Europe, the only countries where the sustainable flow is higher than the actual flow are Sweden, Norway and Finland (<xref ref-type="bibr" rid="B3706690">La Notte et al. 2017b</xref>). Trends show whether there are improvements over time: less N input occurs in the Netherlands, but the decrease is not sufficient to reach sustainability: the disparity between the two flows [section B versus section G] is too severe and the capacity of already degraded waterbodies to remove N is lower (which is consistent with the spatial model structure).</p>
+        <p>The meaning of the negative numbers in [Section H] can be seen as depreciation of natural capital, i.e. the consumption of fixed capital in accounting terms. In other words, the overuse of water purification (negative sign) lowers the capacity of inland water ecosystems to provide the same amount of the water purification service in the coming years. The lost capacity can be tracked on the biophysical dataset when the N outflow for each sub-catchment becomes gradually equal to the N inflow: this implies that N cannot be removed and thus that inland waters are being degraded (<xref ref-type="bibr" rid="B3917223">Bouraoui and Grizzetti 2014</xref>).</p>
+        <p>Fig. <xref ref-type="fig" rid="F3706687">2</xref> shows a hybrid account frame, where services [sections B, G and H] are expressed in monetary terms and benefits [sections I and K] and residuals [sections E and N] are expressed in physical terms. Ecosystem services can be reported in both physical and monetary terms. The reason to report here in monetary terms is justified by the need to link these numbers with economic accounts. The non-produced assets [section D] and SNA benefits [section I] can be reported both in physical and monetary terms, while non-SNA benefits and removals are likely to be reported in physical terms. The reason to report here water abstraction in physical terms is to show what part of this information (million m<sup>3</sup> of water) will be linked to the non-SNA indicator related to clean water (less N tonnes/m<sup>3</sup> of abstracted freshwater) [section K].</p>
+      </sec>
+    </sec>
+    <sec sec-type="Outcome analysis">
+      <title>Outcome analysis</title>
+      <p>In this section, the interpretation of the information reported on the Supply and Use Tables presented in the case study is provided. Results are analysed by addressing one specific issue: the causal relationship between the action of economic actors and ecological degradation. For the Netherlands, the assessment and valuation of the actual flow and the trend for the selected years suggest that when N emissions [section G and section N] are high, water purification's actual value [section G] is high, when N emissions are low, water purification's actual value is low (Fig. <xref ref-type="fig" rid="F3706687">2</xref>).</p>
+      <p>A different trend and very different monetary values, emerge when assessing and valuing the sustainable flow. The more N emissions decrease [section G and section N], the more water purification's sustainable values increase [section B and section H]. Since degradation has been an ongoing process for a long time, the value of sustainable flows is very low compared to the value of actual flow. In terms of sustainability assessment, considering only the actual flow would then provide misleading information: i.e. N emissions are good and enrich waterbodies. On the other hand, considering the sustainable flow provides the view that the sustainability path has only just begun and that the major player in this path is the reduction of N emissions. This clearly shows up in Fig. <xref ref-type="fig" rid="F3706687">2</xref> by considering the residual accounts [section E and section N] and the difference between sustainable and actual flows [section H].</p>
+      <p>However, the most needed relationship to provide information on the sustainable use of ecosystem services relates to economic accounts (or in other words, information from the SNA). In order to understand how economic production affects the ability of inland waterbodies to provide water purification, the accounting tables filled in the previous section with information from the SNA are compared. In Fig. <xref ref-type="fig" rid="F3706858">3</xref>,the Value Added (VA) of the water supply related sectors is compared with the actual flow of water purification (i.e. the SEEA-EEA where the actual flow is attributed to water supply companies, as reported in Fig.1). The source of all economic data is Eurostat National Accounts by 21 branches - aggregates at current prices (NACE rev2). By looking at these data alone, it is hard to find an answer to the relevance that water purification might have on economic production or vice versa.</p>
+      <p>In Fig. <xref ref-type="fig" rid="F3706860">4</xref>, the total VA of all NACE activities is compared with the total water purification sustainable flow, in line with what was reported in Fig. <xref ref-type="fig" rid="F3706687">2</xref>, i.e. the SEEA-EEA with complementary information where the sustainable flow in the supply table is considered and where, as the user of the service, those who activate and modify the flow of the service are also considered. Once again, by looking at these data, it is difficult to find an answer to any relevance water purification might have on economic production or vice versa.</p>
+      <p>In determining which economic data to relate with relevant ecosystem services, major drivers need to be considered. As can be seen in Fig. <xref ref-type="fig" rid="F3706687">2</xref> [section E], the major source of N is agriculture. In a biophysical assessment, this source of pollution is referred to as a diffuse source, <italic>ad hoc</italic> measured in physical terms and then valued in monetary terms. When a question such as how economic production affects the ability of inland waterbodies to provide water purification needs to be addressed, in this case, the sector that is responsible for 90% of N emissions (i.e. agriculture) should be investigated and the ecosystem services withdrawn by it (i.e. diffuse source) should be considered. The ability of inland waterbodies to provide water purification is reported in the Supply table as sustainable flow [section B]. Fig. <xref ref-type="fig" rid="F3706862">5</xref> shows this trend and it can be seen that a causal relationship indeed exists.</p>
+      <p>The attempt to establish a link between sustainable flow and water-related companies (Fig. <xref ref-type="fig" rid="F3706864">6</xref>) is not helpful, since the real relationship will, in this case, be the link between the non-SNA benefit clean freshwater (i.e. the percentage of N removal per m<sup>3</sup> of water) and the water-related companies that are indeed the beneficiaries. In fact, the only common trend that can be tracked is that an increase in the sustainable flow of water purification moves in the same direction as that of water companies' value added. Their processing and provision of water for multiple uses is indeed already part of the SNA.</p>
+      <p>It is important to consider that Value Added measurements also include compensation for employees, taxes on production and imports, subsidies and gross operating surplus. It might be interesting to look at measurements which specifically consider the value of output as the quantity of output multiplied by the price. Specifically, for water purification, it would matter to look at crop output and animal output (Fig. <xref ref-type="fig" rid="F3915993">7</xref>). In the Netherlands, crop production does not record a decrease in production, while the real decrease concerns animal production, even if not dramatically. The remarkable decrease in N emissions (check [Section E] as supply and [Section N] as use in Fig. <xref ref-type="fig" rid="F3706687">2</xref>) has been appropriately managed by the agricultural sector by not decreasing the crop production and by slightly decreasing animal production. If enabling actors were not disentagled from final beneficiaries, this kind of analysis could not take place.</p>
+    </sec>
+    <sec sec-type="Conclusions">
+      <title>Conclusions</title>
+      <p>An accounting system, as support for policy making, should provide information on relationships associated with homogeneous groups of actors in order to evaluate, analyse and forecast economic phenomena (<xref ref-type="bibr" rid="B3754700">European Commission 2014</xref>).</p>
+      <p>Already the SEEA-CF acknowledges the presence of a melding of many disciplines, such as economics, statistics, energy, hydrology, forestry, fisheries and environmental science (ref. 2.3 <xref ref-type="bibr" rid="B3754756">United Nations et al. 2014b</xref>), each with its own concepts and structures. This multidisciplinary aspect becomes even more relevant for the SEEA-EEA. While the underlying structure remains the same as that used in the national accounts, the SEEA-EEA should integrate perspectives from ecology and natural science disciplines to properly measure and report about ecosystems and ecosystem services and thus provide an improved body of information for environmental-economic analysis.</p>
+      <p>The ecological perspective in terms of 'users' of ecosystem services may require an additional effort to separate services and benefits. For some ecosystem services (especially the sink-related services), final beneficiaries might play no role in affecting the amount and increasing/decreasing trend of ecosystem services flow. When no causal relationship is established, it is not possible to plan and implement policies to address environmental issues. The example of water purification provided demonstrates that the agricultural sector has a common trend with water purification; implementing sustainable practices in agriculture can reduce degradation in water bodies and this can be measured through water purification. Specifically, reducing N outputs from agriculture would improve the capacity of inland waters to provide N reduction services and thereby reduce costs of water purification. It is a powerful means to provide evidence for a number of regulations and policy actions; in Europe for example, the Nitrate Directive and the agri-environment payments of the Rural Development Programmes.</p>
+      <p>When no causal relationship is established, then it is not possible to develop strategies to reduce ecosystem services degradation. To use residual accounts already in the SEEA-CF is not enough. In the case of water purification, it is possible to read, through the accounting tables, that most of the N emissions are captured by soil and only part of them flow into water bodies. To only consider clean water as benefits is not correct because, in some cases, the beneficiaries of water do not need clean water (e.g. hydroelectric sector). The separation between services and benefits allows in turn the separation of enabling actors from final beneficiaries and thus disentangling and developing that logical step which, in the current SEEA-EEA frame, remains embedded.</p>
+      <p>Testing of the SEEA-EEA by different specialists in different fields is essential for its improvement and to ensure that ecosystem services accounts hold the necessary data to convey the information on the interdependencies between economies and ecosystems.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="B3917039">
+        <element-citation publication-type="article">
+          <year>2014</year>
+          <article-title>From theoretical to actual ecosystem services: mapping beneficiaries and spatial flows in ecosystem service assessments</article-title>
+          <source>Ecology and Society</source>
+          <volume>19</volume>
+          <issue>2</issue>
+          <pub-id pub-id-type="doi">10.5751/es-06523-190264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3916984">
+        <element-citation publication-type="article">
+          <year>2013</year>
+          <article-title>Environmental-Economic Accounting: Progress and Digression in the SEEA Revisions</article-title>
+          <source>Review of Income and Wealth</source>
+          <fpage>n/a</fpage>
+          <lpage>n/a</lpage>
+          <pub-id pub-id-type="doi">10.1111/roiw.12056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3917223">
+        <element-citation publication-type="article">
+          <year>2014</year>
+          <article-title>Modelling mitigation options to reduce diffuse nitrogen water pollution from agriculture</article-title>
+          <source>Science of The Total Environment</source>
+          <fpage>1267</fpage>
+          <lpage>1277</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2013.07.066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3754700">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Commission</surname>
+              <given-names>European</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Essential SNA: Building the basics</source>
+          <publisher-name>Publications Office of the European Union</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <size units="page">231 pp</size>
+          <comment content-type="language">EN</comment>
+          <isbn>978-92-79-36333-7</isbn>
+          <pub-id pub-id-type="doi">10.2785/51610</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3754945">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Commission</surname>
+              <given-names>European</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <source>Report on phase 1 of the knowledge innovation project on an integrated system of natural capital and ecosystem services accounting in the EU</source>
+          <publisher-name>European Commission</publisher-name>
+          <uri>http://ec.europa.eu/environment/nature/capital_accounting/pdf/KIP_INCA_final_report_phase-1.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3754800">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Commission</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fund</surname>
+              <given-names>International Monetary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Cooperation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>the World</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <source>System of National Accounts 2008</source>
+          <publisher-name>United Nations</publisher-name>
+          <uri>http://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3916994">
+        <element-citation publication-type="article">
+          <year>2016</year>
+          <article-title>Defining Ecosystem Assets for Natural Capital Accounting</article-title>
+          <source>PLoS</source>
+          <volume>11</volume>
+          <issue>11</issue>
+          <fpage>0164460</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0164460</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3916069">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Thieu</surname>
+              <given-names>Vincent</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bouraoui</surname>
+              <given-names>Faycal</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Masi</surname>
+              <given-names>Fabio</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <source>Biophysical Assessment and Monetary Valuation of Ecosystem Services. Scenario analysis for the case of water purification in Europe.</source>
+          <volume>Report EUR 25638 EN</volume>
+          <publisher-name>Publications Office of the European Union</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <size units="page">72</size>
+          <comment content-type="language">English</comment>
+          <uri>http://publications.jrc.ec.europa.eu/repository/bitstream/JRC75635/lb-na-25638-en-n.pdf</uri>
+          <isbn>978-92-79-27799-3</isbn>
+          <pub-id pub-id-type="doi">10.2788/72082</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3754634">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Polce</surname>
+              <given-names>Chiara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>Grazia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>Implementing an EU system of accounting for ecosystems and their services. Initial proposals for the implementation of ecosystem services accounts, EUR 28681 EN</source>
+          <publisher-name>Publications Office of the European</publisher-name>
+          <publisher-loc>Union, Luxembourg</publisher-loc>
+          <pub-id pub-id-type="doi">10.2760/214137</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3706690">
+        <element-citation publication-type="article">
+          <year>2017</year>
+          <article-title>Physical and monetary ecosystem service accounts for Europe: A case study for in-stream nitrogen retention.</article-title>
+          <source>Ecosystem Services</source>
+          <volume>23</volume>
+          <fpage>18</fpage>
+          <lpage>29</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2016.11.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3707600">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MA</surname>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Ecosystem Assesment - Ecosystems and Human Well-Being</source>
+          <publisher-name>Island Press</publisher-name>
+          <uri>http://www.millenniumassessment.org/documents/document.356.aspx.pdf.</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3706623">
+        <element-citation publication-type="article">
+          <year>2009</year>
+          <article-title>A safe operating space for humanity.</article-title>
+          <source>Nature</source>
+          <volume>461</volume>
+          <issue>7263</issue>
+          <fpage>472</fpage>
+          <lpage>475</lpage>
+          <pub-id pub-id-type="doi">10.1038/461472a</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3917029">
+        <element-citation publication-type="article">
+          <year>2014</year>
+          <article-title>Accounting for capacity and flow of ecosystem services: A conceptual model and a case study for Telemark, Norway</article-title>
+          <source>Ecological Indicators</source>
+          <volume>36</volume>
+          <fpage>539</fpage>
+          <lpage>551</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2013.09.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3754936">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>TEEB</surname>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>The Economics of Ecosystems and Biodiversity, Ecological and Economic Foundations</source>
+          <publisher-name>Routledge</publisher-name>
+          <publisher-loc>Abingdon, UK</publisher-loc>
+          <size units="page">410</size>
+        </element-citation>
+      </ref>
+      <ref id="B3754790">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Commission</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Organization</surname>
+              <given-names>Food and Agriculture</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>the World</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>System of Environmental-Economic Accounting. Experimental Ecosystem Accounting</source>
+          <publisher-name>United Nations</publisher-name>
+          <uri>http://unstats.un.org/unsd/envaccounting/seeaRev/eea_final_en.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3916048">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Commission</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fund</surname>
+              <given-names>International Monetary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>World</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <source>Integrated Environmental and Economic Accounting. Studies in Methods - Handbook of National Accounting</source>
+          <publisher-name>UN</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <comment content-type="language">english</comment>
+          <uri>https://unstats.un.org/unsd/envaccounting/seea2003.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3916059">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Union</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>Food and Agriculture Organization of the United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>World</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>System of Environmental-Economic Accounting 2012—Experimental Ecosystem Accounting</source>
+          <volume>ST/ESA/STAT/Ser.F/112</volume>
+          <publisher-name>UN</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">194</size>
+          <comment content-type="language">English</comment>
+          <uri>http://unstats.un.org/unsd/envaccounting/seeaRev/eea_final_en.pdf</uri>
+          <isbn>978-92-79-43926-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B3754756">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Commission</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Organization</surname>
+              <given-names>Food and Agriculture</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fund</surname>
+              <given-names>International Monetary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>the World</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>System of Environmental-Economic Accounting 2012. Central Framework</source>
+          <publisher-name>United Nations</publisher-name>
+          <uri>http://unstats.un.org/unsd/envaccounting/seeaRev/SEEA_CF_Final_en.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3754810">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Program</surname>
+              <given-names>United Nations Environmental</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Division</surname>
+              <given-names>United Nations Statistical</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Diversity</surname>
+              <given-names>Convention of Biological</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Affairs</surname>
+              <given-names>Norwegian Ministry of Foreign</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>SEEA Experimental Ecosystem Accounting: Technical Recommendations. Consultation Draft</source>
+          <publisher-name>United Nations</publisher-name>
+          <uri>https://unstats.un.org/unsd/envaccounting/ceea/meetings/twelfth_meeting/SEEA%20EEA%20Tech%20Rec%20Consultation%20Draft%20II%20v4.1%20March2017.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3917051">
+        <element-citation publication-type="article">
+          <year>2013</year>
+          <article-title>Capacity, pressure, demand, and flow: A conceptual framework for analyzing ecosystem service provision and delivery</article-title>
+          <source>Ecological Complexity</source>
+          <volume>15</volume>
+          <fpage>114</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecocom.2013.07.004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3711560">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>WAVES</surname>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>The Global Partnership on Wealth Accounting and the Valuation of Ecosystem Services The</source>
+          <publisher-name>World Bank, Washington DC</publisher-name>
+          <uri>https://www.wavespartnership.org/sites/waves/files/documents/WAVES%20Brochure-web.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B3917164">
+        <element-citation publication-type="article">
+          <year>2015</year>
+          <article-title>Mapping ecosystem services demand: A review of current research and future perspectives</article-title>
+          <source>Ecological Indicators</source>
+          <volume>55</volume>
+          <fpage>159</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2015.03.016</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="FN3709761">
+        <label>*1</label>
+        <p>In the SEEA-EEA, ecosystem types refer mostly to different land cover/ecosystem functional units.</p>
+      </fn>
+      <fn id="FN3711608">
+        <label>*2</label>
+        <p>According to SEEA-EEA, ecosystem condition reflects the overall quality of an ecosystem in terms of its characteristics (for example, biodiversity, vegetation etc.).</p>
+      </fn>
+      <fn id="FN3710386">
+        <label>*3</label>
+        <p>By actual flow, the authors mean the use of an ecosystem service in a given year.</p>
+      </fn>
+      <fn id="FN3916058">
+        <label>*4</label>
+        <p>The definition of "enabling actors" is inspired by the SEEA-EEA (ref. Annex 3 in <xref ref-type="bibr" rid="B3916059">United Nations et al. 2014b</xref>) where the authors introduce for regulating services the concept of "enabling factor". The evolution of this concept leads to the identification of the subjects responsible for the existence/occurrence of the factor itself and thus to the source of relevant causality.</p>
+      </fn>
+      <fn id="FN3916033">
+        <label>*5</label>
+        <p>In the SEEA 2003(<xref ref-type="bibr" rid="B3916048">United Nations et al. 2003</xref>), it is explicitly written (ref. paragraph 1.23): "...Sink functions absorb the unwanted by-products of production and consumption; exhaust gases from combustion or chemical processing, water used to clean products or people, discarded packaging and goods no longer wanted. These waste products are vented into the air, water (including sea water) or are buried in landfill sites. These three destinations are often referred to as 'sinks'...". The definition of "sink-related" services is based on this statement.</p>
+      </fn>
+      <fn id="FN3916116">
+        <label>*6</label>
+        <p>Data from the Eurostat website has been extracted from the "Renewable freshwater resources" [env_wat_res]</p>
+      </fn>
+      <fn id="FN3916117">
+        <label>*7</label>
+        <p>Data from the Eurostat website have been extracted from the "Annual freshwater abstraction by source and sector" [env_wat_abs]</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="F3706663" position="float" orientation="portrait">
+      <object-id content-type="arpha">9B1FFD42-1348-55CA-AFA3-AB17C2BB51C9</object-id>
+      <object-id content-type="doi">10.3897/oneeco.2.e20834.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Supply and Use Tables for water purification in the Netherlands according to the SEEA-EEA.</p>
+      </caption>
+      <graphic xlink:href="oneeco-02-e20834-g001.jpg" position="float" id="oo_169841.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/169841</uri>
+      </graphic>
+    </fig>
+    <fig id="F3706687" position="float" orientation="portrait">
+      <object-id content-type="arpha">A49B10B3-87C5-5860-B21A-479131560390</object-id>
+      <object-id content-type="doi">10.3897/oneeco.2.e20834.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Supply and Use Tables for water purification in the Netherlands according to the experimental proposal.</p>
+      </caption>
+      <graphic xlink:href="oneeco-02-e20834-g002.jpg" position="float" id="oo_169370.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/169370</uri>
+      </graphic>
+    </fig>
+    <fig id="F3706858" position="float" orientation="portrait">
+      <object-id content-type="arpha">8CD957FE-CE83-5102-BAC1-989C32F66723</object-id>
+      <object-id content-type="doi">10.3897/oneeco.2.e20834.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Water related sectors Value Added and water purification actual flow in the Netherlands 1995-2005.</p>
+      </caption>
+      <graphic xlink:href="oneeco-02-e20834-g003.jpg" position="float" id="oo_169347.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/169347</uri>
+      </graphic>
+    </fig>
+    <fig id="F3706860" position="float" orientation="portrait">
+      <object-id content-type="arpha">A3C8BB3D-0990-5F46-B68F-34F808EC0FD6</object-id>
+      <object-id content-type="doi">10.3897/oneeco.2.e20834.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Total Value Added and water purification sustainable flow in the Netherlands 1995-2005.</p>
+      </caption>
+      <graphic xlink:href="oneeco-02-e20834-g004.jpg" position="float" id="oo_169936.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/169936</uri>
+      </graphic>
+    </fig>
+    <fig id="F3706862" position="float" orientation="portrait">
+      <object-id content-type="arpha">D0000A0C-7FE7-5C93-932F-D7430D1A7BD5</object-id>
+      <object-id content-type="doi">10.3897/oneeco.2.e20834.figure5</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Primary sector Value Added and water purification sustainable flow in the Netherlands 1995-2005.</p>
+      </caption>
+      <graphic xlink:href="oneeco-02-e20834-g005.jpg" position="float" id="oo_169348.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/169348</uri>
+      </graphic>
+    </fig>
+    <fig id="F3706864" position="float" orientation="portrait">
+      <object-id content-type="arpha">7CA63520-6FB6-5ABE-8FFD-8FB85EAF8732</object-id>
+      <object-id content-type="doi">10.3897/oneeco.2.e20834.figure6</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Water related sectors Value Added and water purification sustainable flow in the Netherlands 1995-2005.</p>
+      </caption>
+      <graphic xlink:href="oneeco-02-e20834-g006.jpg" position="float" id="oo_169350.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/169350</uri>
+      </graphic>
+    </fig>
+    <fig id="F3915993" position="float" orientation="portrait">
+      <object-id content-type="arpha">7187C045-C759-52C0-ACA5-E09347C4A4AA</object-id>
+      <object-id content-type="doi">10.3897/oneeco.2.e20834.figure7</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Crop output, animal output and water purification sustainable flow in the Netherlands 1995-2005</p>
+      </caption>
+      <graphic xlink:href="oneeco-02-e20834-g007.jpg" position="float" id="oo_170111.jpg" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/170111</uri>
+      </graphic>
+    </fig>
+  </floats-group>
+</article>

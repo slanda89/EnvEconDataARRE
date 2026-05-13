@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Department of Statistics Malaysia">
+<meta name="keywords" content="DOSM">
+<meta name="author" content="DOSM">
+
+<title>Department of Statistics Malaysia</title>
+<link rel="icon" href="/uploads/favicon_20230614151933.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        
+<link rel="stylesheet" href="http://www.dosm.gov.my/assets/landing/normalize.min.css">
+<link rel="stylesheet" href="http://www.dosm.gov.my/assets/landing/swiper.min.css">
+<script src="http://www.dosm.gov.my/assets/landing/swiper.min.js"></script>
+
+
+<script src="http://www.dosm.gov.my/assets/portal/js/jquery-3.5.1.js"></script>
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<style></style>
+<body id="mainbody" class="st-container" style="margin:0;padding:0;">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    html, body, .container {
+        height: 100%;
+    }
+    
+    body {
+        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+    
+    a {
+        color: #616161;
+    }
+    
+    .container {
+        /*display: flex;
+        justify-content: center;
+        align-items: center;*/
+        text-align : center;
+        background-color: #fff;
+        flex-direction: column;
+    }
+    
+    .title {
+        font-size: 38px;
+        color: #616161;
+        font-style: italic;
+        font-weight: 800;
+    }
+
+    .timeline {
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .timeline .swiper-container {
+        height: 600px;
+        width: 100%;
+        position: relative;
+        background:#15818d;
+    }
+
+    .timeline .swiper-wrapper {
+        transition: 2s cubic-bezier(0.68, -0.4, 0.27, 1.34) 0.2s;
+    }
+
+    .timeline .swiper-slide {
+        position: relative;
+        color: #fff;
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .timeline .swiper-slide::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        right: -115%;
+        bottom: -10%;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.7);
+        border-radius: 100%;
+    }
+
+    .timeline .swiper-slide-content {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        max-width: 400px;
+        right: 50%;
+        top: 13%;
+        -webkit-transform: translate(50%, 0);
+        transform: translate(50%, 0);
+        font-size: 12px;
+        z-index: 2;
+    }
+    
+    .timeline .swiper-slide .timeline-year {
+        display: block;
+        font-style: italic;
+        font-size: 42px;
+        margin-bottom: 50px;
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+        color: #d4a024;
+        font-weight: 300;
+        opacity: 0;
+        transition: .2s ease .4s;
+    }
+    
+    .timeline .swiper-slide .timeline-title {
+        font-weight: 600;
+        font-size: 38px;
+        margin: 0 0 30px;
+        opacity: 0;
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+        transition: .2s ease .5s;
+    }
+    
+    .timeline .swiper-slide .timeline-text {
+        font-weight : 300;
+        line-height: 1.5;
+        opacity: 0;
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+        transition: .2s ease .6s;
+    }
+    
+    .timeline .swiper-slide .timeline-link {
+        color : white;
+        text-decoration : none;
+        line-height: 1.5;
+        opacity: 0;
+        -webkit-transform: translate3d(20px, 0, 0);
+        transform: translate3d(20px, 0, 0);
+        transition: .2s ease .7s;
+    }
+    
+    .timeline .swiper-slide .timeline-link:hover{
+        text-decoration : underline;
+    }
+
+    .timeline .swiper-slide-active .timeline-year {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        transition: .4s ease 1.6s;
+    }
+    
+    .timeline .swiper-slide-active .timeline-title {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        transition: .4s ease 1.7s;
+    }
+    
+    .timeline .swiper-slide-active .timeline-text {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        transition: .4s ease 1.8s;
+    }
+    
+    .timeline .swiper-slide-active .timeline-link {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        transition: .4s ease 1.9s;
+    }
+    
+    .timeline .swiper-pagination {
+        right: 5% !important;
+        
+        height: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 18px;
+        z-index: 1;
+    }
+
+    .timeline .swiper-pagination::before {
+        content: "";
+        position: absolute;
+        left: -30px;
+        top: 0;
+        height: 100%;
+        width: 1px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    
+    .timeline .swiper-pagination-bullet {
+        width: auto;
+        height: auto;
+        text-align: left;
+        opacity: 1;
+        background: transparent;
+        color: white;
+        margin: 15px 0 !important;
+        position: relative;
+    }
+    
+    .timeline .swiper-pagination-bullet::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: -32.5px;
+        width: 6px;
+        height: 6px;
+        border-radius: 100%;
+        background-color: #d4a024;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        transition: .2s;
+    }
+    
+    .timeline .swiper-pagination-bullet-active {
+        color: #d4a024;
+    }
+    
+    .timeline .swiper-pagination-bullet-active::before {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .timeline .swiper-button-next,
+    .timeline .swiper-button-prev {
+        background-size: 20px 20px;
+        top: 15%;
+        width: 20px;
+        height: 20px;
+        margin-top: 0;
+        z-index: 2;
+        transition: .2s;
+    }
+    
+    .timeline .swiper-button-prev {
+        left: 8%;
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23d4a024'%2F%3E%3C%2Fsvg%3E");
+    }
+    
+    .timeline .swiper-button-prev:hover {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    
+    .timeline .swiper-button-next {
+        right: 8%;
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23d4a024'%2F%3E%3C%2Fsvg%3E");
+    }
+    
+    .timeline .swiper-button-next:hover {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+
+    @media screen and (min-width: 768px) {
+        .timeline .swiper-slide::after {
+            right: -30%;
+            bottom: -8%;
+            width: 240px;
+            height: 50%;
+            /*box-shadow: -230px 0 150px 50vw rgba(0, 0, 0, 0.7);*/
+            box-shadow: -230px 0 150px 50vw rgb(68 128 43 / 42%);
+        }
+        
+        .timeline .swiper-slide-content {
+            right: 30%;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            width: 400px;
+            font-size: 14px;
+            text-align: right;
+        }
+        
+        .timeline .swiper-slide .timeline-year {
+            margin-bottom: 0;
+            font-size: 32px;
+        }
+        
+        .timeline .swiper-slide .timeline-title {
+            font-size: 38px;
+            margin: 0;
+        }
+        
+        .timeline .swiper-pagination {
+            display: flex;
+        }
+        
+        .timeline .swiper-button-prev {
+            top: 15%;
+            left: auto;
+            right: 8%;
+            -webkit-transform: rotate(90deg) translate(0, 10px);
+            transform: rotate(90deg) translate(0, 10px);
+        }
+        
+        .timeline .swiper-button-prev:hover {
+            -webkit-transform: rotate(90deg) translate(-3px, 10px);
+            transform: rotate(90deg) translate(-3px, 10px);
+        }
+        
+        .timeline .swiper-button-next {
+            top: auto;
+            bottom: 15%;
+            right: 8%;
+            -webkit-transform: rotate(90deg) translate(0, 10px);
+            transform: rotate(90deg) translate(0, 10px);
+        }
+      
+        .timeline .swiper-button-next:hover {
+            -webkit-transform: rotate(90deg) translate(3px, 10px);
+            transform: rotate(90deg) translate(3px, 10px);
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .timeline .swiper-slide::after {
+            right: -20%;
+            bottom: -12%;
+            width: 240px;
+            height: 50%;
+            /*box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);*/
+            box-shadow: -230px 0 150px 50vw rgb(68 128 43 / 42%);
+        }
+        
+        .timeline .swiper-slide-content {
+            right: 25%;
+        }    
+        
+        
+    }
+    
+    #logo_img {
+        height:80px;
+    }
+    
+    .timeline .swiper-slide-content {
+        width:75%;   
+    }
+    
+    .timeline-link-button {
+        border-radius: 30px;color: orange;padding: 5px;padding-left: 10px;padding-right: 10px;border: 1px solid orange;transition:0.4s;
+    }
+    
+    .timeline-link-button:hover {
+        background: #000;
+    }
+    
+    @media screen and (min-width: 1024px) {
+        .timeline .swiper-slide-content {
+            right: 27%;
+        }
+            
+        .timeline .swiper-slide-active .timeline-title {
+            text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+        }
+        
+        .timeline .swiper-slide-active .timeline-text {
+            text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+        }
+    }
+    
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        .timeline .swiper-slide-content {
+            right: 35%;
+        }
+        
+        .timeline .swiper-slide-active .timeline-title {
+            text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+        }
+        
+        .timeline .swiper-slide-active .timeline-text {
+            text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+        }
+    }
+    
+    @media screen and (max-width: 767px) {
+        #logo_img {
+            width:100%;
+            height:auto;
+            padding: 10px;
+            padding-top: 20px;
+        }
+        #footer1 {
+            padding:10px;
+        }
+        #footer2 {
+            padding:10px;
+        }
+        
+        
+        
+        .timeline .swiper-slide::after {
+            box-shadow: -230px 0 150px 60vw rgba(0, 0, 0, 0.3);
+        }
+        
+        .timeline .swiper-slide-active .timeline-title {
+            text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+        }
+        
+        .timeline .swiper-slide-active .timeline-text {
+            text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+        }
+        
+        .timeline .swiper-button-prev, .timeline .swiper-button-next {
+            display: block !important;
+            top: 45%;
+        }
+        .timeline .swiper-button-prev {
+            left: 10px;
+            background-color: #000000;
+            padding: 14px;
+            border-radius: 50%;
+            border: 1px solid orange;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .timeline .swiper-button-next {
+            right: 10px;
+            background-color: #000000;
+            padding: 14px;
+            border-radius: 50%;
+            border: 1px solid orange;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+    }
+    
+    .timeline .swiper-button-prev, .timeline .swiper-button-next{display:none;}
+</style><style>
+.landing_slide{
+    width:100%;height:600px;
+    background-repeat:no-repeat;background-size:cover;;background-position:center;
+}
+</style>
+<div style="position:absolute;top:1%;right:2%;">
+    Language Options : 
+    <a href="http://www.dosm.gov.my/site/translate?language=Malay">MY</a>&nbsp;&nbsp;
+    <a href="http://www.dosm.gov.my/site/translate?language=English">EN</a>
+</div>
+<div class="container" style="background:url(/assets/portal/images/theme1/preloader-bg.jpg) no-repeat;background-size:cover;background-position:center center;width: 100%;margin: 0;padding: 0;">
+    <!--h2 style="margin:2em 0 0.5em 0;padding:0;font-weight:normal;font-size:1.1em;">Welcome to the Official Portal of</h2>
+    <h1 class="title" style="margin:0 0 0.5em 0;">Department of Statistics Malaysia</h1-->
+   <center><img id="logo_img" src="/assets/img/logo-dosm-English.png" alt="logo" style="margin:1em 0;"></center>
+    <div class="timeline">
+        <div class="swiper-container">
+            <div class="swiper-wrapper"><style>#landing_slide_1{background-image: url(/uploads/landing-page/20230509081237.png);}</style><div id="landing_1" class="swiper-slide"  onclick="window.open( '/portal-main/home');" 
+                        style="cursor:pointer;" data-slide="DOSM Official Portal">
+                            <div id="landing_slide_1" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">Welcome to the DOSM Official Portal</h4>
+                                    <p class="timeline-text">
+                                        The Department of Statistics Malaysia is a main government agency entrusted with the responsibility to collect, interpret and disseminate latest and real time statistics in the monitoring of national economic performance and social development.<br><br>
+                                        <a class="timeline-link-button" href="/portal-main/home" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_24{background-image: url(/uploads/landing-page/20231027162255.png);}</style><div id="landing_24" class="swiper-slide"  onclick="window.open( 'https://www.myagricensus.gov.my');" 
+                        style="cursor:pointer;" data-slide="MyAgricensus Portal">
+                            <div id="landing_slide_24" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">MyAgricensus Portal</h4>
+                                    <p class="timeline-text">
+                                        The Agriculture Census 2024 portal is the best medium to reach out to the community, and as the main medium to deliver the important information of the Agriculture Statistics. The comprehensive and interactive content of the portal will serve as an information gateway that provides a lot of information in the form of infographics and interactive visualisations. MyAgricensus Portal also provides a chatbot platform, where users can communicate in real time for any agriculture statistics information needed.<br><br>
+                                        <a class="timeline-link-button" href="https://www.myagricensus.gov.my" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_22{background-image: url(/uploads/landing-page/20230414171247.png);}</style><div id="landing_22" class="swiper-slide"  onclick="window.open( 'http://economiccensus.dosm.gov.my/');" 
+                        style="cursor:pointer;" data-slide="Economic Census 2023 Portal">
+                            <div id="landing_slide_22" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">Economic Census 2023 Portal</h4>
+                                    <p class="timeline-text">
+                                        Economic Census portal is a common gateway with a one-stop centre concept to make it easier for users, especially census respondents, to get all the information related to the implementation of the 2023 Economic Census. Among the contents of this portal are general information about the 2023 Economic Census, frequently asked questions (FAQ), questionnaires, guide to complete questionnaire, the previous publications of economic census, and links to online questionnaires (e-Be). Through this portal, users can also access economic data dashboard (MyEase) which covers economic series data obtained from censuses and economic surveys.<br><br>
+                                        <a class="timeline-link-button" href="http://economiccensus.dosm.gov.my/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_2{background-image: url(/uploads/landing-page/20221228070238.jpg);}</style><div id="landing_2" class="swiper-slide"  onclick="window.open( 'https://www.mycensus.gov.my/');" 
+                        style="cursor:pointer;" data-slide="MyCensus 2020 Portal">
+                            <div id="landing_slide_2" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">MyCensus 2020 Portal</h4>
+                                    <p class="timeline-text">
+                                        In line with the technological advancements and lifestyle changes of Malaysians, online census information collection is being introduced through the Census Portal and mobile applications. To complete the e-Census form, a postcard containing the e-Census guide and link on the Census Portal will be sent to your residence. In addition, mobile applications are also introduced for enumerators to fill out your information during interviews using a tablet or smartphone.<br><br>
+                                        <a class="timeline-link-button" href="https://www.mycensus.gov.my/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_5{background-image: url(/uploads/landing-page/20260311090931.png);}</style><div id="landing_5" class="swiper-slide"  onclick="window.open( 'https://dosmgeoportal.dosm.gov.my/geohub/');" 
+                        style="cursor:pointer;" data-slide="DOSM GeoHUB">
+                            <div id="landing_slide_5" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">DOSM GeoHUB</h4>
+                                    <p class="timeline-text">
+                                        This data portal was developed to facilitate access to geospatial information integrated with the nation's official statistics. This platform supports planning and development at the national, state, and administrative district levels through the provision of more organized, easily comprehensible, and location-based online data delivery. DOSM GEOHUB is also a crucial initiative towards government digital services through the provision of digital mapping and spatial analytics to all users.<br><br>
+                                        <a class="timeline-link-button" href="https://dosmgeoportal.dosm.gov.my/geohub/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_7{background-image: url(/uploads/landing-page/20221228070557.jpg);}</style><div id="landing_7" class="swiper-slide"  onclick="window.open( 'https://ilsm.dosm.gov.my/');" 
+                        style="cursor:pointer;" data-slide="ILSM Portal">
+                            <div id="landing_slide_7" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">Malaysia Statistical Training Institute (ILSM)</h4>
+                                    <p class="timeline-text">
+                                        The Institute was inspired more than 20 years ago. The development of in-house training programmes in the Department of Statistics, Malaysia has started in 1987, with the formation of a Working Group of Human Resource Development. In 1990, the Statistical Development Division has been established and the Division was responsible for providing in-house training programmes. Following from this, the Statistical Training Division has been established in 2003 with 21 staffs.<br><br>
+                                        <a class="timeline-link-button" href="https://ilsm.dosm.gov.my/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_8{background-image: url(/uploads/landing-page/20221228070405.jpg);}</style><div id="landing_8" class="swiper-slide"  onclick="window.open( 'https://www.ilmia.gov.my/');" 
+                        style="cursor:pointer;" data-slide="ILMIA Portal">
+                            <div id="landing_slide_8" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">Institute of Labour Market Information and Analysis (ILMIA)</h4>
+                                    <p class="timeline-text">
+                                        ILMIA is to be a national centre of excellence for the analysis of labour market trends and emerging human capital issues which will contribute to better human capital planning and effective labour market policies formulation.<br><br>
+                                        <a class="timeline-link-button" href="https://www.ilmia.gov.my/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_9{background-image: url(/uploads/landing-page/20250605002329.png);}</style><div id="landing_9" class="swiper-slide"  onclick="window.open( 'https://mylabourhub.dosm.gov.my/');" 
+                        style="cursor:pointer;" data-slide="MyLabourHub Portal">
+                            <div id="landing_slide_9" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">MyLabourHub Portal</h4>
+                                    <p class="timeline-text">
+                                        This division is responsible as labour market consultants specialize in providing consultation services to various national and international agencies.<br><br>
+                                        <a class="timeline-link-button" href="https://mylabourhub.dosm.gov.my/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_27{background-image: url(/uploads/landing-page/20260311092543.png);}</style><div id="landing_27" class="swiper-slide"  onclick="window.open( 'https://tanistats.dosm.gov.my/');" 
+                        style="cursor:pointer;" data-slide="TaniStats Portal">
+                            <div id="landing_slide_27" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">TaniStats Portal</h4>
+                                    <p class="timeline-text">
+                                        The Integrated Agricultural Statistical System (TaniStats) is a digital system that organizes and simplifies agricultural data. It brings together information from different sources, making it easier to monitor, analyze, and plan for a stronger and more sustainable agricultural sector.<br><br>
+                                        <a class="timeline-link-button" href="https://tanistats.dosm.gov.my/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        <style>#landing_slide_29{background-image: url(/uploads/landing-page/20260311092933.png);}</style><div id="landing_29" class="swiper-slide"  onclick="window.open( 'https://isiwsc2019.dosm.gov.my/');" 
+                        style="cursor:pointer;" data-slide="ISI WSC 2019 Portal">
+                            <div id="landing_slide_29" class="landing_slide"></div>
+                                <div class="swiper-slide-content">
+                                    <h4 class="timeline-title">ISI WSC 2019 Portal</h4>
+                                    <p class="timeline-text">
+                                        The ISI WSC 2019 portal serves as a reference and documentation platform for the International Statistical Institute World Statistics Congress (ISI WSC) 2019. Through this site, visitors can access a variety of materials including presentation papers, photo galleries of program activities, and reference resources for future researchers and participants. The aim is to preserve the outcomes and memories of the congress as a valuable source of knowledge and guidance for future events.<br><br>
+                                        <a class="timeline-link-button" href="https://isiwsc2019.dosm.gov.my/" target="_blank" style="color:orange;">Visit Portal &raquo;</a>
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                        
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    
+    <div id="footer1" style="padding-top:1.5em;margin:0.5em 0;font-size:11px;">
+        <a href="#">Disclaimer</a> | 
+        <a href="#">Privacy Policy</a> | 
+        <a href="#">Security Policy</a> | 
+        <a href="#">Copyright</a> | 
+        <a href="#">Sitemap</a> | 
+        <a href="#">Feedback</a> | 
+        <a href="#">Help</a> | 
+        <a href="#">FAQs</a> | 
+        <a href="#">Archive</a>
+    </div>
+    <div id="footer2" style="font-size:11px;">Copyright &copy; 2022 Department of Statistics Malaysia Official Website. All Rights Reserved. </div>
+</div><script>
+    var timelineSwiper = new Swiper ('.timeline .swiper-container', {
+        direction: 'vertical',
+        loop: false,
+        speed: 1600,
+        pagination: '.swiper-pagination',
+        paginationBulletRender: function (swiper, index, className) {
+            var year = document.querySelectorAll('.swiper-slide')[index].getAttribute('data-slide');
+            return '<span class="' + className + '">' + year + '</span>';
+        },
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        breakpoints: {
+            768: {
+                direction: 'horizontal',
+            },
+            1024: {
+                direction: 'vertical',
+            }
+        },
+        //autoplay: 5000
+    });
+</script>
+<script></script>

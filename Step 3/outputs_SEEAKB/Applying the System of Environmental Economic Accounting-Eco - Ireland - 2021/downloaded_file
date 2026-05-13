@@ -1,0 +1,2711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">52</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:4A25E796-D4BE-573E-A5A5-2A05A815D1C2</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">One Ecosystem</journal-title>
+        <abbrev-journal-title xml:lang="en">OE</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-8194</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/oneeco.6.e65582</article-id>
+      <article-id pub-id-type="publisher-id">65582</article-id>
+      <article-id pub-id-type="manuscript">16468</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Case Study</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Applying the System of Environmental Economic Accounting-Ecosystem Accounting (SEEA-EA) framework at catchment scale to develop ecosystem extent and condition accounts</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Farrell</surname>
+            <given-names>Catherine Anne</given-names>
+          </name>
+          <email xlink:type="simple">doctorcatherinefarrell@gmail.com</email>
+          <uri content-type="orcid">https://orcid.org/0000-0003-2940-6445</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Coleman</surname>
+            <given-names>Lisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Kelly-Quinn</surname>
+            <given-names>Mary</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Obst</surname>
+            <given-names>Carl G</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Eigenraam</surname>
+            <given-names>Mark</given-names>
+          </name>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Norton</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>O'Donoghue</surname>
+            <given-names>Cathal</given-names>
+          </name>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Kinsella</surname>
+            <given-names>Stephen</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Delargy</surname>
+            <given-names>Orlaith</given-names>
+          </name>
+          <xref ref-type="aff" rid="A6">6</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Stout</surname>
+            <given-names>Jane C</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-2027-0863</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">Trinity College Dublin, Dublin, Ireland</addr-line>
+        <institution>Trinity College Dublin</institution>
+        <addr-line content-type="city">Dublin</addr-line>
+        <country>Ireland</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">University College Dublin, Dublin, Ireland</addr-line>
+        <institution>University College Dublin</institution>
+        <addr-line content-type="city">Dublin</addr-line>
+        <country>Ireland</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">IDEEA Group, Melbourne, Australia</addr-line>
+        <institution>IDEEA Group</institution>
+        <addr-line content-type="city">Melbourne</addr-line>
+        <country>Australia</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">University of Limerick Kemmy Business School, Limerick, Ireland</addr-line>
+        <institution>University of Limerick Kemmy Business School</institution>
+        <addr-line content-type="city">Limerick</addr-line>
+        <country>Ireland</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">National University Ireland, Galway, Galway, Ireland</addr-line>
+        <institution>National University Ireland, Galway</institution>
+        <addr-line content-type="city">Galway</addr-line>
+        <country>Ireland</country>
+      </aff>
+      <aff id="A6">
+        <label>6</label>
+        <addr-line content-type="verbatim">Natural Capital Ireland, Dublin, Ireland</addr-line>
+        <institution>Natural Capital Ireland</institution>
+        <addr-line content-type="city">Dublin</addr-line>
+        <country>Ireland</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Catherine Anne Farrell (<email xlink:type="simple">doctorcatherinefarrell@gmail.com</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Joachim Maes</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>04</month>
+        <year>2021</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e65582</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/8F893E31-8E88-56E1-9FEA-E212D9832EF3">8F893E31-8E88-56E1-9FEA-E212D9832EF3</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/4739828">4739828</uri>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>03</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>04</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Catherine Anne Farrell, Lisa Coleman, Mary Kelly-Quinn, Carl G Obst, Mark Eigenraam, Daniel Norton, Cathal O&amp;apos;Donoghue, Stephen Kinsella, Orlaith Delargy, Jane C Stout</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>Ecosystem accounting is a tool to integrate nature into decision-making in a more structured way. Applying the use of nationally available datasets at catchment scale and following the System of Environmental Economic Accounting-Ecosystem Accounting (SEEA-EA) framework, we present results from a catchment case study in Ireland, highlighting findings specifically in relation to the development of ecosystem extent and condition accounts. In the absence of a national ecosystem map, CORINE landcover mapping formed the basic data for extent and type of ecosystems, distinguishing woodlands and forest, peatland and heathland, grasslands and cropland and urban areas, with limited coverage of linear freshwater rivers, hedgerows and coastal ecosystems. Additional remote sensing data provided higher resolution at catchment scale, while limited site-level survey data were available. Condition data gathered for reporting under the EU Water Framework Directive were available at sub-basin level for surface waterbodies. Data were available at national level for habitats reported for the EU under the Habitats Directive (59 habitats reported), covering ~ 25% of the study area. Data for ecosystem types outside of these reporting frameworks were in the form of ancillary data only, providing information on pressures, threats and intensity of use. Our findings in Ireland reflect work across the European region, highlighting the role of data gathering and stakeholder engagement. We outline some of the data gaps to provide information for future research and alignment of data for the purpose of NCA, both at catchment and national scale.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>SEEA-EA</kwd>
+        <kwd>catchment scale</kwd>
+        <kwd>ecosystem stocks</kwd>
+        <kwd>ecosystem extent</kwd>
+        <kwd>ecosystem condition</kwd>
+        <kwd>ecosystem accounts</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="11"/>
+        <table-count count="6"/>
+        <ref-count count="49"/>
+      </counts>
+    </article-meta>
+    <notes>
+      <sec sec-type="Funding program">
+        <title>Funding program</title>
+        <p>This work has been carried out as part of the INCASE (Irish Natural Capital Accounting for Sustainable Environments) project, funded under the EPA Research Programme 2014-2020. The EPA Research Programme is a Government of Ireland initiative funded by the Department of the Environment, Climate and Communications. It is administered by the Environmental Protection Agency, which has the statutory function of co-ordinating and promoting environmental research (<ext-link ext-link-type="uri" xlink:href="http://www.incaseproject.com/">www.incaseproject.com)</ext-link>.</p>
+      </sec>
+      <sec sec-type="Hosting institution">
+        <title>Hosting institution</title>
+        <p>Trinity College Dublin</p>
+      </sec>
+      <sec sec-type="Conflicts of interest">
+        <title>Conflicts of interest</title>
+        <p>The authors have declared that no competing interests exist.</p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Repeated calls for the value of nature’s contributions to people to be taken into consideration requires us to bring nature into decision-making at a variety of scales (<xref ref-type="bibr" rid="B6788237">Costanza 2017</xref>, <xref ref-type="bibr" rid="B6788246">Guerry 2015</xref>, <xref ref-type="bibr" rid="B6788255">Lange 2018</xref>). Ultimately, this is seen as a means to reduce and reverse trends in global degradation of the environment, including climate change and loss of biodiversity (<xref ref-type="bibr" rid="B6788263">Braat and de Groot 2012</xref>, <xref ref-type="bibr" rid="B6788272">Dasgupta 2021</xref>, <xref ref-type="bibr" rid="B6788280">Díaz 2019</xref>, <xref ref-type="bibr" rid="B6788288">Steffen 2015</xref>). Ecosystem Accounting, often referred to as Natural Capital Accounting (NCA), is one of the ways whereby nature’s stocks and flows are recorded and tracked over time, as a means of accounting for nature’s contributions to human well-being (<xref ref-type="bibr" rid="B6788297">Hein 2020b</xref>, <xref ref-type="bibr" rid="B6788319">Obst 2015</xref>). Ecosystem accounts can be used on their own or incorporated into other analyses, such as cost-benefit analysis, economic impact analysis and other causal modelling techniques providing the greater level of context necessary for integrated decision-making (<xref ref-type="bibr" rid="B6788328">Bateman and Mace 2020</xref>).</p>
+      <p>Natural systems (such as ecosystems) are complex and therefore require an appropriate accounting model (<xref ref-type="bibr" rid="B6791059">Barbier 2019</xref>); one that can be standardised to allow for comparative, repetitive measurement and reporting while recognising the complexity and characteristics of natural systems (<xref ref-type="bibr" rid="B6788378">Mace 2012</xref>, <xref ref-type="bibr" rid="B6788319">Obst 2015</xref>, <xref ref-type="bibr" rid="B6788328">Bateman and Mace 2020</xref>). Methods and approaches to ecosystem accounting, in development since the 1990s, have culminated in the launch of the System of Environmental Economic Accounting-Ecosystem Accounting (SEEA-EA) as a statistical standard in 2021 (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>). The SEEA-EA specifically involves gathering data about ecosystem <italic>stocks</italic> (extent and condition) and <italic>flows</italic> (services and benefits) and aligning the accounts with the System of National Accounts (SNA) to create a platform to facilitate and address the need for more integrated decisions for nature and the economy (<xref ref-type="bibr" rid="B6788404">Eigenraam and Obst 2018</xref>, <xref ref-type="bibr" rid="B6788319">Obst 2015</xref>). While the SEEA is nascent relative to the SNA, refinement is ongoing to improve and ensure their alignment with a view to providing information for more comprehensive metrics of well-being and support initiatives, such as Inclusive Wealth (<xref ref-type="bibr" rid="B6788319">Obst 2015</xref>, <xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>) and Gross Ecosystem Product (<xref ref-type="bibr" rid="B6788413">Ouyang 2020</xref>). Capturing the complexity of nested systems (economics, social and environmental) is integral towards developing better indicators of sustainable development (<xref ref-type="bibr" rid="B6788319">Obst 2015</xref>).</p>
+      <p>With the publication of the European Green Deal in 2019 (<ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en">EC 2019</ext-link>) and the EU Biodiversity Strategy for 2030 (<ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/environment/strategy/biodiversity-strategy-2030_en">EC 2020</ext-link>), the call for ecosystem accounting and NCA has been firmly embedded across EU policies. Trialled at different scales (EU region, Member State and provincial scales) and in response to different drivers and policy questions within the European region (<xref ref-type="bibr" rid="B6788457">Bordt and Saner 2018</xref>, <xref ref-type="bibr" rid="B6788466">Hein 2020a</xref>, <xref ref-type="bibr" rid="B6788488">Mace 2015</xref>), initiatives, such as <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/environment/nature/knowledge/ecosystem_assessment/index_en.htm">MAES</ext-link>, <ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/eurostat/documents/1798247/6079569/Leaflet+2019+%E2%80%93+The+INCA+project/">INCA </ext-link>and <ext-link ext-link-type="uri" xlink:href="https://maiaportal.eu/">MAIA, </ext-link>continue to provide information about how to apply the SEEA-EA and integrate NCA to improve policy integration and decision-making (<xref ref-type="bibr" rid="B6788500">Burkhard 2018</xref>, <xref ref-type="bibr" rid="B6788509">La Notte and Marques 2019</xref>, <xref ref-type="bibr" rid="B6788466">Hein 2020a</xref>). Apart from studies in the UK and Ireland, however, (<xref ref-type="bibr" rid="B6788518">Holt 2017</xref>, <xref ref-type="bibr" rid="B6788549">Norton 2020</xref>), few studies have applied the SEEA-EA at catchment scale.</p>
+      <p>Progress relating to ecosystem accounting in Ireland has been limited, despite being highlighted as a key action in the National Biodiversity Action Plan (<xref ref-type="bibr" rid="B6788566">DAHG 2017</xref>) and calls by the Environmental Protection Agency (EPA) to integrate NCA into measures of prosperity (<xref ref-type="bibr" rid="B6788574">Wall 2016</xref>). An array of research projects applying ecosystem assessment frameworks have focused on one-off assessments, single ecosystems or focused sectors (<xref ref-type="bibr" rid="B6788590">Bullock 2016</xref>, <xref ref-type="bibr" rid="B6788616">Kelly-Quinn 2020</xref>, <xref ref-type="bibr" rid="B6788599">Murphy and Stout 2019</xref>, <xref ref-type="bibr" rid="B6788549">Norton 2020</xref>, <xref ref-type="bibr" rid="B6788582">Parker 2016</xref>), but they lack cohesion. Applying the SEEA-EA approach to integrate the findings of these studies will establish and streamline the approach in a national context (addressing a key action in the National Biodiversity Action Plan), identify data gaps to focus further research, as well as highlight policy applications, in line with other work (<xref ref-type="bibr" rid="B6788297">Hein 2020b</xref>).</p>
+      <p>We present findings from a case study piloting the SEEA-EA at catchment scale in Ireland, with a view to providing information for the implementation of the SEEA-EA at varying scales, nationally and internationally. The catchment represents a distinct biophysical landscape unit with well-defined boundaries, forming the basis at which reporting is carried out under the EU Water Framework Directive (WFD). Furthermore, the Integrated Catchment Management approach to preparing River Basin Management Plans throughout the EU, as part of the implementation of the WFD, has many parallels in approach and philosophy with the systems approach of the SEEA-EA (<xref ref-type="bibr" rid="B6788607">DHPLG 2018</xref>). In this study, we combine datasets, such as those gathered for reporting under the EU WFD and the EU Habitats Directive to develop the SEEA-EA accounts. This demonstrates how to make effective use of existing, comprehensive datasets by aligning them to develop their further use towards more integrated environmental management.</p>
+      <p>In this paper, we focus primarily on the ecosystem stocks accounts (extent and condition). The extent account is often the first step in developing a set of ecosystem accounts and presents an entry point to the discussion of ecosystems for a wide range of stakeholders (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>). Following from this, an understanding of the status (extent combined with condition) of ecosystem stocks is integral to ensuring the sustainable use of ecosystem services over time (<xref ref-type="bibr" rid="B6788328">Bateman and Mace 2020</xref>). With this in mind, we present our findings in relation to a study catchment in eastern Ireland as follows:</p>
+      <p><list list-type="order">
+        <list-item>
+          <p>We outline the approach to developing ecosystem extent and condition accounts at catchment scale, detailing required and available inputs.</p>
+        </list-item>
+        <list-item>
+          <p>Framing our results in the context of the study catchment, we use the accounts to build a narrative around the changes in composition and condition of ecosystem stocks over time, highlighting key messages emerging and ecosystem services (flows) of focus for the next steps in the accounting framework (services and benefits).</p>
+        </list-item>
+        <list-item>
+          <p>We discuss the limitations of, and the relevant data gaps uncovered, offering some conclusions to facilitate and streamline implementation and applications of the SEEA-EA at catchment and other scales.</p>
+        </list-item>
+      </list></p>
+    </sec>
+    <sec sec-type="The SEEA-EA accounting framework">
+      <title>The SEEA-EA accounting framework</title>
+      <p>The SEEA-EA is a geospatial approach whereby existing data on ecosystem stocks and flows, at a range of scales, are collated. Organising biophysical data in an integrated statistical framework, the SEEA-EA is distinct, but complementary to that of the SEEA-Central Framework (CF), which incorporates the measurement of physical accounts, flows of environmental assets (such as timber, water and minerals) and environmental expenditure (<xref ref-type="bibr" rid="B6788624">UN 2014</xref>). The focus of the SEEA-EA is on ecosystems and the methods have been developed to include both biotic and abiotic flows. Four core accounts within the SEEA-EA framework, form the basis of the approach Fig. <xref ref-type="fig" rid="F6788650">1</xref>.</p>
+      <p><bold>Asset extent</bold>: this relates to the type, range and extent of ecosystems assets within an accounting area. Ecosystem assets are the ecological entities for which information is sought and about which statistics are ultimately compiled. The use of national ecosystem typologies, such as the Heritage Council Classification system in Ireland (<xref ref-type="bibr" rid="B6788632">Fossitt 2000</xref>), that can be aligned with the IUCN Global Ecosystem Typology (<xref ref-type="bibr" rid="B6788640">Keith 2020</xref>) is recommended as a common system to allow for comparative analysis across study areas (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>). The output of this stage is a geo-referenced map (the scale depending on the spatial unit selected, such as national or catchment level) and an asset register or account (in the form of a table/balance sheet).</p>
+      <p><bold>Asset condition</bold>: this relates to the quality of the assets outlined in the extent account. The SEEA-EA is specific about the definition of ecosystem condition as “<italic>the quality of an ecosystem measured in terms of its abiotic and biotic characteristics</italic>”. Quality is assessed with respect to ecosystem structure, function and composition, which combine to underpin the ecological integrity of the ecosystem and, thereby, its capacity to supply ecosystem services (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>). The SEEA-EA outlines a three-stage approach to developing condition accounts, recommending the use of traceable, dynamic ecosystem condition variables, as well as setting reference levels which allow for development of, and aggregation of, condition indicators within and across ecosystem types (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>). At this stage of the accounting, maps and tables outlining asset condition are developed, often integrating disparate ancillary datasets relating to policy-relevant pressures. These can infer the use of ecosystems and associated service provision (such as locations of and/or intensity of use) for the next stages of accounting (services and benefits).</p>
+      <p><bold>Services</bold>: this requires the identification of the flows of ecosystem services, whether within the system or as a product of the system. Services may rely on a combination and the interaction of multiple ecosystem assets. Mapping services can also integrate data relating to pressures and condition mapping in previous steps, as well as using other relevant geospatial data. While data relating to services can be biophysical, there may also be links to economic datasets.</p>
+      <p><bold>Benefits</bold>: this relates to what the benefits and who the beneficiaries are. For some services, there is a spatial correlation between potential beneficiaries and service availability, while for others, the spatial link may be more difficult to ascertain.</p>
+      <p>Each step of the accounting requires the gathering, assessment and integration of relevant datasets. As a consequence, data review and analysis, combined with iterative engagement with data providers, as well as potential end-users, comprises a major part of the process of developing ecosystem accounts. Following from this iterative, interactive learning process, the accounts provide an integrated data platform that can be used to provide information for decisions, each application depending on the perspective of the end-user(s) (<xref ref-type="bibr" rid="B6788404">Eigenraam and Obst 2018</xref>, <xref ref-type="bibr" rid="B6788319">Obst 2015</xref>).</p>
+    </sec>
+    <sec sec-type="Methodology">
+      <title>Methodology</title>
+      <sec sec-type="Ecosystem accounting area">
+        <title>Ecosystem accounting area</title>
+        <p>We built ecosystem extent and condition accounts for a test catchment (the Dargle catchment, located in the Leinster Province of Ireland). The Dargle catchment unit (referred to as the Dargle), is located in the southern suburbs of Dublin City and north County Wicklow in Ireland (Fig. <xref ref-type="fig" rid="F6788659">2</xref>). The boundary of the accounting area corresponds to the area of the catchment as reported under the Water Framework Directive (WFD). This includes the terrestrial component, extending to coastal features along the eastern fringes to the high-water mark; thus marine waters are excluded.</p>
+        <p>The Dargle was selected as it is a diverse catchment, comprising eleven river sub-basins and two lake waterbodies. Forming the northern part of the larger Avoca-Varty river system, the Dargle is reported under the <ext-link ext-link-type="uri" xlink:href="https://www.catchments.ie/data/#/subcatchment/10/10_5?_k=t2i2rq">EPA WFD code: 10_5</ext-link> and covers a total area of 17,866 hectares (178 km<sup>2</sup>). Watercourses in the Dargle drain urban areas to the north; those to the east rise largely in rural uplands characterised by mountain blanket bog and heathlands; and river valley slopes are dominated by coniferous plantations and pockets of remnant native woodland along the riparian nodes. The main stem of the Dargle River drains through the urban centre of Bray into the Irish Sea. The area has a high coverage of habitats listed under Annex I (those habitats whose conservation requires the designation of special areas of conservation) of the EU Habitats Directive (ca. 25% of the catchment area), with a similarly high coverage of Natura 2000 (the network of nature protection areas in the EU) and nationally designated conservation sites.</p>
+      </sec>
+      <sec sec-type="Ecosystem typology">
+        <title>Ecosystem typology</title>
+        <p>The national ecosystem typology comprises a comprehensive synthesis of the most frequently encountered ecosystem types in Ireland. The typology is focused on habitats and an overview is presented in Suppl. material <xref ref-type="supplementary-material" rid="S6888609">1</xref>. We aligned the Level 1 and Level 2 categories of the national typology to the relevant CLC Level 3 classes recorded in the Dargle, based on expert opinion. Alignment to Level 3 was not possible given the resolution of the CORINE data. Following from this, we aggregated those aligned Level 1 and 2 categories to high level ecosystem types for the Dargle as outlined below and further detailed in Suppl. material <xref ref-type="supplementary-material" rid="S6888609">1</xref>. We also aligned the Dargle ecosystem types with the IUCN Global Ecosystem Typology (<xref ref-type="bibr" rid="B6788640">Keith 2020</xref>). This process facilitated the application of the CORINE datasets to develop ecosystem extent accounts for the Dargle. The main ecosystem types were identified as follows:</p>
+        <p><bold>Freshwater</bold>: this includes surface water bodies such as rivers, lakes, as well as inland wetlands and swamps.</p>
+        <p><bold>Woodlands</bold>: this category relates to all semi-natural woodland types, including native woodlands, hedgerows, tree-lines and scattered parklands. We distinguished woodlands from commercial plantations (<bold>Forest</bold>), on the basis of structure and use.</p>
+        <p><bold>Forest</bold>: wooded areas planted and managed for the primary purpose of commercial production.</p>
+        <p><bold>Peatlands</bold>: collectively comprising raised bog, mountain and lowland blanket bog, cutover, fen and degraded peatland types.</p>
+        <p><bold>Heathlands</bold>: wet and dry heathland types (including bracken dominated areas), which often occur in a mosaic with peatlands on peat soils; alpine heathlands occur at high altitudes.</p>
+        <p><bold>Grasslands</bold>: this includes all improved, semi-improved and semi-natural grassland types.</p>
+        <p><bold>Croplands</bold>: areas developed for the purpose of crop production, including cereals, biomass crops, fruit and vegetables.</p>
+        <p><bold>Coastal</bold>: dune complexes, saltmarshes, tidal areas, sea cliffs and beaches are included here; often occurring as linear features.</p>
+        <p><bold>Urban</bold>: this is largely aligned with the national Level 1 ecosystem type Cultivated and built land (Fossitt 2000); the main focus of interest being urban green and blue spaces.</p>
+        <p>Aligning with and taking into account the structure and resolution of the CORINE datasets, we combined the following ecosystem types (these areas often overlap in CORINE), within our ecosystem accounts and discussions: Woodlands and Forest, Peatlands and Heathlands and Grasslands and Croplands.</p>
+      </sec>
+      <sec sec-type="Data inventory">
+        <title>Data inventory</title>
+        <p>Throughout the accounting process, we followed the steps outlined in the SEEA-EA framework as a guide to gather and assess relevant data (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>). An initial NCA-focused workshop held in November 2019, with agencies and organisations co-ordinating, gathering and analysing environmental data in Ireland, highlighted relevant data sources, while also serving to raise awareness as to the SEEA-EA accounting framework approach (<xref ref-type="bibr" rid="B6789487">Farrell and Stout 2020</xref>).</p>
+        <p>A desktop review of available national and catchment level datasets (with particular focus on the Dargle) was then combined with one-to-one engagement through further focus groups and catchment workshops. Direct engagement across a wide array of agencies, both with data providers and potential end-users of the accounts, identified available relevant inputs and highlighted potential policy applications. The output of this data review and engagement was a data inventory, developed to provide information for both national level and catchment relevant datasets.</p>
+        <p>Following from the data inventory and development of the ecosystem accounts (see next section), we used these outputs to engage further with national and local stakeholders in the Dargle in autumn 2020. As well as highlighting obvious data gaps and uncovering further supporting ancillary datasets, this iterative engagement provided opportunities to raise awareness as to the approach and gain further input and support from potential end-users.</p>
+      </sec>
+      <sec sec-type="Building ecosystem accounts">
+        <title>Building ecosystem accounts</title>
+        <p>Applying relevant available datasets identified during the data inventory, we followed the process steps as outlined in the SEEA-EA (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>), to develop extent and condition accounts for the Dargle.</p>
+        <p>CORINE datasets were analysed using GIS tools (ArcGIS) to develop core extent accounts (maps and tables) for four time series (2000, 2006, 2012 and 2018). While CORINE served as the base layer for the core extent accounts, supplementary datasets (where available and relevant) provided more detail to support and refine detail on the extent of specific ecosystem types. Change in extent accounts were developed for CLC status layers using the <ext-link ext-link-type="uri" xlink:href="https://ideeagroup.com/ensym/">EnSym tool</ext-link>.</p>
+        <p>Condition accounts were developed using available time series data available for the Dargle. This consisted primarily of collating relevant datasets gathered for reporting under the EU WFD. Sample survey data (comprising an assessment of structure and function of sampled habitats) for Annex I habitats in the catchment available under the <ext-link ext-link-type="uri" xlink:href="https://www.npws.ie/publications/article-17-reports">EU Habitats Directive Article 17</ext-link> reports were also reviewed, along with survey data for focal areas and ecosystem types within the catchment commissioned as part of other, unrelated studies. These data were supported by available ancillary datasets where relevant. While the SEEA-EA outlines in detail a three-stage approach to develop condition accounts (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>), we present condition accounts, based on what is available and feasible at this time.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Results">
+      <title>Results</title>
+      <sec sec-type="Data inventory">
+        <title>Data inventory</title>
+        <p>Following an iterative process of collating and reviewing data, a data inventory detailing relevant national and catchment related datasets was developed, serving as a technical support document for applying the SEEA-EA in Ireland that can be added to over time. The inventory comprises an extensive array of datasets from national and EU agencies, state departments, local authorities, commercial enterprise, research and ecological consultants. Ancillary datasets, reviewed for the Dargle, include data relating to accessibility (roads and trackways), commercial use (forest plantation data), elevation, planning documents, food production (agricultural payments data), protection status (such as conservation designations) and soils.</p>
+        <p>The key datasets used for developing extent and condition accounts for the Dargle, as well as most relevant ancillary datasets, are outlined in Table <xref ref-type="table" rid="T6789531">1</xref>. A more complete overview of datasets reviewed is outlined in Suppl. material <xref ref-type="supplementary-material" rid="S6886585">2</xref>.</p>
+      </sec>
+      <sec sec-type="Ecosystem extent accounts">
+        <title>Ecosystem extent accounts</title>
+        <sec sec-type="CORINE extent data">
+          <title>CORINE extent data</title>
+          <p>Extent accounts, developed using CORINE data (Table <xref ref-type="table" rid="T6789612">2</xref>), show that the Dargle comprises 24 CLC Level 3 classes. Aggregating the CORINE data shows the full extent of each high-level ecosystem type (Freshwater etc.) and highlights the main trends over the period 2000-2018.</p>
+          <p>In terms of general trends, the data show that, between 2000 and 2018, there were overall declines in cover of freshwater, woodlands and forest, grasslands and croplands, while peatlands and heathlands and urban areas in the Dargle have increased (Table <xref ref-type="table" rid="T6789586">3</xref>). Another way of visualising these data are via accounting tables: the EnSym change account for ecosystem extent in the Dargle, developed using the earliest (2000) and most recent (2018) CLC status layers data, highlights further the changes in CLC Level 3 classes (Table <xref ref-type="table" rid="T6789587">4</xref>), aggregated to ecosystem type in Table <xref ref-type="table" rid="T6789611">5</xref>. The change account highlights the expansion of Urban class by ca. 4% (781 ha) between 2000 and 2018 and a reduction in the total area of Grasslands and Croplands class by ca. 5% (839 ha) (we note slight differences in area relating to calculating the areas of CORINE using ArcGIS and the EnSym tool, in the order of 0-10 ha). More detail is shown in Suppl. material <xref ref-type="supplementary-material" rid="S6886586">3</xref>, which outlines the ecosystem change matrix and highlights what ecosystem changes to other types.</p>
+        </sec>
+        <sec sec-type="Refining extent accounts using supplementary datasets">
+          <title>Refining extent accounts using supplementary datasets</title>
+          <p>Detailed ecosystem extent accounts for the Dargle reveal which land classes (and high-level ecosystem types) have changed over the accounting period (Suppl. material <xref ref-type="supplementary-material" rid="S6886586">3</xref>. Combining CORINE data with relevant supplementary datasets helps to build a more informed narrative about the ecosystem composition and relative changes in the catchment. We describe the key messages emerging here, describing the trends highlighted in Tables <xref ref-type="table" rid="T6789612">2</xref>, <xref ref-type="table" rid="T6789586">3</xref>, <xref ref-type="table" rid="T6789587">4</xref>, <xref ref-type="table" rid="T6789611">5</xref>.</p>
+          <p><bold>Freshwater</bold>: This ecosystem type includes the CLC Level 3 class Waterbodies (&lt; 1% cover of the catchment). CORINE records the extent of one of two lakes in the Dargle, showing a relatively small change over the accounting periods. CORINE does not detect rivers, lakes and/or freshwater wetlands smaller than the minimum mapping unit (MMU); these features were supplemented to the CORINE layer using the <ext-link ext-link-type="uri" xlink:href="https://gis.epa.ie/GetData/Download">EPA rivers dataset</ext-link> (Fig. <xref ref-type="fig" rid="F6789615">3</xref>).</p>
+          <p><bold>Woodlands and Forest</bold>: As highlighted above, we distingush between Woodlands (all semi-natural types) and Forest (areas planted and managed for the purpose of commercial production) and we describe both types seperately. We note that the CLC classes coincide with commercially planted Forest in the main.</p>
+          <p><italic>Forest</italic>: This high-level ecosystem type covers ca. 20% of the Dargle in 2000, showing a relative decline in 2018 to ca. 18.5%. The change may be attributed to refinement of CORINE, given that the changes correspond to a relative increase in the area of peat bogs (Suppl. material <xref ref-type="supplementary-material" rid="S6886586">3</xref>). There is an increase in Coniferous forest in the same period. CLC Level 3 classes outline the extent of Broad-leaved forest, Coniferous forest, Mixed forest and Transition woodland-shrub, which correspond to commercial forests in the catchment (verified with ancillary commercial datasets). Coniferous forest dominates, comprising more than half of the total cover in 2018. Transitional woodland scrub shows a decline in cover and corresponds to the maturation of conifer stands between 2000 and 2018. Commercial forest datasets highlight that afforestation on state lands within the catchment largely occurred between the 1950s and the 1990s, with planting in private plots mainly in the period 1980 to 2000.</p>
+          <p><italic>Woodlands</italic>: There are no woodlands (hedgerows or patches of semi-natural native woodland types) detected by CORINE, despite an extensive network of hedgerows, parkland and riparian woodland areas obvious from aerial imagery. Overlaying the CORINE dataset with commercial forest datasets, the SWF and STL HRLs and catchment survey data, increased the total extent of woodlands and forest cover (taking overlaps into consideration) from ca. 18.5% to 40%. In particular, the SWF and STL HRLs highlighted the network of hedgerows and additional woody features undetected by CORINE (Figs <xref ref-type="fig" rid="F6789619">4</xref>, <xref ref-type="fig" rid="F6789643">5</xref>). Further overlaying combined woodlands and forest ecosystem extent with soil texture data highlighted that much of the commercial forest areas have been planted on peat soils. This may be a contributing factor in forestry being identified as a pressure on freshwater river ecological status in the Glencullen Valley (<italic>described under the Condition accounts</italic>).</p>
+          <p><bold>Peatlands and Heathlands</bold>: In 2000, only Peat Bogs were detected by CORINE, while the data distinguished four CLC Level 3 classes in 2018, namely Peat Bogs, Moors and Heathlands, Sparsely vegetated areas (screes on mountain slopes) and Burnt areas. This is attributed to an improvement in the distinction between these closely-related systems by CORINE after 2000. In total, these ecosystems accounted for 23% of the catchment in 2000, with a marginal increase to 25% in 2018. Overlaying Article 17 habitat mapping (Fig. <xref ref-type="fig" rid="F6790484">6</xref>), showed that the extent of peatlands and heathlands, detected by CORINE, is aligned with Article 17 datasets, serving to refine the extent data to distinguish more specific ecosystem types, including active blanket bog, wet heath, dry heath and alpine heathland types, as well as patches of fen less than the CORINE MMU. In addition, these ecosystems lie largely within Natura 2000 designations (Fig. <xref ref-type="fig" rid="F6790488">7</xref>). Combining both CORINE and Article 17 data for peatlands and heathlands with the national soil datasets, showed that peat texture covers ca. 41% of the catchment, indicating that, prior to 2000, these ecosystems were more extensive (Fig. <xref ref-type="fig" rid="F6790492">8</xref>). This additional 16% area of peat soil is overlain predominantly by CLC Level 3 classes Coniferous Forest and Pastures.</p>
+          <p><bold>Grasslands and Cropland</bold>: Grasslands and Cropland cover ca. 33% of the catchment in 2018, showing an overall 5% decline in cover from 2000. The CLC Level 3 class Pastures is most extensive for all accounting periods, declining by ca. 500 ha between 2000 and 2018. CLC class Complex cultivation patterns shows a similar decline. For both of these classes, the area was converted to a range of CLC classes, including other grassland types, urban fabric, as well as golf courses (verified by aerial imagery). The area of the CLC Level 3 class Lands principally occupied by agriculture with significant areas of natural vegetation, showed an overall increasing trend for the same time period. Croplands (CLC Non-irrigated arable land) cover a relatively low area (&lt; 3%) of the catchment, also showing a decline. Applying the <ext-link ext-link-type="uri" xlink:href="http://www.high-nature-value-farmland.ie/hnv-distribution/">HNVf layer</ext-link> shows that outside of urban areas, the Dargle lies in the High potential HNVf category (Fig. <xref ref-type="fig" rid="F6790496">9</xref>), reflecting the high density of semi-natural habitats, as well as conservation designations, inferring that agriculture in the catchment tends more towards extensive, rather than intensive, use. This was verified by overlaying the Department of Agriculture, Forest and Marine Land Parcel Identification System (or LPIS) dataset, (annual datasets gathered by the Department of Agriculture, Forest and Marine for the purposes of farm payment schemes under the Common Agricultural Policy), which showed a high area of low input permanent pasture for the area.</p>
+          <p><bold>Coastal</bold>: Accounting for less than 1% of the Dargle, the CLC classes, detected in this category (Sea and Ocean), align with coastal margins. These data were supplemented with Article 17 datasets for Annex I coastal habitats and show that this area includes a relatively small sand dune complex, a fringe of tidal mudflats along the eastern boundary and a section of sea cliffs south of Bray.</p>
+          <p><bold>Urban</bold>: Urban fabric in the Dargle is extensive in 2018 (ca. 23.5% of the catchment) increasing by ca. 4.5% between 2000 and 2018 across the urban CLC classes. The greatest increase was between 2000 and 2006, corresponding to a period of intense economic growth and expansion of infrastructural developments in Ireland. Focusing on green spaces, between 2000 and 2018, Green Urban areas showed a gradual decline to 93 ha (reduced by over half), while Sports and leisure facilities double in extent to over 800 ha (comprising golf courses mainly). Supplementing these data with the Urban Atlas HRL increased the extent of Urban green space from a few scattered patches (&lt; 0.5% using CORINE) to ca. 3% of the catchment. Applying the Urban Atlas STL HRL also highlighted that urban areas in the catchment have a significant network of wooded areas, not detected by CORINE.</p>
+        </sec>
+      </sec>
+      <sec sec-type="Ecosystem condition accounts">
+        <title>Ecosystem condition accounts</title>
+        <p><bold>Freshwater</bold>: Condition account data, available for rivers and lakes in the Dargle to sub-basin level, are shown in Table <xref ref-type="table" rid="T6790658">6</xref>. We note that, while the reporting periods (2007 to 2018 available) do not align with those of the CORINE extent accounts, we use the time series data available to compare general trends in condition of rivers and lakes with the key messages emerging from the ecosystem extent accounts.</p>
+        <p>Ecological status in 2018 ranged from poor, for the urban dominated sub-basin of the Kill of the Grange Stream, to high for the largely rural, forest dominated Glencullen_010 sub-basin. While forest cover is not increasing in the catchment (based on the extent accounts), other management practices, such as clear-fell and replanting, are ongoing. Between 2012 and 2015, ca. 50 ha of mature conifer forest was clearfelled and subsequently replanted (based on commercial data and analyses of aerial imagery. Despite the notable difference in ecological status, both watercourses are considered <italic>At Risk</italic> (2010-2015 assessment period) of maintaining or achieving high ecological status due the significant pressures (urban and forestry, respectively), identified in each sub-basin (Fig. <xref ref-type="fig" rid="F6790504">10</xref>).</p>
+        <p>The Kill of the Grange Stream show consistently poor ecological status. Four other watercourses show moderate ecological status; these sub-basins are also characterised by urban dominated land cover. These include the Carrickmines Stream, Shanganagh and Kilmacanogue Rivers and the Dargle_030, each of which are below good ecological status. The Dargle River is a salmonid river and, despite being in good ecological status in the main (apart from the Dargle_030), two of four sections are considered <italic>At Risk</italic> (hydromorphological pressures in the upper reaches and urban pressures in the lower sub-basins).</p>
+        <p>Overall, significant pressures in the Dargle relate largely to urban wastewater and diffuse urban water run-off; forestry is a significant pressure in the Glencullen_010 and hydromorphological changes is a pressure in the Dargle_030. Neither of the lakes in the uplands is considered <italic>At Risk</italic>.</p>
+        <p><bold>EU Habitats Directive datasets</bold>: Survey data available for Article 17 sampling points within the Dargle show that locally, fragments of Annex I listed woodlands, such as Residual Alluvial Forests, are in Favourable Conservation status, though at national level, they are reported as Bad. These differences relate to the sample point data and highlight that catchment level status assessments do not reflect the national assessment. Survey points in the catchment for Old Oak Woodlands, Sand Dune complexes, Sea cliffs and one farm level survey sites with Annex I heathlands show these Annex I habitats as being of Unfavourable Conservation status. Again, at national level, these habitats are assessed as being Bad. These survey data comprise one sample plot for each habitat type, surveyed at variable intervals. While there are survey data for a limited number of sample plots within the catchment area (Fig. <xref ref-type="fig" rid="F6790500">11</xref>), there are no catchment level condition data for other Article 17 habitats listed or any other habitats outside of these areas in the catchment. We present the national assessment data to provide context for discussion around these issues Suppl. material <xref ref-type="supplementary-material" rid="S6886587">4</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="Discussion">
+      <title>Discussion</title>
+      <sec sec-type="Catchment scale: key messages and next steps">
+        <title>Catchment scale: key messages and next steps</title>
+        <p>The ecosystem extent accounts developed in this study show that there have been subtle changes in the cover of ecosystem types in the Dargle over the accounting period (2000 to 2018). The main changes detected are the conversion of agricultural land cover classes to urban fabric, during a period of intense economic growth around Dublin, reflecting a similar trend across the EU Region (<xref ref-type="bibr" rid="B6789513">EEA 2016</xref>). Combining the core extent accounts developed using CORINE, with supplementary habitat surveys, remote sensing HRLs and ancillary data on land use (commercial forestry, agricultural payments, as well as conservation designations), provided greater detail and information as to the extent of ecosystems during the accounting period. The data analyses also highlighted changes prior to 2000 and, in particular, using maps relating to soil texture, the conversion of former peatland and heathland ecosystems to commercial forest plantations and agricultural grasslands. Establishment of the Natura 2000 network in the 1990s along with other national designations, reinforces the present-day nature conservation value of those remaining peatland and heathland areas, as well as the fragmented native woodland network, in the catchment.</p>
+        <p>Relatively small changes in ecosystem composition, however, can result in wider effects across ecosystem stocks and flows. While freshwater river ecosystems comprise a relatively low cover of the study catchment, their condition serves as an effective indicator of wider land use and land use change and the general environmental quality in a given catchment or sub-basin, as shown in the Dargle. Data gathered under the WFD allows for reliable, time-series condition reporting, while also taking into consideration pressures and trends to provide information for targeted measures to improve water quality and reduce pressures according to Integrated Catchment Management principles. Applying the SEEA-EA at catchment (or sub-basin) scale brings added value to and makes effective use of these WFD data, which provide an indicator of the condition (ecological status) of freshwater rivers and, in the absence of relevant data gathered for other ecosystems, also serves as an indicator of the condition or environmental quality of the catchment or sub-basin as a whole. In our work applying the SEEA-EA, we conclude that, despite data gaps and limitations (described in the next section), the development of ecosystem extent and condition accounts at catchment scale is both feasible and effective in building a narrative around the changing composition of ecosystem types over time, particularly from the perspective of management of water resources. This is also being explored across the EU region (<xref ref-type="bibr" rid="B6789513">EEA 2016</xref>).</p>
+      </sec>
+      <sec sec-type="Building future datasets to match data needs">
+        <title>Building future datasets to match data needs</title>
+        <p>Each step of ecosystem accounting requires the integration of relevant datasets and consequently the detail provided by each account is reliant on the available data inputs. We discuss the limitations of and relevant data gaps uncovered, offering some conclusions to facilitate and streamline the use of the SEEA-EA at catchment and other scales.</p>
+        <sec sec-type="Extent accounts: data available and data gaps">
+          <title>Extent accounts: data available and data gaps</title>
+          <p>In the absence of a detailed ecosystem map and/or other higher resolution data, CORINE datasets provided the necessary contiguous, time-series data to support the development of indicative ecosystem extent accounts at catchment scale. This reflects the use of CORINE for high-level ecosystem and landcover reporting across the EU Region at Tier I (EU Region, using CLC Level 2 classes) and Tier II levels (national regions, using CLC Level 3 classes) (<xref ref-type="bibr" rid="B6788500">Burkhard 2018</xref>, <xref ref-type="bibr" rid="B6789513">EEA 2016</xref>, <xref ref-type="bibr" rid="B6790659">La Notte 2017</xref>). While we note the accuracy of CORINE has improved between 2000 and 2018, reflected particularly in the distinction of peatland and heathland areas, the ongoing limitations of the CORINE data for catchment scale (Tier III level) accounting relate to the resolution of the data, outlined specifically as follows:</p>
+          <p><italic>Distinction of ecosystem types</italic>: In this study, we broadly aligned CLC Level 3 classes to Level 1 of the national ecosystem typology (<xref ref-type="bibr" rid="B6788632">Fossitt 2000</xref>). Recognising that Level 3 of the national typology (Suppl. material <xref ref-type="supplementary-material" rid="S6888609">1</xref>) provides greater insight and detail as to ecosystem sub-types and variants (for example, distinguishing improved grassland from semi-natural grassland types), the data available limited our discussions and findings to high level ecosystem types and high level trends only. This will limit further discussions relating to the flows of services, which vary considerably between more detailed ecosystem types. For example, biomass provision from improved grassland is likely to be higher compared to that from wet, semi-natural grassland types which are likely to provide a greater level of water and sediment retention services than improved grassland types.</p>
+          <p><italic>Detection of linear features</italic>: rivers, hedgerows and landscape features less than the MMU or minimum mapping width of CORINE (such as locally-important wetlands and woodlands) were not included in the CORINE, based core extent accounts for the Dargle. Supplementary datasets are effective in refining and providing detail but, in general, these are gathered at varying intervals and scales and are generally not consistent either with each other or the available CORINE time series.</p>
+          <p>These limitations extend across all scales of reporting, however, presenting recurring challenges in building ecosystem accounts at any level, as shown across the EU Region (<xref ref-type="bibr" rid="B6789513">EEA 2016</xref>, <xref ref-type="bibr" rid="B6790695">Grêt-Regamey 2017</xref>, <xref ref-type="bibr" rid="B6790705">Grunewald 2020</xref>, <xref ref-type="bibr" rid="B6788466">Hein 2020a</xref>, <xref ref-type="bibr" rid="B6790659">La Notte 2017</xref>). A national landcover map (in development for Ireland) (<xref ref-type="bibr" rid="B6790714">Wall 2020</xref>) due to have a resolution of 10 m, is likely to provide finer detail on ecosystem extent and will be aligned with the national ecosystem typology. In the absence of a national ecosystem map and/or contiguous catchment scale ecosystem mapping, this will support both catchment and national levels of reporting in Ireland, streamlining further the ecosystem extent accounting process. In the meantime, work in the Dargle reflects approaches to developing ecosystem accounts in other studies, requiring the alignment of disparate datasets, such as habitat survey, remote sensing and land use data to present the best available information relating to ecosystem extent (<xref ref-type="bibr" rid="B6788500">Burkhard 2018</xref>, <xref ref-type="bibr" rid="B6789513">EEA 2016</xref>, <xref ref-type="bibr" rid="B6790705">Grunewald 2020</xref>, <xref ref-type="bibr" rid="B6788582">Parker 2016</xref>, <xref ref-type="bibr" rid="B6788466">Hein 2020a</xref>, <xref ref-type="bibr" rid="B6790722">Perennes 2020</xref>). We note that applying ancillary datasets proved useful to contextualise findings within the accounting area relative to changes occurring outside of the accounting period.</p>
+          <p>Further alignment with the IUCN Global Ecosystem Typology (<xref ref-type="bibr" rid="B6788640">Keith 2020</xref>) highlighted that ecosystem types, recorded in the Dargle, are largely grouped in the Intensive Land-use category, T7. This comprises artificially-managed areas, such as sown pastures, urban areas and plantations. Only scattered framents of semi-natural ecosystem types are present, reflecting the steady and increasing conversion of natural lands, such as temperate woodlands, heathlands and wetlands (peatlands and fens), to intensive agricultural use in former centuries, as well as the more recent expansion of urban areas in the late 19<sup>th</sup> and early 20<sup>th</sup> centuries (<xref ref-type="bibr" rid="B6888540">Mitchell 1997</xref>). Agriculture is the dominant land-use in Ireland and, while there are subtle changes in recent years towards intensification, this has largely occurred outside the Dargle which shows an opposing trend towards extensification in agricultural areas. Aligining the SEEA-EA accounting approach with the IUCN Global Ecosystem Typology will facilitate effective comparison across the EU Region and globally (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>) in terms of the extent of intensively used ecosystems and natural lands, providing information to plan targeted restoration to rebuild natural networks and re-connect isolated areas protected for nature, a key action identified in the EU Biodiversity Strategy for 2030 (<ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/environment/strategy/biodiversity-strategy-2030_en">EC 2020</ext-link>).</p>
+        </sec>
+        <sec sec-type="Condition accounts: data available and data gaps">
+          <title>Condition accounts: data available and data gaps</title>
+          <p>Condition accounts are the least developed within the European Region and at national levels, though efforts are becoming more focused (<xref ref-type="bibr" rid="B6790750">Czúcz 2020</xref>, <xref ref-type="bibr" rid="B6790759">Keith 2020</xref>, <xref ref-type="bibr" rid="B6790768">Maes 2020</xref>). The lack of condition data across the full range of ecosystem types indicates that only bespoke condition accounts can be developed at catchment and/or national scale in Ireland at this time.</p>
+          <p>In relation to our case study, WFD data provides a comprehensive resource to develop ecosystem condition accounts for waterbodies in general and, by extension, as highlighted already, this can be extended to the related sub-basins in the absence of condition data for other ecosystem types. Ecological status is a pre-aggregated index which may be used as a sub-index as part of Stage 3 of condition accounting and has been used in ecosystem accounting in European case studies (<xref ref-type="bibr" rid="B6790777">Rendon 2019</xref>, <xref ref-type="bibr" rid="B6790768">Maes 2020</xref>, <xref ref-type="bibr" rid="B6788466">Hein 2020a</xref>, <xref ref-type="bibr" rid="B6789513">EEA 2016</xref>). Other condition datasets available for habitats listed under Annex I of the EU Habitats Directive, as well as for sites within the Natura 2000 network, are available, though site-specific data relating to catchment level are very limited. Use of these and other datasets (such as National Forest Inventory data gathered at national scale) data are appropriate for condition accounts developed at national scale rather than catchment scale, as used in other studies (<xref ref-type="bibr" rid="B6790768">Maes 2020</xref>, <xref ref-type="bibr" rid="B6790777">Rendon 2019</xref>).</p>
+          <p>Aligning ancillary datasets with the core extent accounts data in the Dargle illustrated the effective use of soils data to infer the historical extent of peatlands and heathlands. This is an important consideration for the use of cultivated peat soils and the resultant contribution to climate regulation. In this way, ancillary data and proxies can be used to effect, serving as placeholders to highlight data gaps until more appropriate data are gathered (<xref ref-type="bibr" rid="B6788500">Burkhard 2018</xref>, <xref ref-type="bibr" rid="B6790798">Geijzendorffer 2015</xref>, <xref ref-type="bibr" rid="B6790768">Maes 2020</xref>, <xref ref-type="bibr" rid="B6790824">Vačkářů and Grammatikopoulou 2019</xref>, <xref ref-type="bibr" rid="B6790705">Grunewald 2020</xref>). The use of these data will provide information for further analyses in relation to changes in peat soils that occur when converted to plantation or cultivation, such as changes in carbon stocks and flows over time and trade-offs in terms of ecosystem service (for example, biomass provisioning versus climate regulation services) (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>).</p>
+          <p>The challenges identified in this case study reflect those identified in other studies and include the lack of data to build condition accounts, the absence of targeted and reliable time-series data on structure and function, as well as the need for agreed reference levels (<xref ref-type="bibr" rid="B6790768">Maes 2020</xref>). Despite clear guidance provided in the SEEA-EA, a number of questions remain to be addressed and require multi-disciplinary efforts, particularly from ecologists with specialist knowledge from across the range of ecosystem types of relevance, to guide and develop the links between condition, capacity to deliver services and sustainable use (<xref ref-type="bibr" rid="B6790750">Czúcz 2020</xref>, <xref ref-type="bibr" rid="B6790759">Keith 2020</xref>, <xref ref-type="bibr" rid="B6790777">Rendon 2019</xref>, <xref ref-type="bibr" rid="B6790768">Maes 2020</xref>).</p>
+          <p>In relation to peatlands, data relating to drainage and vegetation cover, is often reflected in the name of the peatland ecosystem type (Level 3 of the national ecosystem typology). Within the Dargle, a desktop survey of the Wicklow Mountains SAC highlights areas of active blanket bog (considered to be good condition), as well as cutover bog and eroding bog (considered to be drained and eroding, therefore inferring poor condition) within the SAC area. Linking these data with remote sensing approaches detecting peatland drainage (<xref ref-type="bibr" rid="B6790915">Connolly and Holden 2013</xref>), would provide information about potential peatland ecosystem condition indicators. A similar approach, working with ecosystem experts, would make information available for selection of relevant ecosystem condition variables and condition indicators for other ecosystem types (woodlands, grasslands, freshwater etc.), particularly in the local and regional context. Efforts to combine advances in remote sensing at the EU level to develop <ext-link ext-link-type="uri" xlink:href="https://geobon.org/">Essential Biodiversity Variables</ext-link> as well as <ext-link ext-link-type="uri" xlink:href="https://jcresearch.wixsite.com/ihabimap">national efforts</ext-link>, will facilitate alignment with local ecosystem types and contribute to filling data gaps, ultimately facilitating effective ways of tracking and accounting for changes in a standardised comparable way.</p>
+          <p>While challenges remain, following the examples of other studies (<xref ref-type="bibr" rid="B6790768">Maes 2020</xref>, <xref ref-type="bibr" rid="B6790777">Rendon 2019</xref>) and proposed condition variables set out in the SEEA-EA guidance (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>), more focused work at the individual ecosystem type level to incorporate and provide information for other datasets, such as survey data commissioned for development and planning projects and/or species data collated by NGOs and citizen science programmes, will facilitate gathering of relevant condition data and, thereby, development of more robust condition accounts.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="Conclusions">
+      <title>Conclusions</title>
+      <p>Ecosystem accounting and inter alia NCA, is an iterative process requiring a learning curve by all involved. While ecosystem accounting is becoming a focal point of policy instruments (<ext-link ext-link-type="uri" xlink:href="https://ec.europa.eu/environment/strategy/biodiversity-strategy-2030_en">EC 2020</ext-link>), the process takes time to become embedded in ways of thinking and working, requiring a coherent and aligned, adequately resourced approach as shown in countries, such as The Netherlands (<xref ref-type="bibr" rid="B6788466">Hein 2020a</xref>). Advancing the approaches steadily will help to align the outputs of the SEEA-EA with national accounts developed according to the SNA (<xref ref-type="bibr" rid="B6788404">Eigenraam and Obst 2018</xref>). In this paper, we outline the first steps in applying the SEEA-EA in Ireland and, therefore, the first steps in responding to relevant calls by the Irish EPA and actions framed within the National Biodiversity Action Plan (2017-2021) (<xref ref-type="bibr" rid="B6788566">DAHG 2017</xref>). This marks the beginning of the process to provide information for sustainable use, through bringing nature into decision-making, in a structured way. Understanding ecosystem stocks underpins their sustainable use (<xref ref-type="bibr" rid="B6788328">Bateman and Mace 2020</xref>, <xref ref-type="bibr" rid="B6788272">Dasgupta 2021</xref>). The ecosystem extent and condition accounts, developed in this study, serve as the fundamental basis for the selection of relevant ecosystem services of focus for the next steps of applying the SEEA-EA accounting framework in the Dargle, relating to ecosystem flows (services and benefits accounts).</p>
+      <p>Focusing on ecosystem stocks accounts at catchment scale, we conclude from our work to date that the SEEA-EA accounting framework can be applied and used to effect, particularly to support sustainable use of water resources through the lens of Integrated Catchment Management and the WFD. Aligning and overlaying disparate datasets gathered from an array of agencies was central to building the narrative of ecosystem composition and trends in the Dargle. More detailed datasets, specifically in relation to finer detail of ecosystem types, as well as gathering of data on ecosystem condition variables across all ecosystem types, will support more detailed accounts and, therefore, wider applications at catchment and other scales (<xref ref-type="bibr" rid="B6790768">Maes 2020</xref>).</p>
+      <p>Iterative engagement throughout the work on this case study has provided varied opportunities to raise awareness as to the SEEA-EA approach and potential applications across an array of sectors including agriculture, forestry, marine, nature conservation and spatial planning. While the most obvious application has been in relation to catchment management, there has been a high level of interest from the agricultural sector in terms of guiding initiatives, such as <ext-link ext-link-type="uri" xlink:href="https://www.farmingfornature.ie/2020/04/22/new-book-on-results-based-payment-schemes/">Results Based Agricultural Payments Schemes</ext-link> and proposed Payments for Ecosystem Services Schemes. Further development of the SEEA-EA is ongoing and the establishment of an Ecosystem Accounts unit within the Irish Central Statistics Office in 2020 is a further step towards facilitating integration of the approach into governmental decision-making.</p>
+      <p>We note that, in terms of ecosystem accounting, the appropriate resolution required for the accounting exercise depends on the scale of the study area and this, in turn, is informed by the purpose or proposed application (the policy question) of the accounting (<xref ref-type="bibr" rid="B6788387">UNSD 2021</xref>). As demonstrated in this study, knowledge and understanding of the range of and limitations of data available, focuses gathering of data fit for purpose and thereby reinforces the key role of engagement with data providers and end-users in early stages, as well as throughout the accounting process (<xref ref-type="bibr" rid="B6788404">Eigenraam and Obst 2018</xref>). While European scale data are useful, a national scale ecosystem assessment would underpin a thorough and comprehensive basis for the SEEA-EA nationally and at more local, catchment and/or farm level scales. Expert ecological input from the outset is essential to ensure the concurrent gathering and effective use of relevant data.</p>
+    </sec>
+  </body>
+  <back>
+    <sec sec-type="Conflicts of interest">
+      <title>Conflicts of interest</title>
+      <p>The authors have declared that no competing interests exist.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="B6791059">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Barbier</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>The concept of natural capital</article-title>
+          <source>Oxford Review of Economic Policy</source>
+          <volume>35</volume>
+          <issue>1</issue>
+          <fpage>14</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="doi">10.1093/oxrep/gry028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788328">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bateman</surname>
+              <given-names>I. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mace</surname>
+              <given-names>G. M.</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>The natural capital framework for sustainably efficient and equitable decision making</article-title>
+          <source>Nature Sustainability</source>
+          <volume>3</volume>
+          <issue>10</issue>
+          <fpage>776</fpage>
+          <lpage>783</lpage>
+          <pub-id pub-id-type="doi">10.1038/s41893-020-0552-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788457">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bordt</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saner</surname>
+              <given-names>M. A.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>critical review of ecosystem accounting and services frameworks</article-title>
+          <source>One Ecosystem</source>
+          <volume>3</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.3.e29306</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788263">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Braat</surname>
+              <given-names>L. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>de Groot</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>The ecosystem services agenda: bridging the worlds of natural science and economics, conservation and development, and public and private policy</article-title>
+          <source>Ecosystem Services</source>
+          <volume>1</volume>
+          <issue>1</issue>
+          <fpage>4</fpage>
+          <lpage>15</lpage>
+          <comment content-type="language">English</comment>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2012.07.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788590">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bullock</surname>
+              <given-names>C. H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2016</year>
+          <article-title>A review of the range and value of ecosystem services from Irish forests.</article-title>
+          <source>Irish Forestry</source>
+          <volume>73</volume>
+          <fpage>65</fpage>
+          <lpage>95</lpage>
+          <uri>https://journal.societyofirishforesters.ie/index.php/forestry/article/view/10846</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788500">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Burkhard</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2018</year>
+          <article-title>An operational framework for integrated mapping and assessment of ecosystems and their services (MAES).</article-title>
+          <source>One Ecosystem</source>
+          <volume>3</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.3.e22831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6791014">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Connolly</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holden</surname>
+              <given-names>N. M.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Mapping peat soils in Ireland: Updating the derived Irish peat map.</article-title>
+          <source>Irish Geography</source>
+          <volume>42</volume>
+          <issue>3</issue>
+          <fpage>343</fpage>
+          <lpage>352</lpage>
+          <pub-id pub-id-type="doi">10.1080/00750770903407989</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790915">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Connolly</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holden</surname>
+              <given-names>N. M.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Classification of peatland disturbance.</article-title>
+          <source>Land Degradation and Development</source>
+          <volume>24</volume>
+          <issue>6</issue>
+          <fpage>548</fpage>
+          <lpage>555</lpage>
+          <pub-id pub-id-type="doi">10.1002/ldr.1149</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788237">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Costanza</surname>
+              <given-names>R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2017</year>
+          <article-title>Twenty years of ecosystem services: How far have we come and how far do we still need to go?</article-title>
+          <source>Ecosystem Services</source>
+          <volume>28</volume>
+          <fpage>1</fpage>
+          <lpage>16</lpage>
+          <comment content-type="language">English</comment>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2017.09.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790750">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>A common typology for ecosystem characteristics and ecosystem condition variables.</article-title>
+          <source>One Ecosystem</source>
+          <volume>6</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.6.e58218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788566">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>DAHG</surname>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>National Biodiversity Action Plan: 2017-2021.</article-title>
+          <publisher-name>Department of Arts Heritage and Gaeltacht</publisher-name>
+          <uri>https://www.cbd.int/doc/world/ie/ie-nbsap-v3-en.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788272">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dasgupta</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <source>The Economics of Biodiversity: The Dasgupta Review</source>
+          <publisher-name>London: HM Treasury</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B6886061">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Environment</surname>
+              <given-names>DG</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Reporting under Article 17 of the Habitats Directive: Explanatory notes and guidelines for the period 2013-2018</article-title>
+          <publisher-name>Brussels</publisher-name>
+          <comment>188 pp</comment>
+          <uri>https://circabc.europa.eu/sd/a/d0eb5cef-a216-4cad-8e77-6e4839a5471d/Reporting%20guidelines%20Article%2017%20final%20May%202017.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788607">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>DHPLG</surname>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>River Basin Management Plan for Ireland 2018-2021</article-title>
+          <publisher-name>Department of Housing, Planning and Local Government</publisher-name>
+          <uri>www.housing.gov.ie</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788280">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Díaz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2019</year>
+          <article-title>Summary for policymakers of the global assessment report on biodiversity and ecosystem services of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services</article-title>
+          <publisher-name>United Nations</publisher-name>
+          <uri>https://www.ipbes.net/system/tdf/spm_global_unedited_advance.pdf?file=1&amp;type=node&amp;id=35245</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6789513">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>EEA</surname>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Mapping and assessing the condition of Europe’s ecosystems: progress and challenges. EEA contribution to the implementation of the EU Biodiversity Strategy to 2020.</article-title>
+          <publisher-name>European Environment Agency.</publisher-name>
+          <pub-id pub-id-type="doi">10.2800/417530</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788404">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Eigenraam</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Extending the production boundary of the System of National Accounts (SNA) to classify and account for ecosystem services</article-title>
+          <source>Ecosystem Health and Sustainability</source>
+          <volume>4</volume>
+          <issue>11</issue>
+          <fpage>247</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="doi">10.1080/20964129.2018.1524718</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6789487">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Farrell</surname>
+              <given-names>C. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stout</surname>
+              <given-names>J. C.</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Irish Natural Capital Accounting for Sustainable Environments: Stage 1 Feasibility Report</article-title>
+          <publisher-name>EPA, Ireland</publisher-name>
+          <uri>https://www.epa.ie/researchandeducation/research/researchpublications/researchreports/Research_Report_322.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788632">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fossitt</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <source>A guide to habitats in Ireland</source>
+          <publisher-name>Heritage Council, Ireland.</publisher-name>
+          <uri>https://www.npws.ie/sites/default/files/publications/pdf/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6790798">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Geijzendorffer</surname>
+              <given-names>I. R.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2015</year>
+          <article-title>Improving the identification of mismatches in ecosystem services assessments.</article-title>
+          <source>Ecological Indicators</source>
+          <volume>52</volume>
+          <fpage>320</fpage>
+          <lpage>321</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2014.12.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790695">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grêt-Regamey</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2017</year>
+          <article-title>Integrating ecosystem services into spatial planning—A spatial decision support tool.</article-title>
+          <source>Landscape and Urban Planning</source>
+          <volume>165</volume>
+          <issue>206</issue>
+          <fpage>219</fpage>
+          <pub-id pub-id-type="doi">10.1016/j.landurbplan.2016.05.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790705">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grunewald</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Hierarchical classification system of Germany’s ecosystems as basis for an ecosystem accounting – methods and first results.</article-title>
+          <source>One Ecosystem</source>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.5.e50648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788246">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Guerry</surname>
+              <given-names>A. D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2015</year>
+          <article-title>Natural capital and ecosystem services informing decisions: From promise to practice.</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <volume>112</volume>
+          <issue>24</issue>
+          <fpage>7348</fpage>
+          <lpage>7355</lpage>
+          <comment content-type="language">English</comment>
+          <pub-id pub-id-type="doi">10.1073/pnas.1503751112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788466">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Ecosystem accounting in the Netherlands</article-title>
+          <source>Ecosystem Services</source>
+          <volume>44</volume>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2020.101118</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788297">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Progress in natural capital accounting for ecosystems.</article-title>
+          <source>Science</source>
+          <volume>367</volume>
+          <issue>6477</issue>
+          <fpage>514</fpage>
+          <lpage>515</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.aaz8901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788518">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Holt</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Natural capital assessments for Braithwaite, Glenridding and Staveley sub-catchments Cumbria Catchment Pioneer Pilot Project Phase I.</article-title>
+          <uri>http://www.naturalcapitalsolutions.co.uk/wp-content/uploads/2017/11/Cumbria-Catchment-Pioneer-Pilot_phases-1_v2.compressed.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788640">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>D. A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>IUCN Global Ecosystem Typology 2.0 Descriptive profiles for biomes and ecosystem functional groups.</article-title>
+          <publisher-name>IUCN</publisher-name>
+          <pub-id pub-id-type="doi">10.2305/IUCN.CH.2020.13.en</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790759">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>H.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>A conceptual framework and practical structure for implementing ecosystem condition accounts.</article-title>
+          <source>One Ecosystem</source>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="doi">10.3897/oneeco.5.e58216</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788616">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kelly-Quinn</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Incorporation of Ecosystem Services values in the Integrated Management of Irish Freshwater Resources: ESManage</article-title>
+          <publisher-name>EPA, Ireland</publisher-name>
+          <uri>https://www.epa.ie/pubs/reports/research/water/Research_Report_312.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788255">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Lange</surname>
+              <given-names>G. -M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Changing Wealth of Nations 2018: Building a Sustainable Future</article-title>
+          <uri>https://openknowledge.worldbank.org/bitstream/handle/10986/29001/9781464810466.pdf</uri>
+          <date-in-citation content-type="access-date">2021-03-02T00:00:00+02:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B6790659">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>A.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2017</year>
+          <article-title>Implementing an EU system of accounting for ecosystems and their services. Initial proposals for the implementation of ecosystem services accounts.</article-title>
+          <publisher-name>Publications Office of the EU.</publisher-name>
+          <pub-id pub-id-type="doi">10.2760/214137</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788509">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marques</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Adjusted macroeconomic indicators to account for ecosystem degradation: an illustrative example</article-title>
+          <source>Ecosystem Health and Sustainability</source>
+          <volume>5</volume>
+          <issue>1</issue>
+          <fpage>133</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="doi">10.1080/20964129.2019.1634979</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788378">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mace</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2012</year>
+          <article-title>Biodiversity and ecosystem services: a multi-layered relationshp</article-title>
+          <source>Trends in Ecology and Evolution</source>
+          <volume>27</volume>
+          <fpage>19</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2011.08.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788488">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mace</surname>
+              <given-names>G. M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2015</year>
+          <article-title>Towards a risk register for natural capital</article-title>
+          <source>Journal of Applied Ecology</source>
+          <volume>52</volume>
+          <issue>3</issue>
+          <fpage>641</fpage>
+          <lpage>653</lpage>
+          <pub-id pub-id-type="doi">10.1111/1365-2664.12431</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790768">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>A review of ecosystem condition accounts: Lessons learned and options for further development.</article-title>
+          <source>One Ecosystem</source>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.3897/oneeco.5.e53485</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6888540">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mitchell</surname>
+              <given-names>Frank</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <source>Reading the Irish Landscape</source>
+          <publisher-name>Town House</publisher-name>
+          <publisher-loc>Ireland</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B6788599">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Murphy</surname>
+              <given-names>A. J. T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stout</surname>
+              <given-names>J. C.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Assessing Market and Non-market Values of Pollination Services in Ireland: Literature review</article-title>
+          <publisher-name>EPA</publisher-name>
+          <uri>https://www.epa.ie/researchandeducation/research/researchpublications/researchreports/Research_Report_275.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788549">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Norton</surname>
+              <given-names>D.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>An initial catchment level assessment of the value of Ireland’s agroecosystem services</article-title>
+          <source>Biology and Environment</source>
+          <volume>120B</volume>
+          <issue>2</issue>
+          <fpage>123</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="doi">10.3318/bioe.2020.14</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788319">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>C. G.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Reflections on natural capital accounting at the national level: Advances in the system of environmental-economic accounting.</article-title>
+          <source>Sustainability Accounting, Management and Policy Journal</source>
+          <volume>6</volume>
+          <issue>3</issue>
+          <fpage>315</fpage>
+          <lpage>339</lpage>
+          <pub-id pub-id-type="doi">10.1108/SAMPJ-04-2014-0020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788413">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ouyang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Using gross ecosystem product (GEP) to value nature in decision making</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <volume>117</volume>
+          <issue>25</issue>
+          <fpage>14593</fpage>
+          <lpage>14601</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1911439117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788582">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Parker</surname>
+              <given-names>N.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2016</year>
+          <article-title>National ecosystem and ecosystem service mapping pilot for a suite of prioritised services</article-title>
+          <publisher-name>Irish Wildlife Manual 95</publisher-name>
+          <pub-id pub-id-type="doi">10.1016/S0040-4039(00)96870-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790722">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Perennes</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Refining the tiered approach for mapping and assessing ecosystem services at the local scale: A case study in a rural landscape in Northern Germany.</article-title>
+          <source>Land</source>
+          <volume>9</volume>
+          <issue>10</issue>
+          <pub-id pub-id-type="doi">10.3390/LAND9100348</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6790777">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rendon</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2019</year>
+          <article-title>Analysis of trends in mapping and assessment of ecosystem condition in Europe.</article-title>
+          <source><italic>Ecosystems and People</italic>,</source>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>156</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1080/26395916.2019.1609581</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788288">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Steffen</surname>
+              <given-names>W.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2015</year>
+          <article-title>Planetary boundaries: Guiding human development on a changing planet.</article-title>
+          <source>Science</source>
+          <volume>347</volume>
+          <fpage>6223</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B6788624">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>UN</surname>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2014</year>
+          <article-title>System of Environmental Economic Accounting 2012— Central Framework.</article-title>
+          <publisher-name>United Nations</publisher-name>
+          <uri>https://unstats.un.org/unsd/envaccounting/seeaRev/SEEA_CF_Final_en.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6788387">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>UNSD</surname>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <article-title>System of Environmental-Economic Accounting— Ecosystem Accounting Final Draft</article-title>
+          <uri>https://unstats.un.org/unsd/statcom/52nd-session/documents/BG-3f-SEEA-EA_Final_draft-E.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6790824">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vačkářů</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grammatikopoulou</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Toward development of ecosystem asset accounts at the national level</article-title>
+          <source>Ecosystem Health and Sustainability</source>
+          <volume>5</volume>
+          <issue>1</issue>
+          <fpage>36</fpage>
+          <lpage>46</lpage>
+          <pub-id pub-id-type="doi">10.1080/20964129.2018.1560233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6788574">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wall</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2016</year>
+          <article-title>Ireland’s Environment.</article-title>
+          <publisher-name>EPA, Ireland</publisher-name>
+          <uri>http://www.epa.ie/ebooks/soe2016/files/assets/basic-html/page-1.html#</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6790714">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Wall</surname>
+              <given-names>B.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Ireland’s Environment – An Integrated Assessment 2020.</article-title>
+          <publisher-name>EPA, Ireland</publisher-name>
+          <uri>www.epa.ie</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F6788650" position="float" orientation="portrait">
+      <object-id content-type="arpha">F288E347-3744-59E2-8D90-1CBB75BEE1E3</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>The SEEA-Ecosystem Accounting Framework. Source: <ext-link ext-link-type="uri" xlink:href="https://ideeagroup.com/">IDEEA Group</ext-link>.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g001.png" position="float" id="oo_515786.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515786</uri>
+      </graphic>
+    </fig>
+    <fig id="F6788659" position="float" orientation="portrait">
+      <object-id content-type="arpha">BEC7AA78-0087-5745-9D7F-7FA054AA4C0C</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>The Dargle is located on the east coast south of Dublin City. Rivers rise in the uplands draining eastwards into the Irish Sea.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g002.png" position="float" id="oo_515792.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515792</uri>
+      </graphic>
+    </fig>
+    <fig id="F6789615" position="float" orientation="portrait">
+      <object-id content-type="arpha">51056EAD-A5E6-5454-ACB7-507430C632C4</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Overview of CORINE Land Cover (CLC) Level 3 classes in the Dargle, with waterbodies overlain using data from the EPA. The ecosystem types are inferred by the CLC3 classes and the area of each ecosystem asset is aggregated to total area (Tables <xref ref-type="table" rid="T6789612">2</xref>, <xref ref-type="table" rid="T6789586">3</xref>, <xref ref-type="table" rid="T6789587">4</xref>, <xref ref-type="table" rid="T6789611">5</xref>).</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g003.png" position="float" id="oo_515808.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515808</uri>
+      </graphic>
+    </fig>
+    <fig id="F6789619" position="float" orientation="portrait">
+      <object-id content-type="arpha">9C2E0CC3-3890-54D4-80C9-5881E7DF533E</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Dargle Woodlands and Forest cover using CORINE Land Cover Level 3 classes (2018) only.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g004.png" position="float" id="oo_515811.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515811</uri>
+      </graphic>
+    </fig>
+    <fig id="F6789643" position="float" orientation="portrait">
+      <object-id content-type="arpha">D7CBFECD-655A-5969-A7D9-0E9E89960756</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure5</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Cover of linear wooded areas in the Dargle, additional woody features and patchy wooded areas, as shown in SWF and STL HRLs.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g005.png" position="float" id="oo_515813.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515813</uri>
+      </graphic>
+    </fig>
+    <fig id="F6790484" position="float" orientation="portrait">
+      <object-id content-type="arpha">63C600C8-9FFB-555C-820C-BAFABAA448EE</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure6</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>The extent of datasets for the 24 habitats listed in Annex I of the EU Habitats Directive reported under Article 17 (2019 data) for the Dargle accounting area.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g006.png" position="float" id="oo_515818.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515818</uri>
+      </graphic>
+    </fig>
+    <fig id="F6790488" position="float" orientation="portrait">
+      <object-id content-type="arpha">1D2E8C27-1CD9-59B7-8000-10F479375399</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure7</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Designated nature areas (Natura 2000 and national designated areas) and rivers with protected status in the Dargle catchment.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g007.png" position="float" id="oo_515819.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515819</uri>
+      </graphic>
+    </fig>
+    <fig id="F6790492" position="float" orientation="portrait">
+      <object-id content-type="arpha">7ED4FD2B-F6AC-5B48-938F-1CCDA10640BE</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure8</object-id>
+      <label>Figure 8.</label>
+      <caption>
+        <p>Soil texture data for the Dargle show that peat texture is predominant and aligns with peatland and heathland habitats in uplands and forests along river valleys (see Fig. 3).</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g008.png" position="float" id="oo_515820.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515820</uri>
+      </graphic>
+    </fig>
+    <fig id="F6790496" position="float" orientation="portrait">
+      <object-id content-type="arpha">AE0BFC7A-78F2-550F-AFBA-989DBA3F8751</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure9</object-id>
+      <label>Figure 9.</label>
+      <caption>
+        <p>Potential of High Nature Value farmland in the Dargle.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g009.png" position="float" id="oo_515821.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515821</uri>
+      </graphic>
+    </fig>
+    <fig id="F6790504" position="float" orientation="portrait">
+      <object-id content-type="arpha">95234568-F3E6-59E6-85C1-4AB0A1DE9ED8</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure10</object-id>
+      <label>Figure 10.</label>
+      <caption>
+        <p>Characterisation of <italic>At Risk</italic> sub-basins in the Dargle.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g010.png" position="float" id="oo_515823.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515823</uri>
+      </graphic>
+    </fig>
+    <fig id="F6790500" position="float" orientation="portrait">
+      <object-id content-type="arpha">21A7D10F-4CDD-5105-ACD0-621E115EEBA3</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.figure11</object-id>
+      <label>Figure 11.</label>
+      <caption>
+        <p>Coverage of habitat surveys (58%) available for the Dargle accounting area.</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e65582-g011.png" position="float" id="oo_515822.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/515822</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T6789531" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Key datasets used for developing extent and condition accounts in the Dargle (note: MMU: minimum mapping unit).</p>
+      </caption>
+      <table rules="all" border="1" style="width:690px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Dataset</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Description</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>CORINE landcover</bold><break/>Fig. <xref ref-type="fig" rid="F6789615">3</xref></td>
+            <td rowspan="1" colspan="1"><bold>Available time series</bold>: 2000, 2006, 2012 and 2018.<break/><bold>Coverage</bold>: National, European<break/><bold>Resolution</bold>: MMU 25 ha; min. width 100 m for linear features.<break/><bold>Relevance</bold>: Formed the basis of the core extent accounts.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>Copernicus Land Monitoring Service Data High Resolution Layers (HRLs)</bold><break/>Figs <xref ref-type="fig" rid="F6789619">4</xref>, <xref ref-type="fig" rid="F6789643">5</xref></td>
+            <td rowspan="1" colspan="1"><bold>Available time series</bold>: Variable intervals from 2006, time series not aligned with CORINE.<break/><bold>Coverage</bold>: National, European.<break/><bold>Resolution</bold>: MMU variable, ranging from 2-20 m.<break/><bold>Relevance</bold>: Information on specific land cover characteristics; used to complement, supplement and refine core extent accounts; application described under each ecosystem type. In particular, the Small Woody Features (SWF) HRL and the Urban Atlas and supporting Urban Atlas Street Trees Layer (STL) HRL supplemented data on woodlands and urban green space, respectively.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>EU Habitats Directive Article 17 reporting (Annex 1 Habitats)</bold><break/>Fig. <xref ref-type="fig" rid="F6790484">6</xref></td>
+            <td rowspan="1" colspan="1"><bold>Available time series</bold>: 2009, 2013 and 2019.<break/><bold>Coverage</bold>: National.<break/><bold>Resolution</bold>: Grid square, polygon, polyline and point data available depending on habitat. <break/><bold>Extent</bold>: Of the 59 EU Habitats Directive habitats reported for Ireland, 24 of these occur in the Dargle, covering ca. 25% of the catchment; habitats comprise mainly Annex I peatland and heathland habitats on uplands, with patches of Annex I woodlands along river valleys and Annex I coastal habitats.<break/><bold>Condition</bold>: Data on structure and function of Annex I habitats gathered for survey points across a national sampling grid, are aggregated with knowledge on pressures, threats and range, to develop national level Conservation Status and Trends for each habitat. National Conservation Status for the 24 Annex I listed habitats recorded in the Dargle are presented for 2019 (Suppl. material <xref ref-type="supplementary-material" rid="S6886587">4</xref>).</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>Natura 2000 and national designated nature network (ancillary data)</bold><break/>Fig. <xref ref-type="fig" rid="F6790488">7</xref></td>
+            <td rowspan="1" colspan="1"><bold>Available time series</bold>: Variable.<break/><bold>Coverage</bold>: Natura 2000 network data relates to SAC and SPAs; for each site a Standard Data Form provides information relating to Annex I habitats and Annex IV species. Boundary data are available for Irish national designations (Natural Heritage Areas, nature reserves and wildfowl reserves) with variable supporting data relating to site information/habitat mapping.<break/><bold>Relevance</bold>: Up to ca. 24% of the Dargle is covered by designations, overlapping strongly with the area of Article 17 reporting. A desktop habitat mapping study available for one of the larger SAC sites, the Wicklow Mountains SAC, covers ca. 16% of the catchment area. Apart from site code and name (often inferring the dominant habitat type), there are no supplementary data available for national designated sites in the Dargle.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>Soils (Soils Information System) (ancillary data)</bold> Fig. <xref ref-type="fig" rid="F6790492">8</xref></td>
+            <td rowspan="1" colspan="1"><bold>Coverage</bold>: National.<break/><bold>Relevance</bold>: The soils database delineates the general soil association in an area, as well as providing data on soil texture (peat versus non-peat), soil drainage and soil carbon (indicative ranges). Combined with the Derived Irish Peatland Map (DIPMV.2), developed in 2011 (<xref ref-type="bibr" rid="B6791014">Connolly and Holden 2009</xref>), these data are of particular relevance for peat soils.</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>High Nature Value farming (HNVf) (ancillary data)</bold><break/>Fig. <xref ref-type="fig" rid="F6790496">9</xref></td>
+            <td rowspan="1" colspan="1"><bold>Available time series</bold>: One-off (2016).<break/><bold>Coverage</bold>: National.<break/><bold>Relevance</bold>: Developed using five indicators (semi-natural habitat cover, stocking density, hedgerow density, river and stream density and soil diversity). In the absence of condition data relating to agricultural/enclosed farm areas, this dataset provides a high-level aggregate to identify potential HNVf areas. </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>EU Water Framework Directive reporting</bold> Fig. <xref ref-type="fig" rid="F6790504">10</xref></td>
+            <td rowspan="1" colspan="1"><bold>Available time series</bold>: four time series between 2007 and 2018, relating broadly to the WFD cycles.<break/><bold>Coverage</bold>: National; data are gathered for all waterbodies, including rivers or tributaries, lakes, coastal/transitional waters and groundwater.<break/><bold>Resolution</bold>: Available to sub-basin level for rivers.<break/><bold>Relevance</bold>: The main condition indicator for rivers and lakes is ecological status, a pre-aggregated index, based on biotic and abiotic qualitative and quantitative data (supporting physico-chemical and hydromorphological quality elements).<break/><bold>Ancillary data</bold>: Ecological status is supported by data relating to pressures and threats, as well as characterisation which identifies waterbodies <italic>At Risk</italic> of achieving or maintaining high or good ecological status. Data are also available on protection status (such as drinking water or salmonid river protected status as in the Dargle shown Fig. <xref ref-type="fig" rid="F6790488">7</xref>) with additional information gathered by the EPA relating to hydromorphology (Morphological Quality Index or MQI) and water flow (hydrometrics)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"><bold>Catchment related surveys</bold> Fig. <xref ref-type="fig" rid="F6790500">11</xref></td>
+            <td rowspan="1" colspan="1"><bold>Available time series</bold>: variable intervals from 2006.<break/><bold>Details</bold>: Local surveys available comprise:<break/><list list-type="bullet"><list-item><p>A farm level commonage survey (heathland primarily).</p></list-item><list-item><p>A partial wetlands survey commissioned by Wicklow County Council (WCC).</p></list-item><list-item><p>A habitats survey commissioned by a local authority in the southern Dublin Region.</p></list-item><list-item><p>Site-specific Article 17 reporting: Annex I habitats are surveyed and assessed under four parameters to develop an aggregate of conservation status. These include Range, Area, Structure and functions and Future prospects. Guidance on assessment is provided by the EU (<xref ref-type="bibr" rid="B6886061">DG Environment 2017</xref>). Data for survey sample points were available for ca. 0.2% (40 ha) of the Dargle.</p></list-item><list-item><p>A desktop survey of Wicklow Mountains SAC (Natura 2000 data, see below).</p></list-item><list-item><p>A national survey of native woodlands and a survey of ancient and long-established woodlands (ALEW) supplemented data on woodlands.</p></list-item></list>These surveys present ecosystem extent data in the national classification scheme. Combined with Article 17 and Natura 2000 datasets, detailed habitat survey data are available for ca. 58% of the Dargle).</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T6789612" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Ecosystem extent account for the Dargle (based on CLC classes for 2000, 2006, 2012 and 2018 datasets). Area of each CLC Level 3 class is outlined in hectares. We highlight the overall change between 2000 and 2018 in the final column. The total is aggregated to Ecosystem Type level. We note that CLC status layers have been used to assess changes in this Table. We refer to the change account in <bold>Table 4.</bold> for more detailed analyses.</p>
+      </caption>
+      <table rules="all" border="1" style="width:690px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Ecosystem Type (ET)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>CLC 3 Code</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>CLC Level 3</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2000</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2006</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2012</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2018</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total change</bold>
+              <break/>
+              <bold>2000 to-2018</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Freshwater</bold>
+            </td>
+            <td rowspan="1" colspan="1">512</td>
+            <td rowspan="1" colspan="1">Water bodies</td>
+            <td rowspan="1" colspan="1">45</td>
+            <td rowspan="1" colspan="1">45</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">-<bold>19</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Total</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>45</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>45</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>26</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>26</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">-<bold>19</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Woodlands &amp; Forest</bold>
+            </td>
+            <td rowspan="1" colspan="1">311</td>
+            <td rowspan="1" colspan="1">Broad-leaved forest</td>
+            <td rowspan="1" colspan="1">166</td>
+            <td rowspan="1" colspan="1">296</td>
+            <td rowspan="1" colspan="1">580</td>
+            <td rowspan="1" colspan="1">580</td>
+            <td rowspan="1" colspan="1">+<bold>414</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">312</td>
+            <td rowspan="1" colspan="1">Coniferous forest</td>
+            <td rowspan="1" colspan="1">1,421</td>
+            <td rowspan="1" colspan="1">1,886</td>
+            <td rowspan="1" colspan="1">1,788</td>
+            <td rowspan="1" colspan="1">1,830</td>
+            <td rowspan="1" colspan="1">+<bold>409</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">313</td>
+            <td rowspan="1" colspan="1">Mixed forest</td>
+            <td rowspan="1" colspan="1">550</td>
+            <td rowspan="1" colspan="1">477</td>
+            <td rowspan="1" colspan="1">372</td>
+            <td rowspan="1" colspan="1">372</td>
+            <td rowspan="1" colspan="1">-<bold>178</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">324</td>
+            <td rowspan="1" colspan="1">Transitional woodland-shrub</td>
+            <td rowspan="1" colspan="1">1,444</td>
+            <td rowspan="1" colspan="1">850</td>
+            <td rowspan="1" colspan="1">625</td>
+            <td rowspan="1" colspan="1">486</td>
+            <td rowspan="1" colspan="1">-<bold>958</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Total</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>3,580</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>3,508</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>3,366</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>3,268</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">-<bold><italic>313</italic></bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Peatlands &amp; Heathlands</bold>
+            </td>
+            <td rowspan="1" colspan="1">322</td>
+            <td rowspan="1" colspan="1">Moors and heathland</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">2,214</td>
+            <td rowspan="1" colspan="1">3,125</td>
+            <td rowspan="1" colspan="1">3,157</td>
+            <td rowspan="1" colspan="1">+<bold>3157</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">333</td>
+            <td rowspan="1" colspan="1">Sparsely vegetated areas</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">73</td>
+            <td rowspan="1" colspan="1">28</td>
+            <td rowspan="1" colspan="1">28</td>
+            <td rowspan="1" colspan="1">+<bold>28</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">334</td>
+            <td rowspan="1" colspan="1">Burnt areas</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">65</td>
+            <td rowspan="1" colspan="1">+<bold>65</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">412</td>
+            <td rowspan="1" colspan="1">Peat bogs</td>
+            <td rowspan="1" colspan="1">4,062</td>
+            <td rowspan="1" colspan="1">1,897</td>
+            <td rowspan="1" colspan="1">1,201</td>
+            <td rowspan="1" colspan="1">1,201</td>
+            <td rowspan="1" colspan="1">-<bold>2,861</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Total</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>4,062</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>4,184</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>4,354</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>4,451</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">+<bold>389</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Grasslands &amp; Croplands</bold>
+            </td>
+            <td rowspan="1" colspan="1">211</td>
+            <td rowspan="1" colspan="1">Non-irrigated arable land</td>
+            <td rowspan="1" colspan="1">706</td>
+            <td rowspan="1" colspan="1">442</td>
+            <td rowspan="1" colspan="1">444</td>
+            <td rowspan="1" colspan="1">476</td>
+            <td rowspan="1" colspan="1">-<bold>230</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">231</td>
+            <td rowspan="1" colspan="1">Pastures</td>
+            <td rowspan="1" colspan="1">3,575</td>
+            <td rowspan="1" colspan="1">3,095</td>
+            <td rowspan="1" colspan="1">3,132</td>
+            <td rowspan="1" colspan="1">3,056</td>
+            <td rowspan="1" colspan="1">-<bold>519</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">242</td>
+            <td rowspan="1" colspan="1">Complex cultivation patterns</td>
+            <td rowspan="1" colspan="1">934</td>
+            <td rowspan="1" colspan="1">587</td>
+            <td rowspan="1" colspan="1">527</td>
+            <td rowspan="1" colspan="1">487</td>
+            <td rowspan="1" colspan="1">-<bold>447</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">243</td>
+            <td rowspan="1" colspan="1">Land principally occupied by agriculture, with significant areas of natural vegetation</td>
+            <td rowspan="1" colspan="1">1,259</td>
+            <td rowspan="1" colspan="1">1,607</td>
+            <td rowspan="1" colspan="1">1,732</td>
+            <td rowspan="1" colspan="1">1,756</td>
+            <td rowspan="1" colspan="1">+<bold>497</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">321</td>
+            <td rowspan="1" colspan="1">Natural grassland</td>
+            <td rowspan="1" colspan="1">140</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">-<bold>140</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Total</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>6,614</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>5,731</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>5,834</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>5,775</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">-<bold>839</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Coastal</bold>
+            </td>
+            <td rowspan="1" colspan="1">523</td>
+            <td rowspan="1" colspan="1">Sea and ocean</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">10</td>
+            <td rowspan="1" colspan="1">+<bold>1</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Total</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>9</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>9</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>10</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>10</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">+<bold>1</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Urban</bold>
+            </td>
+            <td rowspan="1" colspan="1">111</td>
+            <td rowspan="1" colspan="1">Continuous urban fabric</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">37</td>
+            <td rowspan="1" colspan="1">46</td>
+            <td rowspan="1" colspan="1">46</td>
+            <td rowspan="1" colspan="1">+<bold>46</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">112</td>
+            <td rowspan="1" colspan="1">Discontinuous urban fabric</td>
+            <td rowspan="1" colspan="1">2,441</td>
+            <td rowspan="1" colspan="1">2,645</td>
+            <td rowspan="1" colspan="1">2,629</td>
+            <td rowspan="1" colspan="1">2,636</td>
+            <td rowspan="1" colspan="1">+<bold>195</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">121</td>
+            <td rowspan="1" colspan="1">Industrial or commercial units</td>
+            <td rowspan="1" colspan="1">78</td>
+            <td rowspan="1" colspan="1">119</td>
+            <td rowspan="1" colspan="1">257</td>
+            <td rowspan="1" colspan="1">276</td>
+            <td rowspan="1" colspan="1">+<bold>198</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">122</td>
+            <td rowspan="1" colspan="1">Road and rail networks and associated land</td>
+            <td rowspan="1" colspan="1">85</td>
+            <td rowspan="1" colspan="1">199</td>
+            <td rowspan="1" colspan="1">198</td>
+            <td rowspan="1" colspan="1">198</td>
+            <td rowspan="1" colspan="1">+<bold>113</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">131</td>
+            <td rowspan="1" colspan="1">Mineral extraction sites</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">26</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">
+              <bold>0</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">132</td>
+            <td rowspan="1" colspan="1">Dump sites</td>
+            <td rowspan="1" colspan="1">30</td>
+            <td rowspan="1" colspan="1">81</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">0</td>
+            <td rowspan="1" colspan="1">-<bold>30</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">133</td>
+            <td rowspan="1" colspan="1">Construction sites</td>
+            <td rowspan="1" colspan="1">66</td>
+            <td rowspan="1" colspan="1">158</td>
+            <td rowspan="1" colspan="1">31</td>
+            <td rowspan="1" colspan="1">90</td>
+            <td rowspan="1" colspan="1">+<bold>24</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">141</td>
+            <td rowspan="1" colspan="1">Green urban areas</td>
+            <td rowspan="1" colspan="1">191</td>
+            <td rowspan="1" colspan="1">151</td>
+            <td rowspan="1" colspan="1">93</td>
+            <td rowspan="1" colspan="1">93</td>
+            <td rowspan="1" colspan="1">-<bold>98</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">142</td>
+            <td rowspan="1" colspan="1">Sport and leisure facilities</td>
+            <td rowspan="1" colspan="1">485</td>
+            <td rowspan="1" colspan="1">818</td>
+            <td rowspan="1" colspan="1">817</td>
+            <td rowspan="1" colspan="1">819</td>
+            <td rowspan="1" colspan="1">+<bold>334</bold></td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Total</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>3,375</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>4,208</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>4,097</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>4,157</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">+<bold>782</bold></td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T6789586" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Ecosystem extent expressed as % cover of the total Dargle area for 2000, 2006, 2012 and 2018 (total area of the Dargle is 17,866 ha).</p>
+      </caption>
+      <table rules="all" border="1" style="width:445px">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Ecosystem Type (ET)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2000</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2006</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2012</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2018</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Freshwater</td>
+            <td rowspan="1" colspan="1">0.3</td>
+            <td rowspan="1" colspan="1">0.3</td>
+            <td rowspan="1" colspan="1">0.1</td>
+            <td rowspan="1" colspan="1">0.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Woodlands and Forest</td>
+            <td rowspan="1" colspan="1">20.2</td>
+            <td rowspan="1" colspan="1">19.8</td>
+            <td rowspan="1" colspan="1">19.0</td>
+            <td rowspan="1" colspan="1">18.5</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Peatlands and Heathlands</td>
+            <td rowspan="1" colspan="1">23.0</td>
+            <td rowspan="1" colspan="1">23.7</td>
+            <td rowspan="1" colspan="1">24.6</td>
+            <td rowspan="1" colspan="1">25.2</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Grasslands and Croplands</td>
+            <td rowspan="1" colspan="1">37.4</td>
+            <td rowspan="1" colspan="1">32.4</td>
+            <td rowspan="1" colspan="1">33.0</td>
+            <td rowspan="1" colspan="1">32.7</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Coastal</td>
+            <td rowspan="1" colspan="1">0.1</td>
+            <td rowspan="1" colspan="1">0.1</td>
+            <td rowspan="1" colspan="1">0.1</td>
+            <td rowspan="1" colspan="1">0.1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Urban</td>
+            <td rowspan="1" colspan="1">19.1</td>
+            <td rowspan="1" colspan="1">23.8</td>
+            <td rowspan="1" colspan="1">23.2</td>
+            <td rowspan="1" colspan="1">23.5</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T6789587" position="float" orientation="portrait">
+      <label>Table 4.</label>
+      <caption>
+        <p>Dargle catchment change in extent (hectares) account (2000 to 2018) for CLC Landcover Level 3 classes, developed using the EnSym tool (CLC status changes). Note that two CLC3 classes occur in 2000 datasets, but not in 2018 datasets (CLC Dump sites and CLC Natural grassland). Summary changes (hectares) are highlighted in Table <xref ref-type="table" rid="T6789611">5</xref>.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="8">
+              <bold>Urban</bold>
+            </td>
+            <td rowspan="1" colspan="5">
+              <bold>Grassland and Cropland</bold>
+            </td>
+            <td rowspan="1" colspan="4">
+              <bold>Woodlands and Forest</bold>
+            </td>
+            <td rowspan="1" colspan="4">
+              <bold>Peatlands and Heathlands</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Freshwater</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Coastal</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>CLC</bold>
+              <break/>
+              <bold>Level 3</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Continuous urban fabric</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Discontinuous urban fabric</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Industrial or commercial units</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Road and rail networks and associated land</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Dump sites</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Construction sites</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Green urban areas</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Sport and leisure facilities</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Non-irrigated arable land</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Complex cultivation patterns</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Pastures</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Natural grassland</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Land principally occupied by agriculture, with significant areas of natural vegetation</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Coniferous forest</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Mixed forest</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Broad-leaved forest</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Transitional woodland-shrub</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Burnt areas</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Moors and heathland</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Peat bogs</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Sparsely vegetated areas</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Water bodies</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Sea and ocean</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Opening Stock</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>2,446</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>79</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>84</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>29</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>66</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>192</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>482</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>706</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>934</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>3,577</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>141</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>1,260</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>1,421</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>551</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>166</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>1,441</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>4,058</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>46</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>9</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total additions to stock</td>
+            <td rowspan="1" colspan="1">46</td>
+            <td rowspan="1" colspan="1">373</td>
+            <td rowspan="1" colspan="1">196</td>
+            <td rowspan="1" colspan="1">112</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">91</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">368</td>
+            <td rowspan="1" colspan="1">204</td>
+            <td rowspan="1" colspan="1">168</td>
+            <td rowspan="1" colspan="1">804</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1,024</td>
+            <td rowspan="1" colspan="1">961</td>
+            <td rowspan="1" colspan="1">165</td>
+            <td rowspan="1" colspan="1">523</td>
+            <td rowspan="1" colspan="1">375</td>
+            <td rowspan="1" colspan="1">64</td>
+            <td rowspan="1" colspan="1">3,155</td>
+            <td rowspan="1" colspan="1">14</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total reductions in stock</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(178)</td>
+            <td rowspan="1" colspan="1">(1)</td>
+            <td rowspan="1" colspan="1">(1)</td>
+            <td rowspan="1" colspan="1">(29)</td>
+            <td rowspan="1" colspan="1">(66)</td>
+            <td rowspan="1" colspan="1">(100)</td>
+            <td rowspan="1" colspan="1">(32)</td>
+            <td rowspan="1" colspan="1">(432)</td>
+            <td rowspan="1" colspan="1">(615)</td>
+            <td rowspan="1" colspan="1">(1,323)</td>
+            <td rowspan="1" colspan="1">(141)</td>
+            <td rowspan="1" colspan="1">(528)</td>
+            <td rowspan="1" colspan="1">(555)</td>
+            <td rowspan="1" colspan="1">(344)</td>
+            <td rowspan="1" colspan="1">(106)</td>
+            <td rowspan="1" colspan="1">(1,330)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(2,869)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">(20)</td>
+            <td rowspan="1" colspan="1">(0)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Net change in stock</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">46</td>
+            <td rowspan="1" colspan="1">195</td>
+            <td rowspan="1" colspan="1">196</td>
+            <td rowspan="1" colspan="1">111</td>
+            <td rowspan="1" colspan="1">(29)</td>
+            <td rowspan="1" colspan="1">25</td>
+            <td rowspan="1" colspan="1">(99)</td>
+            <td rowspan="1" colspan="1">336</td>
+            <td rowspan="1" colspan="1">(229)</td>
+            <td rowspan="1" colspan="1">(446)</td>
+            <td rowspan="1" colspan="1">(520)</td>
+            <td rowspan="1" colspan="1">(141)</td>
+            <td rowspan="1" colspan="1">497</td>
+            <td rowspan="1" colspan="1">406</td>
+            <td rowspan="1" colspan="1">(180)</td>
+            <td rowspan="1" colspan="1">417</td>
+            <td rowspan="1" colspan="1">(955)</td>
+            <td rowspan="1" colspan="1">64</td>
+            <td rowspan="1" colspan="1">3,155</td>
+            <td rowspan="1" colspan="1">(2,856)</td>
+            <td rowspan="1" colspan="1">27</td>
+            <td rowspan="1" colspan="1">(20)</td>
+            <td rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Closing stock</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>46</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2,642</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>275</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>194</bold>
+            </td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">
+              <bold>91</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>94</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>818</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>477</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>488</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>3,058</bold>
+            </td>
+            <td rowspan="1" colspan="1">-</td>
+            <td rowspan="1" colspan="1">
+              <bold>1,756</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>1,827</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>371</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>583</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>485</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>64</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>3,155</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>1,202</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>27</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>25</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>9</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Additions to stock (%)</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">15.2%</td>
+            <td rowspan="1" colspan="1">247.3%</td>
+            <td rowspan="1" colspan="1">133.5%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">138.4%</td>
+            <td rowspan="1" colspan="1">0.5%</td>
+            <td rowspan="1" colspan="1">76.5%</td>
+            <td rowspan="1" colspan="1">28.8%</td>
+            <td rowspan="1" colspan="1">18.0%</td>
+            <td rowspan="1" colspan="1">22.5%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">81.3%</td>
+            <td rowspan="1" colspan="1">67.6%</td>
+            <td rowspan="1" colspan="1">29.9%</td>
+            <td rowspan="1" colspan="1">315.5%</td>
+            <td rowspan="1" colspan="1">26.0%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">0.3%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">8.8%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Reductions in stock (%)</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">(7.3%)</td>
+            <td rowspan="1" colspan="1">(0.6%)</td>
+            <td rowspan="1" colspan="1">(0.9%)</td>
+            <td rowspan="1" colspan="1">(100.0%)</td>
+            <td rowspan="1" colspan="1">(100.0%)</td>
+            <td rowspan="1" colspan="1">(51.9%)</td>
+            <td rowspan="1" colspan="1">(6.7%)</td>
+            <td rowspan="1" colspan="1">(61.3%)</td>
+            <td rowspan="1" colspan="1">(65.8%)</td>
+            <td rowspan="1" colspan="1">(37.0%)</td>
+            <td rowspan="1" colspan="1">(100.0%)</td>
+            <td rowspan="1" colspan="1">(41.9%)</td>
+            <td rowspan="1" colspan="1">(39.1%)</td>
+            <td rowspan="1" colspan="1">(62.5%)</td>
+            <td rowspan="1" colspan="1">(64.1%)</td>
+            <td rowspan="1" colspan="1">(92.3%)</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">(70.7%)</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">-44.5%</td>
+            <td rowspan="1" colspan="1">-2.9%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Net change in stock (%)</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">(8.0%)</td>
+            <td rowspan="1" colspan="1">(246.7%)</td>
+            <td rowspan="1" colspan="1">(132.6%)</td>
+            <td rowspan="1" colspan="1">100.0%</td>
+            <td rowspan="1" colspan="1">-38.4%</td>
+            <td rowspan="1" colspan="1">51.4%</td>
+            <td rowspan="1" colspan="1">(69.8%)</td>
+            <td rowspan="1" colspan="1">32.4%</td>
+            <td rowspan="1" colspan="1">47.8%</td>
+            <td rowspan="1" colspan="1">14.5%</td>
+            <td rowspan="1" colspan="1">100.0%</td>
+            <td rowspan="1" colspan="1">(39.4%)</td>
+            <td rowspan="1" colspan="1">(28.6%)</td>
+            <td rowspan="1" colspan="1">32.6%</td>
+            <td rowspan="1" colspan="1">(251.4%)</td>
+            <td rowspan="1" colspan="1">66.3%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">70.4%</td>
+            <td rowspan="1" colspan="1">0.0%</td>
+            <td rowspan="1" colspan="1">44.5%</td>
+            <td rowspan="1" colspan="1">-5.9%</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T6789611" position="float" orientation="portrait">
+      <label>Table 5.</label>
+      <caption>
+        <p>Aggregated change in extent account (hectares) and % of catchment area for CLC Level 3 classes aggregated to Urban (Ur), Grassland and Cropland (G/C), Woodlands and Forest (W/F), Peatlands and Heathlands (P/H). Freshwater (FW) and Coastal (C). Numbers reported in brackets indicate a reduction.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>CLC Level 2</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Ur</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>G/C</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>W/F</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>P/H</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>FW</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>C</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+              <break/>
+              <bold>Ha</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total ha Change 2000-2018</td>
+            <td rowspan="1" colspan="1">
+              <bold>781</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>(839)</bold>
+            </td>
+            <td rowspan="1" colspan="1">(312)</td>
+            <td rowspan="1" colspan="1">391</td>
+            <td rowspan="1" colspan="1">(20)</td>
+            <td rowspan="1" colspan="1">1</td>
+            <td rowspan="1" colspan="1">0</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Total % Change 2000-2018</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>4</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>(5)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>(2)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>(0)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>0</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>0</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Total landcover category</td>
+            <td rowspan="1" colspan="1">
+              <bold>4,158</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>5,778</bold>
+            </td>
+            <td rowspan="1" colspan="1">3,266</td>
+            <td rowspan="1" colspan="1">4,448</td>
+            <td rowspan="1" colspan="1">25</td>
+            <td rowspan="1" colspan="1">9</td>
+            <td rowspan="1" colspan="1">
+              <bold>17,684</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Percentage of catchment</td>
+            <td rowspan="1" colspan="1">
+              <bold>24</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>33</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>18</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>25</bold>
+            </td>
+            <td rowspan="1" colspan="1">&lt;1</td>
+            <td rowspan="1" colspan="1">&lt;1</td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T6790658" position="float" orientation="portrait">
+      <label>Table 6.</label>
+      <caption>
+        <p>Ecological status of freshwater rivers and lakes and WFD reporting in the Dargle (<ext-link ext-link-type="uri" xlink:href="https://catchments.ie/wp-content/files/subcatchmentassessments/10_5%20Dargle_SC_010%20Subcatchment%20Assessment%20WFD%20Cycle%202.pdf">WFD Cycle 2 Sub-catchment Dargle_SC_010</ext-link>) (Note: SP refers to Significant pressures).</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Waterbody Name</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Type</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2007-09</bold>
+              <break/>
+              <bold>Baseline</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2010-12</bold>
+              <break/>
+              <bold>Mid-term review</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>First Full Cycle reporting period 2010-15</bold>
+            </td>
+            <td rowspan="1" colspan="1"><bold>Assessment to 2018</bold>:<break/><bold>2013-18</bold></td>
+            <td rowspan="1" colspan="1">
+              <bold>WFD Risk Status 2010-2015</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Protected area</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>SP</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Bray lower</td>
+            <td rowspan="1" colspan="1">Lake</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Not at risk</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Bray upper</td>
+            <td rowspan="1" colspan="1">Lake</td>
+            <td rowspan="1" colspan="1">Unassigned</td>
+            <td rowspan="1" colspan="1">Unassigned</td>
+            <td rowspan="1" colspan="1">Unassigned</td>
+            <td rowspan="1" colspan="1">Unassigned</td>
+            <td rowspan="1" colspan="1">Not at risk</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Carrickmines Stream_010</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>At risk</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Y</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Kill of the Grange Stream_010</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Poor</td>
+            <td rowspan="1" colspan="1">Poor</td>
+            <td rowspan="1" colspan="1">Poor</td>
+            <td rowspan="1" colspan="1">Poor</td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>At risk</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Y</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Shanganagh_010</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Not at risk</td>
+            <td rowspan="1" colspan="1">Drinking Water</td>
+            <td rowspan="1" colspan="1">Y</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Glencullen_010</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">High</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">High</td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>At risk</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">Drinking Water</td>
+            <td rowspan="1" colspan="1">Y</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Glencullen_020</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Not at risk</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Dargle_010</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">High</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>At risk</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">Salmonid</td>
+            <td rowspan="1" colspan="1">Y</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Dargle_020</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Not at risk</td>
+            <td rowspan="1" colspan="1">Salmonid</td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Dargle_030</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Poor</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>At risk</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1">Salmonid</td>
+            <td rowspan="1" colspan="1">Y</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Dargle_040</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Unassigned</td>
+            <td rowspan="1" colspan="1">Unassigned</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Not at risk</td>
+            <td rowspan="1" colspan="1">Salmonid</td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Glencree_010</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Good</td>
+            <td rowspan="1" colspan="1">Not at risk</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Kilmacanoge_010</td>
+            <td rowspan="1" colspan="1">River</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">Moderate</td>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>At risk</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Y</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <supplementary-material id="S6888609" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">977000DB-1EED-50F2-A173-3C8CF4E53258</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>Dargle ecosystem typology</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Excel sheet</p>
+      </statement>
+      <statement content-type="notes">
+        <label>Brief description</label>
+        <p>This excel file contains two worksheets. The first outlines the Irish national ecosystem typlogy; the second outlines the alignment of the national typology with CLC Level 3 classes recorded in the Dargle for the development of high level ecosystem types. We also align both with the IUCN Global Ecosystem Typology.</p>
+      </statement>
+      <p>File: oo_534747.xlsx</p>
+      <media xlink:href="oneeco-06-e65582-s001.xlsx" mimetype="Microsoft Excel Document" mime-subtype="xlsx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/534747</uri>
+      </media>
+      <attrib specific-use="authors">Farrell, C.A. et al. 2021</attrib>
+    </supplementary-material>
+    <supplementary-material id="S6886585" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">63749D4E-2B43-52FE-8041-D1B0442F656A</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Table A1. Datasets reviewed for the Dargle case study.</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Word document</p>
+      </statement>
+      <p>File: oo_530326.docx</p>
+      <media xlink:href="oneeco-06-e65582-s002.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/530326</uri>
+      </media>
+      <attrib specific-use="authors">Farrell, C.A. et al 2021</attrib>
+    </supplementary-material>
+    <supplementary-material id="S6886586" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">3B760B9E-7F04-50E6-9160-7BAE9C5756E8</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.suppl3</object-id>
+      <label>Supplementary material 3</label>
+      <caption>
+        <p>Table A2. Change account for the Dargle case study developed using Ensym.</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Excel sheet</p>
+      </statement>
+      <p>File: oo_530329.xlsx</p>
+      <media xlink:href="oneeco-06-e65582-s003.xlsx" mimetype="Microsoft Excel Document" mime-subtype="xlsx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/530329</uri>
+      </media>
+      <attrib specific-use="authors">Farrell, C.A. et al. 2021</attrib>
+    </supplementary-material>
+    <supplementary-material id="S6886587" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">94ECBAE8-EF58-5F54-B32A-2B33BD2AC429</object-id>
+      <object-id content-type="doi">10.3897/oneeco.6.e65582.suppl4</object-id>
+      <label>Supplementary material 4</label>
+      <caption>
+        <p>Table A3. Article 17 Conservation status and trends for Annex I habitats in the Dargle (shows national assessment).</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Word document</p>
+      </statement>
+      <p>File: oo_530550.docx</p>
+      <media xlink:href="oneeco-06-e65582-s004.docx" mimetype="Microsoft Word Document" mime-subtype="docx" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/530550</uri>
+      </media>
+      <attrib specific-use="authors">Farrell, C.A. et al. 2021</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

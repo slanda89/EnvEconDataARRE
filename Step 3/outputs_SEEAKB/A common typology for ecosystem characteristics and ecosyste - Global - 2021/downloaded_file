@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">52</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:4A25E796-D4BE-573E-A5A5-2A05A815D1C2</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">One Ecosystem</journal-title>
+        <abbrev-journal-title xml:lang="en">OE</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-8194</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/oneeco.6.e58218</article-id>
+      <article-id pub-id-type="publisher-id">58218</article-id>
+      <article-id pub-id-type="manuscript">14441</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A common typology for ecosystem characteristics and ecosystem condition variables</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Czúcz</surname>
+            <given-names>Bálint</given-names>
+          </name>
+          <email xlink:type="simple">balint.czucz@ec.europa.eu</email>
+          <uri content-type="orcid">https://orcid.org/0000-0002-6462-7633</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Keith</surname>
+            <given-names>Heather</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-5956-7261</uri>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Driver</surname>
+            <given-names>Amanda</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-8730-846X</uri>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Jackson</surname>
+            <given-names>Bethanna</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9759-871X</uri>
+          <xref ref-type="aff" rid="A4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Nicholson</surname>
+            <given-names>Emily</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0003-2199-3446</uri>
+          <xref ref-type="aff" rid="A5">5</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Maes</surname>
+            <given-names>Joachim</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8272-1607</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">European Commission, Joint Research Centre, Geel, Belgium</addr-line>
+        <institution>European Commission, Joint Research Centre</institution>
+        <addr-line content-type="city">Geel</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Griffith University, Canberra, Australia</addr-line>
+        <institution>Griffith University</institution>
+        <addr-line content-type="city">Canberra</addr-line>
+        <country>Australia</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">South African National Biodiversity Institute, Pretoria, South Africa</addr-line>
+        <institution>South African National Biodiversity Institute</institution>
+        <addr-line content-type="city">Pretoria</addr-line>
+        <country>South Africa</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Victoria University of Wellington, Wellington, New Zealand</addr-line>
+        <institution>Victoria University of Wellington</institution>
+        <addr-line content-type="city">Wellington</addr-line>
+        <country>New Zealand</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">Deakin University, Melbourne, Australia</addr-line>
+        <institution>Deakin University</institution>
+        <addr-line content-type="city">Melbourne</addr-line>
+        <country>Australia</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Bálint Czúcz (<email xlink:type="simple">balint.czucz@ec.europa.eu</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: C. Sylvie Campagne</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>01</month>
+        <year>2021</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>e58218</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/E5AD576A-771C-5166-9BC1-583316A29646">E5AD576A-771C-5166-9BC1-583316A29646</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/4500355">4500355</uri>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>09</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>10</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Bálint Czúcz, Heather Keith, Amanda Driver, Bethanna Jackson, Emily Nicholson, Joachim Maes</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>The UN System of Environmental-Economic Accounting Experimental Ecosystem Accounting (SEEA EEA) aims at regular and standardised stocktaking on the extent of ecosystems, their condition and the services they provide to society. Recording the condition of ecosystems is one of the most complex pieces in this exercise, needing to be supported by robust and consistent guidelines. SEEA EEA defines the condition of an ecosystem as its overall quality, measured in terms of quantitative metrics describing both abiotic and biotic characteristics. The main objective of this paper is to propose a simple universal classification (typology) for these ecosystem condition characteristics and metrics, based on long standing ecological concepts and traditions.</p>
+        <p>The proposed SEEA EEA Ecosystem Condition Typology (SEEA ECT) is a hierarchical classification consisting of six classes grouped into three main groups (abiotic, biotic and landscape-level ecosystem characteristics). In order to facilitate practical applications, SEEA ECT is cross-linked to the most relevant existing typologies for ecosystem characteristics currently used for other purposes. To ensure clarity and practicality, we identified potential overlaps between classes and also identified the most important groups of ‘ancillary data’ that should not be considered as ecosystem condition characteristics. We consider that this new typology for ecosystem condition will create a meaningful reporting structure for ecosystem condition accounts, thus facilitating its standardisation and broad application.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>ecosystem condition</kwd>
+        <kwd>ecosystem characteristics</kwd>
+        <kwd>ecological integrity</kwd>
+        <kwd>classification</kwd>
+        <kwd>ecosystem accounts</kwd>
+        <kwd>System Of Environmental Economic Accounting</kwd>
+        <kwd>Experimental Ecosystem Accounting</kwd>
+        <kwd>SEEA EEA</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="1"/>
+        <table-count count="2"/>
+        <ref-count count="52"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>Ecosystem accounts measure the contribution of ecosystems to human well-being and the economy (<xref ref-type="bibr" rid="B5996128">Obst et al. 2015</xref>). This demands regular and standardised stocktaking activities that record the extent of the ecosystems, their condition and the services they provide to society, which need to be supported by consistent guidelines (<xref ref-type="bibr" rid="B5996119">Obst et al. 2013</xref>, <xref ref-type="bibr" rid="B5996237">Polasky et al. 2015</xref>). This is the objective of the Experimental Ecosystem Accounting (EEA) protocol of the System of Environmental-Economic Accounting (SEEA) developed by the United Nations (UN). The SEEA EEA defines an integrated accounting framework for organising biophysical data, measuring ecosystem services, tracking changes in ecosystem assets and linking this information to economic and other human activity. This framework for ecosystem accounts was formally adopted by the UN in March 2013 (<xref ref-type="bibr" rid="B5996366">United Nations (UN) et al. 2014</xref>) and technical recommendations are available to help set up and quantify accounts in a standardised way (<xref ref-type="bibr" rid="B5996375">United Nations (UN) 2019</xref>). These SEEA EEA guidelines are presently under revision. The aim is to adopt a revised standard for ecosystem accounting in 2021. This paper is part of this revision process and contributes in particular to an updated set of recommendations for reporting ecosystem condition accounts.</p>
+      <p>SEEA EEA defines <italic>ecosystem condition</italic> as the overall quality of an ecosystem asset in terms of its characteristics (<xref ref-type="bibr" rid="B5996366">United Nations (UN) et al. 2014</xref>, paragraph 2.35; <xref ref-type="bibr" rid="B5995911">Keith et al. 2020</xref>). Condition together with extent is expected to describe the state of an ecosystem asset (see Glossary in <xref ref-type="bibr" rid="B5996366">United Nations (UN) et al. 2014</xref> and <xref ref-type="bibr" rid="B5996057">Maes et al. 2014</xref>). <italic>Ecosystem characteristics</italic> are the system properties of the ecosystem and its major biotic and abiotic components. This term is intended to encompass all of the various perspectives taken to describe the long term ‘average behaviour’ of an ecosystem. On the other hand, <italic>variables</italic>, <italic>indicators</italic> and <italic>indices</italic> are concrete quantitative metrics with precise definitions and measurement instructions, which can be used to describe these characteristics. In the context of this paper, any quantitative metric reflecting a phenomenon of interest can be seen as a <italic>variable</italic>. <italic>Indicators</italic> are variables with a strong direct normative interpretation (i.e. distinguishing “good” from “bad”) for policy and decisions, which are preferably rescaled to a standard dimensionless scale (e.g. ranging from 0: bad to 1: good). An <italic>index</italic> is an aggregated indicator constructed from other indicators, which thus represents relatively-broad aspects of the studied system in a single number. Finally, the term <italic>metric</italic> is used to refer to any of the previous three categories (see also <xref ref-type="bibr" rid="B5995911">Keith et al. 2020</xref>).</p>
+      <p>Ecosystems have many apparent and hidden characteristics, which are influenced by each other in complex ways. Accordingly, ecosystem condition is inherently multidimensional, many metrics being needed to give a comprehensive characterisation of the condition of an ecosystem (<xref ref-type="bibr" rid="B5996266">Schoolmaster et al. 2012</xref>). This multidimensionality has to be reflected in the structure of condition accounts, which need to handle a potentially high number of metrics in a consistent way (<xref ref-type="bibr" rid="B5995911">Keith et al. 2020</xref>). This paper focuses on the typology (classification) used for grouping the various condition characteristics and metrics in the account, which ensures that the condition accounts created in different countries for different ecosystem types would be compatible and comparable. While classifying ecosystem types has a century-long history (<xref ref-type="bibr" rid="B5995923">Keith et al. 2020b</xref>) and ecosystem service classifications were also intensively studied and standardised in the last two decades (<xref ref-type="bibr" rid="B5995972">La Notte et al. 2017</xref>), the complex concept of ecosystem condition has attracted far less ‘taxonomical’ attention so far. Nevertheless, an operative SEEA EEA requires that each element in the chain comprising the path from ecosystems to final beneficiaries has its own classification (<xref ref-type="bibr" rid="B5995985">La Notte and Rhodes 2020</xref>). In this paper, we lay out the foundations of a simple classification system, the SEEA EEA Ecosystem Condition Typology (SEEA ECT), which can be applied as a standardised reporting structure for ecosystem condition characteristics, variables, indicators and indices, across multiple countries and biomes, all over the world.</p>
+    </sec>
+    <sec sec-type="Typologies and Classifications">
+      <title>Typologies and Classifications</title>
+      <p>A <italic>typology</italic> or <italic>classification (system)</italic> is the operation of distributing objects into classes or groups that are less numerous than the original objects. This operation is very broadly and frequently used in science, as it can create an order amongst the “chaotic and muddled multiplicities” of life and thus can reduce the complexity of the problems (<xref ref-type="bibr" rid="B5996193">Parrochia 2019</xref>). Classifications are therefore the essence of accounting systems. Classifications need to be <italic>exhaustive</italic> and <italic>mutually exclusive</italic> : classes should not overlap and their union should restore the divided concept. As each division (class) can be further subdivided, classifications can also be hierarchical.</p>
+      <p>An <italic>ecosystem condition typology</italic> is a hierarchical classification for the metrics (variables and indicators) used to describe the condition of the ecosystems. Nevertheless, as these metrics are supposed to reflect the underlying reality of the ecosystem, the condition typology can also be applied for ecosystem characteristics, thus defining the relevant “information structure” of the ecosystem itself. This way, the typology for ecosystem condition can create a meaningful order for the accounting tables, which can have multiple advantages:</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>it can help to establish a common language and a shared understanding;</p>
+        </list-item>
+        <list-item>
+          <p>it can make different studies (assessments, countries etc.) more comparable;</p>
+        </list-item>
+        <list-item>
+          <p>it can be used as a structure for aggregation; and</p>
+        </list-item>
+        <list-item>
+          <p>it can be used as a template for the selection of variables and indicators.</p>
+        </list-item>
+      </list></p>
+      <p>As also emphasised by SEEA EEA (<xref ref-type="bibr" rid="B6071994">United Nations (UN) et al. 2012</xref>), different ecosystem types have different relevant characteristics, which should be described by different indicators. Nevertheless, in order to facilitate communication, as well as comparisons and aggregation across ecosystem types, an ecosystem condition typology should be <italic>universal</italic> at least at the top levels (i.e. it is expected to be relevant for all major ecosystem types). On the other hand, the typology also needs to be able to host ecosystem type specific metrics at the lower levels.</p>
+      <p>There are already several classifications in scientific literature, which aim to provide a meaningful and comprehensive reporting structure for ecosystem characteristics, variables and indicators. The majority of structured lists of ecosystem characteristics/indicators, which can be found in scientific papers, can, in principle, be applied or adapted to the concept of ecosystem condition. This includes conceptual papers (e.g. <xref ref-type="bibr" rid="B5996101">Müller 2005</xref>, <xref ref-type="bibr" rid="B5995902">Kandziora et al. 2013</xref>, <xref ref-type="bibr" rid="B5995852">Haase et al. 2018</xref>); systematic reviews (e.g. <xref ref-type="bibr" rid="B5996290">Smith et al. 2017</xref>, <xref ref-type="bibr" rid="B5996246">Rendon et al. 2019</xref>); or policy reports (e.g. <xref ref-type="bibr" rid="B5996065">Maes et al. 2018</xref>). Existing condition accounts also often include some kind of grouping structure (e.g. <xref ref-type="bibr" rid="B6071753">White et al. 2015</xref>). Nevertheless, most of these papers do not give any description or justification for the groupings they use (e.g. <xref ref-type="bibr" rid="B5995833">Flint et al. 2017</xref>, <xref ref-type="bibr" rid="B5996065">Maes et al. 2018</xref>); they are just applied as an enumeration structure, sometimes in a more or less inconsistent way. Many of the rest are just reusing classifications from earlier publications and/or lack generality by focusing only on a specific ecosystem type or biome (e.g. <xref ref-type="bibr" rid="B5996275">Schwarz et al. 2017</xref>, <xref ref-type="bibr" rid="B5996171">Okey 2018</xref>, <xref ref-type="bibr" rid="B5995833">Flint et al. 2017</xref>).</p>
+      <p>For the purposes of this study, we have identified three “prototype” classifications which reflect a balance between conceptual clarity and practical usefulness, and which have become influential in the community of ecological/enviromental sciences:</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>the <bold>essential ecosystem characteristics</bold> (EEC, published by <xref ref-type="bibr" rid="B5995873">Harwell et al. (1999)</xref> based on lessons from the US Man and Biosphere programme);</p>
+        </list-item>
+        <list-item>
+          <p>the <bold>ecological integrity</bold> typology (EI, proposed by <xref ref-type="bibr" rid="B5995722">Andreasen et al. (2001)</xref> and further elaborated by <xref ref-type="bibr" rid="B5996356">Tierney et al. (2009)</xref> and <xref ref-type="bibr" rid="B5995825">Faber-Langendoen et al. (2012)</xref>);</p>
+        </list-item>
+        <list-item>
+          <p>the classification of <bold>essential biodiversity variables</bold> (EBV, outlined by <xref ref-type="bibr" rid="B5996201">Pereira et al. (2013)</xref> and further elaborated by <xref ref-type="bibr" rid="B5995931">Kissling et al. (2017)</xref> and others).</p>
+        </list-item>
+      </list></p>
+      <p>We used these three “prototype” classifications as starting points for designing our proposal for an operative condition classification for the SEEA EEA. In doing so, we sought the largest common denominator between these prototypes, taking into account both the conceptual background of SEEA EEA and the practicalities of the existing condition accounts (<xref ref-type="bibr" rid="B5995911">Keith et al. 2020</xref>, <xref ref-type="bibr" rid="B5996073">Maes et al. 2020</xref>).</p>
+    </sec>
+    <sec sec-type="Proposal for a SEEA EEA ecosystem condition typology">
+      <title>Proposal for a SEEA EEA ecosystem condition typology</title>
+      <p>We propose the hierarchical classification shown in to be used as the SEEA EEA Ecosystem Condition Typology (SEEA ECT). This classification contains three major <italic>groups</italic> (abiotic, biotic and landscape-level characteristics) and six <italic>classes</italic> nested in these groups. Table <xref ref-type="table" rid="T5995154">1</xref> shows the proposed six classes. Crosswalks to relevant classifications, including the three prototypes, can be found in Suppl. material <xref ref-type="supplementary-material" rid="S6094081">1</xref>. In Fig. <xref ref-type="fig" rid="F5995473">1</xref> and Suppl. material <xref ref-type="supplementary-material" rid="S6094082">2</xref>, we map the condition indicators used in the already existing condition accounts to the SEEA ECT typology, based on the work of <xref ref-type="bibr" rid="B5996073">Maes et al. (2020)</xref>.</p>
+      <p>The first group of the SEEA ECT typology embraces those <italic>abiotic elements</italic> of the physico-chemical environment which are in direct interaction with the biosphere. Such abiotic elements have traditionally been considered as a component (compartment) of the ecosystems and they are also represented with three (out of seven) main classes of the EEC typology (<xref ref-type="bibr" rid="B5995873">Harwell et al. 1999</xref>). The SEEA ECT class <bold>physical state characteristics (A1)</bold> hosts the physical descriptors of the abiotic components of the ecosystem (soil, water, air…). <bold>Chemical state characteristics (A2)</bold>, on the other hand, include metrics related to the chemical composition of the abiotic ecosystem compartments. Physical and chemical characteristics may play a particularly important role for freshwater and marine ecosystems. Variables should describe the state (e.g. “stocks” of pollutants), rather than the flows (emission of pollutants). This way, these SEEA ECT classes can accommodate pressures in a way that is compatible with accounting. The majority of the case studies (<xref ref-type="bibr" rid="B5996073">Maes et al. 2020</xref>, Fig. <xref ref-type="fig" rid="F5995473">1</xref>) include metrics of chemical state, while identifying relevant physical state characteristics has proven much more difficult (3 of the 23 case studies, see Fig. <xref ref-type="fig" rid="F5995473">1</xref> and Suppl. material <xref ref-type="supplementary-material" rid="S6094082">2</xref>).</p>
+      <p>The SEEA ECT group of <italic>biotic ecosystem characteristics</italic> comprises characteristics that are typically associated with ecosystems and biodiversity. Biotic characteristics are central in all previous condition typologies and the EBV typology (<xref ref-type="bibr" rid="B5996201">Pereira et al. 2013</xref>) entirely focuses on characteristics that belong here. To subdivide this large group of characteristics, we follow <xref ref-type="bibr" rid="B5995722">Andreasen et al. (2001)</xref> and a strong ecological tradition (e.g. <xref ref-type="bibr" rid="B5996110">Noss 1990</xref>) and distinguish composition, structure and function.</p>
+      <p>The SEEA ECT class <bold>compositional state characteristics (B1)</bold> comprises a broad range of ‘typical’ biodiversity variables, describing the composition of ecological communities from a biodiversity perspective. Characteristics in this class are typically derived from species data, like the presence/abundance of a species or species group or the diversity of species groups at a given location and time. From a location-based perspective, the distribution of a species is based on species composition (local presence). Compositional metrics can characterise the local “biodiversity quality” of sampling sites (<xref ref-type="bibr" rid="B6071971">Feest 2006</xref>) through the presence/absence or abundance of individual species, taxonomic groups (birds, butterflies) or non-taxonomic guilds (e.g. soil invertebrates, macrozoobenthos). In fact, the most frequent SEEA ECT class in existing condition accounts are compositional state characteristics (Fig. <xref ref-type="fig" rid="F5995473">1</xref>).</p>
+      <p>Nevertheless, not all relevant characteristics of ecosystems are derived from species data. We distinguish two further important classes: <bold>structural state characteristics (B2)</bold> which are aggregate properties (e.g. mass, density) of the whole ecosystem or its main biotic compartments, while <bold>functional state characteristics (B3)</bold> include summary statistics (e.g. frequency, intensity) of the biological, chemical and physical interactions between the ecosystem compartments (cf. <xref ref-type="bibr" rid="B5995742">Boyd and Banzhaf 2007</xref>). This interpretation of functions might seem restrictive, given that many authors use the term “ecosystem function” in an utilitarian way, emphasising the “functioning” directly leading to ecosystem services (e.g. <xref ref-type="bibr" rid="B5995994">Mace et al. 2012</xref>, cf. <xref ref-type="bibr" rid="B5995893">Heink and Jax 2019</xref>). In SEEA EEA, however, most of this service-orientated “functioning” should probably be considered under the ecosystem service accounts, which leaves the “internal interactions between the ecosystem components” as the definition of function in the context of the condition accounts. Structural and functional characteristics are relatively rarely quantified in the case studies (Fig. <xref ref-type="fig" rid="F5995473">1</xref>).</p>
+      <p>The last SEEA ECT group, <bold>landscape-level characteristics (C1)</bold> has a single class covering the characteristics of entire landscapes (or waterscapes, seascapes) consisting of multiple ecosystem types. This involves landscape metrics (e.g. diversity, connectivity or fragmentation), which can describe the integrity of landscapes at 'local' landscape scales (~ 10-1000 km<sup>2</sup>, <xref ref-type="bibr" rid="B6302199">Pagella and Sinclair 2014</xref>). It is important to note that, while such metrics characterise landscapes, the structure of condition accounts expects metrics to be linked to concrete ecosystem types. This apparent conflict can be resolved by a relatively simple and straightforward accounting decision: the landscape-level metrics (calculated, for example, with a moving window) should be assigned to the focal ecosystem type. In other words, the ‘landscape diversity’ of a forest should be interpreted as the diversity of the landscape in which the forest is situated. The importance of landscape-level metrics for condition accounting practitioners can be seen from the relatively-high prevalence of this class in the case studies (Fig. <xref ref-type="fig" rid="F5995473">1</xref>).</p>
+    </sec>
+    <sec sec-type="Overlaps and borderline cases">
+      <title>Overlaps and borderline cases</title>
+      <p>To ensure the <italic>mutual exclusivity</italic> of the classification system, it is important that all variables can be linked unequivocally to a single SEEA ECT class. This needs well-defined classes, supported by definitions that carefully eliminate overlaps and borderline cases in a consistent way. Nevertheless, the short definitions of the classes, as outlined above, allow for several potential overlaps (Table <xref ref-type="table" rid="T5995158">2</xref>). Several key terms (e.g. structure or function) are actually ‘boundary objects’ (<xref ref-type="bibr" rid="B5996316">Star and Griesemer 1989</xref>, <xref ref-type="bibr" rid="B5996334">Steger et al. 2018</xref>) that are used and interpreted in different ways by different researcher communities. For example, in the case of freshwater and marine ecosystems, community structure and composition are sometimes handled as synonyms (e.g. <xref ref-type="bibr" rid="B5995775">Dudgeon 2010</xref>).</p>
+      <p>In principle, most of the borderline cases could be resolved in any direction without doing harm to the integrity of the condition accounts. Ideally, these decisions should be consistent and if, for example, soil organic carbon is considered to be chemical (A2) in a Chinese forest, then it should be classified similarly in US farmlands, too. Ensuring this level of consistency (e.g. through detailed guidelines in a SEEA EEA annex) might seem a daunting task. Nevertheless, the range of potential condition variables is highly restricted by data availability and conceptual considerations (selection criteria, see <xref ref-type="bibr" rid="B5995911">Keith et al. (2020)</xref> and <xref ref-type="bibr" rid="B6078780">Czúcz et al. (in press)</xref>), an overview of the relevant cases that occur in practice might already be feasible (Table <xref ref-type="table" rid="T5995158">2</xref>).</p>
+      <p>In developing accounts, it is also common practice to reuse data originally collected for other policies and reporting schemes. Such data are often available in a highly aggregated format, combining data points from several ecosystem accounting (spatial aggregation) areas or SEEA ECT classes (thematic aggregation; see “pre-aggregated indices” in Fig. <xref ref-type="fig" rid="F5995473">1</xref>). In such cases, the original data points would be much more useful than the aggregated index (<xref ref-type="bibr" rid="B5995751">Broszeit et al. 2017</xref>, <xref ref-type="bibr" rid="B5996085">Moriarty et al. 2018</xref>). While the efforts to reuse what is already available are understandable, the ideal practice would be to add all relevant characteristics individually and perform the appropriate aggregations within the condition account itself. One of the main functions of the SEEA ECT typology is to provide a standardised aggregation scheme that can be meaningfully used across ecosystem types, countries and continents. Such ‘overarching’ pre-aggregated indices might violate this function.</p>
+    </sec>
+    <sec sec-type="Ancillary data">
+      <title>Ancillary data</title>
+      <p>Not all environmental variables are appropriate for measuring ecosystem condition (<xref ref-type="bibr" rid="B5995911">Keith et al. 2020</xref>). Consequently, the SEEA ECT typology does not aim to cover all policy-relevant environmental metrics, it just aims to be <italic>exhaustive</italic> for the variables that are valid to use in the context of a SEEA EEA condition account. Nevertheless, the scarcity of available data sometimes necessitates compromises or suboptimal choices. Even the case studies (see <xref ref-type="bibr" rid="B5996073">Maes et al. 2020</xref>; Suppl. material <xref ref-type="supplementary-material" rid="S6094082">2</xref>) contain a few variables that cannot be hosted in the SEEA ECT classes as presented above. Such variables violate aspects of SEEA EEA condition accounts (<xref ref-type="bibr" rid="B5995911">Keith et al. 2020</xref>, <xref ref-type="bibr" rid="B6078780">Czúcz et al. (in press)</xref>) in some way, often because the creators of such accounts used them as ‘proxies’ for something that they could not measure. In the next few paragraphs, we give a short overview of the main types of such ancillary data found in the existing ecosystem condition accounts tested by <xref ref-type="bibr" rid="B5996073">Maes et al. (2020)</xref> (see also Fig. <xref ref-type="fig" rid="F5995473">1</xref> and Suppl. material <xref ref-type="supplementary-material" rid="S6094082">2</xref>).</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p><bold>Accessibility</bold> (six case studies, see Suppl. material <xref ref-type="supplementary-material" rid="S6094082">2</xref>): Distance from roads or human population centres appears in a high number of condition accounts (typically from the UK, for example, <xref ref-type="bibr" rid="B6071753">White et al. (2015)</xref>). Nevertheless, accessibility is not a characteristic of the ecosystem per se and it can be better conceptualised as a factor behind ecosystem service demand. Furthermore, if an ecosystem becomes more accessible (e.g. there is a new highway), would we like to see this as a condition improvement or degradation? </p>
+        </list-item>
+        <list-item>
+          <p><bold>Protected areas</bold> (five case studies): Administrative land designations (including the status and degree of nature protection) do not reflect the <italic>state</italic> of an area, but rather a human <italic>response</italic> to degradation or perceived land value. Using protection status as an ecosystem condition indicator will also compromise the ability of the condition accounts to evaluate the efficiency of protection measures.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Pressures</bold> (four case studies): Pressures (e.g. pollutant fluxes) do not reflect the state of the system, they are rather external forces influencing future state. They are still popular in some ecosystem condition accounts, as they are typically easier to measure than the underlying state variables that are affected by the pressure. Even the SEEA EEA Technical Recommendations suggest that pressures can be considered a useful surrogate (<xref ref-type="bibr" rid="B5996375">United Nations (UN) 2019</xref>: 4.9), as long as the relationship between the two is well understood and justified (<xref ref-type="bibr" rid="B5995731">Bland et al. 2018</xref>). Using pressures as an ecosystem condition indicator will, nevertheless, definitely compromise the ability of the condition accounts to evaluate the impact of those pressures (<xref ref-type="bibr" rid="B5995751">Broszeit et al. 2017</xref>). Furthermore, pressures are already covered in a different SEEA account (in the SEEA Central Framework, <xref ref-type="bibr" rid="B6071994">United Nations (UN) et al. 2012</xref>), so including them in the condition accounts would be a duplication.</p>
+        </list-item>
+        <list-item>
+          <p><bold>Natural resource management</bold> (two case studies): Similar to pressures, human management (e.g. grazing, felling, fishing, agriculture...) is also sometimes considered in the context of ecosystem condition (<xref ref-type="bibr" rid="B5996065">Maes et al. 2018</xref>). Human management, however, should not generally be seen as an internal part of the studied ecosystems, even if it influences a broad range of services (<xref ref-type="bibr" rid="B5996255">Santos-Martín et al. 2019</xref>). Including management in an ecosystem condition account will also compromise its ability to evaluate the impact of management. </p>
+        </list-item>
+        <list-item>
+          <p><bold>Certificates, audits</bold> (two case studies): Certificates (e.g. the ‘blue flag’ certificate for EU beaches or the ‘green flag’ certificate for UK urban parks; <xref ref-type="bibr" rid="B5996137">Office for National Statistics 2016</xref>, <xref ref-type="bibr" rid="B5996163">Office for National Statistics 2018</xref>) and audits are market products, which are only available for locations with solvent demand. Hence, the absence of a certificate does not mean that the location in question would not meet the necessary qualifications. In principle, certificates are based on measured data. If such data are available, the ideal practice would be to encode all relevant characteristics individually in the condition account and create appropriate aggregated indices within the account (similarly to the recommended treatment of pre-aggregated indices). </p>
+        </list-item>
+        <list-item>
+          <p><bold>Stable environmental characteristics</bold>: Climatic and other environmental variables are occasionally also proposed for inclusion in condition accounts (e.g. <xref ref-type="bibr" rid="B5995765">de Jong et al. 2016</xref>). In principle, it is not useful to include very slowly changing variables into accounting tables (e.g. climate, slope, aspect or geology), even if climate has started to change recently. Furthermore, these variables are largely external to the ecosystems. Climate is also already well-covered by a number of international conventions and data repositories, so it might be reasonable to keep the ecosystem condition accounts for ‘more ecological’ variables. </p>
+        </list-item>
+      </list></p>
+      <p>If, despite all the issues highlighted above, such ancillary data are considered as proxies instead of measured variables in an ecosystem condition account, then this should be done in a clear and transparent way (i.e. it should be clearly documented and justified that metric X is considered to be a proxy for characteristic Y that we could not measure). Such proxies should be assigned to the category where the original variable would normally belong. Nevertheless, to ensure the consistency of the condition accounts, the inclusion of ancillary data should preferably be avoided. This does not mean that these data types would be irrelevant or worthless — on the contrary, most of these data are indispensable for a proper ecosystem assessment to be done. For example, climate, geology, management or accessibility can be key input data for ecosystem service models (see, for example, <xref ref-type="bibr" rid="B5996425">Zulian et al. 2013</xref>, <xref ref-type="bibr" rid="B5996383">Vallecillo et al. 2019</xref>), so they might need to be collected and handled anyway in the context of SEEA EEA. They should just preferably be kept out of the condition accounts. Beyond the diverse types of ancillary data listed above, there are two further important groups of data that should not be considered as condition variables: ecosystem extent and services. Extent and services have their dedicated accounts in the context of SEEA EEA and the different accounts should not repeat each other, but should convey different pieces of information.</p>
+    </sec>
+    <sec sec-type="Conclusions and Recommendations">
+      <title>Conclusions and Recommendations</title>
+      <p>In line with the principles discussed by <xref ref-type="bibr" rid="B5995911">Keith et al. (2020)</xref>, the selection of ecosystem condition metrics should be an iterative process, reflecting a good ecological understanding, as well as practical considerations of data availability. The proposed SEEA ECT classification can play a key role in this process by highlighting major data gaps (e.g. if there are no appropriate metrics available for a specific class). This also makes it possible to implement the selection process, by proposing simple rules (like “1-3 indicators from each SEEA ECT class”). Nevertheless, as the current examples demonstrate (Fig. <xref ref-type="fig" rid="F5995473">1</xref>), for some ECT classes, it might be more difficult to identify/construct appropriate metrics than for other classes. The most universally-accessible SEEA ECT types are compositional state (B1), chemical condition (A2) and landscape (C1) characteristics, representing each of the three main SEEA ECT groups (abiotic, biotic and landscape-level characteristics). Accordingly, an alternative option would be to formulate the ‘minimum requirements’ at the level of ECT groups which would give more flexibility to practitioners of ecosystem condition accounts.</p>
+      <p>The SEEA ECT classes only provide a rough thematic structure for the condition accounts. To make the SEEA ECT classification more responsive to user needs, future studies should identify more concrete (families of) indicators, taking into consideration all relevant criteria (<xref ref-type="bibr" rid="B5995911">Keith et al. 2020</xref>) including global data availability. These indicator families (or “ECT subclasses”) would also create an opportunity to improve the level of standardisation for the accounts (<xref ref-type="bibr" rid="B5996237">Polasky et al. 2015</xref>). In principle, they can be specified concretely (what characteristic to measure, how to measure it), so that the variables and indicators implemented for subclasses would be comparable across countries, continents and -- for crosscutting characteristics -- also ecosystem types. Nevertheless, this would also mean that, at the level of subclasses, the SEEA ECT classification will not be <italic>exhaustive</italic> any more: the list of SEEA ECT subclasses should rather be seen as the SEEA EEA recommendation on the concrete metrics to measure, than as a comprehensive classification for all possible metrics. The broad SEEA ECT classes can be considered universal across all biomes and ecosystem types, but the lower hierarchical levels of the SEEA ECT classification will necessarily have to be ecosystem type specific. No single set of metrics can suffice for all ecosystem types (<xref ref-type="bibr" rid="B5995722">Andreasen et al. 2001</xref>).</p>
+      <p>The standardisation of ecosystem accounts (<xref ref-type="bibr" rid="B5996237">Polasky et al. 2015</xref>, <xref ref-type="bibr" rid="B5996334">Steger et al. 2018</xref>) is not possible without a comprehensive and consistent (exhaustive and mutually exclusive) classification system of ecosystem characteristics and metrics. We think that the SEEA ECT typology offers a good compromise between conceptual clarity and practical usefulness. Its construction is closely linked to ecological theory (<xref ref-type="bibr" rid="B5995873">Harwell et al. 1999</xref>, <xref ref-type="bibr" rid="B5995722">Andreasen et al. 2001</xref>, <xref ref-type="bibr" rid="B5996201">Pereira et al. 2013</xref>), while the extendible hierarchical system makes it flexible and adaptable for all biomes and ecosystem types. This hierarchical structure also creates the foundations for aggregation, which is consistent across countries and biomes, thus making them comparable, which is necessary to maximise the utility of the SEEA EEA efforts for the UN community.</p>
+    </sec>
+    <sec sec-type="Disclaimer">
+      <title>Disclaimer</title>
+      <p>The System of Environmental Economic-Accounting – Experimental Ecosystem Accounting (SEEA EEA) is going through a revision process between 2018 and 2021. The revised SEEA EEA is expected to be adopted by the United Nations Statistical Commission in March 2021. This article is based on a discussion paper that contributed to the revision process. The views and opinions expressed in this article are those of the authors and do not necessarily reflect the official position of the SEEA EEA. Neither do these views reflect an official position of the European Commission.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="B5995722">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Andreasen</surname>
+              <given-names>James K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>O’Neill</surname>
+              <given-names>Robert V</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Noss</surname>
+              <given-names>Reed</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Slosser</surname>
+              <given-names>Nicholas C</given-names>
+            </name>
+          </person-group>
+          <year>2001</year>
+          <article-title>Considerations for the development of a terrestrial index of ecological integrity</article-title>
+          <source>Ecological Indicators</source>
+          <volume>1</volume>
+          <issue>1</issue>
+          <fpage>21</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.1016/s1470-160x(01)00007-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995731">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bland</surname>
+              <given-names>Lucie M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Watermeyer</surname>
+              <given-names>Kate E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>David A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Regan</surname>
+              <given-names>Tracey J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shannon</surname>
+              <given-names>Lynne J.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Assessing risks to marine ecosystems with indicators, ecosystem models and experts</article-title>
+          <source>Biological Conservation</source>
+          <volume>227</volume>
+          <fpage>19</fpage>
+          <lpage>28</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biocon.2018.08.019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995742">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Boyd</surname>
+              <given-names>James</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Banzhaf</surname>
+              <given-names>Spencer</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>What are ecosystem services? The need for standardized environmental accounting units</article-title>
+          <source>Ecological Economics</source>
+          <volume>63</volume>
+          <fpage>616</fpage>
+          <lpage>626</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2007.01.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995751">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Broszeit</surname>
+              <given-names>Stefanie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beaumont</surname>
+              <given-names>Nicola J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Uyarra</surname>
+              <given-names>Maria C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heiskanen</surname>
+              <given-names>Anna-Stiina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Frost</surname>
+              <given-names>Matthew</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Somerfield</surname>
+              <given-names>Paul J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rossberg</surname>
+              <given-names>Axel G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teixeira</surname>
+              <given-names>Heliana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Austen</surname>
+              <given-names>Melanie C.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>What can indicators of good environmental status tell us about ecosystem services?: Reducing efforts and increasing cost-effectiveness by reapplying biodiversity indicator data</article-title>
+          <source>Ecological Indicators</source>
+          <volume>81</volume>
+          <fpage>409</fpage>
+          <lpage>442</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2017.05.057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6078780">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>Bálint</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>Heather</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driver</surname>
+              <given-names>Amanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jackson</surname>
+              <given-names>Bethanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kiss</surname>
+              <given-names>Márton</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>Carl</given-names>
+            </name>
+          </person-group>
+          <year>in press</year>
+          <article-title>Selection criteria for ecosystem condition indicators</article-title>
+          <source>Ecological Indicators</source>
+        </element-citation>
+      </ref>
+      <ref id="B5995765">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>de Jong</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edens</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Leeuwen</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schenau</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Remme</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Ecosystem accounting Limburg Province, the Netherlands Part I: Physical supply and condition accounts</article-title>
+          <uri>https://www.wavespartnership.org/en/knowledge-center/ecosystem-accounting-limburg-province-netherlands-part-1-physical-supply-and</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6078767">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>DeLong</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>Defining biodiversity</article-title>
+          <source>Wildlife Society Bulletin</source>
+          <volume>24</volume>
+          <issue>4</issue>
+        </element-citation>
+      </ref>
+      <ref id="B5995775">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dudgeon</surname>
+              <given-names>David</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Prospects for sustaining freshwater biodiversity in the 21st century: linking ecosystem structure and function</article-title>
+          <source>Current Opinion in Environmental Sustainability</source>
+          <volume>2</volume>
+          <fpage>422</fpage>
+          <lpage>430</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cosust.2010.09.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995816">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meiner</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Berry</surname>
+              <given-names>P.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2016</year>
+          <article-title>Mapping and assessment of ecosystems and their services: Mapping and assessing the condition of Europe's ecosystems: Progress and challenges.</article-title>
+          <publisher-name>Publications Office of the European Union, Luxembourg</publisher-name>
+          <comment>3rd Report</comment>
+          <uri>http://catalogue.biodiversity.europa.eu/uploads/document/file/1328/3rdMAESReport_Condition.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5995825">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Faber-Langendoen</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hedge</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kost</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2012</year>
+          <article-title>Assessment of wetland ecosystem condition across landscape regions: A multi-metric approach, Part A.</article-title>
+          <publisher-name>NatureServe</publisher-name>
+          <uri>https://www.natureserve.org/biodiversity-science/publications/assessment-wetland-ecosystem-condition-across-landscape-regions</uri>
+        </element-citation>
+      </ref>
+      <ref id="B6071971">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Feest</surname>
+              <given-names>Alan</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Establishing baseline indices for the quality of the biodiversity of restored habitats using a standardized sampling process</article-title>
+          <source>Restoration Ecology</source>
+          <volume>14</volume>
+          <issue>1</issue>
+          <fpage>112</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1526-100x.2006.00112.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995833">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Flint</surname>
+              <given-names>Nicole</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rolfe</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>Catherine E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sellens</surname>
+              <given-names>Claire</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnston</surname>
+              <given-names>Nathan D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ukkola</surname>
+              <given-names>Luke</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>An Ecosystem Health Index for a large and variable river basin: Methodology, challenges and continuous improvement in Queensland’s Fitzroy Basin</article-title>
+          <source>Ecological Indicators</source>
+          <volume>73</volume>
+          <fpage>626</fpage>
+          <lpage>636</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2016.10.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995844">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Grobman</surname>
+              <given-names>A. B.</given-names>
+            </name>
+          </person-group>
+          <year>1964</year>
+          <source>BSCS Biology</source>
+          <publisher-name>Rutgers University Press</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5995852">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Haase</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tonkin</surname>
+              <given-names>Jonathan D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stoll</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burkhard</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Frenzel</surname>
+              <given-names>Mark</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geijzendorffer</surname>
+              <given-names>Ilse R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Häuser</surname>
+              <given-names>Christoph</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Klotz</surname>
+              <given-names>Stefan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kühn</surname>
+              <given-names>Ingolf</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McDowell</surname>
+              <given-names>William H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mirtl</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Müller</surname>
+              <given-names>Felix</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Musche</surname>
+              <given-names>Martin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Penner</surname>
+              <given-names>Johannes</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zacharias</surname>
+              <given-names>Steffen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schmeller</surname>
+              <given-names>Dirk S.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The next generation of site-based long-term ecological monitoring: Linking essential biodiversity variables and ecosystem integrity</article-title>
+          <source>Science of The Total Environment</source>
+          <fpage>1376</fpage>
+          <lpage>1384</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2017.08.111</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995873">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Harwell</surname>
+              <given-names>Mark A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Myers</surname>
+              <given-names>Victoria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Young</surname>
+              <given-names>Terry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bartuska</surname>
+              <given-names>Ann</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gassman</surname>
+              <given-names>Nancy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gentile</surname>
+              <given-names>John H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harwell</surname>
+              <given-names>Christine C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Appelbaum</surname>
+              <given-names>Stuart</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barko</surname>
+              <given-names>John</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Causey</surname>
+              <given-names>Billy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Johnson</surname>
+              <given-names>Christine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McLean</surname>
+              <given-names>Agnes</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smola</surname>
+              <given-names>Ron</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Templet</surname>
+              <given-names>Paul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tosini</surname>
+              <given-names>Stephen</given-names>
+            </name>
+          </person-group>
+          <year>1999</year>
+          <article-title>A framework for an ecosystem integrity report card</article-title>
+          <source>BioScience</source>
+          <volume>49</volume>
+          <issue>7</issue>
+          <fpage>543</fpage>
+          <lpage>556</lpage>
+          <pub-id pub-id-type="doi">10.2307/1313475</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995893">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Heink</surname>
+              <given-names>Ulrich</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jax</surname>
+              <given-names>Kurt</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Going upstream — How the purpose of a conceptual framework for ecosystem services determines its structure</article-title>
+          <source>Ecological Economics</source>
+          <volume>156</volume>
+          <fpage>264</fpage>
+          <lpage>271</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2018.10.009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995902">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kandziora</surname>
+              <given-names>Marion</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burkhard</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Müller</surname>
+              <given-names>Felix</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Interactions of ecosystem properties, ecosystem integrity and ecosystem service indicators—A theoretical matrix exercise</article-title>
+          <source>Ecological Indicators</source>
+          <volume>28</volume>
+          <fpage>54</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2012.09.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995923">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>David A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrer</surname>
+              <given-names>Jose R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020b</year>
+          <article-title>The IUCN Global Ecosystem Typology v1.01: Descriptive profiles for Biomes and Ecosystem Functional Groups, IUCN CEM, February 2020.</article-title>
+          <publisher-name>IUCN</publisher-name>
+          <uri>https://iucnrle.org/static/media/uploads/references/research-development/keith_etal_iucnglobalecosystemtypology_v1.01.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5995911">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>H</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jackson</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driver</surname>
+              <given-names>A</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>The purpose, role and reporting of ecosystem condition accounts</article-title>
+          <source>One Ecosystem</source>
+          <issue>this special issue</issue>
+        </element-citation>
+      </ref>
+      <ref id="B5995931">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kissling</surname>
+              <given-names>W. Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ahumada</surname>
+              <given-names>Jorge A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bowser</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernandez</surname>
+              <given-names>Miguel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fernández</surname>
+              <given-names>Néstor</given-names>
+            </name>
+            <name name-style="western">
+              <surname>García</surname>
+              <given-names>Enrique Alonso</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Guralnick</surname>
+              <given-names>Robert P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Isaac</surname>
+              <given-names>Nick J. B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kelling</surname>
+              <given-names>Steve</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Los</surname>
+              <given-names>Wouter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McRae</surname>
+              <given-names>Louise</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mihoub</surname>
+              <given-names>Jean-Baptiste</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>Matthias</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santamaria</surname>
+              <given-names>Monica</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Skidmore</surname>
+              <given-names>Andrew K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Williams</surname>
+              <given-names>Kristen J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Agosti</surname>
+              <given-names>Donat</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Amariles</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Arvanitidis</surname>
+              <given-names>Christos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bastin</surname>
+              <given-names>Lucy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Leo</surname>
+              <given-names>Francesca</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egloff</surname>
+              <given-names>Willi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elith</surname>
+              <given-names>Jane</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hobern</surname>
+              <given-names>Donald</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martin</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names>Henrique M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pesole</surname>
+              <given-names>Graziano</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Peterseil</surname>
+              <given-names>Johannes</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Saarenmaa</surname>
+              <given-names>Hannu</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schigel</surname>
+              <given-names>Dmitry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schmeller</surname>
+              <given-names>Dirk S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Segata</surname>
+              <given-names>Nicola</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Turak</surname>
+              <given-names>Eren</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Uhlir</surname>
+              <given-names>Paul F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wee</surname>
+              <given-names>Brian</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hardisty</surname>
+              <given-names>Alex R.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Building essential biodiversity variables (EBVs) of species distribution and abundance at a global scale</article-title>
+          <source>Biological Reviews</source>
+          <volume>93</volume>
+          <issue>1</issue>
+          <fpage>600</fpage>
+          <lpage>625</lpage>
+          <pub-id pub-id-type="doi">10.1111/brv.12359</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995972">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>D’Amato</surname>
+              <given-names>Dalia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mäkinen</surname>
+              <given-names>Hanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria Luisa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liquete</surname>
+              <given-names>Camino</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egoh</surname>
+              <given-names>Benis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geneletti</surname>
+              <given-names>Davide</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crossman</surname>
+              <given-names>Neville D.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Ecosystem services classification: A systems ecology perspective of the cascade framework</article-title>
+          <source>Ecological Indicators</source>
+          <volume>74</volume>
+          <fpage>392</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2016.11.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995985">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rhodes</surname>
+              <given-names>Charles</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>The theoretical frameworks behind integrated environmental, ecosystem, and economic accounting systems and their classifications</article-title>
+          <source>Environmental Impact Assessment Review</source>
+          <volume>80</volume>
+          <pub-id pub-id-type="doi">10.1016/j.eiar.2019.106317</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5995994">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Mace</surname>
+              <given-names>Georgina M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Norris</surname>
+              <given-names>Ken</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fitter</surname>
+              <given-names>Alastair H.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Biodiversity and ecosystem services: a multilayered relationship</article-title>
+          <source>Trends in Ecology &amp; Evolution</source>
+          <volume>27</volume>
+          <issue>1</issue>
+          <fpage>19</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tree.2011.08.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996057">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2014</year>
+          <source>Mapping and assessment of ecosystems and their services: Indicators for ecosystem assessments under Action 5 of the EU Biodiversity Strategy to 2020</source>
+          <edition>2nd Report</edition>
+          <publisher-name>Publications office of the European Union</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5996065">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2018</year>
+          <source>Mapping and assessment of ecosystems and their services: An analytical framework for ecosystem condition</source>
+          <publisher-name>Publications Office of the European Union</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B5996073">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Driver</surname>
+              <given-names>Amanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>Bálint</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Keith</surname>
+              <given-names>Heather</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jackson</surname>
+              <given-names>Bethanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nicholson</surname>
+              <given-names>Emily</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dasoo</surname>
+              <given-names>Malik</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>A review of ecosystem condition accounts: lessons learned and options for further development</article-title>
+          <source>One Ecosystem</source>
+          <volume>5</volume>
+          <pub-id pub-id-type="doi">10.3897/oneeco.5.e53485</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996085">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Moriarty</surname>
+              <given-names>P. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hodgson</surname>
+              <given-names>E. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Froehlich</surname>
+              <given-names>H. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hennessey</surname>
+              <given-names>S. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marshall</surname>
+              <given-names>K. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Oken</surname>
+              <given-names>K. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Siple</surname>
+              <given-names>M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ko</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koehn</surname>
+              <given-names>L. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pierce</surname>
+              <given-names>B. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stawitz</surname>
+              <given-names>C. C.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The need for validation of ecological indices</article-title>
+          <source>Ecological Indicators</source>
+          <volume>84</volume>
+          <fpage>546</fpage>
+          <lpage>552</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2017.09.028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996101">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Müller</surname>
+              <given-names>Felix</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Indicating ecosystem and landscape organisation</article-title>
+          <source>Ecological Indicators</source>
+          <volume>5</volume>
+          <issue>4</issue>
+          <fpage>280</fpage>
+          <lpage>294</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2005.03.017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996110">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Noss</surname>
+              <given-names>Reed F.</given-names>
+            </name>
+          </person-group>
+          <year>1990</year>
+          <article-title>Indicators for monitoring biodiversity: A hierarchical approach</article-title>
+          <source>Conservation Biology</source>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>355</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1523-1739.1990.tb00309.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996119">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edens</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Ecosystem services: Accounting standards</article-title>
+          <source>Science</source>
+          <volume>342</volume>
+          <issue>6157</issue>
+          <fpage>420</fpage>
+          <lpage>420</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.342.6157.420-a</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996128">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>Carl</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>Lars</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Edens</surname>
+              <given-names>Bram</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>National accounting and the valuation of ecosystem assets and their services</article-title>
+          <source>Environmental and Resource Economics</source>
+          <volume>64</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10640-015-9921-1</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996137">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Statistics</surname>
+              <given-names>Office for National</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Scoping UK coastal margin ecosystem accounts</article-title>
+          <uri>https://www.ons.gov.uk/economy/environmentalaccounts/methodologies/scopingukcoastalmarginecosystemaccounts</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5996163">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Statistics</surname>
+              <given-names>Office for National</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>UK natural capital: ecosystem accounts for urban areas: Initial natural capital accounts containing information about green space in urban areas</article-title>
+          <uri>https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/uknaturalcapital/ecosystemaccountsforurbanareas</uri>
+        </element-citation>
+      </ref>
+      <ref id="B5996171">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Okey</surname>
+              <given-names>Thomas A.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Indicators of marine ecosystem integrity for Canada's Pacific: An expert-based hierarchical approach</article-title>
+          <source>Science of The Total Environment</source>
+          <volume>645</volume>
+          <fpage>1114</fpage>
+          <lpage>1125</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.scitotenv.2018.07.184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6302199">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pagella</surname>
+              <given-names>T. F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sinclair</surname>
+              <given-names>F. L.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Development and use of a typology of mapping tools to assess their fitness for supporting management of ecosystem service provision</article-title>
+          <source>Landscape Ecology</source>
+          <volume>29</volume>
+          <fpage>383</fpage>
+          <lpage>399</lpage>
+          <pub-id pub-id-type="doi">10.1007/s10980-013-9983-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996193">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Parrochia</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Classification. In: The Internet Encyclopedia of Philosophy (ISSN 2161-0002)</article-title>
+          <uri>https://www.iep.utm.edu/classifi</uri>
+          <date-in-citation content-type="access-date">2019-05-30T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B5996201">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names>H. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrier</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walters</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Geller</surname>
+              <given-names>G. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jongman</surname>
+              <given-names>R. H. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scholes</surname>
+              <given-names>R. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bruford</surname>
+              <given-names>M. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Brummitt</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Butchart</surname>
+              <given-names>S. H. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>A. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coops</surname>
+              <given-names>N. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dulloo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Faith</surname>
+              <given-names>D. P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Freyhof</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gregory</surname>
+              <given-names>R. D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Heip</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hoft</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hurtt</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jetz</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Karp</surname>
+              <given-names>D. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McGeoch</surname>
+              <given-names>M. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obura</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Onoda</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pettorelli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reyers</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sayre</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scharlemann</surname>
+              <given-names>J. P. W.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stuart</surname>
+              <given-names>S. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Turak</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walpole</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wegmann</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Essential Biodiversity Variables</article-title>
+          <source>Science</source>
+          <volume>339</volume>
+          <issue>6117</issue>
+          <fpage>277</fpage>
+          <lpage>278</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1229931</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996237">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Polasky</surname>
+              <given-names>Stephen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tallis</surname>
+              <given-names>Heather</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Reyers</surname>
+              <given-names>Belinda</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Setting the bar: Standards for ecosystem services</article-title>
+          <source>Proceedings of the National Academy of Sciences</source>
+          <volume>112</volume>
+          <issue>24</issue>
+          <fpage>7356</fpage>
+          <lpage>7361</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1406490112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996246">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rendon</surname>
+              <given-names>Paula</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Burkhard</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Analysis of trends in mapping and assessment of ecosystem condition in Europe</article-title>
+          <source>Ecosystems and People</source>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>156</fpage>
+          <lpage>172</lpage>
+          <pub-id pub-id-type="doi">10.1080/26395916.2019.1609581</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996255">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Santos-Martín</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zorrilla-Miras</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Palomo</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Montes</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Benayas</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Protecting nature is necessary but not sufficient for conserving ecosystem services: A comprehensive assessment along a gradient of land-use intensity in Spain</article-title>
+          <source>Ecosystem Services</source>
+          <volume>35</volume>
+          <fpage>43</fpage>
+          <lpage>51</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2018.11.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996266">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schoolmaster</surname>
+              <given-names>Donald R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grace</surname>
+              <given-names>James B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>William Schweiger</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>A general theory of multimetric indices and their properties</article-title>
+          <source>Methods in Ecology and Evolution</source>
+          <volume>3</volume>
+          <issue>4</issue>
+          <fpage>773</fpage>
+          <lpage>781</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.2041-210x.2012.00200.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996275">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Schwarz</surname>
+              <given-names>Nina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moretti</surname>
+              <given-names>Marco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bugalho</surname>
+              <given-names>Miguel N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davies</surname>
+              <given-names>Zoe G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haase</surname>
+              <given-names>Dagmar</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hack</surname>
+              <given-names>Jochen</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hof</surname>
+              <given-names>Angela</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Melero</surname>
+              <given-names>Yolanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pett</surname>
+              <given-names>Tristan J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Knapp</surname>
+              <given-names>Sonja</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Understanding biodiversity-ecosystem service relationships in urban areas: A comprehensive literature review</article-title>
+          <source>Ecosystem Services</source>
+          <volume>27</volume>
+          <fpage>161</fpage>
+          <lpage>171</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2017.08.014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996290">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Smith</surname>
+              <given-names>A. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Harrison</surname>
+              <given-names>P. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pérez Soba</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Archaux</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Blicharska</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egoh</surname>
+              <given-names>B. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erős</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fabrega Domenech</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>György</surname>
+              <given-names>Á. I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Haines-Young</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Li</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lommelen</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meiresonne</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Miguel Ayala</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mononen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Simpson</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Stange</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Turkelboom</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Uiterwijk</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Veerkamp</surname>
+              <given-names>C. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wyllie de Echeverria</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>How natural capital delivers ecosystem services: A typology derived from a systematic review</article-title>
+          <source>Ecosystem Services</source>
+          <volume>26</volume>
+          <fpage>111</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2017.06.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996316">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Star</surname>
+              <given-names>Susan Leigh</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Griesemer</surname>
+              <given-names>James R.</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <article-title>Institutional ecology, `translations' and boundary objects: Amateurs and professionals in Berkeley's Museum of Vertebrate Zoology, 1907-39</article-title>
+          <source>Social Studies of Science</source>
+          <volume>19</volume>
+          <issue>3</issue>
+          <fpage>387</fpage>
+          <lpage>420</lpage>
+          <pub-id pub-id-type="doi">10.1177/030631289019003001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996334">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Steger</surname>
+              <given-names>Cara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hirsch</surname>
+              <given-names>Shana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Evers</surname>
+              <given-names>Cody</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Branoff</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petrova</surname>
+              <given-names>Maria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nielsen-Pincus</surname>
+              <given-names>Max</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wardropper</surname>
+              <given-names>Chloe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Riper</surname>
+              <given-names>Carena J.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Ecosystem services as boundary objects for transdisciplinary collaboration</article-title>
+          <source>Ecological Economics</source>
+          <volume>143</volume>
+          <fpage>153</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2017.07.016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5996356">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tierney</surname>
+              <given-names>Geraldine L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Faber-Langendoen</surname>
+              <given-names>Don</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Mitchell</surname>
+              <given-names>Brian R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Shriver</surname>
+              <given-names>W Gregory</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gibbs</surname>
+              <given-names>James P</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Monitoring and evaluating the ecological integrity of forest ecosystems</article-title>
+          <source>Frontiers in Ecology and the Environment</source>
+          <volume>7</volume>
+          <issue>6</issue>
+          <fpage>308</fpage>
+          <lpage>316</lpage>
+          <pub-id pub-id-type="doi">10.1890/070176</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6071994">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>(UN)</surname>
+              <given-names>United Nations</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Union</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>Food and Agriculture Organization of the United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fund</surname>
+              <given-names>International Monetary</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>The World</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <source>System of Environmental-Economic Accounting 2012: Central Framework</source>
+          <publisher-name>United Nations</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">378</size>
+        </element-citation>
+      </ref>
+      <ref id="B5996366">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>(UN)</surname>
+              <given-names>United Nations</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Union</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>Food and Agriculture Organization of the United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bank</surname>
+              <given-names>World</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>System of Environmental-Economic Accounting 2012 — Experimental Ecosystem Accounting</source>
+          <publisher-name>United Nations</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">198</size>
+          <isbn>978-92-1-161575-3</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5996375">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>(UN)</surname>
+              <given-names>United Nations</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>Technical Recommendations in Support of the System of Environmental-Economic Accounting 2012 – Experimental Ecosystem Accounting</source>
+          <publisher-name>United Nations</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">209</size>
+          <isbn>978-92-1-161634-7</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B5996383">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kakoulaki</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kamberaj</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robert</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dottori</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Feyen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rega</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Ecosystem services accounting—Part II Pilot accounts for crop and timber provision, global climate regulation and flood control</article-title>
+          <publisher-name>Publications Office of the European Union</publisher-name>
+          <comment>JRC116334 EUR - Scientific and Technical Research Reports</comment>
+          <pub-id pub-id-type="doi">10.2760/631588</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6071753">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>White</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dunscombe</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dvarskas</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Eves</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Finisdore</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kieboom</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maclean</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Obst</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rowcroft</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Silcock</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Developing ecosystem accounts for protected areas in England and Scotland: Main Report</article-title>
+          <source>Department for Food, Environment &amp; Rural Affairs/The Scottish Government</source>
+          <volume>London</volume>
+        </element-citation>
+      </ref>
+      <ref id="B5996425">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>M. -L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liquete</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>ESTIMAP: Ecosystem services mapping at European scale</article-title>
+          <publisher-name>Publications Office of the European Union</publisher-name>
+          <comment>JRC87585 EUR - Scientific and Technical Research Reports</comment>
+          <uri>http://publications.jrc.ec.europa.eu/repository/handle/111111111/30410</uri>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F5995473" position="float" orientation="portrait">
+      <object-id content-type="arpha">EF0F8A2C-5691-5D8F-A51C-D0E7BD33EBC9</object-id>
+      <object-id content-type="doi">10.3897/oneeco.5.e58218.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p><bold>The prevalence of SEEA ECT classes in existing condition accounts</bold>. The length of the bars shows the number of "case studies" (from <xref ref-type="bibr" rid="B5996073">Maes et al. 2020</xref>) which apply condition indicators that fall into the studied type (see also Suppl. material <xref ref-type="supplementary-material" rid="S6094082">2</xref> for more details).</p>
+      </caption>
+      <graphic xlink:href="oneeco-06-e58218-g001.png" position="float" id="oo_463557.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/463557</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T5995154" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>The SEEA EEA Ecosystem Condition Typology (SEEA ECT) for ecosystem accounting.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="2">
+              <bold>SEEA ECT groups and classes</bold>
+            </td>
+            <td rowspan="1" colspan="1"><bold>Prototype classifications</bold>*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="2">
+              <italic>Group A: Abiotic ecosystem characteristics</italic>
+            </td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"><bold>Class A1. Physical state characteristics</bold>: physical descriptors of the abiotic components of the ecosystem(e.g. soil structure, water availability)</td>
+            <td rowspan="1" colspan="1">(EEC, EI)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"><bold>Class A2. Chemical state characteristics</bold>: chemical composition of abiotic ecosystem compartments (e.g. soil nutrient levels, water quality, air pollutant concentrations)</td>
+            <td rowspan="1" colspan="1">(EEC, EI)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="2">
+              <italic>Group B: Biotic ecosystem characteristics</italic>
+            </td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"><bold>Class B1. Compositional state characteristics</bold>: composition / diversity of ecological communities at a given location and time (e.g. presence / abundance of key species, diversity of relevant species groups)</td>
+            <td rowspan="1" colspan="1">EEC, EI (EBV)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"><bold>Class B2. Structural state characteristics</bold>: aggregate properties (e.g. mass, density) of the whole ecosystem or its main biotic components (e.g. total biomass, canopy coverage, chlorophyll content, annual maximum NDVI)</td>
+            <td rowspan="1" colspan="1">EI, EBV (EEC)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"><bold>Class B3. Functional state characteristics</bold>: summary statistics (e.g. frequency, intensity) of the biological, chemical and physical interactions between the main ecosystem compartments (e.g. primary productivity, community age, disturbance frequency)</td>
+            <td rowspan="1" colspan="1">(EEC, EI, EBV)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="2">
+              <italic>Group C: Landscape level characteristics</italic>
+            </td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"><bold>Class C1. Landscape and seascape characteristics</bold>: metrics describing mosaics of ecosystem types at coarse (landscape, seascape) spatial scales (e.g. landscape diversity, connectivity, fragmentation)</td>
+            <td rowspan="1" colspan="1">EI (EEC)</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <p>*<italic>The 'degree of support' in the three selected prototype classifications (EEC: Harwell et al. 1999; EI: Andreasen et al. 2001; EBV: Pereira et al. 2013) as 'one-to-one' relationships for each ECT class (with one-to-many relationships indicated in parentheses). A full crosswalk can be found in Suppl. material <xref ref-type="supplementary-material" rid="S6094081">1</xref>.</italic></p>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="T5995158" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Potential overlaps in the SEEA ECT classes.</p>
+      </caption>
+      <table rules="all">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>SEEA ECT classes involved</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Characteristics affected</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">A1, A2</td>
+            <td rowspan="1" colspan="1">‘physicochemical’ characteristics that can be considered either physical or chemical (e.g. salinity, soil organic carbon)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">A1, B2, B3</td>
+            <td rowspan="1" colspan="1">the amount of recently living organic material (e.g. litter, dead wood)*</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">B1, B2</td>
+            <td rowspan="1" colspan="1">presence/abundance of species groups coinciding with major ecosystem compartments (e.g. corals on a reef, trees on a savannah)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">B1, B3</td>
+            <td rowspan="1" colspan="1">presence/abundance/diversity of a species group with a strong functional role (e.g. pollinators, N-fixers)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">B2, C1</td>
+            <td rowspan="1" colspan="1">abundance or spatial pattern (e.g. connectivity) of subtypes in an ecosystem type, which itself is a ‘mosaic’ (e.g. semi-natural vegetation fragments in croplands, urban green spaces)</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <p>* "Undecayed and untransported" ('recently living’) organic material is sometimes considered as biotic (e.g. <xref ref-type="bibr" rid="B5995844">Grobman 1964</xref>, <xref ref-type="bibr" rid="B5995816">Erhard et al. 2016</xref>) sometimes as abiotic material (e.g. <xref ref-type="bibr" rid="B6078767">DeLong 1996</xref>).</p>
+      </table-wrap-foot>
+    </table-wrap>
+    <supplementary-material id="S6094081" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">94387227-8EF7-5942-BE5A-8DF567727215</object-id>
+      <object-id content-type="doi">10.3897/oneeco.5.e58218.suppl1</object-id>
+      <label>Supplementary material 1</label>
+      <caption>
+        <p>A crosswalk between the SEEA ECT classes and further relevant classifications for ecosystem condition variables / characteristics</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Tables</p>
+      </statement>
+      <p>File: oo_467558.pdf</p>
+      <media xlink:href="oneeco-06-e58218-s001.pdf" mimetype="Adobe Acrobat Document" mime-subtype="pdf" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/467558</uri>
+      </media>
+      <attrib specific-use="authors">Bálint Czúcz, Heather Keith, Amanda Driver, Bethanna Jackson, Emily Nicholson, Joachim Maes</attrib>
+    </supplementary-material>
+    <supplementary-material id="S6094082" orientation="portrait" position="float" xlink:type="simple">
+      <object-id content-type="arpha">4A8BD48B-2A4D-5DB4-99BA-B1F7870C1501</object-id>
+      <object-id content-type="doi">10.3897/oneeco.5.e58218.suppl2</object-id>
+      <label>Supplementary material 2</label>
+      <caption>
+        <p>Linking the indicators used in the accounting case studies reviewed by Maes et al. (2020) to SEEA ECT classes</p>
+      </caption>
+      <statement content-type="dataType">
+        <label>Data type</label>
+        <p>Table</p>
+      </statement>
+      <p>File: oo_467559.pdf</p>
+      <media xlink:href="oneeco-06-e58218-s002.pdf" mimetype="Adobe Acrobat Document" mime-subtype="pdf" position="float" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/file/467559</uri>
+      </media>
+      <attrib specific-use="authors">Bálint Czúcz, Heather Keith, Amanda Driver, Bethanna Jackson, Emily Nicholson, Joachim Maes</attrib>
+    </supplementary-material>
+  </floats-group>
+</article>

@@ -1,0 +1,1963 @@
+{
+  "metadata": {
+    "purpose": "Country-language-aware conservative keyword configuration for assessing SEEA account availability from downloaded official files.",
+    "research_use_note": "This file is designed for transparent, reproducible screening. It should be described as a conservative dictionary-based text-mining instrument, not as a certified legal or linguistic translation standard.",
+    "matching_principle": "A generated keyword should combine an account/accounting term with an SEEA account topic. Topic-only words such as water, energy, forest, land, carbon, ocean, species, taxes, or subsidies should not be used alone as availability evidence.",
+    "country_language_scope": "Every country in the 2024 Global Assessment sheet is mapped to English plus the main official or commonly used statistical-publication language(s). English is intentionally retained for all countries where national statistical offices commonly publish English pages or metadata.",
+    "translation_scope": "Account/accounting words are provided for every language listed in country_languages. Topic translations are complete for English, Spanish, French, and Portuguese, broad for German and several European languages, and intentionally partial for languages where unvalidated literal translation could reduce research reliability.",
+    "justification": "For research publication, report that the method uses exact and generated account-name phrases, preserves all generated phrases in the keyword_dictionary output sheet, logs file-read failures, and treats uncertain or topic-only matches as not available.",
+    "recommended_validation": "Manually review availability_evidence and keyword_dictionary for high-impact findings, especially nonreport_avail = 1, before using results as final analytical claims."
+  },
+  "country_languages": {
+    "Albania": [
+      "Albanian",
+      "English"
+    ],
+    "Argentina": [
+      "Spanish",
+      "English"
+    ],
+    "Armenia": [
+      "Armenian",
+      "Russian",
+      "English"
+    ],
+    "Australia": [
+      "English"
+    ],
+    "Austria": [
+      "German",
+      "English"
+    ],
+    "Azerbaijan": [
+      "Azerbaijani",
+      "Russian",
+      "English"
+    ],
+    "Bangladesh": [
+      "Bengali",
+      "English"
+    ],
+    "Belarus": [
+      "Belarusian",
+      "Russian",
+      "English"
+    ],
+    "Belgium": [
+      "Dutch",
+      "French",
+      "German",
+      "English"
+    ],
+    "Benin": [
+      "French",
+      "English"
+    ],
+    "Bhutan": [
+      "English"
+    ],
+    "Bosnia and Herzegovina": [
+      "Bosnian",
+      "Croatian",
+      "Serbian",
+      "English"
+    ],
+    "Brazil": [
+      "Portuguese",
+      "English"
+    ],
+    "Bulgaria": [
+      "Bulgarian",
+      "English"
+    ],
+    "Burkina Faso": [
+      "French",
+      "English"
+    ],
+    "Burundi": [
+      "French",
+      "English"
+    ],
+    "Cabo Verde": [
+      "Portuguese",
+      "English"
+    ],
+    "Cameroon": [
+      "French",
+      "English"
+    ],
+    "Canada": [
+      "English",
+      "French"
+    ],
+    "Central African Republic": [
+      "French",
+      "English"
+    ],
+    "Chile": [
+      "Spanish",
+      "English"
+    ],
+    "China": [
+      "Chinese",
+      "English"
+    ],
+    "Colombia": [
+      "Spanish",
+      "English"
+    ],
+    "Congo": [
+      "French",
+      "English"
+    ],
+    "Costa Rica": [
+      "Spanish",
+      "English"
+    ],
+    "Croatia": [
+      "Croatian",
+      "English"
+    ],
+    "Cyprus": [
+      "Greek",
+      "Turkish",
+      "English"
+    ],
+    "Czechia": [
+      "Czech",
+      "English"
+    ],
+    "Denmark": [
+      "Danish",
+      "English"
+    ],
+    "Dominican Republic": [
+      "Spanish",
+      "English"
+    ],
+    "Ecuador": [
+      "Spanish",
+      "English"
+    ],
+    "Egypt": [
+      "Arabic",
+      "English"
+    ],
+    "Estonia": [
+      "Estonian",
+      "English"
+    ],
+    "Ethiopia": [
+      "English",
+      "Amharic"
+    ],
+    "Fiji": [
+      "English"
+    ],
+    "Finland": [
+      "Finnish",
+      "Swedish",
+      "English"
+    ],
+    "France": [
+      "French",
+      "English"
+    ],
+    "Georgia": [
+      "Georgian",
+      "English"
+    ],
+    "Germany": [
+      "German",
+      "English"
+    ],
+    "Ghana": [
+      "English"
+    ],
+    "Greece": [
+      "Greek",
+      "English"
+    ],
+    "Grenada": [
+      "English"
+    ],
+    "Guatemala": [
+      "Spanish",
+      "English"
+    ],
+    "Guinea": [
+      "French",
+      "English"
+    ],
+    "Honduras": [
+      "Spanish",
+      "English"
+    ],
+    "Hungary": [
+      "Hungarian",
+      "English"
+    ],
+    "Iceland": [
+      "Icelandic",
+      "English"
+    ],
+    "India": [
+      "English",
+      "Hindi"
+    ],
+    "Indonesia": [
+      "Indonesian",
+      "English"
+    ],
+    "Iraq": [
+      "Arabic",
+      "Kurdish",
+      "English"
+    ],
+    "Ireland": [
+      "English"
+    ],
+    "Israel": [
+      "Hebrew",
+      "Arabic",
+      "English"
+    ],
+    "Italy": [
+      "Italian",
+      "English"
+    ],
+    "Jamaica": [
+      "English"
+    ],
+    "Japan": [
+      "Japanese",
+      "English"
+    ],
+    "Jordan": [
+      "Arabic",
+      "English"
+    ],
+    "Kazakhstan": [
+      "Kazakh",
+      "Russian",
+      "English"
+    ],
+    "Kenya": [
+      "English"
+    ],
+    "Lao People's Democratic Republic": [
+      "Lao",
+      "English"
+    ],
+    "Latvia": [
+      "Latvian",
+      "English"
+    ],
+    "Lesotho": [
+      "English"
+    ],
+    "Liechtenstein": [
+      "German",
+      "English"
+    ],
+    "Lithuania": [
+      "Lithuanian",
+      "English"
+    ],
+    "Luxembourg": [
+      "French",
+      "German",
+      "English"
+    ],
+    "Malawi": [
+      "English"
+    ],
+    "Maldives": [
+      "English"
+    ],
+    "Mali": [
+      "French",
+      "English"
+    ],
+    "Malta": [
+      "English"
+    ],
+    "Mauritius": [
+      "English",
+      "French"
+    ],
+    "Mexico": [
+      "Spanish",
+      "English"
+    ],
+    "Mongolia": [
+      "Mongolian",
+      "English"
+    ],
+    "Montserrat": [
+      "English"
+    ],
+    "Morocco": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "Mozambique": [
+      "Portuguese",
+      "English"
+    ],
+    "Myanmar": [
+      "Burmese",
+      "English"
+    ],
+    "Namibia": [
+      "English"
+    ],
+    "Nepal": [
+      "Nepali",
+      "English"
+    ],
+    "Netherlands": [
+      "Dutch",
+      "English"
+    ],
+    "New Zealand": [
+      "English"
+    ],
+    "Nigeria": [
+      "English"
+    ],
+    "North Macedonia": [
+      "Macedonian",
+      "English"
+    ],
+    "Norway": [
+      "Norwegian",
+      "English"
+    ],
+    "Oman": [
+      "Arabic",
+      "English"
+    ],
+    "Panama": [
+      "Spanish",
+      "English"
+    ],
+    "Peru": [
+      "Spanish",
+      "English"
+    ],
+    "Philippines": [
+      "English"
+    ],
+    "Poland": [
+      "Polish",
+      "English"
+    ],
+    "Portugal": [
+      "Portuguese",
+      "English"
+    ],
+    "Qatar": [
+      "Arabic",
+      "English"
+    ],
+    "Republic of Korea": [
+      "Korean",
+      "English"
+    ],
+    "Republic of Moldova": [
+      "Romanian",
+      "Russian",
+      "English"
+    ],
+    "Romania": [
+      "Romanian",
+      "English"
+    ],
+    "Russian Federation": [
+      "Russian",
+      "English"
+    ],
+    "Rwanda": [
+      "English",
+      "French"
+    ],
+    "Samoa": [
+      "English"
+    ],
+    "Saudi Arabia": [
+      "Arabic",
+      "English"
+    ],
+    "Senegal": [
+      "French",
+      "English"
+    ],
+    "Serbia": [
+      "Serbian",
+      "English"
+    ],
+    "Seychelles": [
+      "English",
+      "French"
+    ],
+    "Singapore": [
+      "English"
+    ],
+    "Slovakia": [
+      "Slovak",
+      "English"
+    ],
+    "Slovenia": [
+      "Slovenian",
+      "English"
+    ],
+    "South Africa": [
+      "English"
+    ],
+    "Spain": [
+      "Spanish",
+      "English"
+    ],
+    "State of Palestine": [
+      "Arabic",
+      "English"
+    ],
+    "Sweden": [
+      "Swedish",
+      "English"
+    ],
+    "Switzerland": [
+      "German",
+      "French",
+      "Italian",
+      "English"
+    ],
+    "Thailand": [
+      "Thai",
+      "English"
+    ],
+    "Tonga": [
+      "English"
+    ],
+    "Tunisia": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "Türkiye": [
+      "Turkish",
+      "English"
+    ],
+    "Uganda": [
+      "English"
+    ],
+    "Ukraine": [
+      "Ukrainian",
+      "Russian",
+      "English"
+    ],
+    "United Kingdom of Great Britain and Northern Ireland": [
+      "English"
+    ],
+    "United Republic of Tanzania": [
+      "English"
+    ],
+    "United States of America": [
+      "English"
+    ],
+    "Uruguay": [
+      "Spanish",
+      "English"
+    ],
+    "Vanuatu": [
+      "English",
+      "French"
+    ],
+    "Viet Nam": [
+      "Vietnamese",
+      "English"
+    ],
+    "Zambia": [
+      "English"
+    ]
+  },
+  "account_words_by_language": {
+    "English": [
+      "account",
+      "accounts",
+      "accounting"
+    ],
+    "Spanish": [
+      "cuenta",
+      "cuentas",
+      "contabilidad"
+    ],
+    "French": [
+      "compte",
+      "comptes",
+      "comptabilite",
+      "comptabilité"
+    ],
+    "Portuguese": [
+      "conta",
+      "contas",
+      "contabilidade"
+    ],
+    "German": [
+      "rechnung",
+      "rechnungen",
+      "gesamtrechnung",
+      "konten"
+    ],
+    "Dutch": [
+      "rekening",
+      "rekeningen"
+    ],
+    "Italian": [
+      "conto",
+      "conti",
+      "contabilita",
+      "contabilità"
+    ],
+    "Indonesian": [
+      "neraca",
+      "akun"
+    ],
+    "Russian": [
+      "счет",
+      "счета",
+      "учет"
+    ],
+    "Turkish": [
+      "hesap",
+      "hesaplar",
+      "muhasebe"
+    ],
+    "Arabic": [
+      "حساب",
+      "حسابات"
+    ],
+    "Chinese": [
+      "账户",
+      "核算"
+    ],
+    "Japanese": [
+      "勘定",
+      "会計"
+    ],
+    "Korean": [
+      "계정",
+      "회계"
+    ],
+    "Polish": [
+      "rachunek",
+      "rachunki",
+      "rachunkowość"
+    ],
+    "Czech": [
+      "účet",
+      "účty",
+      "účetnictví"
+    ],
+    "Slovak": [
+      "účet",
+      "účty",
+      "účtovníctvo"
+    ],
+    "Slovenian": [
+      "račun",
+      "računi",
+      "računovodstvo"
+    ],
+    "Croatian": [
+      "račun",
+      "računi",
+      "računovodstvo"
+    ],
+    "Serbian": [
+      "рачун",
+      "рачуни",
+      "рачуноводство",
+      "račun",
+      "računi"
+    ],
+    "Romanian": [
+      "cont",
+      "conturi",
+      "contabilitate"
+    ],
+    "Bulgarian": [
+      "сметка",
+      "сметки",
+      "отчитане"
+    ],
+    "Hungarian": [
+      "számla",
+      "számlák",
+      "elszámolás"
+    ],
+    "Danish": [
+      "regnskab",
+      "regnskaber"
+    ],
+    "Norwegian": [
+      "regnskap"
+    ],
+    "Swedish": [
+      "räkenskap",
+      "räkenskaper",
+      "redovisning"
+    ],
+    "Finnish": [
+      "tilinpito",
+      "tilit"
+    ],
+    "Greek": [
+      "λογαριασμός",
+      "λογαριασμοί",
+      "λογιστική"
+    ],
+    "Hebrew": [
+      "חשבונות",
+      "חשבונאות"
+    ],
+    "Hindi": [
+      "लेखा",
+      "लेखांकन"
+    ],
+    "Thai": [
+      "บัญชี",
+      "การบัญชี"
+    ],
+    "Vietnamese": [
+      "tài khoản",
+      "hạch toán",
+      "kế toán"
+    ],
+    "Ukrainian": [
+      "рахунок",
+      "рахунки",
+      "облік"
+    ],
+    "Albanian": [
+      "llogari",
+      "llogaritë",
+      "kontabilitet"
+    ],
+    "Amharic": [
+      "ሂሳብ",
+      "ሒሳብ",
+      "ሂሳቦች"
+    ],
+    "Armenian": [
+      "հաշիվ",
+      "հաշիվներ",
+      "հաշվառում"
+    ],
+    "Azerbaijani": [
+      "hesab",
+      "hesablar",
+      "uçot",
+      "ucot"
+    ],
+    "Belarusian": [
+      "рахунак",
+      "рахункі",
+      "улік"
+    ],
+    "Bengali": [
+      "হিসাব",
+      "হিসাবনিকাশ",
+      "অ্যাকাউন্ট"
+    ],
+    "Bosnian": [
+      "račun",
+      "računi",
+      "računovodstvo"
+    ],
+    "Burmese": [
+      "စာရင်း",
+      "စာရင်းကိုင်"
+    ],
+    "Estonian": [
+      "konto",
+      "kontod",
+      "arvestus"
+    ],
+    "Georgian": [
+      "ანგარიში",
+      "ანგარიშები",
+      "აღრიცხვა"
+    ],
+    "Icelandic": [
+      "reikningur",
+      "reikningar",
+      "bókhald"
+    ],
+    "Kazakh": [
+      "шот",
+      "шоттар",
+      "есеп",
+      "есепке алу"
+    ],
+    "Kurdish": [
+      "hesab",
+      "hesabkirin"
+    ],
+    "Lao": [
+      "ບັນຊີ",
+      "ການບັນຊີ"
+    ],
+    "Latvian": [
+      "konts",
+      "konti",
+      "uzskaite"
+    ],
+    "Lithuanian": [
+      "sąskaita",
+      "sąskaitos",
+      "apskaita"
+    ],
+    "Macedonian": [
+      "сметка",
+      "сметки",
+      "сметководство"
+    ],
+    "Mongolian": [
+      "данс",
+      "данснууд",
+      "бүртгэл"
+    ],
+    "Nepali": [
+      "लेखा",
+      "लेखांकन"
+    ]
+  },
+  "topic_translations": {
+    "Material flow accounts": {
+      "English": [
+        "material flow",
+        "material flows"
+      ],
+      "Spanish": [
+        "flujos de materiales"
+      ],
+      "French": [
+        "flux de matieres",
+        "flux de matières"
+      ],
+      "Portuguese": [
+        "fluxo de materiais"
+      ],
+      "German": [
+        "materialfluss"
+      ],
+      "Dutch": [
+        "materiaalstroom"
+      ],
+      "Italian": [
+        "flussi di materiali"
+      ],
+      "Russian": [
+        "потоков материалов"
+      ],
+      "Indonesian": [
+        "aliran material"
+      ],
+      "Albanian": [
+        "rrjedha materiale"
+      ],
+      "Bulgarian": [
+        "материални потоци"
+      ],
+      "Croatian": [
+        "tokovi materijala"
+      ],
+      "Czech": [
+        "materiálové toky"
+      ],
+      "Danish": [
+        "materialestrømme"
+      ],
+      "Estonian": [
+        "materjalivood"
+      ],
+      "Finnish": [
+        "materiaalivirrat"
+      ],
+      "Greek": [
+        "ροές υλικών"
+      ],
+      "Hungarian": [
+        "anyagáramlás"
+      ],
+      "Latvian": [
+        "materiālu plūsmas"
+      ],
+      "Lithuanian": [
+        "medžiagų srautai"
+      ],
+      "Norwegian": [
+        "materialstrømmer"
+      ],
+      "Polish": [
+        "przepływy materiałowe"
+      ],
+      "Romanian": [
+        "fluxuri de materiale"
+      ],
+      "Serbian": [
+        "tokovi materijala",
+        "токови материјала"
+      ],
+      "Slovak": [
+        "materiálové toky"
+      ],
+      "Slovenian": [
+        "materialni tokovi"
+      ],
+      "Swedish": [
+        "materialflöden"
+      ],
+      "Turkish": [
+        "malzeme akışları",
+        "malzeme akisları"
+      ],
+      "Ukrainian": [
+        "матеріальні потоки"
+      ],
+      "Vietnamese": [
+        "dòng vật liệu"
+      ]
+    },
+    "Economy wide material flow accounts": {
+      "English": [
+        "economy wide material flow",
+        "economy-wide material flow"
+      ],
+      "Spanish": [
+        "flujos de materiales de toda la economia"
+      ],
+      "French": [
+        "flux de matieres a l echelle de l economie"
+      ],
+      "Portuguese": [
+        "fluxo de materiais da economia"
+      ],
+      "German": [
+        "gesamtwirtschaftliche materialfluss"
+      ]
+    },
+    "Physical supply and use tables for water": {
+      "English": [
+        "physical supply and use tables for water",
+        "physical water supply and use"
+      ],
+      "Spanish": [
+        "oferta y utilizacion fisica del agua"
+      ],
+      "French": [
+        "offre et utilisation physique de l eau"
+      ],
+      "Portuguese": [
+        "oferta e utilizacao fisica da agua"
+      ],
+      "German": [
+        "physische wasseraufkommen verwendung"
+      ],
+      "Bulgarian": [
+        "физическо предлагане и използване на вода"
+      ],
+      "Croatian": [
+        "fizička ponuda i uporaba vode"
+      ],
+      "Czech": [
+        "fyzické dodávky a užití vody"
+      ],
+      "Danish": [
+        "fysisk tilgang og anvendelse af vand"
+      ],
+      "Dutch": [
+        "fysieke aanbod en gebruik van water"
+      ],
+      "Finnish": [
+        "veden fyysinen tarjonta ja käyttö"
+      ],
+      "Italian": [
+        "offerta e utilizzo fisico dell'acqua"
+      ],
+      "Polish": [
+        "fizyczna podaż i wykorzystanie wody"
+      ],
+      "Romanian": [
+        "oferta si utilizarea fizica a apei"
+      ],
+      "Swedish": [
+        "fysisk tillförsel och användning av vatten"
+      ],
+      "Turkish": [
+        "suyun fiziksel arz ve kullanım",
+        "suyun fiziksel arz ve kullanim"
+      ]
+    },
+    "Monetary supply and use tables for water": {
+      "English": [
+        "monetary supply and use tables for water",
+        "monetary water supply and use"
+      ],
+      "Spanish": [
+        "oferta y utilizacion monetaria del agua"
+      ],
+      "French": [
+        "offre et utilisation monetaire de l eau"
+      ],
+      "Portuguese": [
+        "oferta e utilizacao monetaria da agua"
+      ],
+      "German": [
+        "monetaere wasseraufkommen verwendung"
+      ]
+    },
+    "Physical asset accounts for water": {
+      "English": [
+        "physical water asset",
+        "water asset"
+      ],
+      "Spanish": [
+        "activos fisicos de agua"
+      ],
+      "French": [
+        "actifs physiques en eau"
+      ],
+      "Portuguese": [
+        "ativos fisicos da agua"
+      ],
+      "German": [
+        "physische wasservermoegen"
+      ]
+    },
+    "Water emission accounts": {
+      "English": [
+        "water emission",
+        "water emissions",
+        "emissions to water"
+      ],
+      "Spanish": [
+        "emisiones al agua"
+      ],
+      "French": [
+        "emissions dans l eau"
+      ],
+      "Portuguese": [
+        "emissoes para a agua"
+      ],
+      "German": [
+        "wasseremissionen"
+      ],
+      "Albanian": [
+        "emetimet në ujë"
+      ],
+      "Bulgarian": [
+        "емисии във водите"
+      ],
+      "Croatian": [
+        "emisije u vode"
+      ],
+      "Czech": [
+        "emise do vody"
+      ],
+      "Danish": [
+        "udledninger til vand"
+      ],
+      "Estonian": [
+        "veeheited"
+      ],
+      "Finnish": [
+        "vesipäästöt"
+      ],
+      "Greek": [
+        "εκπομπές στο νερό"
+      ],
+      "Hungarian": [
+        "vízbe történő kibocsátások"
+      ],
+      "Latvian": [
+        "emisijas ūdenī"
+      ],
+      "Lithuanian": [
+        "emisijos į vandenį"
+      ],
+      "Norwegian": [
+        "utslipp til vann"
+      ],
+      "Polish": [
+        "emisje do wody"
+      ],
+      "Romanian": [
+        "emisii în apă"
+      ],
+      "Serbian": [
+        "emisije u vode",
+        "емисије у воде"
+      ],
+      "Slovak": [
+        "emisie do vody"
+      ],
+      "Slovenian": [
+        "emisije v vode"
+      ],
+      "Swedish": [
+        "utsläpp till vatten"
+      ],
+      "Turkish": [
+        "su emisyonları",
+        "su emisyonlari"
+      ],
+      "Ukrainian": [
+        "викиди у воду"
+      ],
+      "Vietnamese": [
+        "phát thải vào nước"
+      ]
+    },
+    "Physical supply and use tables for energy": {
+      "English": [
+        "physical supply and use tables for energy",
+        "physical energy flow",
+        "physical energy supply and use"
+      ],
+      "Spanish": [
+        "oferta y utilizacion fisica de energia"
+      ],
+      "French": [
+        "offre et utilisation physique de l energie"
+      ],
+      "Portuguese": [
+        "oferta e utilizacao fisica de energia"
+      ],
+      "German": [
+        "physische energiefluss"
+      ],
+      "Bulgarian": [
+        "физическо предлагане и използване на енергия"
+      ],
+      "Croatian": [
+        "fizička ponuda i uporaba energije"
+      ],
+      "Czech": [
+        "fyzické dodávky a užití energie"
+      ],
+      "Danish": [
+        "fysisk tilgang og anvendelse af energi"
+      ],
+      "Dutch": [
+        "fysieke aanbod en gebruik van energie"
+      ],
+      "Finnish": [
+        "energian fyysinen tarjonta ja käyttö"
+      ],
+      "Italian": [
+        "offerta e utilizzo fisico dell'energia"
+      ],
+      "Polish": [
+        "fizyczna podaż i wykorzystanie energii"
+      ],
+      "Romanian": [
+        "oferta si utilizarea fizica a energiei"
+      ],
+      "Swedish": [
+        "fysisk tillförsel och användning av energi"
+      ],
+      "Turkish": [
+        "enerjinin fiziksel arz ve kullanım",
+        "enerjinin fiziksel arz ve kullanim"
+      ]
+    },
+    "Monetary supply and use tables for energy": {
+      "English": [
+        "monetary supply and use tables for energy",
+        "monetary energy supply and use"
+      ],
+      "Spanish": [
+        "oferta y utilizacion monetaria de energia"
+      ],
+      "French": [
+        "offre et utilisation monetaire de l energie"
+      ],
+      "Portuguese": [
+        "oferta e utilizacao monetaria de energia"
+      ],
+      "German": [
+        "monetaere energieaufkommen verwendung"
+      ]
+    },
+    "Physical asset accounts for mineral and energy resources": {
+      "English": [
+        "physical mineral and energy resource",
+        "physical energy resource"
+      ],
+      "Spanish": [
+        "activos fisicos de recursos minerales y energeticos"
+      ],
+      "French": [
+        "actifs physiques des ressources minerales et energetiques"
+      ],
+      "Portuguese": [
+        "ativos fisicos de recursos minerais e energeticos"
+      ],
+      "German": [
+        "physische mineral energie ressourcen"
+      ]
+    },
+    "Monetary asset accounts for mineral and energy resources": {
+      "English": [
+        "monetary mineral and energy resource",
+        "monetary energy resource"
+      ],
+      "Spanish": [
+        "activos monetarios de recursos minerales y energeticos"
+      ],
+      "French": [
+        "actifs monetaires des ressources minerales et energetiques"
+      ],
+      "Portuguese": [
+        "ativos monetarios de recursos minerais e energeticos"
+      ],
+      "German": [
+        "monetaere mineral energie ressourcen"
+      ]
+    },
+    "Air emission accounts": {
+      "English": [
+        "air emission",
+        "air emissions",
+        "greenhouse gas",
+        "ghg"
+      ],
+      "Spanish": [
+        "emisiones al aire",
+        "emisiones atmosfericas"
+      ],
+      "French": [
+        "emissions atmospheriques",
+        "emissions dans l air"
+      ],
+      "Portuguese": [
+        "emissoes atmosfericas",
+        "emissoes para o ar"
+      ],
+      "German": [
+        "luftemissionen"
+      ],
+      "Dutch": [
+        "luchtemissies"
+      ],
+      "Italian": [
+        "emissioni atmosferiche"
+      ],
+      "Albanian": [
+        "emetimet në ajër"
+      ],
+      "Bulgarian": [
+        "емисии във въздуха"
+      ],
+      "Croatian": [
+        "emisije u zrak"
+      ],
+      "Czech": [
+        "emise do ovzduší"
+      ],
+      "Danish": [
+        "luftemissioner"
+      ],
+      "Estonian": [
+        "õhuheitmed"
+      ],
+      "Finnish": [
+        "ilmapäästöt"
+      ],
+      "Greek": [
+        "εκπομπές στην ατμόσφαιρα"
+      ],
+      "Hungarian": [
+        "levegőbe történő kibocsátások",
+        "légszennyező kibocsátások"
+      ],
+      "Latvian": [
+        "emisijas gaisā"
+      ],
+      "Lithuanian": [
+        "oro emisijos"
+      ],
+      "Norwegian": [
+        "luftutslipp"
+      ],
+      "Polish": [
+        "emisje do powietrza"
+      ],
+      "Romanian": [
+        "emisii în aer"
+      ],
+      "Serbian": [
+        "emisije u vazduh",
+        "емисије у ваздух"
+      ],
+      "Slovak": [
+        "emisie do ovzdušia"
+      ],
+      "Slovenian": [
+        "emisije v zrak"
+      ],
+      "Swedish": [
+        "luftutsläpp"
+      ],
+      "Turkish": [
+        "hava emisyonları",
+        "hava emisyonlari"
+      ],
+      "Ukrainian": [
+        "викиди в атмосферу"
+      ],
+      "Vietnamese": [
+        "phát thải khí"
+      ]
+    },
+    "Physical asset accounts for land": {
+      "English": [
+        "physical land asset",
+        "land asset"
+      ],
+      "Spanish": [
+        "activos fisicos de tierra"
+      ],
+      "French": [
+        "actifs physiques des terres"
+      ],
+      "Portuguese": [
+        "ativos fisicos da terra"
+      ],
+      "German": [
+        "physische landvermoegen"
+      ]
+    },
+    "Monetary asset accounts for land": {
+      "English": [
+        "monetary land asset",
+        "land valuation"
+      ],
+      "Spanish": [
+        "activos monetarios de tierra"
+      ],
+      "French": [
+        "actifs monetaires des terres"
+      ],
+      "Portuguese": [
+        "ativos monetarios da terra"
+      ],
+      "German": [
+        "monetaere landvermoegen"
+      ]
+    },
+    "Physical asset accounts for timber resources": {
+      "English": [
+        "physical timber resources",
+        "timber resources",
+        "wood resources",
+        "forest timber"
+      ],
+      "Spanish": [
+        "recursos madereros",
+        "recursos forestales madereros"
+      ],
+      "French": [
+        "ressources en bois",
+        "ressources forestieres en bois",
+        "ressources forestières en bois"
+      ],
+      "Portuguese": [
+        "recursos madeireiros",
+        "recursos florestais madeireiros"
+      ],
+      "German": [
+        "holzressourcen",
+        "waldholzressourcen"
+      ],
+      "Dutch": [
+        "houtvoorraden",
+        "houtbronnen"
+      ],
+      "Italian": [
+        "risorse legnose"
+      ],
+      "Russian": [
+        "древесных ресурсов"
+      ],
+      "Turkish": [
+        "kereste kaynaklari",
+        "kereste kaynakları"
+      ],
+      "Arabic": [
+        "الموارد الخشبية"
+      ],
+      "Chinese": [
+        "木材资源"
+      ],
+      "Japanese": [
+        "木材資源"
+      ],
+      "Korean": [
+        "목재 자원"
+      ],
+      "Indonesian": [
+        "sumber daya kayu"
+      ]
+    },
+    "Monetary asset accounts for timber resources": {
+      "English": [
+        "monetary timber resources",
+        "timber valuation",
+        "wood resource valuation"
+      ],
+      "Spanish": [
+        "activos monetarios de recursos madereros"
+      ],
+      "French": [
+        "actifs monetaires des ressources en bois"
+      ],
+      "Portuguese": [
+        "ativos monetarios de recursos madeireiros"
+      ],
+      "German": [
+        "monetaere holzressourcen"
+      ]
+    },
+    "Physical asset accounts for aquatic resources": {
+      "English": [
+        "physical aquatic resources",
+        "aquatic resources",
+        "fish stock"
+      ],
+      "Spanish": [
+        "recursos acuaticos"
+      ],
+      "French": [
+        "ressources aquatiques"
+      ],
+      "Portuguese": [
+        "recursos aquaticos"
+      ]
+    },
+    "Monetary asset accounts for aquatic resources": {
+      "English": [
+        "monetary aquatic resources",
+        "fish stock valuation"
+      ],
+      "Spanish": [
+        "activos monetarios de recursos acuaticos"
+      ],
+      "French": [
+        "actifs monetaires des ressources aquatiques"
+      ],
+      "Portuguese": [
+        "ativos monetarios de recursos aquaticos"
+      ]
+    },
+    "Asset accounts for other biological resources": {
+      "English": [
+        "other biological resources",
+        "biological resource asset"
+      ],
+      "Spanish": [
+        "otros recursos biologicos"
+      ],
+      "French": [
+        "autres ressources biologiques"
+      ],
+      "Portuguese": [
+        "outros recursos biologicos"
+      ]
+    },
+    "Waste accounts": {
+      "English": [
+        "waste"
+      ],
+      "Spanish": [
+        "residuos"
+      ],
+      "French": [
+        "dechets",
+        "déchets"
+      ],
+      "Portuguese": [
+        "residuos"
+      ],
+      "German": [
+        "abfall"
+      ],
+      "Albanian": [
+        "mbetje"
+      ],
+      "Bulgarian": [
+        "отпадъци"
+      ],
+      "Croatian": [
+        "otpad"
+      ],
+      "Czech": [
+        "odpady"
+      ],
+      "Danish": [
+        "affald"
+      ],
+      "Dutch": [
+        "afval"
+      ],
+      "Estonian": [
+        "jäätmed"
+      ],
+      "Finnish": [
+        "jäte"
+      ],
+      "Greek": [
+        "απόβλητα"
+      ],
+      "Hungarian": [
+        "hulladék"
+      ],
+      "Italian": [
+        "rifiuti"
+      ],
+      "Latvian": [
+        "atkritumi"
+      ],
+      "Lithuanian": [
+        "atliekos"
+      ],
+      "Norwegian": [
+        "avfall"
+      ],
+      "Polish": [
+        "odpady"
+      ],
+      "Romanian": [
+        "deșeuri",
+        "deseuri"
+      ],
+      "Serbian": [
+        "otpad",
+        "отпад"
+      ],
+      "Slovak": [
+        "odpady"
+      ],
+      "Slovenian": [
+        "odpadki"
+      ],
+      "Swedish": [
+        "avfall"
+      ],
+      "Turkish": [
+        "atık",
+        "atik"
+      ],
+      "Ukrainian": [
+        "відходи"
+      ],
+      "Vietnamese": [
+        "chất thải"
+      ]
+    },
+    "Environmental protection expenditure accounts": {
+      "English": [
+        "environmental protection expenditure"
+      ],
+      "Spanish": [
+        "gasto en proteccion ambiental"
+      ],
+      "French": [
+        "depenses de protection de l environnement"
+      ],
+      "Portuguese": [
+        "despesas de protecao ambiental"
+      ],
+      "German": [
+        "umweltschutzausgaben"
+      ],
+      "Bulgarian": [
+        "разходи за опазване на околната среда"
+      ],
+      "Croatian": [
+        "izdaci za zaštitu okoliša"
+      ],
+      "Czech": [
+        "výdaje na ochranu životního prostředí"
+      ],
+      "Danish": [
+        "miljøbeskyttelsesudgifter"
+      ],
+      "Dutch": [
+        "milieubeschermingsuitgaven"
+      ],
+      "Finnish": [
+        "ympäristönsuojelumenot"
+      ],
+      "Italian": [
+        "spese per la protezione dell'ambiente"
+      ],
+      "Polish": [
+        "wydatki na ochronę środowiska"
+      ],
+      "Romanian": [
+        "cheltuieli pentru protectia mediului"
+      ],
+      "Swedish": [
+        "miljöskyddsutgifter"
+      ],
+      "Turkish": [
+        "çevre koruma harcamaları",
+        "cevre koruma harcamalari"
+      ]
+    },
+    "Resource management expenditure accounts": {
+      "English": [
+        "resource management expenditure"
+      ],
+      "Spanish": [
+        "gasto en gestion de recursos"
+      ],
+      "French": [
+        "depenses de gestion des ressources"
+      ],
+      "Portuguese": [
+        "despesas de gestao de recursos"
+      ],
+      "German": [
+        "ressourcenmanagementausgaben"
+      ]
+    },
+    "Environmental goods and services accounts": {
+      "English": [
+        "environmental goods and services",
+        "environmental goods and services sector",
+        "egss"
+      ],
+      "Spanish": [
+        "bienes y servicios ambientales"
+      ],
+      "French": [
+        "biens et services environnementaux"
+      ],
+      "Portuguese": [
+        "bens e servicos ambientais"
+      ],
+      "German": [
+        "umweltgueter und dienstleistungen"
+      ],
+      "Bulgarian": [
+        "екологични стоки и услуги"
+      ],
+      "Croatian": [
+        "okolišna dobra i usluge"
+      ],
+      "Czech": [
+        "environmentální zboží a služby"
+      ],
+      "Danish": [
+        "miljøvarer og -tjenester"
+      ],
+      "Dutch": [
+        "milieugoederen en diensten"
+      ],
+      "Finnish": [
+        "ympäristötuotteet ja palvelut"
+      ],
+      "Italian": [
+        "beni e servizi ambientali"
+      ],
+      "Polish": [
+        "towary i usługi środowiskowe"
+      ],
+      "Romanian": [
+        "bunuri si servicii de mediu"
+      ],
+      "Swedish": [
+        "miljövaror och miljötjänster"
+      ],
+      "Turkish": [
+        "çevresel mal ve hizmetler",
+        "cevresel mal ve hizmetler"
+      ]
+    },
+    "Taxes accounts": {
+      "English": [
+        "environmental tax",
+        "environmental taxes",
+        "environmentally related tax"
+      ],
+      "Spanish": [
+        "impuestos ambientales"
+      ],
+      "French": [
+        "taxes environnementales"
+      ],
+      "Portuguese": [
+        "impostos ambientais"
+      ],
+      "German": [
+        "umweltsteuern"
+      ],
+      "Bulgarian": [
+        "екологични данъци"
+      ],
+      "Croatian": [
+        "porezi na okoliš"
+      ],
+      "Czech": [
+        "environmentální daně"
+      ],
+      "Danish": [
+        "miljøskatter"
+      ],
+      "Dutch": [
+        "milieubelastingen"
+      ],
+      "Finnish": [
+        "ympäristöverot"
+      ],
+      "Italian": [
+        "imposte ambientali"
+      ],
+      "Polish": [
+        "podatki środowiskowe"
+      ],
+      "Romanian": [
+        "taxe de mediu"
+      ],
+      "Swedish": [
+        "miljöskatter"
+      ],
+      "Turkish": [
+        "çevre vergileri",
+        "cevre vergileri"
+      ]
+    },
+    "Environmental subsidies accounts": {
+      "English": [
+        "environmental subsidy",
+        "environmental subsidies",
+        "environmental transfers"
+      ],
+      "Spanish": [
+        "subsidios ambientales"
+      ],
+      "French": [
+        "subventions environnementales"
+      ],
+      "Portuguese": [
+        "subsidios ambientais"
+      ],
+      "German": [
+        "umweltsubventionen"
+      ]
+    },
+    "Agriculture, Forestry and Fisheries accounts": {
+      "English": [
+        "agriculture forestry and fisheries",
+        "economic accounts for agriculture",
+        "economic accounts for forestry",
+        "fisheries"
+      ],
+      "Spanish": [
+        "agricultura silvicultura y pesca"
+      ],
+      "French": [
+        "agriculture foresterie et peche"
+      ],
+      "Portuguese": [
+        "agricultura silvicultura e pesca"
+      ],
+      "German": [
+        "landwirtschaft forstwirtschaft fischerei"
+      ]
+    },
+    "Ecosystem extent accounts": {
+      "English": [
+        "ecosystem extent"
+      ],
+      "Spanish": [
+        "extension de ecosistemas"
+      ],
+      "French": [
+        "etendue des ecosystemes"
+      ],
+      "Portuguese": [
+        "extensao dos ecossistemas"
+      ],
+      "German": [
+        "oekosystemausdehnung",
+        "ökosystemausdehnung"
+      ],
+      "Dutch": [
+        "ecosysteemomvang"
+      ],
+      "Italian": [
+        "estensione degli ecosistemi"
+      ],
+      "Polish": [
+        "zasięg ekosystemów"
+      ],
+      "Swedish": [
+        "ekosystemens utbredning"
+      ],
+      "Turkish": [
+        "ekosistem kapsamı",
+        "ekosistem kapsami"
+      ]
+    },
+    "Ecosystem condition accounts": {
+      "English": [
+        "ecosystem condition"
+      ],
+      "Spanish": [
+        "condicion de ecosistemas"
+      ],
+      "French": [
+        "condition des ecosystemes"
+      ],
+      "Portuguese": [
+        "condicao dos ecossistemas"
+      ],
+      "German": [
+        "oekosystemzustand",
+        "ökosystemzustand"
+      ],
+      "Dutch": [
+        "ecosysteemconditie"
+      ],
+      "Italian": [
+        "condizione degli ecosistemi"
+      ],
+      "Polish": [
+        "stan ekosystemów"
+      ],
+      "Swedish": [
+        "ekosystemens tillstånd"
+      ],
+      "Turkish": [
+        "ekosistem durumu"
+      ]
+    },
+    "Physical ecosystem services accounts": {
+      "English": [
+        "physical ecosystem services",
+        "ecosystem services in physical terms"
+      ],
+      "Spanish": [
+        "servicios ecosistemicos fisicos"
+      ],
+      "French": [
+        "services ecosystemiques physiques"
+      ],
+      "Portuguese": [
+        "servicos ecossistemicos fisicos"
+      ],
+      "German": [
+        "physische oekosystemleistungen",
+        "physische ökosystemleistungen"
+      ]
+    },
+    "Monetary ecosystem services accounts": {
+      "English": [
+        "monetary ecosystem services",
+        "ecosystem services in monetary terms"
+      ],
+      "Spanish": [
+        "servicios ecosistemicos monetarios"
+      ],
+      "French": [
+        "services ecosystemiques monetaires"
+      ],
+      "Portuguese": [
+        "servicos ecossistemicos monetarios"
+      ],
+      "German": [
+        "monetaere oekosystemleistungen",
+        "monetäre ökosystemleistungen"
+      ]
+    },
+    "Ecosystem asset accounts": {
+      "English": [
+        "ecosystem asset",
+        "ecosystem accounting"
+      ],
+      "Spanish": [
+        "activos ecosistemicos"
+      ],
+      "French": [
+        "actifs ecosystemiques"
+      ],
+      "Portuguese": [
+        "ativos ecossistemicos"
+      ],
+      "German": [
+        "oekosystemvermoegen",
+        "ökosystemvermögen"
+      ],
+      "Dutch": [
+        "ecosysteemactiva"
+      ],
+      "Italian": [
+        "attività ecosistemiche"
+      ],
+      "Polish": [
+        "aktywa ekosystemowe"
+      ],
+      "Swedish": [
+        "ekosystemtillgångar"
+      ],
+      "Turkish": [
+        "ekosistem varlıkları",
+        "ekosistem varliklari"
+      ]
+    },
+    "Ocean accounts": {
+      "English": [
+        "ocean",
+        "marine"
+      ],
+      "Spanish": [
+        "oceano"
+      ],
+      "French": [
+        "ocean"
+      ],
+      "Portuguese": [
+        "oceano"
+      ],
+      "German": [
+        "ozean"
+      ]
+    },
+    "Species accounts": {
+      "English": [
+        "species",
+        "biodiversity"
+      ],
+      "Spanish": [
+        "especies"
+      ],
+      "French": [
+        "especes",
+        "espèces"
+      ],
+      "Portuguese": [
+        "especies"
+      ],
+      "German": [
+        "arten"
+      ]
+    },
+    "Carbon accounts": {
+      "English": [
+        "carbon",
+        "carbon stock"
+      ],
+      "Spanish": [
+        "carbono"
+      ],
+      "French": [
+        "carbone"
+      ],
+      "Portuguese": [
+        "carbono"
+      ],
+      "German": [
+        "kohlenstoff"
+      ]
+    },
+    "Urban accounts": {
+      "English": [
+        "urban"
+      ],
+      "Spanish": [
+        "urbano"
+      ],
+      "French": [
+        "urbain"
+      ],
+      "Portuguese": [
+        "urbano"
+      ],
+      "German": [
+        "stadt",
+        "urban"
+      ]
+    },
+    "Protected areas accounts": {
+      "English": [
+        "protected area",
+        "protected areas"
+      ],
+      "Spanish": [
+        "areas protegidas"
+      ],
+      "French": [
+        "aires protegees",
+        "aires protégées"
+      ],
+      "Portuguese": [
+        "areas protegidas"
+      ],
+      "German": [
+        "schutzgebiete"
+      ]
+    },
+    "Forest accounts": {
+      "English": [
+        "forest",
+        "forestry",
+        "forest ecosystem"
+      ],
+      "Spanish": [
+        "bosques",
+        "forestal"
+      ],
+      "French": [
+        "forets",
+        "forêts"
+      ],
+      "Portuguese": [
+        "florestas"
+      ],
+      "German": [
+        "wald"
+      ],
+      "Dutch": [
+        "bos"
+      ],
+      "Italian": [
+        "foreste"
+      ],
+      "Polish": [
+        "lasy"
+      ],
+      "Russian": [
+        "леса"
+      ],
+      "Swedish": [
+        "skog"
+      ],
+      "Turkish": [
+        "orman"
+      ],
+      "Ukrainian": [
+        "ліси"
+      ],
+      "Vietnamese": [
+        "rừng"
+      ]
+    }
+  }
+}

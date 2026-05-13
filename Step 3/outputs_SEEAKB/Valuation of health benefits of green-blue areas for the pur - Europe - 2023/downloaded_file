@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">52</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:4A25E796-D4BE-573E-A5A5-2A05A815D1C2</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">One Ecosystem</journal-title>
+        <abbrev-journal-title xml:lang="en">OE</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-8194</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/oneeco.8.e87713</article-id>
+      <article-id pub-id-type="publisher-id">87713</article-id>
+      <article-id pub-id-type="manuscript">20038</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Valuation of health benefits of green-blue areas for the purpose of ecosystem accounting: a pilot in Flanders, Belgium</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>De Nocker</surname>
+            <given-names>Leo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>Liekens</surname>
+            <given-names>Inge</given-names>
+          </name>
+          <email xlink:type="simple">inge.liekens@vito.be</email>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Beckx</surname>
+            <given-names>Carolien</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Broekx</surname>
+            <given-names>Steven</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-0036-386X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">VITO, Mol, Belgium</addr-line>
+        <institution>VITO</institution>
+        <addr-line content-type="city">Mol</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">Flemish Institute for Technological Research VITO, Mol, Belgium</addr-line>
+        <institution>Flemish Institute for Technological Research VITO</institution>
+        <addr-line content-type="city">Mol</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Inge Liekens (<email xlink:type="simple">inge.liekens@vito.be</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: David N. Barton</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>03</month>
+        <year>2023</year>
+      </pub-date>
+      <volume>8</volume>
+      <elocation-id>e87713</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/11739122-BB9E-5BCA-B318-EA58BA753AEE">11739122-BB9E-5BCA-B318-EA58BA753AEE</uri>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>06</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>29</day>
+          <month>01</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Leo De Nocker, Inge Liekens, Carolien Beckx, Steven Broekx</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>In recent years, a vast amount of scientific literature has highlighted the benefits of nearby green space for physical and mental health, but the large variation in scope, methods and indicators used in these studies hampers the assessment of these benefits in the context of natural capital accounting. To our knowledge, this paper is one of the first studies to quantify and value these benefits in the context of natural capital accounting. A method was developed and applied to the Flemish Region in Belgium for 2013 and 2016.</p>
+        <p>The physical supply and use accounts for health are based on a set of selected dose-effect relationships that quantify the impact of the availability of greenspace on seven specific indicators for physical and mental health, including mortality, cardio-vascular diseases, diabetes and depression. The indicator for green-blue areas is the percentage of green-blue areas in total land use, calculated for 0.5, 1 and 3 km radius from the residence, based on detailed land-use maps (10 m x 10 m) for Flanders, Belgium. The base-line data for mortality and illness are average data for the Flemish Region. These health impacts are weighted using Daly's (disability-adjusted life years) and aggregated. The total health benefits due to the availability of green-blue areas for the total Flemish population was estimated at almost 85,000 DALYs. This is 27% of the estimated total burden of disease in Flanders in 2016 for the seven selected diseases.</p>
+        <p>The monetary accounts are based on a detailed assessment for mortality and morbidity of three different cost components, i.e. avoided medical costs (e.g. hospitalisation) and avoided absenteeism and welfare loss due to suffering and reduced life expectancy. Productivity gains from avoided absenteeism is valued, based on statistics on absenteeism for specific diseases for and labour market data from Belgium and account for 52% of the total monetary value of green spaces. Cost of illness is valued, based on market data and illness specific studies for Belgium or Europe and account for 36% of total values. Welfare gains from increased life expectancy are valued on the basis of European studies for the VOLY (value of a life year lost), based on the simulated exchange value for the willingness-to-pay for increased life expectancy. This accounts for 12% of the total monetary value of green space. The total monetary benefits amount to 464 Euro per inhabitant per year or 3 billion Euro per year for Flanders. This corresponds to 1.3% of the GDP, which reflects the importance of these benefits.</p>
+        <p>The methodology is incomplete as not all health indicators are covered, mainly due to a lack of dose-effect relationships. The research priority for potential users of the accounts is a better indicator for contact with green space that does differentiate between ecosystems, their quality, accessibility or their use. This requires more systematic health impact studies that take these elements into account, as well as more systematic data on the daily use of green space by citizens. In the meantime, an additional set of condition accounts on these elements can be used, especially to follow changes in quality and use of green-blue areas over time.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>health impacts</kwd>
+        <kwd>green-blue areas</kwd>
+        <kwd>urban green</kwd>
+        <kwd>dose-effect relations</kwd>
+        <kwd>DALY</kwd>
+        <kwd>SEYLL</kwd>
+        <kwd>avoided health costs</kwd>
+        <kwd>productivity gains</kwd>
+        <kwd>simulated exchange values</kwd>
+        <kwd>natural capital accounting</kwd>
+        <kwd>ecosystem services</kwd>
+      </kwd-group>
+      <funding-group>
+        <funding-statement>European UnionVlaams Planbureau voor omgeving (VPO), Flemish Government</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="0"/>
+        <table-count count="5"/>
+        <ref-count count="64"/>
+      </counts>
+    </article-meta>
+    <notes>
+      <sec sec-type="Funding program">
+        <title>Funding program</title>
+        <p>European Union's Horizon 2020 Research and Innovation Programme</p>
+      </sec>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>There is a lot of scientific evidence that contact with green-blue areas contribute to physical and mental health of people, but studies use a wide range of indicators for green-blue areas, contact or health and with different results. In the context of a feasibility study of Natural capital accounting in Flanders, Belgium (<xref ref-type="bibr" rid="B7919635">De Nocker et al. 2020</xref>), "health impacts of exposure to nearby green" was selected as a pilot. In this paper, we discuss the methods used to quantify and monetise these benefits in the framework of ecosystem accounting. Green-blue areas include parks, agriculture, private and public gardens, small informal green areas and all kinds of surface waters.</p>
+      <p>The outline follows the logical steps of the development and application of the methodology. In the introduction, we report the conclusions of the review of the literature on health impacts in order to identify dose-effect relationships, required to build physical supply and use accounts. These are discussed in more detail in the section on Material and Methods, including methods and data for health impact assessment and the valuation. The method is applied for 2013 and 2016 and the comparison is used to identify strengths and weaknesses of the extent accounts and underlying land-use maps.</p>
+      <sec sec-type="Review of health impacts literature">
+        <title>Review of health impacts literature</title>
+        <p>There is a wide range of studies varying in scope, methods or region that conclude that green-blue areas contribute to physical and mental health of people living nearby and visitors. Access to natural environments improves overall mental health, physical fitness level, cognitive and immune functions and can lower mortality rates in general (<xref ref-type="bibr" rid="B7918884">WHO 2016</xref>, <xref ref-type="bibr" rid="B7916728">WHO 2017</xref>, <xref ref-type="bibr" rid="B7916776">NRPA 2017</xref>, <xref ref-type="bibr" rid="B7916789">Frumkin et al. 2017</xref>, <xref ref-type="bibr" rid="B7916896">Twohig-Bennett and Jones 2018</xref>, <xref ref-type="bibr" rid="B7916905">Zhang and Tan 2019</xref>). These benefits are explained by different mechanisms including stress reduction and relaxation, more physical activity, improved social interaction and community cohesion. Another set of explanations point to the impact of green-blue areas on the quality of the environment in terms of better air quality or lower noise levels. In the context of the SEEA EA, this impact is already covered in the contribution of ecosystems to, for example, air quality (and regulating services). The literature review confirmed that the benefits of exposure to green-blue areas are in addition to those regulating ecosystem services as several (although not all) studies accounted for air and noise quality as confounders.</p>
+        <p><xref ref-type="bibr" rid="B7916896">Twohig-Bennett and Jones (2018)</xref> performed a meta-analysis of about 100 physical health indicators. They found that green space exposure was linked to reduced incidence for diseases, such as stroke, asthma, diabetes and coronary heart disease and to lower disease precursors, such as heart rate, blood pressure or cholesterol. Some studies have indicated that there is a positive correlation between higher levels of green area and lower levels of obesity (<xref ref-type="bibr" rid="B7916745">Nielsen and Hansen 2007</xref>, <xref ref-type="bibr" rid="B7916736">Bell et al. 2008</xref>)</p>
+        <p>Access to natural environments can also improve overall mental health. There is an indication that experiencing the natural environment reduces stress levels (<xref ref-type="bibr" rid="B7916768">Bowen et al. 2015</xref>). The impact of green areas on mental health also include improved general mood (<xref ref-type="bibr" rid="B7916823">Tillmann et al. 2019</xref>), reduced depressive symptoms, enhanced cognitive functioning of adults and children, short-term memory performance and enhanced creativity (<xref ref-type="bibr" rid="B7916841">Van den Berg et al. 2007</xref>, <xref ref-type="bibr" rid="B7916768">Bowen et al. 2015</xref>, <xref ref-type="bibr" rid="B7918884">WHO 2016</xref>, <xref ref-type="bibr" rid="B7916832">Tillmann et al. 2018</xref>, <xref ref-type="bibr" rid="B7916886">van Dijk-Wesselius et al. 2018</xref>). At the individual level, the lack of contact with natural areas is linked to an increase in the incidence of mental illnesses (<xref ref-type="bibr" rid="B7916877">Van den Berg and van den Berg 2015</xref>).</p>
+        <p>As there are no specific studies for Flanders, we build on results from literature to quantify the impacts. Notwithstanding the large amount of studies, most studies aim to test if there is an impact of the amount of (contact with) green areas on health, whereas there are few studies that report dose-effect relationships. In addition, the wide range of different indicators for green areas and health in these studies hampers comparison of results and meta-analysis. We found that the amount of green areas is relevant within at least 1 km of the residence. We have found sufficient evidence for dose-effect relationships for effects on mortality and for a selection of two mental and five physical diseases (<xref ref-type="bibr" rid="B7918484">Buekers et al. 2020</xref>). As elaborated in more detail below in the section on Materials and Methods, the selected dose-effect relationships for mortality are based on a meta-analysis (<xref ref-type="bibr" rid="B7918607">Gascon et al. 2016</xref>). For morbidity, we selected the dose-effect relationships of a study in the Netherlands (<xref ref-type="bibr" rid="B7918776">Maas et al. 2009</xref>) if they were confirmed by other studies. Selection of dose-response functions is subject to uncertainty due to the wide range of methods and indicators in the studies and the lack of meta-analysis for the effect on mental and physical morbidity (<xref ref-type="bibr" rid="B7918484">Buekers et al. 2020</xref>).</p>
+        <p>We recognise that negative effects of contact with green-blue areas can also occur, such as tick bites and Lyme disease. However, these specific health outcomes are not covered in the studies, nor do we have dose-effect relationships to quantify these impacts.</p>
+        <p>For the monetary valuation of these effects, we build on the literature economic valuation of health impacts and distinguish, for each disease, medical costs (e.g. hospitalisation), absenteeism and productivity loss and welfare loss due to suffering and reduced life expectancy (<xref ref-type="bibr" rid="B8362933">NCAVES and MAIA 2022a</xref><xref ref-type="bibr" rid="B8362908">OECD 2011</xref>). As further detailed in Table 3, it is possible to value for each health impact the medical costs and productivity losses, based on statistics and specific studies for Belgium and/or Europe. The welfare losses due to suffering can only be estimated for mortality impacts, based on a European study. In the next section, the relationship with NCA is discussed.</p>
+      </sec>
+      <sec sec-type="Health benefits in ecosystem accounting">
+        <title>Health benefits in ecosystem accounting</title>
+        <p>Approaches to measure the stocks of natural resources that yield benefits as natural capital have gained considerable attraction in recent decades. By providing regular, objective data that are consistent with wider statistical data, natural capital accounting can provide the fundamental evidence base required for providing information for economic and environmental decision-making that delivers on these ambitions for natural capital (<xref ref-type="bibr" rid="B7916931">EEA 2018</xref>).</p>
+        <p>The impacts of green-blue space on public health is measured in terms of health outcomes and their monetary valuation is challenging in the context of natural accounting. The SNA aims to value outputs in terms of exchange values and market prices. As this is not possible for health outcomes, the contribution of the health sectors (e.g. doctors and hospitals) to GDP is valued in terms of their inputs (costs), similar to approaches used, for example, for education or defence (<xref ref-type="bibr" rid="B8362941">NCAVES and MAIA 2022b</xref>). The contribution of green-blue space to public health is assessed in terms of health outcomes for mortality and morbidity and this can be valued, based on methods used, for example, for cost benefit analysis of health or environmental policies. As elaborated above, these methods distinguish between avoided health expenditure (medical costs), avoided productivity losses and avoided suffering. The contribution of green-blue space to health outcomes can, thus, be estimated, based on the method of avoided damage costs. This is an alternative, second best method that can be used in case no market prices are available (<xref ref-type="bibr" rid="B8362941">NCAVES and MAIA 2022b</xref>). It is, for example, common to value some regulatory ecosystems services, such as flood control, climate regulation or air filtration from trees, based on avoided damage. Valuation of avoided medical costs builds on the same market data (e.g. hospitalisation costs, medicine) used in SNA to value health care outputs. Avoided absenteeism is valued, based on market prices for labour. The valuation of welfare losses from suffering and reduced life expectancy builds on willingness-to-pay studies that may not be consistent with SNA if they include a consumer surplus component. To ensure a better consistency with SNA that requires market prices or exchange values, we follow the guidelines in <xref ref-type="bibr" rid="B8362941">NCAVES and MAIA (2022b)</xref> and use willingness-to-pay studies that estimate simulated exchange values (<xref ref-type="bibr" rid="B7918645">Hein et al. 2016</xref>). In addition, literature on the expenditure per DALY of ongoing health care programmes are an indicator of the willingness-to-pay of governments and society for health outcomes and is also used as a benchmark indicator for cost-effectiveness analysis in health policy (<xref ref-type="bibr" rid="B8362949">Ryen and Svensson 2014</xref>). These estimates can be used for a simplified, less data intensive approach to monetary valuation.</p>
+        <p>A number of countries take the lead in natural capital accounting (e.g. UK <xref ref-type="bibr" rid="B7916965">ONS (2019)</xref>, The Netherlands (<xref ref-type="bibr" rid="B7918654">Horlings (2020)</xref>). To the best of our knowledge, an overall analytical framework for health effects of contact with green-blue areas has not yet been applied. Most natural capital accounts focus on estimating and valuing the contribution of green-blue areas to recreation and/or tourism and real estate value.</p>
+        <p>It is recognised that there are few methods and tools available to assess these health benefits in the context of natural capital accounting. Quantification is challenging due to the wide variation in methods (indicators to define green areas and exposure), scope (green areas, health outcomes) and contexts. In addition, assessment of health benefits requires region specific health data for a wide range of health outcomes. Economic valuation requires accounting for a wide range of region-specific data (costs of illness, labour productivity etc.) and integration of different methods (market data, valuation studies for longer life expectancy etc.).</p>
+        <p>The scoping study to develop urban natural capital accounts for the UK focused on health benefits of (extra) exercise in green areas, which have been estimated, based on local data for recreation in green areas and dose-effect relationships regarding the impact of extra exercise on health outcomes (<xref ref-type="bibr" rid="B7916957">EFTEC 2017</xref>, <xref ref-type="bibr" rid="B7916965">ONS 2019</xref>). The impacts on health were further calculated, based on literature and key figures regarding health benefits per visit (DALYs/visit). This overall approach is interesting, but is limited to one of the mechanisms that explain health benefits (more physical activity) and does not account for other mechanisms that provide benefits.</p>
+        <p>The specific impact of green-blue areas is also not available in regular SNA as, in health accounts, the largest focus is on curing practices not prevention (<xref ref-type="bibr" rid="B7918654">Horlings 2020</xref>).</p>
+        <p>The impact of health was included in the assessment of ecosystem services of NATURA 2000 areas in Flanders, applying in a simplified way the dose-effect relationships for morbidity from a health impact study in the Netherlands (<xref ref-type="bibr" rid="B7918776">Maas et al. 2009</xref>) and aggregate and value health impacts in DALYs and valued the outcome, based on an average value for a DALY from literature, mainly based on willingness-to-pay studies (<xref ref-type="bibr" rid="B7920927">Broekx et al. 2013</xref>). This approach is further elaborated in the online tool to assess ecosystem services in Flanders and Belgium (<xref ref-type="bibr" rid="B7919407">Liekens et al. 2021</xref>). The overall approach is interesting, but the selection of dose-effect relationships was based on a quick review of literature (up to 2012) and does not include mortality, did not use local data on prevalence for diseases and the monetary valuation is simplified and not in line with the requirement for natural capital accounting (exchange values) (<xref ref-type="bibr" rid="B7919276">United Nations 2021</xref>).</p>
+      </sec>
+      <sec sec-type="Case study and scope">
+        <title>Case study and scope</title>
+        <p>The literature review concluded that it is possible to develop physical and monetary accounts for health impacts of exposure to green-blue space for Flanders. The selected dose-response relationships also impose limitations, especially related to the level of detail in indicators to measure contact with or exposure to green space. It also limits the number of health outcomes taken into account.</p>
+        <p>The indicators for green space refer to all green-blue land-use types, including parks, agriculture, private and public gardens, small informal green areas and all kinds of surface waters. This is in line with the selected dose-effect relationships and the literature review that indicated that also informal green areas, agriculture or private gardens contribute to health benefits. Although there is less evidence for the impact of blue space (surface water) in the health impact studies, we included it as part of green space. This is also in line with other studies that indicate the added value of water for quality and attraction of landscapes and amenity value.</p>
+        <p>Exposure to or contact with green-blue space is also defined in a broad sense, including recreation and sport activities and gardening, but also more a passive form, such as the view on green space from home or during local transport. This is in line with literature and the wide range of possible mechanisms that explain these benefits. However, based on the available, data exposure is only measured at the vicinity of the residence and not at other locations such as school, work or trips or holidays away from home.</p>
+        <p>Health outcomes are defined as both avoided physical and mental illness and longer life expectations. The health outcomes generated by exposure to green-blue areas are in addition to other health benefits generated indirectly by the delivery of other ecosystem services, such as air pollution removal, noise and heat stress control. The latter are not taken into account here. Within the ecosystem services classification, these are part of the regulating services with their own accounts. However, in gathering data on dose-effects relationships, it is important to correct for these health benefits of nearby green spaces to avoid double-counting.</p>
+        <p>The monetary accounts will look into the three major components of total health costs, as defined by WHO, i.e. (avoided) costs of illness (health care costs, for example, hospitalisation costs), productivity gains (less absenteeism) and welfare gains from life years gained (mortality). The first two components will be valued using market prices and the life years lost will be valued using simulated exchange values, in line with the exchange value methodology of national accounts (<xref ref-type="bibr" rid="B7919276">United Nations 2021</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Material and methods">
+      <title>Material and methods</title>
+      <p>In this section, we describe the relationships and data used for the main steps in the analysis. For the seven selected diseases, we describe in detail the dose-effect relationships, the prevalence data and DALY weights to estimate impacts for the physical accounts and the data used to value each additional case per disease for the monetary accounts.</p>
+      <sec sec-type="Physical accounts: Dose-effects relationships">
+        <title>Physical accounts: Dose-effects relationships</title>
+        <p>Table <xref ref-type="table" rid="T7917007">1</xref> gives an overview of the selected dose-effect relationships that estimate the impact of a 10% increase in the availability of green-blue areas in the total land use on the prevalence for mortality or morbidity, based on the review in <xref ref-type="bibr" rid="B7918484">Buekers et al. (2020)</xref>. As explained below in more detail, the effects are only statistically significant for the distance bands indicated in the 4<sup>th</sup> column. It must be noted that the available dose response functions are linear (<xref ref-type="bibr" rid="B7918756">Maas 2008</xref>, <xref ref-type="bibr" rid="B7918607">Gascon et al. 2016</xref>). This may feel counter-intuitive, as one would expect a greater impact in areas with less availability of green-blue space. On the other hand, it requires more or better data to find non-linear relationships and, as discussed below, the data in these studies are insufficiently detailed in relation to to accessibility, quality and use of green-blue space.</p>
+        <p>For mortality, we selected the dose-effect relationship from the meta-analysis of <xref ref-type="bibr" rid="B7918607">Gascon et al. (2016)</xref>. It applies to cardiovascular mortality and for a percentage of green-blue area within 0.5 km of the place of residence. The selected relationship is confirmed in a more recent meta-analysis on general mortality and green areas (<xref ref-type="bibr" rid="B7918836">Rojas Rueda 2019</xref>).</p>
+        <p>For morbidity, we selected dose-effect relationships from the study in the Netherlands (<xref ref-type="bibr" rid="B7918756">Maas 2008</xref>, <xref ref-type="bibr" rid="B7918776">Maas et al. 2009</xref>) and checked for additional confirmation in more recent studies. In addition, the application in ecosystem accounting requires further data on DALY weights for the specific disease and data for monetary valuation. We opted for the dose-effect relationships from the original study (<xref ref-type="bibr" rid="B7918776">Maas et al. 2009</xref>) for the share of green-blue areas within 1 km range. We only selected the six endpoints that are confirmed in further literature (<xref ref-type="bibr" rid="B7918884">WHO 2016</xref>, <xref ref-type="bibr" rid="B7916789">Frumkin et al. 2017</xref>, <xref ref-type="bibr" rid="B7918484">Buekers et al. 2020</xref>). For mental illnesses, recent research confirms these positive effects (<xref ref-type="bibr" rid="B7918662">Kondo et al. 2018</xref>, <xref ref-type="bibr" rid="B7918671">Kondo et al. 2019</xref>).</p>
+        <p>We calculated the percentage of green-blue spaces within 500 m and 1 and 3 km of the residence using the Extent account also created in this project (<xref ref-type="bibr" rid="B7919635">De Nocker et al. 2020</xref>). The methodology used for this Extent account is largely based on the detailed land-use maps of Flanders (<xref ref-type="bibr" rid="B7918787">Poelmans et al. 2019</xref>).</p>
+      </sec>
+      <sec sec-type="Physical accounts: Prevalence of health endpoints and DALY">
+        <title>Physical accounts: Prevalence of health endpoints and DALY</title>
+        <p>Table <xref ref-type="table" rid="T7917055">2</xref> gives an overview of the data used to indicate the relative importance of the selected diseases for Flanders. These are the numbers of prevalence of diseases, expressed in number of cases per 1000 inhabitants. For cardiovascular mortality, yearly data are available within the Flemish Agency for Public Health (<xref ref-type="bibr" rid="B7919427">AZG 2017a</xref>, <xref ref-type="bibr" rid="B7919435">AZG 2017b</xref>). The indicators are expressed in numbers of cases and in numbers of life years lost (SEYLL, Standard expected years of life lost).</p>
+        <p>For the physical illnesses, prevalence data are available for Flanders in the Inego databank with 2015 as most recent year (<xref ref-type="bibr" rid="B7919460">Inego-databank 2021</xref>). For diabetes, the IMA databank was used with 2017 as the most recent year (<xref ref-type="bibr" rid="B7919480">IMA 2015</xref>). For mental illnesses, prevalence is based on a 6-yearly survey (<xref ref-type="bibr" rid="B7919488">Sciensano 2018</xref>), with 2018 as most recent year.</p>
+        <p>These data were translated to DALY, based on the expected healthy life years. For mortality, it is based on data for Flanders (<xref ref-type="bibr" rid="B7919505">Statistiek in Vlaanderen 2018</xref>), whereas for morbidity, data from the Netherlands are used (<xref ref-type="bibr" rid="B7919513">RIVM 2015</xref>; <xref ref-type="bibr" rid="B7918795">RIVM 2019a</xref>). DALY indicators will be updated if local specific data for Flanders become available (ongoing research).</p>
+      </sec>
+      <sec sec-type="Monetary accounts">
+        <title>Monetary accounts</title>
+        <p>Table <xref ref-type="table" rid="T7918120">3</xref> gives an overview of the data used to value, for each disease, the three components of total health costs, i.e. medical costs, productivity loss and welfare gains. Medical cost and productivity loss are valued, based on market data for Flanders (or European studies/countries). For mortality, life years lost are valued using data from literature, based on simulated exchange values (<xref ref-type="bibr" rid="B7918645">Hein et al. 2016</xref>), in line with the exchange value methodology of accounting (<xref ref-type="bibr" rid="B7919276">United Nations 2021</xref>, <xref ref-type="bibr" rid="B8362941">NCAVES and MAIA 2022b</xref>).</p>
+        <p>The medical costs are estimated, based on information from the health sector and include costs for hospitalisation, care facilities and patient medication. Costs for cardiovascular mortality are based on <xref ref-type="bibr" rid="B7918475">Buekers et al. (2014)</xref>. Only for the Chronic obstructive pulmonary disease (COPD) this is based on Belgian statistics (costs of hospital admissions). For other diseases, this is based on one-off studies for Flanders or Belgium or on data from literature (statistics for the Netherlands, European studies). It should be noted that data for mental health are more uncertain because less studies are available. The costs of illness are borne by the government (healthcare), health insurance companies and patients. These costs are based on market prices and, therefore, consistent with the SEEA guidelines.</p>
+        <p>Productivity losses included the costs for employers and employees for absenteeism, lower employment rate (chronic illnesses), lower productivity on the job (data only for heart failure) and loss of doing domestic work. There are no systematic data on productivity loss per disease. This would require specific studies to estimate the number of working days lost. For each disease, we estimated the number of working days lost accounting for days in hospital, while accounting for the employment rate and age. Lost days were multiplied with the average gross wage cost for Belgium. The costs are borne by patients (loss of income), employers (loss of production) and the government (less taxes and higher unemployment fees). These costs are based on market prices and consistent with SEEA guidelines.</p>
+        <p>For the valuation of welfare losses for the patient and his family due to suffering and reduced life expectancy, no market prices or statistics are available and it requires specific valuation studies (<xref ref-type="bibr" rid="B7921106">OECD 2012a</xref>). For the valuation of cardiovascular mortality, we value the number of life years lost (YOLL). We use the simulated exchange value per YOLL, estimated in <xref ref-type="bibr" rid="B7918645">Hein et al. (2016)</xref>, based on the results of WTP surveys that are commonly used for valuation of mortality in European environment, health and transportation studies (<xref ref-type="bibr" rid="B7918580">Desaigues 2011</xref>, <xref ref-type="bibr" rid="B7921106">OECD 2012a</xref>). There are insufficient willingness-to-pay studies available to value (avoided) suffering for the morbidity endpoints (<xref ref-type="bibr" rid="B7921106">OECD 2012a</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="Results">
+      <title>Results</title>
+      <p>Based on the methodology and available data, we created physical and monetary supply and use accounts for the years 2013 and 2016. We used year-specific data for green-blue areas and population numbers, but generic numbers for the prevalence of illnesses (2015-2018) and estimates of 2019 for valuation (all components) because no updated yearly data are available (see Table <xref ref-type="table" rid="T7918437">4</xref>).</p>
+      <p>Table <xref ref-type="table" rid="T7918438">5</xref> gives an overview of the summary results of the physical and monetary accounts and its major drivers (green-blue space and population) and components for both 2013 and 2016.</p>
+      <p>The average share of green-blue area in total land use in 2016 ranges from 59% (within 05 km around residence) to 69% (for 3 km around the residence). This reflects the fact that, although Flanders is one of the most urbanised regions in Europe, urban land use (residential areas) seems to be strongly interwoven with green and blue areas in comparison to other western European countries (<xref ref-type="bibr" rid="B7919351">Jaeger et al. 2007</xref>).</p>
+      <p>The total health benefits due to the availability of green-blue areas for the total Flemish population for 2016 is estimated at 85,000 DALYs. This is 27% of the estimated total burden of disease in 2016 for the seven selected diseases. The total monetary gains amount to 3 billion euro per year for Flanders in 2016. This corresponds to 464 euro per inhabitant per year and to 1.3% of the GDP. These numbers underline the importance of green-blue areas to provide these benefits. The most important benefit categories are avoided absenteeism (52%) and avoided medical costs (36%). The avoided medical costs (estimated at 1.1 billion euros) corresponds to 4.7% of total healthcare costs (roughly estimated at 10% of GDP, <xref ref-type="bibr" rid="B8791287">OECD 2017</xref>).</p>
+      <p>If we allocate these benefits to the different green and blue areas in the 1 km area around the residence, it corresponds to a benefit of, on average, 3400 euro per year per ha. The benefit per ha is higher for these ecosystem types (other low and high green areas) that are more common in urban areas. However, also for agricultural land nearby residential areas, these benefits may be important, for example, for fields, meadows and orchards close to municipal cores. This result may be typical for the highly fragmented landscapes in Flanders.</p>
+      <p>We estimated the impact for both 2013 and 2016. The data suggest that the average share of green-blue spaces has decreased (with 65% to 5%) and, consequently, the health benefits have decreased in a similar magnitude. As we will discuss below, this decrease is uncertain and requires further research into the underlying land-use maps. For Flanders as a whole, population growth means that the number of residents who can benefit from exposure to green spaces has increased by 1.5%. Population growth explains the lower decline at the level of the region (Flanders) compared to the impact per 1000 inhabitants.</p>
+    </sec>
+    <sec sec-type="Discussion">
+      <title>Discussion</title>
+      <p>Health impacts are an important part of (cultural) ecosystem services. The results illustrate that the methodology is applicable to estimate the impacts of green-blue areas within 500 m on mortality and within 1 and 3 km on physical and mental health. Both physical and monetary accounts are adequate to indicate the economic importance of these health impacts.</p>
+      <p>The results indicate that it is important to estimate these health impacts as an additional, separate part of cultural services of ecosystems. Although we acknowledge that these impacts on health may partially overlap with impacts of recreation and impact of green areas on real estate values, they are distinguished. Health impacts cover a wider range of mechanisms and refer to a broader definition of engagement with nature and stress release and it also takes into account more informal green areas in cities in comparison with the recreation benefits. The impact of green space on real estate is valued differently, indicating the benefits for landowners and homeowners, but it does not show the benefits for health care or productivity.</p>
+      <p>The results of the monetary accounts deliver interesting information of the relative importance of different components. It shows the importance of detailed assessment of medical costs and productivity loss, because these categories prove to be the most important ones. In the context of natural capital accounting, the avoided welfare losses for years of life lost may attract more discussion, but only account for 12% of total benefits. On the other hand, the detailed assessment shows that contribution of green-blue spaces to overall stress release results in import savings in medical costs and, thus, savings for social security and government budget. This justifies the current attention for contact with green spaces as part of preventative health care policies. In addition, avoided absenteeism contributes to productivity and economic growth, estimated at 0.6% of GDP. This shows the importance of stress release and reduction of absenteeism for the promotion of economic growth (<xref ref-type="bibr" rid="B8365171">OECD 2012b</xref>).</p>
+      <p>The benefits are driven by a high number of avoided diseases, measured in DALY. If we divide total benefits (3 billion euro) by the total estimate for avoided DALY (85000), the benefit per DALY corresponds to 35000 Euro. This value is in line with estimates from literature. The meta-analysis (<xref ref-type="bibr" rid="B7918854">Ryen and Svensson 2015</xref>) estimates the value per DALY for illness at 36000 Euro (converted to Euro 2019). For mortality, values in literature are higher (<xref ref-type="bibr" rid="B7918863">Torfs 2003</xref>, <xref ref-type="bibr" rid="B7918854">Ryen and Svensson 2015</xref>). To some extent, this can be explained because we use simulated exchange values for the welfare component, which is different from the values used in literature and results in lower values, even if we start from the same data in willingness-to-pay studies (<xref ref-type="bibr" rid="B7918645">Hein et al. 2016</xref>).</p>
+      <p>The method developed is incomplete because not all types of engagement with nature and health impacts are accounted for. Dose-response functions are missing for specific green areas (e.g. green areas in school yards) and for a wider range of health impacts (e.g. physical, cognitive and social development of children). Another gap is engagement with nature far away from home, such as during holidays. These gaps may be especially relevant as we look into lack of green areas for specific vulnerable groups in society, such as children or low-income families.</p>
+      <p>Potential users of the accounts involved in the project (environmental and health agencies) appreciated the study, as it highlights the importance of nearby green-blue areas and is a good first step. However, they need a more advanced indicator to measure the daily exposure to or engagement with green areas and particularly nature and its impacts on health. The indicator used in this study (share of green space in total land use, around the residence) is in line with the current literature (<xref ref-type="bibr" rid="B7918776">Maas et al. 2009</xref>, <xref ref-type="bibr" rid="B7918484">Buekers et al. 2020</xref>), but is a very rough proxy. This indicator lacks information, such as accessibility, visual exposure (e.g. windows with a view at home or work (<xref ref-type="bibr" rid="B7916859">Van den Berg et al. (2016)</xref>), duration and place of exposure (residence, school, work, transportation etc.) and the quality of nature (e.g. trees versus shrubs versus grass, biodiverse areas, heterogeneous versus monotonous etc.) (<xref ref-type="bibr" rid="B7916850">Van den Berg et al. 2014</xref>). Most policy measures do not have a great impact on the total share of green space in the short term, but affect type and quality of green space and ecosystems, accessibility and provision of facilities. If ecosystem accounts are to be useful, they need to capture these changes. More detailed indicators for quality of and contact with green spaces will allow us to test the linearity of current dose-effect relationships, as we would expect higher health benefits of additional or higher quality of green space in less green areas. To fill this gap in the longer term, more systematic health impact studies are required that take these elements into account and that report results in the form of (non-linear) dose-effect relationships. Second, data need to be collected on how people engage with green areas in their different living environments. The Monitor of Engagement with the Natural Environment (<xref ref-type="bibr" rid="B7921421">MENE UK 2018</xref>) survey in the UK illustrates the wealth of information these surveys deliver. In the short term, an additional set of condition accounts can be used to follow up the evolution of the quality and potential use of these areas.</p>
+      <p>It should be noted that these remarks and research priorities would also improve accounts for recreation or real estate values. It would also allow the provision of information that goes beyond ecosystem accounting, for example, specific indicators for vulnerable groups (elderly, children, low income families).</p>
+      <p>The comparison of accounts for two years has shown that the extent accounts and underlying land-use maps need to be more consistent over time. The decline in green space, reported in Table <xref ref-type="table" rid="T7918438">5</xref>, not only shows real changes in land use, but also methodological and data issues specific for land-use mapping. It should be noted that, since the 1960s, the Flemish Region has been subject to urban sprawl, which resulted in highly fragmented landscapes. It requires assumptions and interpretations to build the current, detailed land-use maps (10 m x 10 m) and identify all green-blue areas. It proves to be challenging to make consistent land-use maps for different years. For natural capital accounts, it is important to be able to distinguish changes in land use or green areas due to improvement of classifications, methods or data from real changes on the ground. If we account for the large uncertainty intervals in the currently available dose-effect relationships, the current information is too rough for a detailed follow-up of the changes in green space over short periods.</p>
+      <p>Although healthcare accounts for around 10% of GDP, the information on the total costs for society for important diseases is still incomplete or not region specific. Good data are available for costs of illness, but are missing for other components. To estimate productivity losses, specific studies are needed that bring together different data. As this is not done systematically, availability of data depends on specific studies (e.g. European study on costs of mental disorders), with different scope, methods and presentation results and they are often old.</p>
+      <p>Available studies on the willingness-to-pay to avoid suffering and reduced life expectancy are very limited and often outdated. There are no administrations or agencies that systematically order specific valuation studies. The availability of studies depends on scientific drivers or a specific context (e.g. around valuation of lost life years in air quality policy). If new studies also calculate simulated exchange values, these can be used for monetary natural capital accounts.</p>
+    </sec>
+    <sec sec-type="Conclusions">
+      <title>Conclusions</title>
+      <p>The approach demonstrates that it is possible and important to extend SEEA EA with physical health outcomes of availability of (urban) green and blue areas and its exchange values. A method was developed to build physical supply and use accounts and monetary accounts, building on detailed extent accounts (land-use maps), population maps and health care data (prevalence and costs of illness data).</p>
+      <p>The assessment builds on the vast scientific literature that highlights the benefits of nearby green space for physical and mental health. As the physical accounts require dose-effect relationships, it was only possible to assess impacts for a selected number of diseases (one mortality, five physical diseases and two mental diseases). The indicator used in these dose-response functions to measure exposure to or engagement with green-blue areas is rather simplified (percentage of green-blue areas in land use), which facilitates implementation, but limits its use, especially to follow up short term changes in green space availability and its use.</p>
+      <p>There are enough healthcare data (prevalence of disease) to apply the dose-effect relationships for the Flemish Region and to estimate and weigh impacts in terms of DALY (disability adjusted life years). For monetary accounts, there are data to value for each disease costs of illness, productivity loss and welfare losses for years of life lost (mortality). The first two build on market prices, whereas the latter are on simulated exchange values estimated in specific studies. It is possible to estimate total value of health impact, but there are insufficient local and updated data to follow up changes in values over the short term.</p>
+      <p>The physical and monetary accounts illustrate the importance of nearby green-blue areas, as indicated in literature. It also shows the importance to extend SEEA EA to account for physical and health outcomes and its exchange and welfare values. This is especially relevant for urban natural capital accounts. For monetary accounts, (avoided) medical costs and (avoided) absenteeism are by far the most important categories. It shows the importance of nearby green-blue space in the context of preventative health care and prevention of absenteeism.</p>
+      <p>The methodology is a good first step, but has its limitations. It is incomplete, as not all health indicators are covered, mainly due to a lack of dose-effect relationships. The research priority for potential users of the accounts is a better indicator for contact with green areas that does differentiate between ecosystems, their quality, accessibility or their use. This is required to follow up these natural capital accounts over time. In the short run, it is recommended to complete the approach with an additional set of condition accounts on these elements.</p>
+      <p>This study shows the importance to assess health impacts of nearby green-blue areas and daily engagement with nature in the living environments. Although this ecosystem service partially overlaps with recreation and impact of greenspace on real estate values, it is to be distinguished because it accounts for more and different mechanisms by which nature affects health. In addition, the monetary accounts show how important green-blue areas, including informal green areas, are to save money in healthcare and avoid absenteeism.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>This research received funding from the European Union's Horizon 2020 Research and Innovation Programme through the MAIA-project. We want to thank the project partners for fruitful discussions. We want to thank the Flemish Planbureau voor Omgeving for co-funding and supporting and especially Ludo Van Ongeval for coordinating the five pilot accounts. We also want to thank the Steering Group of the Flemish pilots for their useful comments and identification of data sources.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="B7919427">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>AZG</surname>
+            </name>
+          </person-group>
+          <uri>https://www.zorg-en-gezondheid.be/cijfers-over-doodsoorzaken-2017</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7919435">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>AZG</surname>
+            </name>
+          </person-group>
+          <article-title>Early deaths</article-title>
+          <uri>https://www.zorg-en-gezondheid.be/levensverwachting-en-vroegtijdige-sterfte-2017</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7916736">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bell</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liu</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Neighbourhood greenness and 2 year changes in body mass index of children and youth</article-title>
+          <source>American Journal of Preventative Medicine</source>
+          <volume>35</volume>
+          <issue>6</issue>
+          <fpage>547</fpage>
+          <lpage>533</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.amepre.2008.07.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7916768">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Bowen</surname>
+              <given-names>K. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Parry</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Victoria</surname>
+              <given-names>the Government of</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>The evidence base for linkages between green infrastructure, public health and economic benefit. Paper prepared for the project Assessing the Economic Value of Green Infrastructure.</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B7920927">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Broekx</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Nocker</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Poelmans</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Staes</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jacobs</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van der Biest</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheyen</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Raming van de baten geleverd door het Vlaamse NATURA 2000. Studie uitgevoerd in opdracht van: Agentschap Natuur en Bos (ANB/IHD/11/03) door VITO, Universiteit Antwerpen en Universiteit Gent</article-title>
+          <publisher-name>VITO 2013/RMA/R/1</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918475">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Buekers</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>L.</surname>
+              <given-names>Int Panis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nawrot</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pieters</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Legiest</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>De maatschappelijke kostenanalyse van de meest relevante gezondheidseffecten die in verband staan met verkeersgerelateerde luchtvervuiling als onderbouwing voor milieu- en gezondheidsbeleidsacties.</article-title>
+          <publisher-name>VITO report</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918484">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Buekers</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van de Vel</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Nocker</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bierkens</surname>
+              <given-names>J</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Baken</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Optimaliseren en actualiseren van het gebruik van gezondheidsindicatoren binnen de omgevingsbeleidscontext,</article-title>
+          <publisher-name>Studie uitgevoerd in opdracht van: Departement Omgeving – Vlaams Planbureau voor Omgeving (VPO), VITO: 2019/HEALTH/16644</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918511">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Chanel</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perez</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Künzli</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>The hidden economic burden of air pollution-related morbidity: Evidence from the Aphekom project</article-title>
+          <source>Eur J Health Econ</source>
+          <volume>17</volume>
+          <fpage>1101</fpage>
+          <pub-id pub-id-type="doi">10.1007/s10198-015-0748-z</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7919635">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>De Nocker</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Broekx</surname>
+              <given-names>S</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liekens</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Beckx</surname>
+              <given-names>C</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dams</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hambsch</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van den Abeele</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Poelmans</surname>
+              <given-names>L</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Jong</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Desmet</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Pilootproject Natural Capital Accounting in Vlaanderen.</article-title>
+          <publisher-name>Studie uitgevoerd in opdracht van het Departement Omgeving, Vlaams Planbureau voor Omgeving</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918580">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Desaigues</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Economic valuation of air pollution mortality: A 9-country contingent valuation survey of value of a life year (VOLY)</article-title>
+          <source>Ecological Indicators</source>
+          <volume>11</volume>
+          <fpage>902</fpage>
+          <lpage>910</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2010.12.006</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7918599">
+        <element-citation publication-type="thesis">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Desmet</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>De economische kost van diabetes mellitus type II in België, Masterproef voorgedragen tot het bekomen van de graad van Master of Science in de Bedrijfseconomie,</source>
+          <trans-title>The economic cost of diabetis lellitus type 2 in Belgium</trans-title>
+          <publisher-name>U Gent</publisher-name>
+          <publisher-loc>Gent</publisher-loc>
+          <comment content-type="language">Dutch</comment>
+        </element-citation>
+      </ref>
+      <ref id="B7916931">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>EEA</surname>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Natural capital accounting in support of policymaking in EuropeA review based on EEA ecosystem accounting work. Report No 26/2018</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B7916957">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>EFTEC</surname>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>A study to scope and develop urban natural capital accounts for the UK</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B7916789">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Frumkin</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bratman</surname>
+              <given-names>G. N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Breslow</surname>
+              <given-names>S. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cochran</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kahn</surname>
+              <given-names>P. H.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lawler</surname>
+              <given-names>J. J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Levin</surname>
+              <given-names>P. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tandon</surname>
+              <given-names>P. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Varanasi</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wolf</surname>
+              <given-names>K. L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wood</surname>
+              <given-names>S. A.</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Nature contact and human health: A research agenda</article-title>
+          <source>Environ. Health Perspect</source>
+          <volume>125</volume>
+          <fpage>1</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="doi">10.1289/EHP1663</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7918607">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gascon</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Triguero-Mas</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Martinez</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dadvand</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rojas-Rueda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Plasència</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nieuwenhuijsen</surname>
+              <given-names>M. J.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Residential green spaces and mortality: A systematic review</article-title>
+          <source>Environ. Int</source>
+          <volume>86</volume>
+          <fpage>60</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.envint.2015.10.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7918620">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Gustavsson</surname>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2011</year>
+          <article-title>Cost of disorders of the brain in Europe 2010</article-title>
+          <source>European Neuropsychopharmacology</source>
+          <volume>21</volume>
+          <fpage>718</fpage>
+          <lpage>779</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.euroneuro.2011.08.008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7918645">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Hein</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Roberts</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gonzalez</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Valuing a statistical life year in relation to clean air</article-title>
+          <source>J. Environ. Assess. Policy Manag</source>
+          <volume>18</volume>
+        </element-citation>
+      </ref>
+      <ref id="B7918654">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Horlings</surname>
+              <given-names>E.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <article-title>Experimental monetary valuation of ecosystem services and assets in the Netherlands</article-title>
+          <publisher-name>WUR, Wageningen</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7919480">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>IMA</surname>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Indicatoren over gebruik gezondheidszorg</article-title>
+          <uri>https://ima-aim.be/Data-209</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7919460">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Inego-databank</surname>
+            </name>
+          </person-group>
+          <uri>https://intego.be/nl/Resultaten</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7919351">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Jaeger</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bertiller</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schwick</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Degree of Landscape Fragmentation in Switzerland</article-title>
+          <publisher-name>Office fédéral de la statistique, Neuchâtel</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918671">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kondo</surname>
+              <given-names>Michelle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Triguero-Mas</surname>
+              <given-names>Margarita</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Donaire-Gonzalez</surname>
+              <given-names>David</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Seto</surname>
+              <given-names>Edmund</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Crespo</surname>
+              <given-names>Antonia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hurst</surname>
+              <given-names>Gemma</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Carrasco-Turigas</surname>
+              <given-names>Glòria</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Masterson</surname>
+              <given-names>Daniel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ambros</surname>
+              <given-names>Albert</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ellis</surname>
+              <given-names>Naomi</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Swart</surname>
+              <given-names>Wim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Davis</surname>
+              <given-names>Nora</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maas</surname>
+              <given-names>Jolanda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jerrett</surname>
+              <given-names>Michael</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gidlow</surname>
+              <given-names>Christopher</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nieuwenhuijsen</surname>
+              <given-names>Mark</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Momentary mood response to natural outdoor environments in four European cities</article-title>
+          <source>Environment International</source>
+          <volume>134. 105237</volume>
+          <fpage>10</fpage>
+          <lpage>1016</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7918662">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Kondo</surname>
+              <given-names>M. C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fluehr</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>McKeon</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Branas</surname>
+              <given-names>C. C.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Urban green space and its impact on human health</article-title>
+          <source>Int. J. Environ. Res. Public Health</source>
+          <volume>15</volume>
+          <fpage>445</fpage>
+          <pub-id pub-id-type="doi">10.3390/ijerph15030445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7919407">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Liekens</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Smeets</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Staes</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vrebos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van der Biest</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Broekx</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Nocker</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Waardering van ecosysteemdiensten: een up to date handleiding, versie 2021</article-title>
+          <uri>www.natuurwaardeverkenner.be</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7918747">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Łyszczarz</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Indirect costs and public finance consequences of heart failure in Poland, 2012-2015</article-title>
+          <source>BMC public health</source>
+          <volume>18</volume>
+          <issue>1</issue>
+          <fpage>1130</fpage>
+          <pub-id pub-id-type="doi">10.1186/s12889-018-6034-0</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7918756">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maas</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Vitamin G: green environments- healthy environments</article-title>
+          <publisher-name>Netherlands Inst. Heal. Serv. Res.</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918776">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maas</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verheij</surname>
+              <given-names>R. A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>De Vries</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Spreeuwenberg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schellevis</surname>
+              <given-names>F. G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Groenewegen</surname>
+              <given-names>P. P.</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Morbidity is related to a green living environment</article-title>
+          <source>J. Epidemiol. Community Health</source>
+          <volume>63</volume>
+          <fpage>967</fpage>
+          <lpage>973</lpage>
+          <pub-id pub-id-type="doi">10.1136/jech.2008.079038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7921421">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>UK</surname>
+              <given-names>MENE</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Monitor of Engagement with the Natural Environment The national survey on people and the natural environment; Technical Report to the 2009 - 2018 surveys</article-title>
+          <publisher-name>Natural England</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7920940">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nawrot</surname>
+              <given-names>T. S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perez</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Künzli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Munters</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nemery</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Public health importance of triggers of myocardial infarction: a comparative risk assessment</article-title>
+          <source>Lancet</source>
+          <volume>377</volume>
+          <fpage>732</fpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(10)62296-9</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8362933">
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>MAIA</surname>
+              <given-names>NCAVES and</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <source>Monetary valuation of ecosystem services and ecosystem assets for ecosystem accounting: Interim Version 1st edition</source>
+          <publisher-name>United Nations Department of Economic and Social Affairs, Statistics Division</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">137</size>
+          <uri>https://seea.un.org/sites/seea.un.org/files/techreportvaluationv15_final_21072022.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B8362941">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>MAIA</surname>
+              <given-names>NCAVES and</given-names>
+            </name>
+          </person-group>
+          <year>2022</year>
+          <source>Monetary valuation of ecosystem services and ecosystem assets for ecosystem accounting: Interim Version 1st edition.</source>
+          <publisher-name>United Nations Department of Economic and Social Affairs, Statistics Division</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <size units="page">137</size>
+          <comment content-type="language">Englisch</comment>
+          <uri>https://seea.un.org/sites/seea.un.org/files/techreportvaluationv15_final_21072022.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7916745">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nielsen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hansen</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Do green areas affect heath? Results from a Danish Survey on the use of green areas and health indicators</article-title>
+          <source>Health and Place</source>
+          <volume>13</volume>
+          <fpage>839</fpage>
+          <lpage>850</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.healthplace.2007.02.001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7916776">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>NRPA</surname>
+            </name>
+          </person-group>
+          <article-title>The health benefits of small parks and green areas</article-title>
+          <uri>https://www.nrpa.org/parks-recreation-magazine/2017/april/the-health-benefits-of-small-parks-and-greenareas/</uri>
+          <date-in-citation content-type="access-date">2022-06-08T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B8362908">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OECD</surname>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Policy Interventions to Address Health Impacts Associated with Air Pollution, Unsafe Water Supply and Sanitation, and Hazardous Chemicals</article-title>
+          <source>OECD Environment Working Papers</source>
+          <pub-id pub-id-type="doi">10.1787/5kg9qx8dsx43-en</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7921106">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OECD</surname>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>
+            <italic>Mortality Risk Valuation in Environment, Health and Transport Policies</italic>
+          </article-title>
+          <publisher-name>OECD Publishing</publisher-name>
+          <pub-id pub-id-type="doi">10.1787/9789264130807-en.</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8365171">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OECD</surname>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <source>Sick on the Job? Myths and Realities about Mental Health and Work</source>
+          <publisher-name>OECD</publisher-name>
+          <publisher-loc>Paris</publisher-loc>
+          <size units="page">212</size>
+          <pub-id pub-id-type="doi">10.1787/22257985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8791287">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>OECD</surname>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Healthcare costs of Belgium</article-title>
+          <uri>https://stats.oecd.org/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7916965">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>ONS</surname>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>UK Natural capital accounts 2019</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B7918787">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Poelmans</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Janssens</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hambsch</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Landgebruik en ruimtebeslag in Vlaanderen, toestand 2016</article-title>
+          <publisher-name>uitgevoerd in opdracht van het Vlaams Planbureau voor Omgeving</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918811">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>RIVM</surname>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Maatschappelijke kosten voor astma, COPD en respiratoire allergie</article-title>
+          <publisher-name>RIVM Rapport 260544001/2012</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7919513">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>RIVM</surname>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Ziektelast Nederland in DALY</article-title>
+          <uri>https://www.volksgezondheidenzorg.info/ziektelast-nederland.</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7918795">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>RIVM</surname>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Ziektelast in Daly’s, achtergrond bij de berekeningen</article-title>
+          <uri>https://www.volksgezondheidenzorg.info/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7919578">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>RIVM</surname>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Kosten van ziekten</article-title>
+          <uri>https://www.volksgezondheidenzorg.info/kosten-van-ziekten</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7918803">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>RIVM</surname>
+            </name>
+          </person-group>
+          <year>2020</year>
+          <article-title>Kosten stemmingsstoornissen</article-title>
+          <uri>https://www.volksgezondheidenzorg.info/</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7918828">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>RIZIV</surname>
+            </name>
+          </person-group>
+          <article-title>Nationale databank Medische diagnose, zorg en kost</article-title>
+          <uri>https://tct.fgov.be/webetct/etct-web/html/nl/fbho_faq.jsp</uri>
+          <date-in-citation content-type="access-date">2020-05-15T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B7918836">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rojas Rueda</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Green spaces and mortality: a systematic review and meta-analysis of cohort studies</article-title>
+          <source>Lancet Planet Health</source>
+          <volume>3</volume>
+          <fpage>469</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="doi">10.1016/S2542-5196(19)30215-3</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8362949">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ryen</surname>
+              <given-names>Linda</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Svensson</surname>
+              <given-names>Mikael</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>The Willingness to Pay for a Quality Adjusted Life Year: A Review of the Empirical Literature</article-title>
+          <source>Health Economics</source>
+          <volume>24</volume>
+          <issue>10</issue>
+          <fpage>1289</fpage>
+          <lpage>1301</lpage>
+          <pub-id pub-id-type="doi">10.1002/hec.3085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7918854">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Ryen</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Svensson</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>The willingness to pay for a quality adjusted life year:a review of the empirical literature: the willingness to pay for a QALY</article-title>
+          <source>Health Econ</source>
+          <volume>24</volume>
+          <fpage>1289</fpage>
+          <lpage>1301</lpage>
+          <pub-id pub-id-type="doi">10.1002/hec.3085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7919488">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Sciensano</surname>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Belgische gezondheidsenquête</article-title>
+          <uri>, https://www.statistiekvlaanderen.be/nl/psychische-stoornissen</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7919505">
+        <element-citation publication-type="software">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vlaanderen</surname>
+              <given-names>Statistiek in</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>DALYs mortaliteit: op basis verwachte gezonde levensjaren</article-title>
+          <uri>https://www.statistiekvlaanderen.be/nl/gezonde-levensverwachting</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7916832">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tillmann</surname>
+              <given-names>Suzanne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tobin</surname>
+              <given-names>Danielle</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Avison</surname>
+              <given-names>William</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gilliland</surname>
+              <given-names>Jason</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>Mental health benefits of interactions with nature in children and teenagers: a systematic review</article-title>
+          <source>Journal of Epidemiology and Community Health</source>
+          <volume>72</volume>
+          <issue>10</issue>
+          <fpage>958</fpage>
+          <lpage>966</lpage>
+          <uri>https://jech.bmj.com/content/jech/72/10/958.full.pdf</uri>
+          <pub-id pub-id-type="doi">10.1136/jech-2018-210436</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7916823">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Tillmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Button</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Coen</surname>
+              <given-names>S. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gilliland</surname>
+              <given-names>J. A.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Nature makes people happy, that is what it sort of means ? childrens definitions and perceptions of nature in rural Northwestern Ontario</article-title>
+          <source>Childrens Geographies</source>
+          <volume>17</volume>
+          <issue>6</issue>
+          <fpage>705</fpage>
+          <lpage>718</lpage>
+          <uri>://WOS:000491425600006</uri>
+          <pub-id pub-id-type="doi">10.1080/14733285.2018.1550572</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7918863">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Torfs</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <year>2003</year>
+          <article-title>Kwantificering van gezondheidsrisico’s aan de hand van DALYs en externe gezondheidskosten,</article-title>
+          <publisher-name>studie uitgevoerd in opdracht van de Vlaamse Milieumaatschappij, MIRA, MIRA/2003/02, VITO</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7916896">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Twohig-Bennett</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jones</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The health benefits of the great outdoors: A systematic review and meta-analysis of greenspace exposure and health outcomes</article-title>
+          <source>Environ. Res</source>
+          <volume>166</volume>
+          <fpage>628</fpage>
+          <lpage>637</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.envres.2018.06.030</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7919276">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2021</year>
+          <article-title>System of Environmental-Economic Accounting— Ecosystem Accounting (SEEA EA). White cover publication, pre-edited text subject to official editing.</article-title>
+          <uri>https://seea.un.org/ecosystem-accounting</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7916841">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Van den Berg</surname>
+              <given-names>A. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hartig</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Staats</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Preference for nature in urbanized societies: Stress, restoration, and the pursuit of sustainability</article-title>
+          <source>Journal of Social Issues</source>
+          <volume>63</volume>
+          <issue>1</issue>
+          <fpage>79</fpage>
+          <lpage>96</lpage>
+          <uri>://WOS:000244115700005</uri>
+          <pub-id pub-id-type="doi">10.1111/j.1540-4560.2007.00497.x</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7916850">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Van den Berg</surname>
+              <given-names>A. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jorgensen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Wilson</surname>
+              <given-names>E. R.</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Evaluating restoration in urban green spaces: Does setting type make a difference?</article-title>
+          <source>Landscape and Urban Planning</source>
+          <volume>127</volume>
+          <fpage>173</fpage>
+          <lpage>181</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.landurbplan.2014.04.012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7916877">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Van den Berg</surname>
+              <given-names>A. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van den Berg</surname>
+              <given-names>M. M. H. E.</given-names>
+            </name>
+          </person-group>
+          <year>2015</year>
+          <article-title>Health Benefits of Plants and Green Space: Establishing the Evidence Base</article-title>
+          <source>Xi International People Plant Symposium on Diversity: Towards a New Vision of Nature</source>
+          <volume>1093</volume>
+          <fpage>19</fpage>
+          <lpage>29</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B7916859">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Van den Berg</surname>
+              <given-names>A. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Joye</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Koole</surname>
+              <given-names>S. L.</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Why viewing nature is more fascinating and restorative than viewing buildings: A closer look at perceived complexity</article-title>
+          <source>Urban Forestry &amp; Urban Greening</source>
+          <volume>20</volume>
+          <fpage>397</fpage>
+          <lpage>401</lpage>
+          <uri>&lt;Go to ISI&gt;://WOS:000391471000043</uri>
+          <pub-id pub-id-type="doi">10.1016/j.ufug.2016.10.011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7916886">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>van Dijk-Wesselius</surname>
+              <given-names>J. E.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maas</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Hovinga</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van Vugt</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van den Berg</surname>
+              <given-names>A. E.</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>The impact of greening schoolyards on the appreciation, and physical, cognitive and social-emotional well-being of schoolchildren: A prospective intervention study</article-title>
+          <source>Landscape and Urban Planning</source>
+          <volume>180</volume>
+          <fpage>15</fpage>
+          <lpage>26</lpage>
+          <uri>&lt;Go to ISI&gt;://WOS:000449896300003</uri>
+          <pub-id pub-id-type="doi">10.1016/j.landurbplan.2018.08.003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7919610">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vanoverloop</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Socio-economisch profiel en de consumptie van zorg van leden met langdurig gebruik van geneesmiddelen tegen COPD of astma,</article-title>
+          <publisher-name>Socialistisch ziekenfonds</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7918884">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>WHO</surname>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>Urban green spaces and health</article-title>
+          <publisher-name>WHO Regional Office for Europe</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B7916728">
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>WHO</surname>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <article-title>Urban green area interventions and health: a review of impacts and effectiveness. Full report</article-title>
+        </element-citation>
+      </ref>
+      <ref id="B7916905">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zhang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Tan</surname>
+              <given-names>P. Y.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Associations between urban green spaces and health are dependent on the analytical scale and how urban green spaces are measured</article-title>
+          <source>Int. J. Environ. Res. Public Health</source>
+          <volume>16</volume>
+          <pub-id pub-id-type="doi">10.3390/ijerph16040578</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="FN7924647">
+        <label>*1</label>
+        <p>n.a. not available</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <table-wrap id="T7917007" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Dose-effects relationships for the impact of green-blue space on morbidity and mortality.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Dose-effect relationships</td>
+            <td rowspan="1" colspan="2">Impact 10% extra green-blue space</td>
+            <td rowspan="1" colspan="3">Proximity to residence</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">Effect (Odds ratio*</td>
+            <td rowspan="1" colspan="1">95% interval</td>
+            <td rowspan="1" colspan="1">0 - 0.5 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Mortality</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Cardiovascular mortality</td>
+            <td rowspan="1" colspan="1">-4%</td>
+            <td rowspan="1" colspan="1">(-2% - -6%)</td>
+            <td rowspan="1" colspan="1">0 - 0.5 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Morbidity</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Physical health</italic>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Coronary heart diseases</td>
+            <td rowspan="1" colspan="1">-3%</td>
+            <td rowspan="1" colspan="1">(-1% - -5%)</td>
+            <td rowspan="1" colspan="1">0-1 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Other heart diseases</td>
+            <td rowspan="1" colspan="1">-2%</td>
+            <td rowspan="1" colspan="1">(-1% - -3%)</td>
+            <td rowspan="1" colspan="1">0-1 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Diabetes mellitus</td>
+            <td rowspan="1" colspan="1">-2%</td>
+            <td rowspan="1" colspan="1">(-1% - -3%)</td>
+            <td rowspan="1" colspan="1">0-1 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Asthma &amp; COPD</td>
+            <td rowspan="1" colspan="1">-3%</td>
+            <td rowspan="1" colspan="1">(-2% - -4%)</td>
+            <td rowspan="1" colspan="1">0-1 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Mental health</italic>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Depression</td>
+            <td rowspan="1" colspan="1">-4%</td>
+            <td rowspan="1" colspan="1">(-2% - -6%)</td>
+            <td rowspan="1" colspan="1">0-1 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Anxiety disorders (1km)</td>
+            <td rowspan="1" colspan="1">-5%</td>
+            <td rowspan="1" colspan="1">(-3% - -6%)</td>
+            <td rowspan="1" colspan="1">0-1 km</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Anxiety disorders (3km)</td>
+            <td rowspan="1" colspan="1">-4%</td>
+            <td rowspan="1" colspan="1">(-1% - -7%)</td>
+            <td rowspan="1" colspan="1">1-3 km</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <p>*The odds ratio tells us how much higher the odds of exposure/prevalence are among case-patients than among controls.</p>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="T7917055" position="float" orientation="portrait">
+      <label>Table 2.</label>
+      <caption>
+        <p>Prevalence of illnesses and mortality Flanders, 2015-2017.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Health end point</td>
+            <td rowspan="1" colspan="1">Prevalence</td>
+            <td rowspan="1" colspan="1">Source</td>
+            <td rowspan="1" colspan="1">Frequency</td>
+            <td rowspan="1" colspan="1">Most recent data</td>
+            <td rowspan="1" colspan="1">DALY /1000 inhabitants</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Cardiovascular mortality</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Number of cases</td>
+            <td rowspan="1" colspan="1">2.68</td>
+            <td rowspan="1" colspan="1">AZG</td>
+            <td rowspan="1" colspan="1">yearly</td>
+            <td rowspan="1" colspan="1">2017</td>
+            <td rowspan="1" colspan="1">2.68</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Life years lost</td>
+            <td rowspan="1" colspan="1">17.11</td>
+            <td rowspan="1" colspan="1">AZG</td>
+            <td rowspan="1" colspan="1">yearly</td>
+            <td rowspan="1" colspan="1">2017</td>
+            <td rowspan="1" colspan="1">0.42</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Morbidity</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Physical illnesses</italic>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Coronary heart diseases</td>
+            <td rowspan="1" colspan="1">38.7</td>
+            <td rowspan="1" colspan="1">Intego</td>
+            <td rowspan="1" colspan="1">yearly</td>
+            <td rowspan="1" colspan="1">2015</td>
+            <td rowspan="1" colspan="1">0.27</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Other heart diseases</td>
+            <td rowspan="1" colspan="1">9.6</td>
+            <td rowspan="1" colspan="1">Ingeto</td>
+            <td rowspan="1" colspan="1">yearly</td>
+            <td rowspan="1" colspan="1">2015</td>
+            <td rowspan="1" colspan="1">0.14</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Diabetes mellitus</td>
+            <td rowspan="1" colspan="1">55</td>
+            <td rowspan="1" colspan="1">IMA-Atlas</td>
+            <td rowspan="1" colspan="1">yearly</td>
+            <td rowspan="1" colspan="1">2017</td>
+            <td rowspan="1" colspan="1">0.19</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Asthma &amp; COPD</td>
+            <td rowspan="1" colspan="1">99</td>
+            <td rowspan="1" colspan="1">Intego</td>
+            <td rowspan="1" colspan="1">yearly</td>
+            <td rowspan="1" colspan="1">2015</td>
+            <td rowspan="1" colspan="1">0.12</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <italic>Mental Health</italic>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Depression</td>
+            <td rowspan="1" colspan="1">67.8</td>
+            <td rowspan="1" colspan="1">Sciensano</td>
+            <td rowspan="1" colspan="1">6-yearly</td>
+            <td rowspan="1" colspan="1">2018</td>
+            <td rowspan="1" colspan="1">0.17</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Anxiety disorders (1 km)</td>
+            <td rowspan="1" colspan="1">51.9</td>
+            <td rowspan="1" colspan="1">Sciensano</td>
+            <td rowspan="1" colspan="1">6-yearly</td>
+            <td rowspan="1" colspan="1">2018</td>
+            <td rowspan="1" colspan="1">0.20</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Anxiety disorders (3 km)</td>
+            <td rowspan="1" colspan="1">51.9</td>
+            <td rowspan="1" colspan="1">Sciensano</td>
+            <td rowspan="1" colspan="1">6-yearly</td>
+            <td rowspan="1" colspan="1">2018</td>
+            <td rowspan="1" colspan="1">0.20</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T7918120" position="float" orientation="portrait">
+      <label>Table 3.</label>
+      <caption>
+        <p>Indicators for monetary valuation of health effects.*<xref ref-type="fn" rid="FN7924647">1</xref></p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="4">
+              <bold>Monetary valuation (Euro<sub>2019</sub> / case)</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Source</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>Medical cost</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Productivity loss</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Suffering</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Total</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Cardio vascular mortality</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Per case</td>
+            <td rowspan="1" colspan="1">9336</td>
+            <td rowspan="1" colspan="1">18500</td>
+            <td rowspan="1" colspan="1">n.a.</td>
+            <td rowspan="1" colspan="1">27836</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7918475">Buekers et al. (2014)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Per lost life year</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">15457</td>
+            <td rowspan="1" colspan="1">15457</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7918645">Hein et al. (2016)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Morbidity</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Physical health</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Coronary heart diseases</td>
+            <td rowspan="1" colspan="1">5936</td>
+            <td rowspan="1" colspan="1">12005</td>
+            <td rowspan="1" colspan="1">n.a.</td>
+            <td rowspan="1" colspan="1">17941</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7920940">Nawrot et al. (2011)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7918475">Buekers et al. (2014)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7919578">RIVM (2019b)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Other heart diseases</td>
+            <td rowspan="1" colspan="1">3431</td>
+            <td rowspan="1" colspan="1">614</td>
+            <td rowspan="1" colspan="1">n.a.</td>
+            <td rowspan="1" colspan="1">4044</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7919578">RIVM (2019b)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7918747">Łyszczarz (2018)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Diabetes</td>
+            <td rowspan="1" colspan="1">5973</td>
+            <td rowspan="1" colspan="1">5483</td>
+            <td rowspan="1" colspan="1">n.a.</td>
+            <td rowspan="1" colspan="1">11456</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7918599">Desmet (2017)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Asthma &amp; COPD</td>
+            <td rowspan="1" colspan="1">662</td>
+            <td rowspan="1" colspan="1">2430</td>
+            <td rowspan="1" colspan="1">n.a.</td>
+            <td rowspan="1" colspan="1">4091</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7918811">RIVM (2012)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7919610">Vanoverloop (2014)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7918511">Chanel et al. (2016)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7918828">RIZIV (2019)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>
+                <italic>Mental health</italic>
+              </bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Depression</td>
+            <td rowspan="1" colspan="1">1692</td>
+            <td rowspan="1" colspan="1">3670</td>
+            <td rowspan="1" colspan="1">n.a.</td>
+            <td rowspan="1" colspan="1">5362</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7918620">Gustavsson (2011)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7918803">RIVM (2020)</xref>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Anxiety disorders</td>
+            <td rowspan="1" colspan="1">1085</td>
+            <td rowspan="1" colspan="1">817</td>
+            <td rowspan="1" colspan="1">n.a.</td>
+            <td rowspan="1" colspan="1">1902</td>
+            <td rowspan="1" colspan="1">
+              <xref ref-type="bibr" rid="B7918620">Gustavsson (2011)</xref>
+              <break/>
+              <xref ref-type="bibr" rid="B7918803">RIVM (2020)</xref>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T7918437" position="float" orientation="portrait">
+      <label>Table 4.</label>
+      <caption>
+        <p>Used data and knowledge tables for physical and moneatry accounts for 2013 and 2016.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">
+              <bold>Account 2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Account 2016</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Specific per year</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Extent: share of green-blue in total land use (%)</td>
+            <td rowspan="1" colspan="1">data 2013</td>
+            <td rowspan="1" colspan="1">data 2016</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Demand: inhabitants per residence</td>
+            <td rowspan="1" colspan="1">data 2013</td>
+            <td rowspan="1" colspan="1">data 2016</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Generic</bold>
+            </td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Dose-response relationships</td>
+            <td rowspan="1" colspan="1">Generic</td>
+            <td rowspan="1" colspan="1">Generic</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Data prevalences</td>
+            <td rowspan="1" colspan="1">data 2015-2018</td>
+            <td rowspan="1" colspan="1">data 2015-2018</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Monetary valuation</td>
+            <td rowspan="1" colspan="1">estimates 2019</td>
+            <td rowspan="1" colspan="1">estimates 2019</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <table-wrap id="T7918438" position="float" orientation="portrait">
+      <label>Table 5.</label>
+      <caption>
+        <p>Physical and monetary accounts for the years 2013 and 2016.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1">Health benefits</td>
+            <td rowspan="1" colspan="3">Per 1000 inhabitants</td>
+            <td rowspan="1" colspan="3">Total for Flanders</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>Determining factors</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2016</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Evolution</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2016</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Evolution</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Share green-blue space in total land use</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">0-500 m</td>
+            <td rowspan="1" colspan="1">58.8%</td>
+            <td rowspan="1" colspan="1">55.0%</td>
+            <td rowspan="1" colspan="1">-6.5%</td>
+            <td rowspan="1" colspan="1">58.8%</td>
+            <td rowspan="1" colspan="1">55.0%</td>
+            <td rowspan="1" colspan="1">-6.5%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">0-1 km</td>
+            <td rowspan="1" colspan="1">64.2%</td>
+            <td rowspan="1" colspan="1">61.0%</td>
+            <td rowspan="1" colspan="1">-5.0%</td>
+            <td rowspan="1" colspan="1">64.2%</td>
+            <td rowspan="1" colspan="1">61.0%</td>
+            <td rowspan="1" colspan="1">-5.0%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">0-3 km</td>
+            <td rowspan="1" colspan="1">71.7%</td>
+            <td rowspan="1" colspan="1">68.4%</td>
+            <td rowspan="1" colspan="1">-4.6%</td>
+            <td rowspan="1" colspan="1">71.7%</td>
+            <td rowspan="1" colspan="1">68.4%</td>
+            <td rowspan="1" colspan="1">-4.6%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Population (mio.)</td>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1"/>
+            <td rowspan="1" colspan="1">6.38</td>
+            <td rowspan="1" colspan="1">6.48</td>
+            <td rowspan="1" colspan="1">1.50%</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>Physical accounts</bold>
+            </td>
+            <td rowspan="1" colspan="3">
+              <bold>DALYs/1000 inh</bold>
+            </td>
+            <td rowspan="1" colspan="3">
+              <bold>Total DALYs Flanders</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2016</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Evolution</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2016</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Evolution</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mortality</td>
+            <td rowspan="1" colspan="1">1.7</td>
+            <td rowspan="1" colspan="1">1.6</td>
+            <td rowspan="1" colspan="1">-6.5%</td>
+            <td rowspan="1" colspan="1">10789</td>
+            <td rowspan="1" colspan="1">10243</td>
+            <td rowspan="1" colspan="1">-5.1%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Physical health</td>
+            <td rowspan="1" colspan="1">5.8</td>
+            <td rowspan="1" colspan="1">5.5</td>
+            <td rowspan="1" colspan="1">-5.0%</td>
+            <td rowspan="1" colspan="1">36891</td>
+            <td rowspan="1" colspan="1">35580</td>
+            <td rowspan="1" colspan="1">-3.6%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mental health</td>
+            <td rowspan="1" colspan="1">6.3</td>
+            <td rowspan="1" colspan="1">6.0</td>
+            <td rowspan="1" colspan="1">-4.6%</td>
+            <td rowspan="1" colspan="1">40017</td>
+            <td rowspan="1" colspan="1">38749</td>
+            <td rowspan="1" colspan="1">-3.2%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">TOTAL</td>
+            <td rowspan="1" colspan="1">13.7</td>
+            <td rowspan="1" colspan="1">13.1</td>
+            <td rowspan="1" colspan="1">-5.0%</td>
+            <td rowspan="1" colspan="1">87697</td>
+            <td rowspan="1" colspan="1">84572</td>
+            <td rowspan="1" colspan="1">-3.56%</td>
+          </tr>
+          <tr>
+            <td rowspan="2" colspan="1">
+              <bold>Monetary accounts</bold>
+            </td>
+            <td rowspan="1" colspan="3">
+              <bold>Euro/inhabitant</bold>
+            </td>
+            <td rowspan="1" colspan="3">
+              <bold>Million Euro Flanders</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">
+              <bold>2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2016</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Evolution</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2013</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>2016</bold>
+            </td>
+            <td rowspan="1" colspan="1">
+              <bold>Evolution</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mortality</td>
+            <td rowspan="1" colspan="1">80</td>
+            <td rowspan="1" colspan="1">75</td>
+            <td rowspan="1" colspan="1">-6.5%</td>
+            <td rowspan="1" colspan="1">509</td>
+            <td rowspan="1" colspan="1">483</td>
+            <td rowspan="1" colspan="1">-5.1%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Physical health</td>
+            <td rowspan="1" colspan="1">297</td>
+            <td rowspan="1" colspan="1">283</td>
+            <td rowspan="1" colspan="1">-5.0%</td>
+            <td rowspan="1" colspan="1">1898</td>
+            <td rowspan="1" colspan="1">1830</td>
+            <td rowspan="1" colspan="1">-3.6%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">Mental Health</td>
+            <td rowspan="1" colspan="1">112</td>
+            <td rowspan="1" colspan="1">107</td>
+            <td rowspan="1" colspan="1">-4.6%</td>
+            <td rowspan="1" colspan="1">718</td>
+            <td rowspan="1" colspan="1">695</td>
+            <td rowspan="1" colspan="1">-3.6%</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1">TOTAL</td>
+            <td rowspan="1" colspan="1">490</td>
+            <td rowspan="1" colspan="1">464</td>
+            <td rowspan="1" colspan="1">-5.1%</td>
+            <td rowspan="1" colspan="1">3124</td>
+            <td rowspan="1" colspan="1">3008</td>
+            <td rowspan="1" colspan="1">-3.80%</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

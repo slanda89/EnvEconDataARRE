@@ -1,0 +1,28 @@
+Table 7: Variables included in the model
+
+
+Characteristic vector,Component variables,Sources
+Structural,Number of bedrooms,Zoopla
+,Property area (square feet),
+,"Property type, such as house, bungalow, flat",
+,"Property attributes based on description (for example, garage, double glazing)",
+Neighbourhood,Distance to railway station,Ordnance Survey
+,Distance to local labour market,
+,Distance to nearest transport infrastructure,
+,Distance to nearest retail cluster,
+Socio-economic,"Scottish Index of Multiple Deprivation, Output Area Classification",Scottish Government
+Environmental amenities,Distance to green space,Ordnance Survey
+,Distance to blue space,
+,Area of Natural Features in 500 metres radius of property (square metres),
+,Area of functional green space in 500 metres radius of property (square metres),
+,Area of blue space in 500 metres radius of property (square metres),
+,Function of green space,
+,Area of residential garden (square metres),
+,Distance to railway line,
+,View over green or blue space,Zoopla
+,Air pollution,"Department for Environment, Food and Rural Affairs"
+,Noise pollution,
+,Distance to coast,
+,"Distance to substation, tower, overhead lines",UK National Grid
+
+Source: ,Office for National Statistics

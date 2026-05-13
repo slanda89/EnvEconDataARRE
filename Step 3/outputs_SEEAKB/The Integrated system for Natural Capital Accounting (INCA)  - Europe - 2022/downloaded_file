@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "../../nlm/tax-treatment-NS0.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">52</journal-id>
+      <journal-id journal-id-type="index">urn:lsid:arphahub.com:pub:4A25E796-D4BE-573E-A5A5-2A05A815D1C2</journal-id>
+      <journal-title-group>
+        <journal-title xml:lang="en">One Ecosystem</journal-title>
+        <abbrev-journal-title xml:lang="en">OE</abbrev-journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2367-8194</issn>
+      <publisher>
+        <publisher-name>Pensoft Publishers</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3897/oneeco.7.e84925</article-id>
+      <article-id pub-id-type="publisher-id">84925</article-id>
+      <article-id pub-id-type="manuscript">19054</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Integrated system for Natural Capital Accounting (INCA) in Europe: twelve lessons learned from empirical ecosystem service accounting</article-title>
+      </title-group>
+      <contrib-group content-type="authors">
+        <contrib contrib-type="author" corresp="yes">
+          <name name-style="western">
+            <surname>La Notte</surname>
+            <given-names>Alessandra</given-names>
+          </name>
+          <email xlink:type="simple">alessandra.la-notte@ec.europa.eu</email>
+          <uri content-type="orcid">https://orcid.org/0000-0001-6951-709X</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+          <role content-type="http://credit.niso.org/contributor-roles/investigation/">Investigation</role>
+          <role content-type="http://credit.niso.org/contributor-roles/methodology/">Methodology</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Vallecillo</surname>
+            <given-names>Sara</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-5105-6253</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+          <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Grammatikopoulou</surname>
+            <given-names>Ioanna</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Polce</surname>
+            <given-names>Chiara</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-7065-8647</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Rega</surname>
+            <given-names>Carlo</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role content-type="http://credit.niso.org/contributor-roles/data-curation/">Data curation</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Zulian</surname>
+            <given-names>Grazia</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-9951-6765</uri>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Kakoulaki</surname>
+            <given-names>Georgia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Grizzetti</surname>
+            <given-names>Bruna</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/formal-analysis/">Formal analysis</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Ferrini</surname>
+            <given-names>Silvia</given-names>
+          </name>
+          <xref ref-type="aff" rid="A2">2</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Zurbaran-Nucci</surname>
+            <given-names>Mayra</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Garcia Bendito</surname>
+            <given-names>Eduardo</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0001-7351-3593</uri>
+          <xref ref-type="aff" rid="A3">3</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Vysna</surname>
+            <given-names>Veronika</given-names>
+          </name>
+          <xref ref-type="aff" rid="A4">4</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/resources/">Resources</role>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Paracchini</surname>
+            <given-names>Maria Luisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="no">
+          <name name-style="western">
+            <surname>Maes</surname>
+            <given-names>Joachim</given-names>
+          </name>
+          <uri content-type="orcid">https://orcid.org/0000-0002-8272-1607</uri>
+          <xref ref-type="aff" rid="A5">5</xref>
+          <role content-type="http://credit.niso.org/contributor-roles/conceptualization/">Conceptualization</role>
+          <role content-type="http://credit.niso.org/contributor-roles/project-administration/">Project administration</role>
+        </contrib>
+      </contrib-group>
+      <aff id="A1">
+        <label>1</label>
+        <addr-line content-type="verbatim">European Commission Joint Research Centre, Ispra, Italy</addr-line>
+        <institution>European Commission Joint Research Centre</institution>
+        <addr-line content-type="city">Ispra</addr-line>
+        <country>Italy</country>
+      </aff>
+      <aff id="A2">
+        <label>2</label>
+        <addr-line content-type="verbatim">University of East Anglia, Norwich, United Kingdom</addr-line>
+        <institution>University of East Anglia</institution>
+        <addr-line content-type="city">Norwich</addr-line>
+        <country>United Kingdom</country>
+      </aff>
+      <aff id="A3">
+        <label>3</label>
+        <addr-line content-type="verbatim">CGIAR, Nairobi, Kenya</addr-line>
+        <institution>CGIAR</institution>
+        <addr-line content-type="city">Nairobi</addr-line>
+        <country>Kenya</country>
+      </aff>
+      <aff id="A4">
+        <label>4</label>
+        <addr-line content-type="verbatim">Eurostat, Luxembourg, Luxembourg</addr-line>
+        <institution>Eurostat</institution>
+        <addr-line content-type="city">Luxembourg</addr-line>
+        <country>Luxembourg</country>
+      </aff>
+      <aff id="A5">
+        <label>5</label>
+        <addr-line content-type="verbatim">European Commission, Brussels, Belgium</addr-line>
+        <institution>European Commission</institution>
+        <addr-line content-type="city">Brussels</addr-line>
+        <country>Belgium</country>
+      </aff>
+      <author-notes>
+        <fn fn-type="corresp">
+          <p>Corresponding author: Alessandra La Notte (<email xlink:type="simple">alessandra.la-notte@ec.europa.eu</email>).</p>
+        </fn>
+        <fn fn-type="edited-by">
+          <p>Academic editor: Benjamin Burkhard</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>09</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>e84925</elocation-id>
+      <uri content-type="arpha" xlink:href="http://openbiodiv.net/234E6E0B-DFE9-5A28-9934-41BAA8BB76E4">234E6E0B-DFE9-5A28-9934-41BAA8BB76E4</uri>
+      <uri content-type="zenodo_dep_id" xlink:href="https://zenodo.org/record/7089749">7089749</uri>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>04</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>07</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Alessandra La Notte, Sara Vallecillo, Ioanna Grammatikopoulou, Chiara Polce, Carlo Rega, Grazia Zulian, Georgia Kakoulaki, Bruna Grizzetti, Silvia Ferrini, Mayra Zurbaran-Nucci, Eduardo Garcia Bendito, Veronika Vysna, Maria Luisa Paracchini, Joachim Maes</copyright-statement>
+        <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+          <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License (CC BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <label>Abstract</label>
+        <p>The Integrated system for Natural Capital Accounting (INCA) was developed and supported by the European Commission to test and implement the System of integrated Environmental and Economic Accounting – Ecosystem Accounting (SEEA EA). Through the compilation of nine Ecosystem Services (ES) accounts, INCA can make available to any interested ecosystem accountant a number of lessons learned. Amongst the conceptual lessons learned, we can mention: (i) for accounting purposes, ES should be clustered according to the existence (or not) of a sustainability threshold; (ii) the assessment of ES flow results from the interaction of an ES potential and an ES demand; (iii) the ES demand can be spatially identified, but for an overarching environmental target, this is not possible; ES potential and ES demand could mis-match; (iv) because the demand remains unsatisfied; (v) because the ES is used above its sustainability threshold or (vi) because part of the potential flow is missed; (vii) there can be a cause-and-effect relationship between ecosystem condition and ES flow; (viii) ES accounts can complement the SEEA Central Framework accounts without overlapping or double counting. Amongst the methodological lessons learned, we can mention: (ix) already exiting ES assessments do not directly provide ES accounts, but will likely need some additional processing; (x) ES cannot be defined by default as intermediate; (xi) the ES remaining within ecosystems cannot be reported as final; (xii) the assessment and accounting of ES can be undertaken throughout a fast track approach or more demanding modelling procedures.</p>
+      </abstract>
+      <kwd-group>
+        <label>Keywords</label>
+        <kwd>Natural capital accounting</kwd>
+        <kwd>ecosystem services</kwd>
+        <kwd>ecosystem potential</kwd>
+        <kwd>ecosystem capacity</kwd>
+        <kwd>intermediate ecosystem services</kwd>
+        <kwd>Natural Capital indicators</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="15"/>
+        <table-count count="1"/>
+        <ref-count count="27"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="Introduction">
+      <title>Introduction</title>
+      <p>The System of integrated Environmental and Economic Accounting (SEEA) is a framework of satellite accounts which complements the economic accounts reported in the System of National Accounts. Its purpose is to provide a comprehensive setting to measure and value the relationships between the economy and the environment. There is, in fact, the need to trace and assess impact and dependencies of economic activities on/from nature to promote and support the sustainable use of resources, to protect ecosystems from disruption and degradation and eventually sustain our and future generation well-being. Consistency with economic accounts is guaranteed by internationally agreed concepts, definitions, classifications, accounting rules and tables (<xref ref-type="bibr" rid="B7818933">United Nations 2021</xref>). A Knowledge Innovation Project (KIP) on an Integrated system for Natural Capital and ecosystem services Accounting (INCA) was set up by the European Commission in 2015 to design and implement an integrated accounting system for ecosystems and their services in the EU, compliant with SEEA. INCA builds on the EU initiative on Mapping and Assessment of Ecosystems and their Services (MAES), whose aim was to map and assess ecosystems and their services in the EU (<xref ref-type="bibr" rid="B7788218">Maes et al. 2016</xref>). The MAES Working Group was set up to support the implementation of Target 2, Action 5 of the EU Biodiversity Strategy to 2020. The Biodiversity Strategy called on Member States to map and assess the state of ecosystems and their services in their national territory with the assistance of the European Commission. In 2020, the EU Ecosystem Assessment was released to analyse trends in pressures on biodiversity and the condition of Europe’s ecosystems (<xref ref-type="bibr" rid="B7819082">Maes et al. 2020</xref>). Of course, INCA also builds on the SEEA, which provides methodological guidelines for setting up integrated environmental accounts. Specifically, the UN SEEA EEA (Experimental Ecosystem Accounting) provided guidance on the ecosystem and ecosystem services accounting (<xref ref-type="bibr" rid="B7818949">United Nations et al. 2014a</xref>, <xref ref-type="bibr" rid="B7818933">United Nations 2021</xref>).</p>
+      <p>The project had two reporting periods (2015-2016 and 2016-2020). During the project's first phase, feasibility and design were investigated by reviewing data collection instruments within and outside the EU, by exploring options and resources needed to implement an integrated accounting system for ecosystems and their services across the EU.</p>
+      <p>During the second phase (2016 – 2020), a series of concrete applications on ecosystem accounting modules, such as extent, condition and ecosystem services (ES) accounts was undertaken (<xref ref-type="bibr" rid="B7819091">Vysna et al. 2021</xref>). INCA results have shown that the production of a coherent wide range of ecosystem accounts is feasible; and the experience gained through applications contributed to the revision of the SEEA EEA*<xref ref-type="fn" rid="FN7709172">2</xref>. In 2021, the SEEA EA (Ecosystem Accounts) became a UN standard (<xref ref-type="bibr" rid="B7818933">United Nations 2021</xref>)*<xref ref-type="fn" rid="FN7709173">1</xref>.</p>
+      <p>The INCA applications on ES accounts developed by the JRC are described in a series of reports:</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p><xref ref-type="bibr" rid="B7818967">Vallecillo et al. (2018)</xref> reports methodology and accounts for nature-based recreation and crop pollination;</p>
+        </list-item>
+        <list-item>
+          <p><xref ref-type="bibr" rid="B7818995">Vallecillo et al. (2019)</xref> reports methodology and accounts for crop provision, timber provision, carbon sequestration and flood control;</p>
+        </list-item>
+        <list-item>
+          <p><xref ref-type="bibr" rid="B7819008">La Notte et al. (2021)</xref> reports methodology and accounts for habitat and species maintenance, soil retention and water purification.</p>
+        </list-item>
+      </list></p>
+      <p>The complementary material accompanying these reports are accessible from the JRC data catalogue*<xref ref-type="fn" rid="FN7709174">3</xref>. INCA documentation and the most recent releases are available in a dedicated web site (<ext-link ext-link-type="uri" xlink:href="https://ecosystem-accounts.jrc.ec.europa.eu/">https://ecosystem-accounts.jrc.ec.europa.eu/</ext-link>).</p>
+      <p>Several lessons were learned from the project, that can provide insights on how to address the main issues that may arise when working on ES accounting. The SEEA EA provides a general framework and INCA, compliant with this general framework, provides operational guidelines on how to make it operational. This paper describes twelve lessons learned from INCA phase II.</p>
+    </sec>
+    <sec sec-type="Lessons learned">
+      <title>Lessons learned</title>
+      <p>Twelve main lessons are learned while applying the SEEA EA framework in practice. The following sections list and explain each individual finding and outcome:</p>
+      <p><list list-type="bullet">
+        <list-item>
+          <p>Sections 2.1 to 2.8 are conceptual: for a complex topic (such as ES), the accounting tables proposed by the SEEA EA need to be underpinned by a scheme that remains consistent with the ecological meaning of ES and their interaction with the socio-economic component. Importantly, INCA provides some insights that prove to be consistent for all the ES so far assessed and accounted.</p>
+        </list-item>
+        <list-item>
+          <p>Section 2.9 to 2.12 describe the applied methodology: after operational guidance, explaining how to proceed, there is the need to understand how to overcome some of the most common issues that practitioners could come across when compiling ES accounts.</p>
+        </list-item>
+      </list></p>
+      <sec sec-type="There are different accounting clusters of ES (1)">
+        <title>There are different accounting clusters of ES (1)</title>
+        <p>The classification of ecosystem services has experienced a remarkable evolution from the <xref ref-type="bibr" rid="B7819102">Millennium Assessment 2005</xref> to the latest versions of the Common International Classification of Ecosystem Services (<xref ref-type="bibr" rid="B7819111">Haines-Young and Potschin 2018</xref>), the Intergovernmental Platform on Biodiversity and Ecosystem Services (<xref ref-type="bibr" rid="B7819127">Brondizio et al. 2019</xref>), the National Ecosystems Classification System (<xref ref-type="bibr" rid="B7819119">US Environmental Protection Agency 2020</xref>) and The Economics of Ecosystems and Biodiversity (<xref ref-type="bibr" rid="B8002312">TEEB 2010</xref>). In INCA, we refer to the CICES classification, also mentioned in the SEEA EA (<xref ref-type="bibr" rid="B7818933">United Nations 2021</xref>). When assessing ES from an accounting perspective, we found that ecosystems can behave in various ways in delivering services for human needs. We look at two major groups (accounting clusters):</p>
+        <p><list list-type="bullet">
+          <list-item>
+            <p>Cluster 1 (sustainable thresholds) - for some ES, management practices could exceed sustainability thresholds: this is the case of provisioning services when the regeneration rate of natural resources is exceeded and resources cannot be regenerated anymore (e.g. the unsustainable extraction of wood). It also happens for services, such as water purification, where the exceeding absorption rate prevents ecosystems from an effective removal of pollutants, which in turn leads to ecosystem degradation. The former belongs to CICES section “provisioning ecosystem services”, the latter belongs to CICES section “regulation and maintenance services”.</p>
+          </list-item>
+          <list-item>
+            <p>Cluster 2 (presence/absence of ecosystems)- for other ES, what matters is the presence of suitable ecosystems to generate the ES where they are needed. For example, the presence of: suitable habitats to host species (e.g. crop pollination and habitat and species maintenance); vegetation able to reduce the magnitude of matter and/or energy, contributing to flood control and avoiding soil erosion; natural attractive and accessible areas that offer the possibility for residents to enjoy outdoor activities (nature-based recreation). All these ES belong to CICES section “regulation and maintenance services”, while nature-based recreation is a “cultural” service.</p>
+          </list-item>
+        </list></p>
+        <p>Fig. <xref ref-type="fig" rid="F7709112">1</xref> summarises the two ES accounting clusters:</p>
+        <p><list list-type="order">
+          <list-item>
+            <p>the ES cluster including source-provision (regeneration rate) and sink (absorption rate) where the ES that is actually used can be higher than its sustainable use because resource extraction or pollutants emission exceed sustainable thresholds;</p>
+          </list-item>
+          <list-item>
+            <p>the ES cluster including source-suitability (e.g. existence of suitable habitats), buffer (e.g. protective role of vegetation in reducing threats) and information (e.g. opportunity to enjoy nature) where there can only be an actual use of ES.</p>
+          </list-item>
+        </list></p>
+        <p>Clustering of ES has strong implications when accounting for ES capacity in monetary terms. ES capacity can be defined as the ability to keep on generating ES in the future. As suggested in SEEA EA (<xref ref-type="bibr" rid="B7818933">United Nations 2021</xref>, <xref ref-type="bibr" rid="B7818941">United Nations 2019</xref>), the Net Present Value (NPV) is calculated using the ES actual flow. This procedure is correct in case that what matters is presence/absence of ecosystems (cluster 2); on the other hand, it can be misleading when the ES can be overused (i.e. for the first accounting cluster) as decribed in <xref ref-type="bibr" rid="B7819166">La Notte et al. (2019a)</xref>. For provisioning (e.g. timber provision) and sink (water purification) ES, calculating the NPV of the actual flow (when exceeding sustainability thresholds) implies that a higher capacity is computed due to unsustainable management practices, eventually leading to ecosystem degradation. If capacity is computed from exceeding ES use, the message to policy-makers would be misleading in the following ways:</p>
+        <p><list list-type="bullet">
+          <list-item>
+            <p>there is no advantage for adopting sustainable practices (sustainable ES flow would lead to lower capacity);</p>
+          </list-item>
+          <list-item>
+            <p>there is no alert mechanism for unsustainable policies: once the ES actual flow collapses (due to ecosystem degradation), it will be too late to act.</p>
+          </list-item>
+        </list></p>
+        <p><bold>First lesson learned: For accounting purposes and, especially, when it comes to ES capacity, ES should be clustered correctly, according to the existence of a sustainability threshold in management practices (cluster 1) or the presence of ecosystems (cluster 2)</bold>.</p>
+      </sec>
+      <sec sec-type="ES actual flow is determined by the interaction between ecological supply and socio-economic demand (2)">
+        <title>ES actual flow is determined by the interaction between ecological supply and socio-economic demand (2)</title>
+        <p>When using ecological models to assess ES, the resulting ES flow recorded in the supply and use table is, in turn, the result of the interaction between the ecological potential supply and the effective socio-economic need for each service. The match between the ES potential (ecological side of supply) and the ES demand (socio-economic side of demand) generates the ES actual flow (Fig. <xref ref-type="fig" rid="F7709116">2</xref>).</p>
+        <p>The interlinkage of ecological and socio-economic frames in the generation of ES actual flows plays an important role when interpreting the trends of ES flow over time. Fig. <xref ref-type="fig" rid="F7709120">3</xref> reports the overall difference of crop pollination between 2000 and 2012. The pollination ecosystem service increased from 2000 to 2012 by 12.6%. At first glance, this seems a positive change. However, we found an increased demand for pollinator-dependent crops in 2012, which was not mirrored by an increase in suitable pollinator habitats (which actually decreased by 1.4%). This means there is a smaller habitat extent suitable to host wild pollinators and the ones that exist are under a growing pressure. This is a strong message for policy- and decision-makers for agricultural land management and ecosystem restoration strategies.</p>
+        <p>Another example is provided by nature-based recreation (Fig. <xref ref-type="fig" rid="F7709124">4</xref>): a 20.4% increase from 2000 to 2012 is remarkable. However, almost half of such change (9.4%) can be explained by population increase in the EU (and, therefore, more people requiring nature-based recreation), while the other half (11%) is the real increase of the service (i.e. natural areas nearby human settlements).</p>
+        <p>
+          <bold>Second lesson learned: Two components interact when assessing ES actual flow, i.e ecological components assessed through the ES potential and the socio-economic components assessed through the ES demand. A correct interpretation of changes on ES use over time needs to be analysed considering the role of each side.</bold>
+        </p>
+      </sec>
+      <sec sec-type="Users of ES can be domestic or global (3)">
+        <title>Users of ES can be domestic or global (3)</title>
+        <p>The socio-economic frame simplified in Fig. <xref ref-type="fig" rid="F7709116">2</xref> is multifaceted. It can represent economic sectors such as agriculture (for pollination and soil retention) or households (for nature-based recreation). In both cases, the biophysical mapping of ES demand coincides with where economic assets and human settlements are located. Users of these ES are labelled "domestic", becasue they are within their national boundaries. The accounting of ES stops at its first users (e.g crop provision flows from the cropland ecosystem type to the agricultural sector). The transformation and trading of the products eventually generated is accounted in the conventional system of national accounts.</p>
+        <p>However, there are ES that contribute to addressing overarching environmental targets, such as climate change mitigation (by, for example, carbon sequestration) or halting biodiversity loss (habitat and species maintenance). For these ES, the global society can benefit from the services provided, regardless of where the service is generated (<xref ref-type="bibr" rid="B8018220">Fisher et al. 2009</xref>, <xref ref-type="bibr" rid="B8018248">Syrbe and Walz 2012</xref><xref ref-type="bibr" rid="B8018286">Burkhard and Maes 2017</xref>). The concept of national boundaries does not apply to this type of ES, hence their beneficiaries/users are referred to as 'global'.</p>
+        <p>Fig. <xref ref-type="fig" rid="F7709128">5</xref> confronts the two cases:</p>
+        <p><list list-type="bullet">
+          <list-item>
+            <p>map (a) ranks the ES monetary value (€/km<sup>2</sup>/year) of a few domestic ES – crop and timber provision, pollination and nature-based recreation per EU NUTS2 regions with respect to a reference value, that is the EU average;</p>
+          </list-item>
+          <list-item>
+            <p>map (b) ranks the ES monetary value (€/km<sup>2</sup>/year) of carbon sequestration per EU NUTS2 regions with respect to a reference value, that is the EU average.</p>
+          </list-item>
+        </list></p>
+        <p>Though some regions (see, for example, Finland and Sweden) seem relatively poor in terms of domestic ES, they may be rich in terms of global ES. For instance, also the presence of forests in (for example) Eastern Europe and some regions in France and Spain completely change the economic value distribution of ES across the EU. This outcome becomes key to address international debates on the role of countries or continents to address overarching environmental issues that will inevitably affect the planet for the future generations. ES for global society represent a sort of ecological public good and needs to be treated differently from other ES in accounting.</p>
+        <p>
+          <bold>Third lesson learned: For most ES, the demand is spatially defined and can be allocated to specific users; however, for overarching environmental targets (such as climate change and biodiversity loss), the ES demand is represented by the global society, that cannot be spatially located to a specific place and exclude other places.</bold>
+        </p>
+      </sec>
+      <sec sec-type="Ecological supply and socio-economic demand can mismatch- I: the ES unmet demand (4)">
+        <title>Ecological supply and socio-economic demand can mismatch- I: the ES unmet demand (4)</title>
+        <p>As shown in Fig. <xref ref-type="fig" rid="F7709116">2</xref>, when ES potential, which corresponds to the ecological supply and ES demand match, the ES actual flow is generated. However, there might be cases of unused ES due to lack of demand or oversupply and cases of unmet demand caused by a lack of ES providing the potential supply needed. While the existence of unused ES potential generates no harm, ES demand not covered by ES provision generates vulnerabilities, which can be explained as ecosystem deficit or lack of ecosystem contribution to human needs.</p>
+        <p>For example, the case of flood control (Fig. <xref ref-type="fig" rid="F7709132">6</xref>) shows that there are areas able to provide the flood control service. When they interact with areas which need protection from flooding, the ES actual flow can be recorded (ES match); when this interaction does not take place (ES mismatch), ES demand is unmet and, therefor,e the areas remain vulnerable.</p>
+        <p>ES unmet demand can occur for ES that belong to the second accounting cluster (ref. Fig. <xref ref-type="fig" rid="F7709112">1</xref>) whose users can be spatially located (i.e. domestic users).</p>
+        <p>
+          <bold>Fourth lesson learned: The mis-match between ES potential and ES demand can generate ES unmet demand.</bold>
+        </p>
+      </sec>
+      <sec sec-type="Ecological supply and socio-economic demand can mis-match- II: the ES overuse (5)">
+        <title>Ecological supply and socio-economic demand can mis-match- II: the ES overuse (5)</title>
+        <p>A mis-match between the ecological and the socio-economic side may occur also for the ES which belong to the first accounting cluster (Fig. <xref ref-type="fig" rid="F7709112">1</xref>). What matters for the quantification of these ES is the sustainability threshold. The ES demand will be met at the expense of the ecological side and, thus, the actual flow will cover the whole ES demand, even when it exceeds the natural regeneration or absorption rate. However, it is possible to set a threshold to determine which part of the ES actual flow is sustainable and which part of the ES actual flow represents an overuse.</p>
+        <p>An example is provided for water purification (Fig. <xref ref-type="fig" rid="F7709136">7</xref>). In this case, the sustainability threshold is based on literature as the eutrophication level of 1 mg/l (<xref ref-type="bibr" rid="B7813485">Camargo and Alonso 2006</xref>).</p>
+        <p>Fig. <xref ref-type="fig" rid="F7709136">7</xref> shows that almost all water purification actual flow in 2012 is unsustainable. ES overuse represents another vulnerability because it will eventually lead to freshwater ecosystem degradation and all its consequences for human health and well-being.</p>
+        <p>
+          <bold>The fifth lesson learned: The mis-match between ES potential and ES demand can generate ES overuse for source provision and sink services with serious consequences for sustainability targets.</bold>
+        </p>
+      </sec>
+      <sec sec-type="Ecological supply and socio-economic demand can mismatch- III: the missed ES flow (6)">
+        <title>Ecological supply and socio-economic demand can mismatch- III: the missed ES flow (6)</title>
+        <p>A third mis-match that may occur between ES potential and ES demand concerns ES that belong to the second accounting cluster (Fig. <xref ref-type="fig" rid="F7709112">1</xref>) having the global society as users. These ES are not directed to a specific geographic area or to economic assets or inhabitants of a country. Scientific knowledge shows how the decrease in ES targeting climate change mitigation (e.g. carbon sequestration) and halting biodiversity loss (e.g. habitat and species maintenance) will harm the whole planet with all its inhabitants (<xref ref-type="bibr" rid="B7819143">Dasgupta 2021</xref>, <xref ref-type="bibr" rid="B7819135">Pachauri and Meyer 2014</xref>, <xref ref-type="bibr" rid="B7819127">Brondizio et al. 2019</xref>).</p>
+        <p>In this case, the mis-match is due to ES that are lost due to inappropriate human practices, for instance, in managing the territory. Fig. <xref ref-type="fig" rid="F7709140">8</xref> proposes the example of carbon sequestration. The total potential removal of carbon in 2012 is 444 mln tonnes of CO<sub>2</sub>. However, due to ecosystem emissions, the net removal of CO<sub>2</sub> is 306 mln tonnes. Global society is missing out on 138 mln tonnes of CO<sub>2</sub> that could have been sequestered, due to the unsustainable management of ecosystem types such as cropland, grassland and wetlands, which generate CO<sub>2</sub> emissions exceeding the (CO<sub>2</sub>) removal capacity from the atmosphere (Fig. <xref ref-type="fig" rid="F7709140">8</xref>).</p>
+        <p>It is necessary to specify that what is assessed as ES missed flows refers to the current context and not to optimal scenarios, i.e. the ES flow missed with respect to what is currently happening and not with respect to what should ideally be happening. The assessment of optimal ES provision would require additional processing in terms of concept development and modelling, which is not in the current domain of INCA.</p>
+        <p>
+          <bold>The sixth lesson learned: The mismatch between ES potential and ES demand can generate ES missed flows.</bold>
+        </p>
+      </sec>
+      <sec sec-type="Linkages between ecosystem condition and ecosystem services (7)">
+        <title>Linkages between ecosystem condition and ecosystem services (7)</title>
+        <p>In the SEEA EA, condition accounts and ES accounts are connected in a sequential logic chain; however, the SEEA EA framework does not provide guidance on how to establish a practical linkage between these two sets of accounts, which run in parallel.</p>
+        <p>INCA applications show that the linkage of ES accounts with variables used to calculate indicators of condition accounts is possible, feasible and desirable. Habitat and species maintenance clearly show how to establish this linkage (Fig. <xref ref-type="fig" rid="F7709144">9</xref>).</p>
+        <p>Habitat suitability is calculated to assess the presence of habitats in favourable conditions. Together with the indicator of bird species hotspots, habitat suitability is used to locate areas able to provide the ES habitat and species maintenance, for which people are willing to pay for its non-use value (Fig. <xref ref-type="fig" rid="F7709144">9</xref>). The combination of habitat condition with the presence of key species allows mapping four different zones to which different values will be attributed. Any change in the condition indicator will affect the assessment of the ES areas (distribution and quantities of the four zones) that, in turn, will affect the ES economic value. Condition accounts and ES supply and use table are, in this case, not running in parallel, but are linked by a cause-and-effect relationship, as long as the condition variables overlap with input of ES biophysical modelling.</p>
+        <p>
+          <bold>The seventh lesson learned: There can be a linkage between ecosystem condition accounts and ES supply and use tables, when the variables chosen to compute the former are input variables for the assessment of the latter.</bold>
+        </p>
+      </sec>
+      <sec sec-type="Ecosystem accounts can be harmonised with environmental and economic accounts (8)">
+        <title>Ecosystem accounts can be harmonised with environmental and economic accounts (8)</title>
+        <p>The SEEA EA complements the System of National Accounts (SNA) and the SEEA Central Framework (SEEA CF, <xref ref-type="bibr" rid="B7818958">United Nations et al. 2014b</xref>). In the SEEA CF, some of the resource accounts are reported as asset accounts. For example, timber accounts report both tables on forest land and on the volume of timber.</p>
+        <p>The work on wood provision in INCA highlighted that understanding whether and how this ES differs from or overlaps with what is proposed to be reported by the CF is a critical issue. After a few iterations, the latest version of this ES shows that the ecosystem contribution can be assessed as the net annual increment of wood biomass in cultivated forests/forest available for wood supply already reported in the timber account of the CF. This flow should not be confused with felling*<xref ref-type="fn" rid="FN7709175">4</xref> or removals, because (as graphically simplified in Fig. <xref ref-type="fig" rid="F7709148">10</xref>) it takes place between different economic units sequentially linked.</p>
+        <p>Another important example is the ES crop provision. The SNA reports crop production that includes both ecological and human inputs. A high crop production does not necessarily imply a high delivery of the service (from ecological inputs). In fact, high yields are often achieved with the use of artificial inputs such as fertilisers, plant protection products and machines (<xref ref-type="bibr" rid="B7819067">Perez-Soba et al. 2019</xref>). Disentangling ecosystem contribution from gross crop harvesting can: (i) clearly show the added value of introducing ES accounting (otherwise useless for provisioning ES, since agro-forestry harvests are already part of the SNA) and (ii) provide valuable information for policies directed to support sustainable agricultural practices.</p>
+        <p>Fig. <xref ref-type="fig" rid="F7709152">11</xref> shows that areas with high yield growth: (a) often overlap with areas of low ecosystem contribution; (b) ecosystem contribution is calculated by using an Emergy-based ratio (<xref ref-type="bibr" rid="B7819067">Perez-Soba et al. 2019</xref>) that is multiplied by the crop yield to estimate the ES flow*<xref ref-type="fn" rid="FN7709177">5</xref>.</p>
+        <p>Integrated accounting systems need to be coherent and consistent. This is the intrinsic feature that marks the difference between accounting and reporting. When composing and filling the accounts in INCA, each module is combined with economic and natural resource accounts in a way that does not create inconsistencies or discrepancies.</p>
+        <p>
+          <bold>The eighth lesson learned: Ecosystem accounts can complement in a consistent and harmonised way economic and natural resources accounts, by making the whole accounting mechanism fully coherent.</bold>
+        </p>
+      </sec>
+      <sec sec-type="There is a path in moving from ES assessment to ES accounting (9)">
+        <title>There is a path in moving from ES assessment to ES accounting (9)</title>
+        <p>INCA builds on the MAES initiative. The purpose of MAES was to map and assess ecosystems and their services without any specific accounting purpose. When using some of MAES outcomes in INCA, it becomes clear how the availability of a biophysical model is only the starting point and not the final outcome.</p>
+        <p>For example, in the case of nature-based recreation, ESTIMAP (<xref ref-type="bibr" rid="B7819151">Paracchini et al. 2014</xref>) provided the recreation opportunity spectrum as the key source of information to map ES potential. However, the accounting procedure required further processing. In fact, ES assessment required: (i) to identify the epicentres of nature-based recreation (rather than having a score allocated to each pixel) and (ii) to set buffers around these epicentres. Fig. <xref ref-type="fig" rid="F7709156">12</xref> shows how the assessment of nature-based recreation starts from the ESTIMAP outcome: (a) where only some areas are considered for the assessment of the ES potential; (b) to finally calculate the ES actual flow; (c) where the ES potential interacts with ES demand, which needs to be correctly mapped.</p>
+        <p>The users identified for nature-based recreation in INCA are local residents and what matters in ES accounting is the distance from the nature-based hotspots they can reach on a daily basis.</p>
+        <p>
+          <bold>Ninth lesson learned: When using already existing biophysical models for ES accounting, they will not directly provide the actual flow. Three steps are likely to be needed to adapt existing models: (i) building the ES potential as appropriate; (ii) identifying ES demand; (iii) combining ES potential and ES demand to assess the actual flow.</bold>
+        </p>
+      </sec>
+      <sec sec-type="Ecosystem services are not “intermediate” by default (10)">
+        <title>Ecosystem services are not “intermediate” by default (10)</title>
+        <p>Previous classifications of ES used to define some of them as intermediate in order to avoid double counting of the same flows in the sum of ecosystem service flow for an accounting area. The “intermediate” tag often applies to “regulation and maintenance” services especially when their contribution is considered embedded in a final benefit used as a proxy for a given provisioning ES.</p>
+        <p>INCA applications demonstrate how the default definition of an ES as “intermediate” should not be used. In fact, treating an ES as intermediate or final depends on the methods (and the purpose) practitioners use to assess ES.</p>
+        <p>The intermediate flow may unfold “vertically” when many ecological flows merge into a single ES flow that embeds them all. This is the case, for example, for crop provision. Fig. <xref ref-type="fig" rid="F7709160">13</xref> visually simplifies two cases: when (a) there is an agricultural production function that integrates all ecological inputs (such as water supply, pollination, soil retention); and when (b) each ES is modelled separately from the others and, thus, directly enter as final ES and is allocated to the agricultural sector.</p>
+        <p>The intermediate flow may unfold “horizontally” when the same ES flow is provided in sequence by different ecosystem types. This is the case of inter-ecosystem flows. Fig. <xref ref-type="fig" rid="F7709164">14</xref> visually simplifies the two cases that can apply to water purification: in case (a), the outcome of the integrated model includes both the pollutants retained in the soil of the basin and the pollutant removed by rivers and lakes; in case (b), there are two separate intermediate flows: basin retention and rivers and lakes retention.</p>
+        <p>
+          <bold>Tenth lesson learned: Any ecosystem service cannot be defined by default as “intermediate” because the intermediate or final role ES play depends on the assessment technique that is applied.</bold>
+        </p>
+      </sec>
+      <sec sec-type="How to account for intra-ES, inter-ES and final ES (11)">
+        <title>How to account for intra-ES, inter-ES and final ES (11)</title>
+        <p>In SEEA EEA (<xref ref-type="bibr" rid="B7818949">United Nations et al. 2014a</xref>), inter-ecosystem flow is one of the possible service flows that may occur within and between ecosystems. The second service flow is intra-ecosystem flow: it applies when a service is provided within the same ecosystem type which is at the same place and likely contributes to maintain ecosystem condition.</p>
+        <p>For example, the ES on site soil retention is provided by almost all terrestrial ecosystem types. Only when provided on cropland is it accounted as ES and allocated to the agricultural sector; when provided by other ecosystem types, it is an intra-ecosystem flow and not accounted as final ES (although it may contribute to many other human activities in many differnt ways). Fig. <xref ref-type="fig" rid="F7709168">15</xref> shows soil retention in physical terms by all ecosystem types: (a) soil retention in physical terms is then only mapped for cropland (b) and then translated in monetary terms (c).</p>
+        <p>
+          <bold>Eleventh lesson learned: While some of the ES flows can be considered as final, others remain within the ecosystem and are not counted as final nor allocated to economic units.</bold>
+        </p>
+      </sec>
+      <sec sec-type="In assessing ES, the approach can be “fast-track” or can be based on modelling (12)">
+        <title>In assessing ES, the approach can be “fast-track” or can be based on modelling (12)</title>
+        <p>The general way to account for ES in INCA (compliant with SEEA EA) is: first to assess the service in physical terms, then to translate the service in monetary terms and, finally, to fill in the supply and use table. For some ES, raw data used as proxy of the service are already available and can be used “as is”, a couple of examples are timber provision (where INCA uses timber accounts) and carbon sequestration (where INCA uses Land Use Land Use Changes and Forestry (LULUCF) dataset). These examples do not require any modelling in physical or monetary terms, because the quantity (already available datasets) is eventually multiplied by a price, stumpage price for timber and carbon rates (provided by OECD) for carbon sequestration.</p>
+        <p>This is what can be defined as a “fast-track” approach. For ES accounts based on the fast-track approach (only), the methodology proposed in SEEA EA to calculate enhancement and degradation within an ecosystem asset applies perfectly (ref. section 10.3 in UN et al. 2021).</p>
+        <p>For all the other ES in INCA, spatial modelling techniques are applied. Some services required modelling the ecosystem contribution that is eventually applied to already existing datasets, like crop provision and crop pollination. Other services are required to entirely model raw spatial data because no data exist or can be collected from current statistics.</p>
+        <p>There is a degree of complexity also in the typology of biophysical models used. Less complex models are those that map and combine ecological features without a spatial dependency of one area from the other, such as on-site soil retention, habitat and species maintenance and nature-based recreation. For other ES, conversely, modelling requires to explicitly consider the spatial configuration and interdependencies of the system at a fine granularity. Pest control and pollination services, for example, depend on the presence, structure and spatial arrangement of landscape features interspersed in the agrarian landscape (<xref ref-type="bibr" rid="B7813691">Zulian et al. 2013</xref>, <xref ref-type="bibr" rid="B7813715">Rega et al. 2018</xref>). In other cases, for example, water purification and flood control, spatial flows from other locations need to be considered.</p>
+        <p>Models can be applied not only to assess ES in physical terms, but also to value ES in monetary terms. In fact, complex valuation techniques are applied to estimate nature-based recreation, water purification and flood control and habitat and species maintenance.</p>
+        <p>Table <xref ref-type="table" rid="T7709171">1</xref> summarises the different degrees of complexity in assessing and valuing the nine ES that were part of INCA and that are able to cover a good variety of the possible cases that may occur.</p>
+        <p>
+          <bold>Twelfth lesson learned: There can be many combinations of simple and complex techniques in biophysical and monetary assessment for each ES. In fact, the assessment of some ES can be completed throughout a fast-track approach, while others might need more demanding modelling procedures.</bold>
+        </p>
+      </sec>
+    </sec>
+    <sec sec-type="Conclusions">
+      <title>Conclusions</title>
+      <p>The purpose of phase 2 of INCA was to test concrete applications of ecosystem accounting, based on the SEEA EEA (now SEEA EA) for the EU. Specifically on ES, INCA provided accounts for nine ES. In this process of “learning-by-doing”, the INCA team translated the general framework of the SEEA EA into practical applications. Since the first application, it became clear that practitioners need to have service-specific conceptual schemes to put into practice the general framework because ES are complex: they can be delivered by ecosystems in different ways and they are generated throughout the interaction between the ecological supply and the socio-economic needs. With a consistent conceptual scheme, moving from ES assessment to ES accounting becomes possible. Without such a scheme, risks include filling out “reporting” tables without an underlying accounting mechanism: and missing the cause-and-effect relationship that connects ecosystems to the socio-economic systems.</p>
+      <p>The next step of INCA is to translate the knowledge developed so far into a user-friendly language and make it systematically replicable by all interested practitioners. One way to achieve this objective could be: on the one hand, to create an open source toolbox usable by both public and private users and, on the other hand, to develop and maintain a platform, where it is possible to download tables, maps, time series, guidance handbooks and ad hoc literature.</p>
+      <p>Both actions could help and support the mainstreaming of ecosystem accounting. The INCA lessons learned can be considered as one result on the long road that needs to be walked: there are still many unsolved and unexplored issues. More concrete applications will bring more knowledge and more knowledge may shed light on possible solutions.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="B7819127">
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Brondizio</surname>
+              <given-names>Eduardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Diaz</surname>
+              <given-names>Sandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Settele</surname>
+              <given-names>Josef</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ngo</surname>
+              <given-names>Hien T.</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>Global assessment report on biodiversity and ecosystem services of the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services</source>
+          <publisher-name>IPBES</publisher-name>
+          <uri>https://zenodo.org/record/5657041#.Ykq2K-dBxEY</uri>
+          <pub-id pub-id-type="doi">10.5281/zenodo.5517154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8018286">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Burkhard</surname>
+              <given-names>Benjamin</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2017</year>
+          <source>Mapping Ecosystem Services. Advanced book</source>
+          <publisher-name>Pensof</publisher-name>
+          <pub-id pub-id-type="doi">10.3897/ab.e12837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7813485">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Camargo</surname>
+              <given-names>Julio A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alonso</surname>
+              <given-names>Álvaro</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Ecological and toxicological effects of inorganic nitrogen pollution in aquatic ecosystems: A global assessment</article-title>
+          <source>Environment International</source>
+          <volume>32</volume>
+          <issue>6</issue>
+          <fpage>831</fpage>
+          <lpage>849</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.envint.2006.05.002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7819143">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Dasgupta</surname>
+              <given-names>Patha</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <source>The Economics of Biodiversity: The Dasgupta Review</source>
+          <publisher-name>HM Treasury</publisher-name>
+          <publisher-loc>London</publisher-loc>
+          <uri>https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/962785/The_Economics_of_Biodiversity_The_Dasgupta_Review_Full_Report.pdf</uri>
+          <isbn>978-1-911680-29-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B8018220">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Fisher</surname>
+              <given-names>Brendan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Turner</surname>
+              <given-names>R. Kerry</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Morling</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </person-group>
+          <year>2009</year>
+          <article-title>Defining and classifying ecosystem services for decision making</article-title>
+          <source>Ecological Economics</source>
+          <volume>68</volume>
+          <issue>3</issue>
+          <fpage>643</fpage>
+          <lpage>653</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolecon.2008.09.014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7819111">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Haines-Young</surname>
+              <given-names>Roy</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Potschin</surname>
+              <given-names>Marion</given-names>
+            </name>
+          </person-group>
+          <article-title>Common International Classification of Ecosystem Services</article-title>
+          <uri>https://cices.eu/</uri>
+          <date-in-citation content-type="access-date">2022-04-04T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B7819166">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Capacity as “virtual stock” in ecosystem services accounting</article-title>
+          <source>Ecological Indicators</source>
+          <volume>98</volume>
+          <fpage>158</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2018.10.066</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7813421">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marques</surname>
+              <given-names>Alexandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <article-title>Beyond the economic boundaries to account for ecosystem services</article-title>
+          <source>Ecosystem Services</source>
+          <volume>35</volume>
+          <fpage>116</fpage>
+          <lpage>129</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2018.12.007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7819008">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Garcia Bendito</surname>
+              <given-names>Eduardo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grammatikopoulou</surname>
+              <given-names>Ioanna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czucz</surname>
+              <given-names>Balint</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrini</surname>
+              <given-names>Silvia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grizzetti</surname>
+              <given-names>Bruna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rega</surname>
+              <given-names>Carlo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Herrando</surname>
+              <given-names>Sergio</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Villero</surname>
+              <given-names>Dani</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zurbaran Nucci</surname>
+              <given-names>Mayra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <source>Ecosystem Services Accounting: Part III - Pilot accounts for habitat and species maintenance, on-site soil retention and water purification</source>
+          <publisher-name>Publication Office of the European Commission</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <uri>https://publications.jrc.ec.europa.eu/repository/handle/JRC126566</uri>
+          <isbn>978-92-76-42051-4</isbn>
+          <pub-id pub-id-type="doi">10.2760/636621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7788218">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Liquete</surname>
+              <given-names>Camino</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>Markus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria Luisa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Barredo</surname>
+              <given-names>José I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grizzetti</surname>
+              <given-names>Bruna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Cardoso</surname>
+              <given-names>Ana</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Somma</surname>
+              <given-names>Francesca</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petersen</surname>
+              <given-names>Jan-Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meiner</surname>
+              <given-names>Andrus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gelabert</surname>
+              <given-names>Eva Royo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zal</surname>
+              <given-names>Nihat</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kristensen</surname>
+              <given-names>Peter</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bastrup-Birk</surname>
+              <given-names>Annemarie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Biala</surname>
+              <given-names>Katarzyna</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Piroddi</surname>
+              <given-names>Chiara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Egoh</surname>
+              <given-names>Benis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Degeorges</surname>
+              <given-names>Patrick</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Fiorina</surname>
+              <given-names>Christel</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Santos-Martín</surname>
+              <given-names>Fernando</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Naruševičius</surname>
+              <given-names>Vytautas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Verboven</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pereira</surname>
+              <given-names>Henrique M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bengtsson</surname>
+              <given-names>Jan</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Gocheva</surname>
+              <given-names>Kremena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Marta-Pedroso</surname>
+              <given-names>Cristina</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Snäll</surname>
+              <given-names>Tord</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Estreguil</surname>
+              <given-names>Christine</given-names>
+            </name>
+            <name name-style="western">
+              <surname>San-Miguel-Ayanz</surname>
+              <given-names>Jesus</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pérez-Soba</surname>
+              <given-names>Marta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Grêt-Regamey</surname>
+              <given-names>Adrienne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lillebø</surname>
+              <given-names>Ana I.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Malak</surname>
+              <given-names>Dania Abdul</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Condé</surname>
+              <given-names>Sophie</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moen</surname>
+              <given-names>Jon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Czúcz</surname>
+              <given-names>Bálint</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Drakou</surname>
+              <given-names>Evangelia G.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>Grazia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Lavalle</surname>
+              <given-names>Carlo</given-names>
+            </name>
+          </person-group>
+          <year>2016</year>
+          <article-title>An indicator framework for assessing ecosystem services in support of the EU Biodiversity Strategy to 2020</article-title>
+          <source>Ecosystem Services</source>
+          <volume>17</volume>
+          <fpage>14</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecoser.2015.10.023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7819082">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>Anne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Erhard</surname>
+              <given-names>Marc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Conde</surname>
+              <given-names>Sophie</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <year>2020</year>
+          <source>Mapping and Assessment of Ecosystems and their Services: An EU ecosystem assessment</source>
+          <publisher-name>Publication Office of the European Commission</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <uri>https://publications.jrc.ec.europa.eu/repository/handle/JRC123783</uri>
+          <isbn>978-92-76-17833-0</isbn>
+          <pub-id pub-id-type="doi">10.2760/757183</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7819102">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Assessment</surname>
+              <given-names>Millennium</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <source>Ecosystems and human well-being</source>
+          <publisher-name>Island Press</publisher-name>
+          <publisher-loc>Washington D.C.</publisher-loc>
+          <isbn>1-59726-040-1</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B7819135">
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name name-style="western">
+              <surname>Pachauri</surname>
+              <given-names>R K</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Meyer</surname>
+              <given-names>L A</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>Climate Change 2014: Synthesis Report. Contribution of Working Groups I, II and III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change</source>
+          <publisher-name>IPCC</publisher-name>
+          <publisher-loc>Geneva</publisher-loc>
+          <uri>https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf</uri>
+          <isbn>978-92-9169-143-2</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B7819151">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria Luisa</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>Grazia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kopperoinen</surname>
+              <given-names>Leena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Schägner</surname>
+              <given-names>Jan Philipp</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Termansen</surname>
+              <given-names>Mette</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zandersen</surname>
+              <given-names>Marianne</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Perez-Soba</surname>
+              <given-names>Marta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Scholefield</surname>
+              <given-names>Paul A.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bidoglio</surname>
+              <given-names>Giovanni</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <article-title>Mapping cultural ecosystem services: A framework to assess the potential for outdoor recreation across the EU</article-title>
+          <source>Ecological Indicators</source>
+          <volume>45</volume>
+          <fpage>371</fpage>
+          <lpage>385</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2014.04.018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7819067">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Perez-Soba</surname>
+              <given-names>Marta</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Elbersen</surname>
+              <given-names>B</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Braat</surname>
+              <given-names>Leon</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kempen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Van Der Wijngaart</surname>
+              <given-names>R</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Staritsky</surname>
+              <given-names>I</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rega</surname>
+              <given-names>Carlo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria Luisa</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>The emergy perspective: natural and anthropic energy flows in agricultural biomass production</source>
+          <publisher-name>Publication Office of the European Commission</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <uri>https://publications.jrc.ec.europa.eu/repository/handle/JRC116274</uri>
+          <isbn>978-92-76-02057-8</isbn>
+          <pub-id pub-id-type="doi">10.2760/526985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7813715">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Rega</surname>
+              <given-names>Carlo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bartual</surname>
+              <given-names>Agustín M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Bocci</surname>
+              <given-names>Gionata</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Sutter</surname>
+              <given-names>Louis</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Albrecht</surname>
+              <given-names>Matthias</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Moonen</surname>
+              <given-names>Anna-Camilla</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Jeanneret</surname>
+              <given-names>Philippe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>van der Werf</surname>
+              <given-names>Wopke</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Pfister</surname>
+              <given-names>Sonja C.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Holland</surname>
+              <given-names>John M.</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria Luisa</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <article-title>A pan-European model of landscape potential to support natural pest control services</article-title>
+          <source>Ecological Indicators</source>
+          <volume>90</volume>
+          <fpage>653</fpage>
+          <lpage>664</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2018.03.075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8018248">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Syrbe</surname>
+              <given-names>Ralf-Uwe</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Walz</surname>
+              <given-names>Ulrich</given-names>
+            </name>
+          </person-group>
+          <year>2012</year>
+          <article-title>Spatial indicators for the assessment of ecosystem services: Providing, benefiting and connecting areas and landscape metrics</article-title>
+          <source>Ecological Indicators</source>
+          <volume>21</volume>
+          <fpage>80</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ecolind.2012.02.013</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8002312">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>TEEB</surname>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <source>The Economics of Ecosystems and Biodiversity Ecological and Economic Foundations</source>
+          <publisher-name>Earthscan</publisher-name>
+          <publisher-loc>London and Washington</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="B7818949">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Union</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>Food and Agriculture Organization of the United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Group</surname>
+              <given-names>World Bank</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>System of Environmental Economic Accounting 2012— Experimental Ecosystem Accounting</source>
+          <publisher-name>UN</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <uri>https://seea.un.org/sites/seea.un.org/files/seea_eea_final_en_1.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7818958">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Union</surname>
+              <given-names>European</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>Food and Agriculture Organization of the United</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Development</surname>
+              <given-names>Organisation for Economic Co-operation and</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Group</surname>
+              <given-names>World Bank</given-names>
+            </name>
+          </person-group>
+          <year>2014</year>
+          <source>System of Environmental Economic Accounting 2012— Central Framework</source>
+          <publisher-name>UN</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <uri>https://seea.un.org/sites/seea.un.org/files/seea_cf_final_en.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7818941">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>Technical Recommendations in support of the System of Environmental-Economic Accounting 2012— Experimental Ecosystem Accounting</source>
+          <publisher-name>UN</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <uri>https://seea.un.org/sites/seea.un.org/files/documents/EEA/seriesm_97e.pdf</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7818933">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Nations</surname>
+              <given-names>United</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <source>System of Environmental-Economic Accounting—Ecosystem Accounting. White cover (pre-edited) version</source>
+          <publisher-name>UN</publisher-name>
+          <publisher-loc>New York</publisher-loc>
+          <uri>https://seea.un.org/ecosystem-accounting</uri>
+        </element-citation>
+      </ref>
+      <ref id="B7819119">
+        <element-citation publication-type="website">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Agency</surname>
+              <given-names>US Environmental Protection</given-names>
+            </name>
+          </person-group>
+          <article-title>National Ecosystem Services Classification System (NESCS) Plus</article-title>
+          <uri>https://www.epa.gov/eco-research/national-ecosystem-services-classification-system-nescs-plus</uri>
+          <date-in-citation content-type="access-date">2022-04-04T00:00:00+03:00</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="B7818967">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Polce</surname>
+              <given-names>Chiara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>Grazia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Alexandris</surname>
+              <given-names>Nikos</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Ferrini</surname>
+              <given-names>Silvia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2018</year>
+          <source>Ecosystem services accounting: Part I - Outdoor recreation and crop pollination</source>
+          <publisher-name>Publication Office of the European Commision</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <uri>https://publications.jrc.ec.europa.eu/repository/handle/JRC110321</uri>
+          <isbn>978-92-79-77333-4</isbn>
+        </element-citation>
+      </ref>
+      <ref id="B7818995">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kakoulaki</surname>
+              <given-names>Georgia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Kamberaj</surname>
+              <given-names>Jurgena</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Robert</surname>
+              <given-names>Nicolas</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Dottori</surname>
+              <given-names>Francesco</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Feyen</surname>
+              <given-names>Luc</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Rega</surname>
+              <given-names>Carlo</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+          </person-group>
+          <year>2019</year>
+          <source>Ecosystem services accounting - Part II Pilot accounts for crop and timber provision, global climate regulation and flood control</source>
+          <publisher-name>Publication Office of the European Commission</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <uri>https://publications.jrc.ec.europa.eu/repository/handle/JRC116334</uri>
+          <isbn>978-92-76-02905-2</isbn>
+          <pub-id pub-id-type="doi">10.2760/631588</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7819091">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Vysna</surname>
+              <given-names>Veronika</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Petersen</surname>
+              <given-names>Jan Erik</given-names>
+            </name>
+            <name name-style="western">
+              <surname>La Notte</surname>
+              <given-names>Alessandra</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Vallecillo</surname>
+              <given-names>Sara</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Aizpurua</surname>
+              <given-names>Nerea</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Teller</surname>
+              <given-names>Anne</given-names>
+            </name>
+          </person-group>
+          <year>2021</year>
+          <source>Accounting for ecosystems and their services in the European Union. Final report from phase II of the INCA project aiming to develop a pilot for an integrated system of ecosystem accounts for the EU</source>
+          <publisher-name>Publication Office of the European Commission</publisher-name>
+          <publisher-loc>Luxembourg</publisher-loc>
+          <uri>https://ec.europa.eu/eurostat/documents/7870049/12943935/KS-FT-20-002-EN-N.pdf/de44610d-79e5-010a-5675-14fc4d8527d9?t=1624528835061</uri>
+          <isbn>978-92-76-17401-1</isbn>
+          <pub-id pub-id-type="doi">10.2785/197909</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7813691">
+        <element-citation publication-type="article">
+          <person-group person-group-type="author">
+            <name name-style="western">
+              <surname>Zulian</surname>
+              <given-names>Grazia</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Maes</surname>
+              <given-names>Joachim</given-names>
+            </name>
+            <name name-style="western">
+              <surname>Paracchini</surname>
+              <given-names>Maria</given-names>
+            </name>
+          </person-group>
+          <year>2013</year>
+          <article-title>Linking Land Cover Data and Crop Yields for Mapping and Assessment of Pollination Services in Europe</article-title>
+          <source>Land</source>
+          <volume>2</volume>
+          <issue>3</issue>
+          <fpage>472</fpage>
+          <lpage>492</lpage>
+          <pub-id pub-id-type="doi">10.3390/land2030472</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn id="FN7709173">
+        <label>*1</label>
+        <p>Ref. <ext-link ext-link-type="uri" xlink:href="https://seea.un.org/news/historic-un-statistical-commission-seea">https://seea.un.org/news/historic-un-statistical-commission-seea</ext-link> for further details.</p>
+      </fn>
+      <fn id="FN7709172">
+        <label>*2</label>
+        <p>Ref. <ext-link ext-link-type="uri" xlink:href="https://seea.un.org/content/seea-experimental-ecosystem-accounting-revision">https://seea.un.org/content/seea-experimental-ecosystem-accounting-revision</ext-link> for further details.</p>
+      </fn>
+      <fn id="FN7709174">
+        <label>*3</label>
+        <p>Ref. https://data.jrc.ec.europa.eu/collection/maes by selecting the INCA data collection.</p>
+      </fn>
+      <fn id="FN7709175">
+        <label>*4</label>
+        <p>Depending on the purpose, different flows can be considered. Specifically, to assess sustainability, practitioners will need fellings.</p>
+      </fn>
+      <fn id="FN7709177">
+        <label>*5</label>
+        <p>The Emergy-based approach considers all the inputs used in agricultural production, i.e. natural and anthropogenic inputs. These inputs were converted into a common metric (that is solar equivalent Joule) and then a proportion of natural input is calculated on the total inputs.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="F7709112" position="float" orientation="portrait">
+      <object-id content-type="arpha">095BFDB2-FFCE-5EF8-B68B-84C475248386</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure1</object-id>
+      <label>Figure 1.</label>
+      <caption>
+        <p>Ecosystem services clustered by: (1) the existence of sustainability thresholds in management practices and (2) the presence or absence of suitable ecosystems (adapted from <xref ref-type="bibr" rid="B7813421">La Notte et al. (2019b)</xref>.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g001.png" position="float" id="oo_649577.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649577</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709116" position="float" orientation="portrait">
+      <object-id content-type="arpha">A8BF1245-F01F-5513-A7B5-9F4FB0ABF687</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure2</object-id>
+      <label>Figure 2.</label>
+      <caption>
+        <p>Conceptual scheme of the interaction between ecological (i.e. supply) and the socio-economic (i.e. demand) frames underpinning the quantification and accounting of ecosystem services (actual flow).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g002.png" position="float" id="oo_664996.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/664996</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709120" position="float" orientation="portrait">
+      <object-id content-type="arpha">61C8B13C-89CB-5DBF-9B50-125A74746528</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure3</object-id>
+      <label>Figure 3.</label>
+      <caption>
+        <p>Changes in the crop pollination service in Europe (2000 and 2012).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g003.png" position="float" id="oo_661469.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/661469</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709124" position="float" orientation="portrait">
+      <object-id content-type="arpha">B0B19ECC-DA7C-5EF0-A4F1-F9D9AF7BBBC7</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure4</object-id>
+      <label>Figure 4.</label>
+      <caption>
+        <p>Changes in nature-based recreation service in Europe (2000 -2012).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g004.png" position="float" id="oo_649580.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649580</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709128" position="float" orientation="portrait">
+      <object-id content-type="arpha">C6C0AEEA-2EA6-5A4B-8336-F502AC5368C6</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure5</object-id>
+      <label>Figure 5.</label>
+      <caption>
+        <p>Ranking of domestic (a) and global (b) ecosystem services (€/Km<sup>2</sup>/year), in 2012 at European level.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g005.png" position="float" id="oo_713692.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/713692</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709132" position="float" orientation="portrait">
+      <object-id content-type="arpha">2A466EDB-396C-579D-B020-22F0720A3C51</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure6</object-id>
+      <label>Figure 6.</label>
+      <caption>
+        <p>Flood control service: match and mis-match between supply and demand in Europe (2012).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g006.png" position="float" id="oo_649582.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649582</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709136" position="float" orientation="portrait">
+      <object-id content-type="arpha">DCFF5FDF-CE3F-5D1E-BE29-88ED3B49E177</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure7</object-id>
+      <label>Figure 7.</label>
+      <caption>
+        <p>Water purification service: match and mis-match in Europe (2012).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g007.png" position="float" id="oo_649583.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649583</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709140" position="float" orientation="portrait">
+      <object-id content-type="arpha">2427BCB6-7CB4-516A-81FD-C838D4F9E5AA</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure8</object-id>
+      <label>Figure 8.</label>
+      <caption>
+        <p>Carbon sequestration service: match and mismatch in Europe (2012).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g008.png" position="float" id="oo_649584.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649584</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709144" position="float" orientation="portrait">
+      <object-id content-type="arpha">5E0EFF7E-8C9C-5846-A54E-DC343F853060</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure9</object-id>
+      <label>Figure 9.</label>
+      <caption>
+        <p>Habitat and species maintenance in Europe: from ecosystem condition to service (2012).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g009.png" position="float" id="oo_649585.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649585</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709148" position="float" orientation="portrait">
+      <object-id content-type="arpha">E665E050-2AC9-5E55-9531-939F45CFBC7A</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure10</object-id>
+      <label>Figure 10.</label>
+      <caption>
+        <p>From the timber service provision (EA) to forest environmental accounts (CF) to conventional economic accounts (SNA).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g010.png" position="float" id="oo_649586.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649586</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709152" position="float" orientation="portrait">
+      <object-id content-type="arpha">D7BBC927-79E0-5373-8CFD-86E030497D84</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure11</object-id>
+      <label>Figure 11.</label>
+      <caption>
+        <p>Total yield versus ecosystem contribution in Europe (2008).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g011.png" position="float" id="oo_649587.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649587</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709156" position="float" orientation="portrait">
+      <object-id content-type="arpha">0D1A2ED4-411F-5B59-9F14-CCAB49156719</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure12</object-id>
+      <label>Figure 12.</label>
+      <caption>
+        <p>Nature-based recreation in Europe (2012): from the recreation opportunity spectrum (a) to the ES potential (b).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g012.png" position="float" id="oo_649588.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649588</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709160" position="float" orientation="portrait">
+      <object-id content-type="arpha">16BC817A-F2CA-5A37-8131-C538ED7047C6</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure13</object-id>
+      <label>Figure 13.</label>
+      <caption>
+        <p>Crop provision: how to single out different services from one flow.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g013.png" position="float" id="oo_649589.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649589</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709164" position="float" orientation="portrait">
+      <object-id content-type="arpha">0171CD47-805A-5D95-A507-6D071E877BDA</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure14</object-id>
+      <label>Figure 14.</label>
+      <caption>
+        <p>Water purification: how to single out one flow from different ecosystem types.</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g014.png" position="float" id="oo_649590.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649590</uri>
+      </graphic>
+    </fig>
+    <fig id="F7709168" position="float" orientation="portrait">
+      <object-id content-type="arpha">226AE8A4-ABBB-5926-AA9C-96F75F3CF78B</object-id>
+      <object-id content-type="doi">10.3897/oneeco.7.e84925.figure15</object-id>
+      <label>Figure 15.</label>
+      <caption>
+        <p>On site soil retention in Europe (2012): intra-ES flow (a) and final ES flow (a, b).</p>
+      </caption>
+      <graphic xlink:href="oneeco-07-e84925-g015.png" position="float" id="oo_649593.png" orientation="portrait" xlink:type="simple">
+        <uri content-type="original_file">https://binary.pensoft.net/fig/649593</uri>
+      </graphic>
+    </fig>
+    <table-wrap id="T7709171" position="float" orientation="portrait">
+      <label>Table 1.</label>
+      <caption>
+        <p>Summary of the nine ES assessed in INCA with respect to the degree of complexity. Colours represent: easy (green); relatively easy (yellow); relatively complex (orange); complex (red). A fast-track approach indicates green cells in both biophysical assessment and monetary evaluation.</p>
+      </caption>
+      <table rules="all" border="1">
+        <tbody>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <bold>Ecosystem services</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <bold>Biophysical assessment</bold>
+            </td>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <bold>Monetary valuation</bold>
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Crop provision</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:yellow; vertical-align:top">Combination of biophysical modelling and already existing raw data</td>
+            <td rowspan="1" colspan="1" style="background-color:yellow; vertical-align:top">Adapted market price: dataset available (no need for modelling)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Timber provision</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:green; vertical-align:top">Raw data already available (no need for modelling)</td>
+            <td rowspan="1" colspan="1" style="background-color:green; vertical-align:top">Market price: dataset available (no need for modelling)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Crop pollination</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:yellow; vertical-align:top">Combination of biophysical modelling and already existing raw data</td>
+            <td rowspan="1" colspan="1" style="background-color:yellow; vertical-align:top">Adapted market price: dataset available (no need for modelling)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Soil retention</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:orange; vertical-align:top">Biophysical modelling (with no spatial path dependency)</td>
+            <td rowspan="1" colspan="1" style="background-color:orange; vertical-align:top">Replacement cost and market price: moderate processing</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Flood control</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:red; vertical-align:top">Biophysical modelling (with spatial path dependency)</td>
+            <td rowspan="1" colspan="1" style="background-color:red; vertical-align:top">Avoided damage cost: need for modelling</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Water purification</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:red; vertical-align:top">Biophysical modelling (with spatial path dependency)</td>
+            <td rowspan="1" colspan="1" style="background-color:red; vertical-align:top">Replacement cost: need for modelling</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Carbon sequestration</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:green; vertical-align:top">Raw data already available (no need for modelling)</td>
+            <td rowspan="1" colspan="1" style="background-color:green; vertical-align:top">Carbon rates: dataset available (no need for modelling)</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Habitat and species maintenance</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:orange; vertical-align:top">Biophysical modelling (with no spatial path dependency)</td>
+            <td rowspan="1" colspan="1" style="background-color:red; vertical-align:top">Choice Experiment: need for modelling</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="1" style="vertical-align:top">
+              <italic>Nature-based recreation</italic>
+            </td>
+            <td rowspan="1" colspan="1" style="background-color:orange; vertical-align:top">Biophysical modelling (with no spatial path dependency)</td>
+            <td rowspan="1" colspan="1" style="background-color:red; vertical-align:top">Travel cost method: need for modelling</td>
+          </tr>
+          <tr>
+            <td rowspan="1" colspan="3" style="vertical-align:top"/>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>

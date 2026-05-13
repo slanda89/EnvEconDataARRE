@@ -1,0 +1,29 @@
+"Table 2: UK nations breakdown of marine and coastal margins annual physical flow by service, 2022"
+
+
+Service type,England,Scotland,Wales,Northern Ireland,UK
+Provisioning,,,,,
+"Fish provisioning 
+(thousand tonnes)",204,779,16,10,"1,008"
+"Minerals and metals provisioning 
+(thousand tonnes)","45,536"," [x] ","7,536"," [x] ","61,103"
+"Oil and gas provisioning 
+(million tonnes of oil equivalent)",13,65,0,0,78
+"Renewable electricity provisioning 
+(gigawatt hours)","37,100","5,798","2,132",0,"45,031"
+Regulating,,,,,
+"Greenhouse gas regulating 
+(tonnes of CO2 equivalent)"," [x] "," [x] "," [x] "," [x] ","264,798"
+"Air pollution regulating 
+(thousand tonnes of pollutants)",3,1,1,0,5
+Cultural,,,,,
+"Recreation and tourism 
+(expenditure) (visits, million)",390,68,39,30,534
+"Recreation (health benefits) 
+(people benefitting, million)",2,0,0,0,3
+
+Source: ,Marine and coastal margins natural capital accounts from the Office for National Statistics
+Notes
+1,Country-level data may not add up to the overall UK total because of rounding and other data limitations.
+2,[x] indicates that data are not available.
+3,"The value for air pollution regulating in Northern Ireland is under 1 tonne, and therefore rounded to a zero in this table."

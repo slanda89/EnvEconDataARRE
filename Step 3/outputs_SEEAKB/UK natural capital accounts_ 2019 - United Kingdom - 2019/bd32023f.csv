@@ -1,0 +1,21 @@
+"Table 2: The number of avoided life years lost represents the largest benefit of air pollution removal (£1,198.8 million)"
+"Annual value by health impact due to the removal of air pollution, £ million (2018 prices), UK, 2017"
+
+" Pollutant"," Avoided Impacts",Year 2017
+PM2.5,Respiratory hospital admissions,4.5
+,Cardiovascular hospital admissions,4.1
+,Life years lost,"1,127.2"
+SO2,Respiratory hospital admissions,0.9
+NO2,Respiratory hospital admissions,0.9
+,Cardiovascular hospital admissions,0.8
+,Life years lost,71.6
+O3,Respiratory hospital admissions,43.4
+,Cardiovascular hospital admissions,6.9
+,Deaths,14.5
+All pollutants combined,Respiratory hospital admissions,49.7
+,Cardiovascular hospital admissions,11.7
+,Life years lost,"1,198.8"
+,Deaths,14.5
+,Total,"1,274.7"
+
+Source: ,Office for National Statistics and Centre for Ecology and Hydrology 
