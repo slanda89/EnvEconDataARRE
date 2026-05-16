@@ -8,7 +8,7 @@ This README documents the workflow used to clean, classify, map, and visualize e
 2. [Step 2: Indicator Classification and Figure Preparation](#step-2-indicator-classification-and-figure-preparation)
 3. [Step 3: SEEA Account Accessibility Assessment](#step-3-seea-account-accessibility-assessment)
 4. [Step 4: SEEA Account Grouping and Sankey Input Preparation](#step-4-seea-account-grouping-and-sankey-input-preparation)
-5. [Step 5: SEEA Data Categorization and Visualization](#step-5-seea-data-categorization-and-visualization)
+5. [Step 5: Regional Coverage and Final Figure Generation](#step-5-regional-coverage-and-final-figure-generation)
 6. [Appendix III: Income-Group Coverage Figure](#appendix-iii-income-group-coverage-figure)
 
 
@@ -1175,13 +1175,19 @@ Use this note under the Sankey diagram:
 - The final cleaned file `SEEA_36_account_final.xlsx` should be used as the input for the Sankey diagram.
 
 
-## STEP 5: SEEA Data Categorization and Visualization
+## STEP 5: Regional Coverage and Final Figure Generation
 
 ### Purpose
 
-This step prepares the data for visualization by categorizing the SEEA indicators and finalizing the figures for analysis. The main output of this step is a set of visual representations that will be used to communicate the results of the SEEA account availability assessment across countries and account categories.
+This step creates the final publication-ready figures for the System of Environmental-Economic Accounting (SEEA) data availability and account accessibility analysis. The workflow uses pre-calculated regional summary files and Sankey input files created in earlier steps. It does not recalculate the underlying indicator coding or SEEA accessibility results. Instead, it standardizes figure labels, ordering, layout, color scales, and export settings.
 
-This step involves categorizing the data into appropriate country-level and account groupings, calculating country category shares, and creating the final figure that summarizes the accessibility of the SEEA accounts. The results will be displayed in a Sankey diagram to illustrate the flow of data sources into the different SEEA account categories.
+The final figure set contains three panels:
+
+1. **Panel A. Indicator coverage by region across categories and boundaries**
+2. **Panel B. SEEA account coverage by region**
+3. **Panel C. Indicator links to SEEA thematic groups**
+
+Panels A and B are exported together as one regional heatmap figure. Panel C is exported separately as a Sankey-style figure linking data sources to SEEA thematic groups.
 
 ---
 
@@ -1189,173 +1195,200 @@ This step involves categorizing the data into appropriate country-level and acco
 
 | No. | Input File | Description |
 |---:|---|---|
-| 1 | `SEEA_36_account_final.xlsx` | Cleaned workbook from Step 4 used for categorizing and finalizing visualizations. |
-| 2 | `cleaned_sankey_input` | Final cleaned Sankey input sheet containing SEEA account flags and country indicators. |
-| 3 | `Step 2_country_category_shares.ipynb` | Notebook used to calculate country category shares and prepare data for visual presentation. |
-| 4 | `Step 1_summary_categories.ipynb` | Notebook that provides an overview of category-level summaries for visual representation. |
+| 1 | `step2_region_category_average_shares.csv` | Regional average country coverage for indicator categories and monetary boundary fields. This file is used for Panel A. |
+| 2 | `step4_region_seea_account_average_coverage.csv` | Regional average country coverage for reported, easily accessible, and found-but-not-reported SEEA accounts. This file is used for Panel B. |
+| 3 | `step5_panel_C_sankey_links.csv` | Weighted source-to-theme link table for Panel C. Required columns are `dataset`, `theme`, and `flow_value`. |
+| 4 | `step5_source_by_seea_theme_summary.csv` | Source-by-theme summary used to include the `No direct SEEA account flag` category and calculate the total number of stock and flow indicators in Panel C. Required columns are `dataset`, `theme`, and `weighted_indicator_count`. |
+| 5 | `step1_indicator_category_summary.csv` | Indicator counts by category and boundary. These counts are added to the Panel A column labels as `n` values. |
 
 ---
 
-### Code Files
+### Code File
 
 | No. | Code File | Description |
 |---:|---|---|
-| 1 | `Step 3_panelA.ipynb` | Prepares panel A, which summarizes the SEEA data accessibility per country. |
-| 2 | `Step 4_panelB.ipynb` | Prepares panel B, which categorizes SEEA account availability by thematic group. |
-| 3 | `Step 5_panelC.ipynb` | Prepares panel C, which visualizes the weighted country-category shares for each indicator. |
-| 4 | `Step 6_Final Figure.ipynb` | Finalizes the Sankey diagram and other visual outputs for the presentation. |
+| 1 | `Step 6_Final Figure.ipynb` | Creates the final regional heatmaps and Sankey figure, then exports the figures as PDF, SVG, and PNG files. |
 
 ---
 
 ### Workflow Overview
 
-The workflow has five main stages:
+The workflow has four main stages:
 
-1. Categorize SEEA accounts by country and thematic category.
-2. Calculate country-level category shares for each indicator.
-3. Prepare the visual panels for the Sankey diagram.
-4. Finalize the Sankey diagram and other figures.
-5. Output the final figures for reporting and visualization.
-
----
-
-### 5.1 Categorizing SEEA Accounts by Country and Thematic Category
-
-#### Purpose
-
-This stage categorizes SEEA account availability by country and thematic group, based on the SEEA indicators prepared in Step 4. The output categorizes each country’s data by the SEEA accounts that are available to them, grouped by thematic categories.
-
-#### Code File
-
-| No. | Code File | Description |
-|---:|---|---|
-| 1 | `Step 1_summary_categories.ipynb` | Summarizes the SEEA categories at the country level, grouping indicators by account. |
-
-#### Main Process
-
-1. Load the cleaned workbook from Step 4:  
-   `SEEA_36_account_final.xlsx`
-
-2. Categorize each country’s SEEA accounts by their thematic group, using the account codebook.
-
-3. Summarize available SEEA accounts per country in the following categories:
-   - Water
-   - Energy
-   - Forests
-   - Land
-   - Carbon
-   - Species
-   - Economy
-   - Waste, etc.
-
-4. Prepare the categorized data for visual output.
-
-#### Output from This Stage
-
-| No. | Output File | Description |
-|---:|---|---|
-| 1 | `Step1_summary_categories_output.csv` | Summary of categorized SEEA accounts per country. |
-| 2 | `Step1_summary_categories_output.xlsx` | Excel version of the categorized SEEA account summary. |
+1. Load the pre-calculated regional and Sankey input files.
+2. Draw Panel A and Panel B as regional heatmaps using a shared 0 to 100 percent coverage scale.
+3. Draw Panel C as a weighted Sankey-style diagram linking data sources to SEEA thematic groups.
+4. Export the final figures in publication-ready formats.
 
 ---
 
-### 5.2 Calculating Country Category Shares
+### 5.1 Load Figure Inputs and Set Figure Standards
 
 #### Purpose
 
-This stage calculates the share of available SEEA categories for each country. It helps visualize how each country contributes to the different SEEA account categories, which will later be used in the Sankey diagram.
-
-#### Code File
-
-| No. | Code File | Description |
-|---:|---|---|
-| 1 | `Step 2_country_category_shares.ipynb` | Calculates the country category shares based on the available SEEA accounts. |
+This stage defines the file paths, figure sizes, fonts, color settings, and export rules used across the final figures. The notebook uses a maximum figure width of 6.3 inches and a maximum figure height of 8.0 inches to keep outputs within manuscript-ready dimensions.
 
 #### Main Process
 
-1. Load the categorized data from Step 1:  
-   `Step1_summary_categories_output.xlsx`
-
-2. Calculate the share of available accounts for each country within each category, using the formula:
-   - Country Share = Available Indicator Count / Total Possible Indicator Count
-
-3. Generate a data table showing the share of available categories by country.
-
-#### Output from This Stage
-
-| No. | Output File | Description |
-|---:|---|---|
-| 1 | `country_category_shares.csv` | CSV containing country-level shares for each SEEA category. |
-| 2 | `country_category_shares.xlsx` | Excel version of country-level shares by category. |
+1. Load the five required input files listed above.
+2. Define output paths for the Panel A-B figure and Panel C figure.
+3. Set the font family to `DejaVu Sans`.
+4. Set PDF and PostScript font output to TrueType-compatible font settings.
+5. Define figure sizes:
+   - Panel A-B heatmap figure: `6.3 x 6.8` inches
+   - Panel C Sankey figure: `6.3 x 6.0` inches
+6. Define journal-ready font sizes for titles, axis labels, cell labels, Sankey labels, notes, and colorbar text.
 
 ---
 
-### 5.3 Preparing Visualization Panels
+### 5.2 Prepare and Draw Panel A: Indicator Coverage by Region
 
 #### Purpose
 
-This stage prepares the individual panels for the final Sankey diagram. It involves preparing country-level and account-group-level data, as well as creating any necessary intermediary data visualizations.
+Panel A shows average country coverage by region for the indicator categories and monetary boundary fields used in the analysis. It uses the regional averages from:
 
-#### Code Files
+`step2_region_category_average_shares.csv`
 
-| No. | Code File | Description |
+The panel also adds indicator counts from:
+
+`step1_indicator_category_summary.csv`
+
+These counts are shown in the x-axis labels to make clear that categories differ in the number of underlying indicators.
+
+#### Regional Order
+
+Panel A uses the following regional order:
+
+| No. | Region |
+|---:|---|
+| 1 | `Eurostat + UK` |
+| 2 | `Non-Eurostat Europe & Central Asia` |
+| 3 | `Middle East, North Africa, Afghanistan & Pakistan` |
+| 4 | `Sub-Saharan Africa` |
+| 5 | `South Asia` |
+| 6 | `East Asia & Pacific` |
+| 7 | `North America` |
+| 8 | `Latin America & Caribbean` |
+
+#### Panel A Columns
+
+| No. | Column | Figure Label |
 |---:|---|---|
-| 1 | `Step 3_panelA.ipynb` | Prepares panel A by summarizing country-level data availability. |
-| 2 | `Step 4_panelB.ipynb` | Prepares panel B by categorizing SEEA account availability by thematic group. |
-| 3 | `Step 5_panelC.ipynb` | Prepares panel C by visualizing weighted country-category shares for each indicator. |
+| 1 | `Physical stock` | Physical stock |
+| 2 | `Monetary stock` | Monetary stock |
+| 3 | `Physical flow` | Physical flow |
+| 4 | `Monetary flow` | Monetary flow |
+| 5 | `Action_kept` | Action |
+| 6 | `Policy Guide_kept` | Policy guide |
+| 7 | `HPS_monetary_only` | Monetary HPS |
+| 8 | `DDP_monetary_only` | Monetary DDP |
+| 9 | `MS-NMS_monetary_only` | Monetary MS-NMS |
+| 10 | `ADE_monetary_only` | Monetary ADE |
 
 #### Main Process
 
-1. Prepare data for each of the three panels:
-   - **Panel A**: Summarizes SEEA account availability by country.
-   - **Panel B**: Categorizes SEEA account availability by thematic groups.
-   - **Panel C**: Visualizes the weighted country-category shares.
-
-2. Aggregate data for each panel.
-
-3. Prepare intermediary figures that will be used to construct the final Sankey diagram.
-
-#### Output from This Stage
-
-| No. | Output File | Description |
-|---:|---|---|
-| 1 | `panelA_summary.csv` | Data file summarizing SEEA account availability by country. |
-| 2 | `panelB_grouped_data.csv` | Data file categorizing SEEA account availability by thematic group. |
-| 3 | `panelC_weighted_shares.csv` | Data file visualizing weighted country-category shares. |
+1. Load `step2_region_category_average_shares.csv`.
+2. Reorder rows using the predefined regional order.
+3. Load `step1_indicator_category_summary.csv`.
+4. Add category-specific `n` values to the Panel A x-axis labels.
+5. Draw the heatmap using a fixed 0 to 100 percent scale.
+6. Add one-decimal cell labels to each heatmap cell.
+7. Add regional country counts to the y-axis labels when the input file includes `country_count`.
 
 ---
 
-### 5.4 Finalizing the Sankey Diagram and Visual Figures
+### 5.3 Prepare and Draw Panel B: SEEA Account Coverage by Region
 
 #### Purpose
 
-This stage finalizes the Sankey diagram and other visual representations of SEEA account availability. The diagrams will represent the flow of data from countries to SEEA accounts, showing the extent to which different countries report on different SEEA account categories.
+Panel B shows average country coverage by region for three SEEA account accessibility categories. It uses the regional averages from:
 
-#### Code File
+`step4_region_seea_account_average_coverage.csv`
 
-| No. | Code File | Description |
-|---:|---|---|
-| 1 | `Step 6_Final Figure.ipynb` | Finalizes the Sankey diagram and other visual figures for the SEEA account data. |
+Panel B uses the same 0 to 100 percent color scale as Panel A, which allows the two heatmaps to be read together.
+
+#### Panel B Columns
+
+| No. | Column | Figure Label | Interpretation |
+|---:|---|---|---|
+| 1 | `Reported SEEA accounts` | Reported SEEA accounts | Average share of SEEA accounts reported in the official assessment data. |
+| 2 | `Easily accessible accounts` | Easily accessible accounts | Average share of SEEA accounts located directly from accessible files. |
+| 3 | `Found but not reported` | Account found but not reported | Average share of accounts where evidence was found in accessible files but not reported in the official assessment field. |
 
 #### Main Process
 
-1. Load the summary and share data from Panels A, B, and C.
+1. Load `step4_region_seea_account_average_coverage.csv`.
+2. Reorder rows using the same regional order as Panel A.
+3. Draw the heatmap using a fixed 0 to 100 percent scale.
+4. Add one-decimal cell labels.
+5. Add a shared colorbar labeled:
 
-2. Combine the data for the Sankey diagram, representing the flow of indicators from countries to SEEA account categories.
+   `Average country coverage (%)`
 
-3. Plot the Sankey diagram using the weighted shares calculated in Panel C.
+6. Export Panel A and Panel B together.
 
-4. Add labels, titles, and notes to the final figure.
+---
 
-5. Save the Sankey diagram and other figures in a format suitable for reporting.
+### 5.4 Prepare and Draw Panel C: Indicator Links to SEEA Thematic Groups
 
-#### Output from This Stage
+#### Purpose
+
+Panel C visualizes how stock and flow indicators from each data source link to SEEA thematic groups. The figure uses a Sankey-style layout with data sources on the left and SEEA thematic groups on the right.
+
+The data source groups are:
+
+| No. | Data Source Group |
+|---:|---|
+| 1 | `WB` |
+| 2 | `IMF` |
+| 3 | `UNSD` |
+
+The flow widths are weighted counts. Each indicator contributes one unit in total. If an indicator links to more than one SEEA account or theme, that unit is divided equally across the linked themes. This prevents double-counting indicators with multiple SEEA links.
+
+#### Main Process
+
+1. Load `step5_panel_C_sankey_links.csv`.
+2. Validate that the file includes:
+   - `dataset`
+   - `theme`
+   - `flow_value`
+3. Load `step5_source_by_seea_theme_summary.csv`.
+4. Ensure that `No direct SEEA account flag` is included when it appears in the summary file but is missing from the Sankey link file.
+5. Convert `flow_value` to numeric values.
+6. Remove rows with zero or missing flow values.
+7. Order source groups as `WB`, `IMF`, and `UNSD`.
+8. Order SEEA thematic groups using the predefined theme order in the notebook.
+9. Calculate source totals and theme totals.
+10. Draw source bars, target bars, weighted links, value labels, thematic labels, and connector lines.
+11. Add the figure note:
+
+   `Flow widths are weighted counts: each indicator contributes one unit, divided equally across linked themes`
+
+12. Export Panel C separately.
+
+---
+
+### 5.5 Export Final Figures
+
+#### Purpose
+
+This stage saves the final figures in three formats for manuscript submission, vector editing, and quick review.
+
+#### Panel A-B Outputs
 
 | No. | Output File | Description |
 |---:|---|---|
-| 1 | `final_sankey_diagram.png` | Final Sankey diagram showing the flow of SEEA account availability. |
-| 2 | `final_sankey_diagram.svg` | SVG version of the Sankey diagram for high-resolution printing. |
-| 3 | `final_figure_report.pdf` | Full PDF report containing the final Sankey diagram and supporting figures. |
+| 1 | `figure_panels_A_B_region_coverage.pdf` | PDF version of the regional heatmap figure. |
+| 2 | `figure_panels_A_B_region_coverage.svg` | SVG version of the regional heatmap figure for vector editing. |
+| 3 | `figure_panels_A_B_region_coverage.png` | PNG version of the regional heatmap figure exported at 300 dots per inch. |
+
+#### Panel C Outputs
+
+| No. | Output File | Description |
+|---:|---|---|
+| 1 | `figure_panel_C_indicator_seea_links.pdf` | PDF version of the Sankey-style indicator-to-theme figure. |
+| 2 | `figure_panel_C_indicator_seea_links.svg` | SVG version of the Sankey-style figure for vector editing. |
+| 3 | `figure_panel_C_indicator_seea_links.png` | PNG version of the Sankey-style figure exported at 300 dots per inch. |
 
 ---
 
@@ -1363,14 +1396,28 @@ This stage finalizes the Sankey diagram and other visual representations of SEEA
 
 | No. | Final Output | Description |
 |---:|---|---|
-| 1 | `Step1_summary_categories_output.csv` | Summary of categorized SEEA accounts per country. |
-| 2 | `country_category_shares.csv` | Country-level shares for each SEEA category. |
-| 3 | `panelA_summary.csv` | Summary data for Panel A. |
-| 4 | `panelB_grouped_data.csv` | Categorized SEEA account availability data for Panel B. |
-| 5 | `panelC_weighted_shares.csv` | Weighted shares of country-category data for Panel C. |
-| 6 | `final_sankey_diagram.png` | PNG version of the final Sankey diagram. |
-| 7 | `final_sankey_diagram.svg` | SVG version of the final Sankey diagram. |
-| 8 | `final_figure_report.pdf` | Final report containing Sankey diagram and supporting figures. |
+| 1 | `figure_panels_A_B_region_coverage.pdf` | Final Panel A-B figure in PDF format. |
+| 2 | `figure_panels_A_B_region_coverage.svg` | Final Panel A-B figure in SVG format. |
+| 3 | `figure_panels_A_B_region_coverage.png` | Final Panel A-B figure in PNG format. |
+| 4 | `figure_panel_C_indicator_seea_links.pdf` | Final Panel C figure in PDF format. |
+| 5 | `figure_panel_C_indicator_seea_links.svg` | Final Panel C figure in SVG format. |
+| 6 | `figure_panel_C_indicator_seea_links.png` | Final Panel C figure in PNG format. |
+
+---
+
+### Notes
+
+- Step 5 is a figure-generation step, not a recoding step.
+- The underlying category summaries, regional averages, and Sankey link files should be generated before running `Step 6_Final Figure.ipynb`.
+- Panel A and Panel B use a shared color scale from 0 to 100 percent.
+- Panel A adds indicator counts to the x-axis labels using `step1_indicator_category_summary.csv`.
+- Panel B reports SEEA account coverage for reported, easily accessible, and found-but-not-reported account categories.
+- Panel C uses weighted counts to avoid double-counting indicators linked to multiple SEEA thematic groups.
+- `No direct SEEA account flag` is retained in Panel C so that unmapped stock and flow indicators remain visible.
+- The PDF or SVG outputs should be used for publication-quality figures.
+- The PNG outputs should be used for quick review, presentations, or README previews.
+
+
 
 ## Appendix III: Income-Group Coverage Figure
 
