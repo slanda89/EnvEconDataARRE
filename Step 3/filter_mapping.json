@@ -1,0 +1,358 @@
+{
+  "Global Search": {
+    "_textfield_": {
+      "name": "search_api_views_fulltext",
+      "value": ""
+    }
+  },
+  "Topic Filter": {
+    "Agriculture": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1718"
+    },
+    "Climate change and air emissions": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1721"
+    },
+    "Ecosystems and biodiversity": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1724"
+    },
+    "Energy and minerals": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1727"
+    },
+    "Environmental activity and expenditures": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1730"
+    },
+    "Forest": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1733"
+    },
+    "Implementation": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "2529"
+    },
+    "Land": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1736"
+    },
+    "Marine/coastal": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1739"
+    },
+    "Material flows and waste": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1742"
+    },
+    "Policy applications": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "2531"
+    },
+    "SDGs and indicators": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1745"
+    },
+    "Tourism": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1748"
+    },
+    "Water": {
+      "name": "node_field_document_topic_theme[]",
+      "value": "1751"
+    }
+  },
+  "Search by Date": {
+    "ALL TIME": {
+      "name": "node_field_publication_date_value[min]",
+      "value": "01/01/1900"
+    },
+    "2026": {
+      "name": "node_field_publication_date_value[min]",
+      "value": "01/01/2026"
+    },
+    "2025": {
+      "name": "node_field_publication_date_value[min]",
+      "value": "01/01/2025"
+    },
+    "2024": {
+      "name": "node_field_publication_date_value[min]",
+      "value": "01/01/2024"
+    },
+    "2023": {
+      "name": "node_field_publication_date_value[min]",
+      "value": "01/01/2023"
+    },
+    "2022": {
+      "name": "node_field_publication_date_value[min]",
+      "value": "01/01/2022"
+    },
+    "2021 and earlier": {
+      "name": "node_field_publication_date_value[min]",
+      "value": "2021/and/earlier"
+    }
+  },
+  "Location Filter": {
+    "Africa": {
+      "name": "node_field_document_location[]",
+      "value": "1754"
+    },
+    "Botswana": {
+      "name": "node_field_document_location[]",
+      "value": "1883"
+    },
+    "Kenya": {
+      "name": "node_field_document_location[]",
+      "value": "1811"
+    },
+    "Mauritius": {
+      "name": "node_field_document_location[]",
+      "value": "1820"
+    },
+    "Rwanda": {
+      "name": "node_field_document_location[]",
+      "value": "1832"
+    },
+    "Senegal": {
+      "name": "node_field_document_location[]",
+      "value": "1940"
+    },
+    "South Africa": {
+      "name": "node_field_document_location[]",
+      "value": "1895"
+    },
+    "Uganda": {
+      "name": "node_field_document_location[]",
+      "value": "1844"
+    },
+    "Zambia": {
+      "name": "node_field_document_location[]",
+      "value": "1850"
+    },
+    "Americas": {
+      "name": "node_field_document_location[]",
+      "value": "1757"
+    },
+    "Argentina": {
+      "name": "node_field_document_location[]",
+      "value": "2057"
+    },
+    "Brazil": {
+      "name": "node_field_document_location[]",
+      "value": "2066"
+    },
+    "Canada": {
+      "name": "node_field_document_location[]",
+      "value": "2108"
+    },
+    "Chile": {
+      "name": "node_field_document_location[]",
+      "value": "2069"
+    },
+    "Colombia": {
+      "name": "node_field_document_location[]",
+      "value": "2072"
+    },
+    "Costa Rica": {
+      "name": "node_field_document_location[]",
+      "value": "2036"
+    },
+    "Guatemala": {
+      "name": "node_field_document_location[]",
+      "value": "2042"
+    },
+    "Mexico": {
+      "name": "node_field_document_location[]",
+      "value": "2048"
+    },
+    "Peru": {
+      "name": "node_field_document_location[]",
+      "value": "2090"
+    },
+    "United States": {
+      "name": "node_field_document_location[]",
+      "value": "2117"
+    },
+    "Uruguay": {
+      "name": "node_field_document_location[]",
+      "value": "2099"
+    },
+    "Asia": {
+      "name": "node_field_document_location[]",
+      "value": "1760"
+    },
+    "Bangladesh": {
+      "name": "node_field_document_location[]",
+      "value": "2192"
+    },
+    "Bhutan": {
+      "name": "node_field_document_location[]",
+      "value": "2195"
+    },
+    "Cambodia": {
+      "name": "node_field_document_location[]",
+      "value": "2159"
+    },
+    "China": {
+      "name": "node_field_document_location[]",
+      "value": "2135"
+    },
+    "India": {
+      "name": "node_field_document_location[]",
+      "value": "2198"
+    },
+    "Indonesia": {
+      "name": "node_field_document_location[]",
+      "value": "2162"
+    },
+    "Malaysia": {
+      "name": "node_field_document_location[]",
+      "value": "2168"
+    },
+    "Maldives": {
+      "name": "node_field_document_location[]",
+      "value": "2204"
+    },
+    "Mongolia": {
+      "name": "node_field_document_location[]",
+      "value": "2150"
+    },
+    "Philippines": {
+      "name": "node_field_document_location[]",
+      "value": "2174"
+    },
+    "Qatar": {
+      "name": "node_field_document_location[]",
+      "value": "2249"
+    },
+    "Turkey": {
+      "name": "node_field_document_location[]",
+      "value": "2261"
+    },
+    "Europe": {
+      "name": "node_field_document_location[]",
+      "value": "1763"
+    },
+    "Belarus": {
+      "name": "node_field_document_location[]",
+      "value": "2270"
+    },
+    "Denmark": {
+      "name": "node_field_document_location[]",
+      "value": "2312"
+    },
+    "France": {
+      "name": "node_field_document_location[]",
+      "value": "2405"
+    },
+    "Germany": {
+      "name": "node_field_document_location[]",
+      "value": "2408"
+    },
+    "Ireland": {
+      "name": "node_field_document_location[]",
+      "value": "2327"
+    },
+    "Netherlands": {
+      "name": "node_field_document_location[]",
+      "value": "2420"
+    },
+    "Norway": {
+      "name": "node_field_document_location[]",
+      "value": "2339"
+    },
+    "Spain": {
+      "name": "node_field_document_location[]",
+      "value": "2396"
+    },
+    "Sweden": {
+      "name": "node_field_document_location[]",
+      "value": "2345"
+    },
+    "Switzerland": {
+      "name": "node_field_document_location[]",
+      "value": "2423"
+    },
+    "United Kingdom": {
+      "name": "node_field_document_location[]",
+      "value": "2348"
+    },
+    "Oceania": {
+      "name": "node_field_document_location[]",
+      "value": "1766"
+    },
+    "Australia": {
+      "name": "node_field_document_location[]",
+      "value": "2426"
+    },
+    "Fiji": {
+      "name": "node_field_document_location[]",
+      "value": "2444"
+    },
+    "New Zealand": {
+      "name": "node_field_document_location[]",
+      "value": "2438"
+    },
+    "Palau": {
+      "name": "node_field_document_location[]",
+      "value": "2477"
+    },
+    "Samoa": {
+      "name": "node_field_document_location[]",
+      "value": "2498"
+    }
+  },
+  "Type Filter": {
+    "Articles and reports": {
+      "name": "node_field_document_type[]",
+      "value": "2513"
+    },
+    "Handbooks and guidelines": {
+      "name": "node_field_document_type[]",
+      "value": "2516"
+    },
+    "Multimedia": {
+      "name": "node_field_document_type[]",
+      "value": "2519"
+    },
+    "Other": {
+      "name": "node_field_document_type[]",
+      "value": "2522"
+    },
+    "Policy briefs": {
+      "name": "node_field_document_type[]",
+      "value": "2525"
+    }
+  },
+  "Language Filter": {
+    "Language neutral": {
+      "name": "node_language[]",
+      "value": "und"
+    },
+    "Arabic": {
+      "name": "node_language[]",
+      "value": "ar"
+    },
+    "Chinese": {
+      "name": "node_language[]",
+      "value": "zh-hans"
+    },
+    "English": {
+      "name": "node_language[]",
+      "value": "en"
+    },
+    "French": {
+      "name": "node_language[]",
+      "value": "fr"
+    },
+    "Russian": {
+      "name": "node_language[]",
+      "value": "ru"
+    },
+    "Spanish": {
+      "name": "node_language[]",
+      "value": "es"
+    }
+  }
+}

@@ -1,15 +1,16 @@
 # README: SEEA Data Availability and Account Accessibility Workflow
 
-This README documents the workflow used to clean, classify, map, and visualize environmental-economic indicators and System of Environmental-Economic Accounting (SEEA) account accessibility data.
+This README documents the workflow used to clean, classify, scrape, assess, map, and visualize environmental-economic indicators and System of Environmental-Economic Accounting (SEEA) account accessibility data.
 
 ## Workflow Steps
 
 1. [Step 1: Data Cleaning and Availability Coding of Three Datasets](#step-1-data-cleaning-and-availability-coding-of-three-datasets)
 2. [Step 2: Indicator Classification and Figure Preparation](#step-2-indicator-classification-and-figure-preparation)
-3. [Step 3: SEEA Account Accessibility Assessment](#step-3-seea-account-accessibility-assessment)
-4. [Step 4: SEEA Account Grouping and Sankey Input Preparation](#step-4-seea-account-grouping-and-sankey-input-preparation)
-5. [Step 5: SEEA Data Categorization and Visualization](#step-5-seea-data-categorization-and-visualization)
-6. [Appendix III: Income-Group Coverage Figure](#appendix-iii-income-group-coverage-figure)
+3. [Step 3: SEEA Knowledge Base Scraper and Document Download](#step-3-seea-knowledge-base-scraper-and-document-download)
+4. [Step 4: SEEA Account Accessibility Assessment](#step-4-seea-account-accessibility-assessment)
+5. [Step 5: SEEA Account Grouping and Sankey Input Preparation](#step-5-seea-account-grouping-and-sankey-input-preparation)
+6. [Step 6: SEEA Data Categorization and Visualization](#step-6-seea-data-categorization-and-visualization)
+7. [Appendix III: Income-Group Coverage Figure](#appendix-iii-income-group-coverage-figure)
 
 
 ## STEP 1: Data Cleaning and Availability Coding of Three Datasets
@@ -134,7 +135,7 @@ Cleaned source datasets
                         │
                         └── Filtering.ipynb
                                 │
-                                ├── cross_source_overlap_candidates_recreated.csv
+                                └── cross_source_overlap_candidates_recreated.csv
                                         │
                                         └── Human review
                                                 │
@@ -470,7 +471,54 @@ This stage identifies indicators with monetary units. These indicators are used 
 - Monetary-value filtering is based on unit keywords and should be reviewed if new currency terms are added to the dataset.
 
 
-## STEP 3: SEEA Account Accessibility Assessment
+## STEP 3: SEEA Knowledge Base Scraper and Document Download
+
+### Purpose
+
+This step adds the SEEA Knowledge Base scraper and downloader to the overall workflow before the SEEA account accessibility assessment. The scraper collects metadata and links for documents from the SEEA Knowledge Base, and the downloader saves the selected documents, HTML pages, and external links into organized output folders.
+
+This step is included as a preparatory data-collection step. Its outputs are used in Step 4, where downloaded SEEA Knowledge Base files are screened for SEEA account accessibility evidence.
+
+### Source and Acknowledgment
+
+This step integrates the SEEA Knowledge Base scraping workflow originally developed in the repository `V3D4N7V2/SEEAKB_Scraper`.
+
+We acknowledge the original author of `SEEAKB_Scraper`, who developed the scraper and downloader workflow. The workflow is included here with attribution so that the lab can maintain a single integrated repository for SEEA data collection, accessibility assessment, account grouping, and visualization.
+
+### Details
+
+The full setup instructions, file descriptions, and run commands are available in the `Step 3` folder, especially in that folder's README file. The Step 3 folder contains the scraper script, downloader script, filter files, dependency file, and flowchart.
+
+### Main Files
+
+| No. | File | Description |
+|---:|---|---|
+| 1 | `scraper.py` | Fetches paginated SEEA Knowledge Base results based on user-defined filters and saves the metadata to `output.json`. |
+| 2 | `downloader.py` | Reads `output.json` and downloads documents, HTML pages, and external links into the `outputs/` folder. |
+| 3 | `filter_mapping.json` | Maps filter names to SEEA Knowledge Base filter settings. |
+| 4 | `filters.template.yaml` | Template used to create a user-defined filter file. |
+| 5 | `requirements.txt` | Lists the Python dependencies needed to run the scraper and downloader. |
+
+### Brief Workflow
+
+1. Install the required packages.
+2. Create and edit the filter file.
+3. Run the scraper to generate `output.json`.
+4. Run the downloader to create the `outputs/` folder.
+5. Use the downloaded files as inputs for Step 4.
+
+### Output
+
+| No. | Output | Description |
+|---:|---|---|
+| 1 | `output.json` | Metadata and links for matching SEEA Knowledge Base documents. |
+| 2 | `outputs/` | Downloaded documents, HTML pages, and external links. |
+| 3 | `download_log.json` | Download log used to track progress and support resuming. |
+
+
+
+
+## STEP 4: SEEA Account Accessibility Assessment
 
 ### Purpose
 
@@ -526,7 +574,7 @@ The workflow has six main stages:
 
 ---
 
-### 3.1 Download the 2024 SEEA Global Assessment File
+### 4.1 Download the 2024 SEEA Global Assessment File
 
 #### Purpose
 
@@ -554,7 +602,7 @@ This stage downloads the official 2024 SEEA Global Assessment Excel file from th
 
 ---
 
-### 3.2 Create and Validate the SEEA Keyword Configuration
+### 4.2 Create and Validate the SEEA Keyword Configuration
 
 #### Purpose
 
@@ -614,7 +662,7 @@ The coverage file should be used to identify languages with lower topic-translat
 
 ---
 
-### 3.3 Download Country-Level Files Using the Keyword Configuration
+### 4.3 Download Country-Level Files Using the Keyword Configuration
 
 #### Purpose
 
@@ -676,7 +724,7 @@ Topic-only matches are used only to help crawl webpages. They should not be trea
 
 ---
 
-### 3.4 Assess Accessibility from SEEA Knowledge Base Files
+### 4.4 Assess Accessibility from SEEA Knowledge Base Files
 
 #### Purpose
 
@@ -724,7 +772,7 @@ This stage assesses SEEA account accessibility using files downloaded from the S
 
 ---
 
-### 3.5 Assess Accessibility from SEEA 2024 Global Assessment Linked Files
+### 4.5 Assess Accessibility from SEEA 2024 Global Assessment Linked Files
 
 #### Purpose
 
@@ -773,7 +821,7 @@ This stage assesses SEEA account accessibility using files downloaded from websi
 
 ---
 
-### 3.6 Combine SEEA Accessibility Results
+### 4.6 Combine SEEA Accessibility Results
 
 #### Purpose
 
@@ -820,7 +868,7 @@ This stage combines the two accessibility assessments into one final country-lev
 
 ---
 
-### Final Outputs from Step 3
+### Final Outputs from Step 4
 
 | No. | Final Output | Description |
 |---:|---|---|
@@ -850,7 +898,7 @@ This stage combines the two accessibility assessments into one final country-lev
 - The final combined output should be used for SEEA account accessibility figures and regional or income-group summaries.
 
 
-## STEP 4: SEEA Account Grouping and Sankey Input Preparation
+## STEP 5: SEEA Account Grouping and Sankey Input Preparation
 
 ### Purpose
 
@@ -890,7 +938,7 @@ The workflow has two main stages:
 
 ---
 
-### 4.1 SEEA Account Grouping
+### 5.1 SEEA Account Grouping
 
 #### Purpose
 
@@ -977,7 +1025,7 @@ The workflow should not assign an account only because the indicator has a simil
 
 ---
 
-### 4.2 Human Review of SEEA Account Grouping
+### 5.2 Human Review of SEEA Account Grouping
 
 #### Purpose
 
@@ -1018,7 +1066,7 @@ This stage uses human review to validate and correct the LLM-assisted SEEA accou
 
 ---
 
-### 4.3 Clean Human-Reviewed Coding for Sankey Diagram
+### 5.3 Clean Human-Reviewed Coding for Sankey Diagram
 
 #### Purpose
 
@@ -1121,7 +1169,7 @@ The notebook classifies indicator sources into three dataset groups:
 
 ---
 
-### 4.4 Recommended Sankey Interpretation
+### 5.4 Recommended Sankey Interpretation
 
 #### Purpose
 
@@ -1154,7 +1202,7 @@ Use this note under the Sankey diagram:
 
 ---
 
-### Final Outputs from Step 4
+### Final Outputs from Step 5
 
 | No. | Final Output | Description |
 |---:|---|---|
@@ -1175,7 +1223,7 @@ Use this note under the Sankey diagram:
 - The final cleaned file `SEEA_36_account_final.xlsx` should be used as the input for the Sankey diagram.
 
 
-## STEP 5: SEEA Data Categorization and Visualization
+## STEP 6: SEEA Data Categorization and Visualization
 
 ### Purpose
 
@@ -1189,7 +1237,7 @@ This step involves categorizing the data into appropriate country-level and acco
 
 | No. | Input File | Description |
 |---:|---|---|
-| 1 | `SEEA_36_account_final.xlsx` | Cleaned workbook from Step 4 used for categorizing and finalizing visualizations. |
+| 1 | `SEEA_36_account_final.xlsx` | Cleaned workbook from Step 5 used for categorizing and finalizing visualizations. |
 | 2 | `cleaned_sankey_input` | Final cleaned Sankey input sheet containing SEEA account flags and country indicators. |
 | 3 | `Step 2_country_category_shares.ipynb` | Notebook used to calculate country category shares and prepare data for visual presentation. |
 | 4 | `Step 1_summary_categories.ipynb` | Notebook that provides an overview of category-level summaries for visual representation. |
@@ -1219,11 +1267,11 @@ The workflow has five main stages:
 
 ---
 
-### 5.1 Categorizing SEEA Accounts by Country and Thematic Category
+### 6.1 Categorizing SEEA Accounts by Country and Thematic Category
 
 #### Purpose
 
-This stage categorizes SEEA account availability by country and thematic group, based on the SEEA indicators prepared in Step 4. The output categorizes each country’s data by the SEEA accounts that are available to them, grouped by thematic categories.
+This stage categorizes SEEA account availability by country and thematic group, based on the SEEA indicators prepared in Step 5. The output categorizes each country’s data by the SEEA accounts that are available to them, grouped by thematic categories.
 
 #### Code File
 
@@ -1233,7 +1281,7 @@ This stage categorizes SEEA account availability by country and thematic group, 
 
 #### Main Process
 
-1. Load the cleaned workbook from Step 4:  
+1. Load the cleaned workbook from Step 5:  
    `SEEA_36_account_final.xlsx`
 
 2. Categorize each country’s SEEA accounts by their thematic group, using the account codebook.
@@ -1259,7 +1307,7 @@ This stage categorizes SEEA account availability by country and thematic group, 
 
 ---
 
-### 5.2 Calculating Country Category Shares
+### 6.2 Calculating Country Category Shares
 
 #### Purpose
 
@@ -1290,7 +1338,7 @@ This stage calculates the share of available SEEA categories for each country. I
 
 ---
 
-### 5.3 Preparing Visualization Panels
+### 6.3 Preparing Visualization Panels
 
 #### Purpose
 
@@ -1325,7 +1373,7 @@ This stage prepares the individual panels for the final Sankey diagram. It invol
 
 ---
 
-### 5.4 Finalizing the Sankey Diagram and Visual Figures
+### 6.4 Finalizing the Sankey Diagram and Visual Figures
 
 #### Purpose
 
@@ -1359,7 +1407,7 @@ This stage finalizes the Sankey diagram and other visual representations of SEEA
 
 ---
 
-### Final Outputs from Step 5
+### Final Outputs from Step 6
 
 | No. | Final Output | Description |
 |---:|---|---|
@@ -1371,6 +1419,7 @@ This stage finalizes the Sankey diagram and other visual representations of SEEA
 | 6 | `final_sankey_diagram.png` | PNG version of the final Sankey diagram. |
 | 7 | `final_sankey_diagram.svg` | SVG version of the final Sankey diagram. |
 | 8 | `final_figure_report.pdf` | Final report containing Sankey diagram and supporting figures. |
+
 
 ## Appendix III: Income-Group Coverage Figure
 
@@ -1575,7 +1624,7 @@ This stage saves the final appendix figure in three formats for reporting, editi
 
 ### Reproducibility Notes
 
-- Run Appendix III after the Step 5 input files have been created.
+- Run Appendix III after the Step 6 input files have been created.
 - Keep the three input CSV files in the same folder as `Step7_Appendix III.ipynb`, or revise the file paths in the notebook.
 - Do not rename the required input columns unless the notebook is updated accordingly.
 - Check that the `Income` and `country_count` columns are present in both income-group input files.

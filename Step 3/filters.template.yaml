@@ -1,0 +1,112 @@
+# SEEA Knowledge Base Scraper - Filters Template
+# Uncomment any category and items to include them in the query.
+
+# 1. API-LEVEL FILTERS (Server-side)
+# These filters are sent to the website's search engine.
+
+# Global Search by keyword
+# keywords: "climate"
+
+#topic_filter:
+#  - "Agriculture"
+#  - "Climate change and air emissions"
+#  - "Ecosystems and biodiversity"
+#  - "Energy and minerals"
+#  - "Environmental activity and expenditures"
+#  - "Forest"
+#  - "Implementation"
+#  - "Land"
+#  - "Marine/coastal"
+#  - "Material flows and waste"
+#  - "Policy applications"
+#  - "SDGs and indicators"
+#  - "Tourism"
+#  - "Water"
+
+#location_filter:
+#  - "Africa"
+#  - "Botswana"
+#  - "Kenya"
+#  - "Mauritius"
+#  - "Rwanda"
+#  - "Senegal"
+#  - "South Africa"
+#  - "Uganda"
+#  - "Zambia"
+#  - "Americas"
+#  - "Argentina"
+#  - "Brazil"
+#  - "Canada"
+#  - "Chile"
+#  - "Colombia"
+#  - "Costa Rica"
+#  - "Guatemala"
+#  - "Mexico"
+#  - "Peru"
+#  - "United States"
+#  - "Uruguay"
+#  - "Asia"
+#  - "Bangladesh"
+#  - "Bhutan"
+#  - "Cambodia"
+#  - "China"
+#  - "India"
+#  - "Indonesia"
+#  - "Malaysia"
+#  - "Maldives"
+#  - "Mongolia"
+#  - "Philippines"
+#  - "Qatar"
+#  - "Turkey"
+#  - "Europe"
+#  - "Belarus"
+#  - "Denmark"
+#  - "France"
+#  - "Germany"
+#  - "Ireland"
+#  - "Netherlands"
+#  - "Norway"
+#  - "Spain"
+#  - "Sweden"
+#  - "Switzerland"
+#  - "United Kingdom"
+#  - "Oceania"
+#  - "Australia"
+#  - "Fiji"
+#  - "New Zealand"
+#  - "Palau"
+#  - "Samoa"
+
+type_filter:
+  - "Articles and reports"
+#  - "Handbooks and guidelines"
+#  - "Multimedia"
+#  - "Other"
+#  - "Policy briefs"
+
+#language_filter:
+#  - "Language neutral"
+#  - "Arabic"
+#  - "Chinese"
+#  - "English"
+#  - "French"
+#  - "Russian"
+#  - "Spanish"
+
+date_filter:
+  - "ALL TIME"
+#  - "2026"
+#  - "2025"
+#  - "2024"
+#  - "2023"
+#  - "2022"
+#  - "2021 and earlier"
+
+# 2. POST-FILTERS (Client-side)
+# These filters are applied locally after the data is fetched.
+# Useful for precise year ranges (e.g. before 2021) or custom filtering.
+post_filters:
+  year_start: 2010
+  year_end: 2100
+  # location: "Kenya"       # Case-insensitive substring match
+  # title: "Ecosystem"      # Case-insensitive substring match
