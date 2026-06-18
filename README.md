@@ -9,8 +9,9 @@ This README documents the workflow used to clean, classify, scrape, assess, map,
 3. [Step 3: SEEA Knowledge Base Scraper and Document Download](#step-3-seea-knowledge-base-scraper-and-document-download)
 4. [Step 4: SEEA Account Accessibility Assessment](#step-4-seea-account-accessibility-assessment)
 5. [Step 5: SEEA Account Grouping and Sankey Input Preparation](#step-5-seea-account-grouping-and-sankey-input-preparation)
-6. [Step 6: Regional Coverage and Final Figure Generation](#step-6-regional-coverage-and-final-figure-generation)
+6. [Step 6: SEEA Data Categorization and Visualization](#step-6-seea-data-categorization-and-visualization)
 7. [Appendix III: Income-Group Coverage Figure](#appendix-iii-income-group-coverage-figure)
+
 
 ## STEP 1: Data Cleaning and Availability Coding of Three Datasets
 
@@ -482,9 +483,7 @@ This step is included as a preparatory data-collection step. Its outputs are use
 
 This step integrates the SEEA Knowledge Base scraping workflow originally developed in the repository `V3D4N7V2/SEEAKB_Scraper`.
 
-Original source repository: `https://github.com/V3D4N7V2/SEEAKB_Scraper`
-
-We acknowledge the original author of `SEEAKB_Scraper`, who developed the scraper and downloader workflow. The workflow is included here with attribution so that the lab can maintain a single integrated repository for SEEA data collection, document download, accessibility assessment, account grouping, and visualization.
+We acknowledge the original author of `SEEAKB_Scraper`, who developed the scraper and downloader workflow. The workflow is included here with attribution so that the lab can maintain a single integrated repository for SEEA data collection, accessibility assessment, account grouping, and visualization.
 
 ### Details
 
@@ -517,6 +516,8 @@ The full setup instructions, file descriptions, and run commands are available i
 | 3 | `download_log.json` | Download log used to track progress and support resuming. |
 
 
+
+
 ## STEP 4: SEEA Account Accessibility Assessment
 
 ### Purpose
@@ -541,7 +542,7 @@ This step should be interpreted as an accessibility assessment, not as a definit
 | 1 | `global_assessment_for_website_2024_final.xlsx` | Official 2024 SEEA Global Assessment Excel file downloaded from the SEEA website. |
 | 2 | `seea_keyword_config.json` | Country-language-aware keyword configuration used for SEEA account screening. |
 | 3 | `Combination.xlsx` | Input file used by the crawler to support country website downloading and manual validation tracking. |
-| 4 | `worldbank_classification.csv` | World Bank country classification file used to add region and income group information. We further divide Europe and Central Asia into two subgroups: Eurostat plus the United Kingdom, and non-Eurostat Europe and Central Asia. |
+| 4 | `worldbank_classification.csv` | World Bank country classification file used to add region and income group information.We further divide Europe and Central Asia into two subgroups: Eurostat plus the United Kingdom, and non-Eurostat Europe and Central Asia. |
 | 5 | `outputs_SEEAKB/` | Folder containing files downloaded from the SEEA Knowledge Base. |
 | 6 | `seea_file/` | Folder containing files downloaded from links in the SEEA 2024 Global Assessment. |
 
@@ -1222,7 +1223,7 @@ Use this note under the Sankey diagram:
 - The final cleaned file `SEEA_36_account_final.xlsx` should be used as the input for the Sankey diagram.
 
 
-## STEP 6: Regional Coverage and Final Figure Generation
+## STEP 6: SEEA Data Categorization and Visualization
 
 ### Purpose
 
@@ -1409,7 +1410,7 @@ The flow widths are weighted counts. Each indicator contributes one unit in tota
 10. Draw source bars, target bars, weighted links, value labels, thematic labels, and connector lines.
 11. Add the figure note:
 
-   `Flow widths are weighted counts: each indicator contributes one unit, divided equally across linked themes.`
+   `Flow widths are weighted counts: each indicator contributes one unit, divided equally across linked themes`
 
 12. Export Panel C separately.
 
@@ -1463,6 +1464,7 @@ This stage saves the final figures in three formats for manuscript submission, v
 - `No direct SEEA account flag` is retained in Panel C so that unmapped stock and flow indicators remain visible.
 - The PDF or SVG outputs should be used for publication-quality figures.
 - The PNG outputs should be used for quick review, presentations, or README previews.
+
 
 
 
