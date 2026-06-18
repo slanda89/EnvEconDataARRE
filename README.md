@@ -6,19 +6,11 @@ This README documents the workflow used to clean, classify, scrape, assess, map,
 
 1. [Step 1: Data Cleaning and Availability Coding of Three Datasets](#step-1-data-cleaning-and-availability-coding-of-three-datasets)
 2. [Step 2: Indicator Classification and Figure Preparation](#step-2-indicator-classification-and-figure-preparation)
-<<<<<<< HEAD
 3. [Step 3: SEEA Knowledge Base Scraper and Document Download](#step-3-seea-knowledge-base-scraper-and-document-download)
 4. [Step 4: SEEA Account Accessibility Assessment](#step-4-seea-account-accessibility-assessment)
 5. [Step 5: SEEA Account Grouping and Sankey Input Preparation](#step-5-seea-account-grouping-and-sankey-input-preparation)
-6. [Step 6: SEEA Data Categorization and Visualization](#step-6-seea-data-categorization-and-visualization)
+6. [Step 6: Regional Coverage and Final Figure Generation](#step-6-regional-coverage-and-final-figure-generation)
 7. [Appendix III: Income-Group Coverage Figure](#appendix-iii-income-group-coverage-figure)
-=======
-3. [Step 3: SEEA Account Accessibility Assessment](#step-3-seea-account-accessibility-assessment)
-4. [Step 4: SEEA Account Grouping and Sankey Input Preparation](#step-4-seea-account-grouping-and-sankey-input-preparation)
-5. [Step 5: Regional Coverage and Final Figure Generation](#step-5-regional-coverage-and-final-figure-generation)
-6. [Appendix III: Income-Group Coverage Figure](#appendix-iii-income-group-coverage-figure)
->>>>>>> 54f98ea0f2242a70ab7c9623eb54898d15b9d860
-
 
 ## STEP 1: Data Cleaning and Availability Coding of Three Datasets
 
@@ -490,7 +482,9 @@ This step is included as a preparatory data-collection step. Its outputs are use
 
 This step integrates the SEEA Knowledge Base scraping workflow originally developed in the repository `V3D4N7V2/SEEAKB_Scraper`.
 
-We acknowledge the original author of `SEEAKB_Scraper`, who developed the scraper and downloader workflow. The workflow is included here with attribution so that the lab can maintain a single integrated repository for SEEA data collection, accessibility assessment, account grouping, and visualization.
+Original source repository: `https://github.com/V3D4N7V2/SEEAKB_Scraper`
+
+We acknowledge the original author of `SEEAKB_Scraper`, who developed the scraper and downloader workflow. The workflow is included here with attribution so that the lab can maintain a single integrated repository for SEEA data collection, document download, accessibility assessment, account grouping, and visualization.
 
 ### Details
 
@@ -523,8 +517,6 @@ The full setup instructions, file descriptions, and run commands are available i
 | 3 | `download_log.json` | Download log used to track progress and support resuming. |
 
 
-
-
 ## STEP 4: SEEA Account Accessibility Assessment
 
 ### Purpose
@@ -549,7 +541,7 @@ This step should be interpreted as an accessibility assessment, not as a definit
 | 1 | `global_assessment_for_website_2024_final.xlsx` | Official 2024 SEEA Global Assessment Excel file downloaded from the SEEA website. |
 | 2 | `seea_keyword_config.json` | Country-language-aware keyword configuration used for SEEA account screening. |
 | 3 | `Combination.xlsx` | Input file used by the crawler to support country website downloading and manual validation tracking. |
-| 4 | `worldbank_classification.csv` | World Bank country classification file used to add region and income group information.We further divide Europe and Central Asia into two subgroups: Eurostat plus the United Kingdom, and non-Eurostat Europe and Central Asia. |
+| 4 | `worldbank_classification.csv` | World Bank country classification file used to add region and income group information. We further divide Europe and Central Asia into two subgroups: Eurostat plus the United Kingdom, and non-Eurostat Europe and Central Asia. |
 | 5 | `outputs_SEEAKB/` | Folder containing files downloaded from the SEEA Knowledge Base. |
 | 6 | `seea_file/` | Folder containing files downloaded from links in the SEEA 2024 Global Assessment. |
 
@@ -1230,11 +1222,7 @@ Use this note under the Sankey diagram:
 - The final cleaned file `SEEA_36_account_final.xlsx` should be used as the input for the Sankey diagram.
 
 
-<<<<<<< HEAD
-## STEP 6: SEEA Data Categorization and Visualization
-=======
-## STEP 5: Regional Coverage and Final Figure Generation
->>>>>>> 54f98ea0f2242a70ab7c9623eb54898d15b9d860
+## STEP 6: Regional Coverage and Final Figure Generation
 
 ### Purpose
 
@@ -1254,18 +1242,11 @@ Panels A and B are exported together as one regional heatmap figure. Panel C is 
 
 | No. | Input File | Description |
 |---:|---|---|
-<<<<<<< HEAD
-| 1 | `SEEA_36_account_final.xlsx` | Cleaned workbook from Step 5 used for categorizing and finalizing visualizations. |
-| 2 | `cleaned_sankey_input` | Final cleaned Sankey input sheet containing SEEA account flags and country indicators. |
-| 3 | `Step 2_country_category_shares.ipynb` | Notebook used to calculate country category shares and prepare data for visual presentation. |
-| 4 | `Step 1_summary_categories.ipynb` | Notebook that provides an overview of category-level summaries for visual representation. |
-=======
 | 1 | `step2_region_category_average_shares.csv` | Regional average country coverage for indicator categories and monetary boundary fields. This file is used for Panel A. |
 | 2 | `step4_region_seea_account_average_coverage.csv` | Regional average country coverage for reported, easily accessible, and found-but-not-reported SEEA accounts. This file is used for Panel B. |
 | 3 | `step5_panel_C_sankey_links.csv` | Weighted source-to-theme link table for Panel C. Required columns are `dataset`, `theme`, and `flow_value`. |
 | 4 | `step5_source_by_seea_theme_summary.csv` | Source-by-theme summary used to include the `No direct SEEA account flag` category and calculate the total number of stock and flow indicators in Panel C. Required columns are `dataset`, `theme`, and `weighted_indicator_count`. |
 | 5 | `step1_indicator_category_summary.csv` | Indicator counts by category and boundary. These counts are added to the Panel A column labels as `n` values. |
->>>>>>> 54f98ea0f2242a70ab7c9623eb54898d15b9d860
 
 ---
 
@@ -1288,50 +1269,7 @@ The workflow has four main stages:
 
 ---
 
-<<<<<<< HEAD
-### 6.1 Categorizing SEEA Accounts by Country and Thematic Category
-
-#### Purpose
-
-This stage categorizes SEEA account availability by country and thematic group, based on the SEEA indicators prepared in Step 5. The output categorizes each country’s data by the SEEA accounts that are available to them, grouped by thematic categories.
-
-#### Code File
-
-| No. | Code File | Description |
-|---:|---|---|
-| 1 | `Step 1_summary_categories.ipynb` | Summarizes the SEEA categories at the country level, grouping indicators by account. |
-
-#### Main Process
-
-1. Load the cleaned workbook from Step 5:  
-   `SEEA_36_account_final.xlsx`
-
-2. Categorize each country’s SEEA accounts by their thematic group, using the account codebook.
-
-3. Summarize available SEEA accounts per country in the following categories:
-   - Water
-   - Energy
-   - Forests
-   - Land
-   - Carbon
-   - Species
-   - Economy
-   - Waste, etc.
-
-4. Prepare the categorized data for visual output.
-
-#### Output from This Stage
-
-| No. | Output File | Description |
-|---:|---|---|
-| 1 | `Step1_summary_categories_output.csv` | Summary of categorized SEEA accounts per country. |
-| 2 | `Step1_summary_categories_output.xlsx` | Excel version of the categorized SEEA account summary. |
-
----
-
-### 6.2 Calculating Country Category Shares
-=======
-### 5.1 Load Figure Inputs and Set Figure Standards
+### 6.1 Load Figure Inputs and Set Figure Standards
 
 #### Purpose
 
@@ -1350,8 +1288,7 @@ This stage defines the file paths, figure sizes, fonts, color settings, and expo
 
 ---
 
-### 5.2 Prepare and Draw Panel A: Indicator Coverage by Region
->>>>>>> 54f98ea0f2242a70ab7c9623eb54898d15b9d860
+### 6.2 Prepare and Draw Panel A: Indicator Coverage by Region
 
 #### Purpose
 
@@ -1407,11 +1344,7 @@ Panel A uses the following regional order:
 
 ---
 
-<<<<<<< HEAD
-### 6.3 Preparing Visualization Panels
-=======
-### 5.3 Prepare and Draw Panel B: SEEA Account Coverage by Region
->>>>>>> 54f98ea0f2242a70ab7c9623eb54898d15b9d860
+### 6.3 Prepare and Draw Panel B: SEEA Account Coverage by Region
 
 #### Purpose
 
@@ -1443,11 +1376,7 @@ Panel B uses the same 0 to 100 percent color scale as Panel A, which allows the 
 
 ---
 
-<<<<<<< HEAD
-### 6.4 Finalizing the Sankey Diagram and Visual Figures
-=======
-### 5.4 Prepare and Draw Panel C: Indicator Links to SEEA Thematic Groups
->>>>>>> 54f98ea0f2242a70ab7c9623eb54898d15b9d860
+### 6.4 Prepare and Draw Panel C: Indicator Links to SEEA Thematic Groups
 
 #### Purpose
 
@@ -1480,13 +1409,13 @@ The flow widths are weighted counts. Each indicator contributes one unit in tota
 10. Draw source bars, target bars, weighted links, value labels, thematic labels, and connector lines.
 11. Add the figure note:
 
-   `Flow widths are weighted counts: each indicator contributes one unit, divided equally across linked themes`
+   `Flow widths are weighted counts: each indicator contributes one unit, divided equally across linked themes.`
 
 12. Export Panel C separately.
 
 ---
 
-### 5.5 Export Final Figures
+### 6.5 Export Final Figures
 
 #### Purpose
 
@@ -1525,7 +1454,7 @@ This stage saves the final figures in three formats for manuscript submission, v
 
 ### Notes
 
-- Step 5 is a figure-generation step, not a recoding step.
+- Step 6 is a figure-generation step, not a recoding step.
 - The underlying category summaries, regional averages, and Sankey link files should be generated before running `Step 6_Final Figure.ipynb`.
 - Panel A and Panel B use a shared color scale from 0 to 100 percent.
 - Panel A adds indicator counts to the x-axis labels using `step1_indicator_category_summary.csv`.
@@ -1534,7 +1463,6 @@ This stage saves the final figures in three formats for manuscript submission, v
 - `No direct SEEA account flag` is retained in Panel C so that unmapped stock and flow indicators remain visible.
 - The PDF or SVG outputs should be used for publication-quality figures.
 - The PNG outputs should be used for quick review, presentations, or README previews.
-
 
 
 
